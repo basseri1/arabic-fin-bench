@@ -1,0 +1,231 @@
+{
+ "seed": 0,
+ "statements": [
+  {
+   "filing": "al_khodari_FY2018",
+   "statement": "s4",
+   "type": "cash_flows",
+   "pages": [
+    "al_khodari_FY2018_p11"
+   ],
+   "rows": 42
+  },
+  {
+   "filing": "al_mubarak_usd_trade_fund_H1-2022",
+   "statement": "s4",
+   "type": "cash_flows",
+   "pages": [
+    "al_mubarak_usd_trade_fund_H1-2022_p06"
+   ],
+   "rows": 14
+  },
+  {
+   "filing": "al_rajhi_FY2024",
+   "statement": "s1",
+   "type": "financial_position",
+   "pages": [
+    "al_rajhi_FY2024_p09"
+   ],
+   "rows": 29
+  },
+  {
+   "filing": "alahli_global_trade_fund_H1-2023",
+   "statement": "s3",
+   "type": "changes_in_net_assets",
+   "pages": [
+    "alahli_global_trade_fund_H1-2023_p05"
+   ],
+   "rows": 11
+  },
+  {
+   "filing": "alif_meem_yaa_FY2023",
+   "statement": "s4",
+   "type": "cash_flows",
+   "pages": [
+    "alif_meem_yaa_FY2023_p09"
+   ],
+   "rows": 30
+  },
+  {
+   "filing": "alinma_tokio_marine_FY2022",
+   "statement": "s4",
+   "type": "changes_in_equity",
+   "pages": [
+    "alinma_tokio_marine_FY2022_p10"
+   ],
+   "rows": 8
+  },
+  {
+   "filing": "almarai_FY2024",
+   "statement": "s3",
+   "type": "comprehensive_income",
+   "pages": [
+    "almarai_FY2024_p10"
+   ],
+   "rows": 12
+  },
+  {
+   "filing": "bahri_FY2024",
+   "statement": "s4",
+   "type": "cash_flows",
+   "pages": [
+    "bahri_FY2024_p10"
+   ],
+   "rows": 38
+  },
+  {
+   "filing": "blom_saudi_fund_FY2022",
+   "statement": "s3",
+   "type": "changes_in_net_assets",
+   "pages": [
+    "blom_saudi_fund_FY2022_p06"
+   ],
+   "rows": 11
+  },
+  {
+   "filing": "cenomi_retail_FY2024",
+   "statement": "s5",
+   "type": "cash_flows",
+   "pages": [
+    "cenomi_retail_FY2024_p13",
+    "cenomi_retail_FY2024_p14"
+   ],
+   "rows": 48
+  },
+  {
+   "filing": "halwani_FY2024",
+   "statement": "s2",
+   "type": "financial_position",
+   "pages": [
+    "halwani_FY2024_p08",
+    "halwani_FY2024_p09"
+   ],
+   "rows": 33
+  },
+  {
+   "filing": "herfy_FY2024",
+   "statement": "s2",
+   "type": "comprehensive_income",
+   "pages": [
+    "herfy_FY2024_p08"
+   ],
+   "rows": 18
+  },
+  {
+   "filing": "kingdom_holding_FY2024",
+   "statement": "s3",
+   "type": "comprehensive_income",
+   "pages": [
+    "kingdom_holding_FY2024_p09"
+   ],
+   "rows": 11
+  },
+  {
+   "filing": "liva_FY2024",
+   "statement": "s2",
+   "type": "income",
+   "pages": [
+    "liva_FY2024_p08"
+   ],
+   "rows": 18
+  },
+  {
+   "filing": "maadaniyah_Q1-2025",
+   "statement": "s1",
+   "type": "financial_position",
+   "pages": [
+    "maadaniyah_Q1-2025_p04"
+   ],
+   "rows": 29
+  },
+  {
+   "filing": "nama_FY2024",
+   "statement": "s5",
+   "type": "other",
+   "pages": [
+    "nama_FY2024_p10"
+   ],
+   "rows": 2
+  },
+  {
+   "filing": "othaim_FY2024",
+   "statement": "s3",
+   "type": "comprehensive_income",
+   "pages": [
+    "othaim_FY2024_p09"
+   ],
+   "rows": 10
+  },
+  {
+   "filing": "riyad_aliemar_fund_FY2023",
+   "statement": "s2",
+   "type": "comprehensive_income",
+   "pages": [
+    "riyad_aliemar_fund_FY2023_p07"
+   ],
+   "rows": 9
+  },
+  {
+   "filing": "saudi_re_FY2024",
+   "statement": "s3",
+   "type": "comprehensive_income",
+   "pages": [
+    "saudi_re_FY2024_p10"
+   ],
+   "rows": 6
+  },
+  {
+   "filing": "sedco_capital_reit_FY2022",
+   "statement": "s1",
+   "type": "financial_position",
+   "pages": [
+    "sedco_capital_reit_FY2022_p07"
+   ],
+   "rows": 20
+  },
+  {
+   "filing": "snb_FY2024",
+   "statement": "s1",
+   "type": "financial_position",
+   "pages": [
+    "snb_FY2024_p12"
+   ],
+   "rows": 31
+  },
+  {
+   "filing": "taiba_FY2024",
+   "statement": "s6",
+   "type": "other",
+   "pages": [
+    "taiba_FY2024_p14"
+   ],
+   "rows": 5
+  }
+ ],
+ "pages": [
+  "al_khodari_FY2018_p11",
+  "al_mubarak_usd_trade_fund_H1-2022_p06",
+  "al_rajhi_FY2024_p09",
+  "alahli_global_trade_fund_H1-2023_p05",
+  "alif_meem_yaa_FY2023_p09",
+  "alinma_tokio_marine_FY2022_p10",
+  "almarai_FY2024_p10",
+  "bahri_FY2024_p10",
+  "blom_saudi_fund_FY2022_p06",
+  "cenomi_retail_FY2024_p13",
+  "cenomi_retail_FY2024_p14",
+  "halwani_FY2024_p08",
+  "halwani_FY2024_p09",
+  "herfy_FY2024_p08",
+  "kingdom_holding_FY2024_p09",
+  "liva_FY2024_p08",
+  "maadaniyah_Q1-2025_p04",
+  "nama_FY2024_p10",
+  "othaim_FY2024_p09",
+  "riyad_aliemar_fund_FY2023_p07",
+  "saudi_re_FY2024_p10",
+  "sedco_capital_reit_FY2022_p07",
+  "snb_FY2024_p12",
+  "taiba_FY2024_p14"
+ ]
+}

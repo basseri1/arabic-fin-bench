@@ -1,0 +1,7 @@
+{
+ "model": "surya2",
+ "backend": "surya-ocr package, SuryaInferenceManager -> vLLM 0.20.1 container (datalab-to/surya-ocr-2, MTP speculative decoding), 1x H100",
+ "mode": "full-page recognition -> blocks.html",
+ "date": "2026-09-27",
+ "note": "backend label corrected 2026-09-28 from the run logs (logs32/serve32_surya_container.log); the original label was a leftover from a local test"
+}

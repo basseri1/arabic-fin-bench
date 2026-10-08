@@ -1,0 +1,63 @@
+[33mChecking connectivity to the model hosters, this may take a while. To bypass this check, set `DISABLE_MODEL_SOURCE_CHECK` to `True`.[0m
+/home/myenv/venv_paddle/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+WARNING: OMP_NUM_THREADS set to 4, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.84it/s]Fetching 6 files:  50%|█████     | 3/6 [00:00<00:00, 12.59it/s]Fetching 6 files: 100%|██████████| 6/6 [00:05<00:00,  1.18s/it]Fetching 6 files: 100%|██████████| 6/6 [00:05<00:00,  1.02it/s]
+[33mEncountering exception when download model from huggingface: 
+Destination path '/home/myenv/.paddlex/official_models/PP-OCRv5_server_det/temp_dir' already exists, will try to download from other model sources: `aistudio`.[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+[33mEncountering exception when download model from aistudio: 
+repo not found, will try to download from other model sources: `modelscope`.[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+2026-09-27 19:46:00,831 | INFO    | modelscope_hub.download | Downloading 6 files from PaddlePaddle/PP-OCRv5_server_det@master
+<Response [404]>
+Downloading:   0%|          | 0/6 [00:00<?, ?file/s]Downloading: 100%|██████████| 6/6 [00:00<00:00, 15.19file/s]Downloading: 100%|██████████| 6/6 [00:00<00:00, 15.19file/s]
+[32mCreating model: ('arabic_PP-OCRv5_mobile_rec', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `/home/myenv/.paddlex/official_models/arabic_PP-OCRv5_mobile_rec`.[0m
+[paddle_ar] mesc_H1-2023_p04.png: 43.4s, 120 lines, 2103 chars
+[paddle_ar] mesc_H1-2023_p05.png: 34.1s, 117 lines, 1988 chars
+[paddle_ar] mesc_H1-2023_p06.png: 28.1s, 68 lines, 1167 chars
+[paddle_ar] mesc_H1-2023_p07.png: 34.4s, 123 lines, 2379 chars
+[paddle_ar] musharaka_reit_FY2019_p06.png: 33.1s, 76 lines, 1031 chars
+[paddle_ar] musharaka_reit_FY2019_p07.png: 23.9s, 71 lines, 1040 chars
+[paddle_ar] musharaka_reit_FY2019_p08.png: 23.1s, 35 lines, 731 chars
+[paddle_ar] musharaka_reit_FY2019_p09.png: 28.0s, 70 lines, 1207 chars
+[paddle_ar] musharaka_reit_FY2019_p10.png: 23.9s, 53 lines, 1206 chars
+[paddle_ar] nama_FY2024_p07.png: 43.5s, 139 lines, 2020 chars
+[paddle_ar] nama_FY2024_p08.png: 29.8s, 89 lines, 1346 chars
+[paddle_ar] nama_FY2024_p09.png: 25.8s, 70 lines, 1082 chars
+[paddle_ar] nama_FY2024_p10.png: 40.4s, 153 lines, 2398 chars
+[paddle_ar] othaim_FY2024_p07.png: 42.0s, 190 lines, 2898 chars
+[paddle_ar] othaim_FY2024_p08.png: 29.4s, 98 lines, 1464 chars
+[paddle_ar] othaim_FY2024_p09.png: 24.4s, 57 lines, 1135 chars
+[paddle_ar] othaim_FY2024_p10.png: 39.9s, 188 lines, 2427 chars
+[paddle_ar] othaim_FY2024_p11.png: 30.8s, 120 lines, 2232 chars
+[paddle_ar] othaim_FY2024_p12.png: 21.4s, 67 lines, 1442 chars
+[paddle_ar] riyad_aliemar_fund_FY2023_p06.png: 16.4s, 47 lines, 749 chars
+[paddle_ar] riyad_aliemar_fund_FY2023_p07.png: 20.1s, 44 lines, 704 chars
+[paddle_ar] riyad_aliemar_fund_FY2023_p08.png: 19.3s, 29 lines, 688 chars
+[paddle_ar] riyad_aliemar_fund_FY2023_p09.png: 19.1s, 60 lines, 1147 chars
+[paddle_ar] saudi_re_FY2024_p08.png: 19.0s, 121 lines, 2055 chars
+[paddle_ar] saudi_re_FY2024_p09.png: 20.6s, 102 lines, 1771 chars
+[paddle_ar] saudi_re_FY2024_p10.png: 19.5s, 37 lines, 863 chars
+[paddle_ar] saudi_re_FY2024_p11.png: 41.3s, 253 lines, 2898 chars
+[paddle_ar] saudi_re_FY2024_p12.png: 21.1s, 149 lines, 3282 chars
+[paddle_ar] sedco_capital_reit_FY2022_p07.png: 22.4s, 89 lines, 1430 chars
+[paddle_ar] sedco_capital_reit_FY2022_p08.png: 18.7s, 60 lines, 975 chars
+[paddle_ar] sedco_capital_reit_FY2022_p09.png: 17.3s, 26 lines, 568 chars
+[paddle_ar] sedco_capital_reit_FY2022_p10.png: 29.6s, 106 lines, 1930 chars
+[paddle_ar] snb_FY2024_p12.png: 22.7s, 137 lines, 2126 chars
+[paddle_ar] snb_FY2024_p13.png: 25.6s, 118 lines, 2206 chars
+[paddle_ar] snb_FY2024_p14.png: 17.0s, 60 lines, 1384 chars
+[paddle_ar] snb_FY2024_p15.png: 37.8s, 465 lines, 5294 chars
+[paddle_ar] snb_FY2024_p16.png: 23.8s, 173 lines, 3678 chars
+[paddle_ar] taiba_FY2024_p09.png: 30.8s, 181 lines, 2836 chars
+[paddle_ar] taiba_FY2024_p10.png: 18.7s, 102 lines, 1660 chars
+[paddle_ar] taiba_FY2024_p11.png: 10.8s, 59 lines, 1252 chars
+[paddle_ar] taiba_FY2024_p12.png: 11.4s, 158 lines, 2010 chars
+[paddle_ar] taiba_FY2024_p13.png: 11.5s, 140 lines, 2312 chars
+[paddle_ar] taiba_FY2024_p14.png: 5.3s, 124 lines, 2358 chars
+[paddle_ar] DONE

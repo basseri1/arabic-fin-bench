@@ -1,0 +1,16 @@
+[qwen38_27b] al_khodari_FY2018_p08.png: 25.1s, 3339 chars, 2108 tok, finish=stop, $0.0055
+[qwen38_27b] al_khodari_FY2018_p09.png: 40.1s, 2284 chars, 1176 tok, finish=stop, $0.0027
+[qwen38_27b] al_khodari_FY2018_p10.png: 37.0s, 2734 chars, 1639 tok, finish=stop, $0.0036
+[qwen38_27b] al_khodari_FY2018_p11.png: 19.9s, 3285 chars, 1689 tok, finish=stop, $0.0045
+[qwen38_27b] al_mubarak_usd_trade_fund_H1-2022_p03.png: 19.0s, 1023 chars, 513 tok, finish=stop, $0.0012
+[qwen38_27b] al_mubarak_usd_trade_fund_H1-2022_p04.png: 10.5s, 700 chars, 418 tok, finish=stop, $0.0018
+[qwen38_27b] al_mubarak_usd_trade_fund_H1-2022_p05.png: 20.1s, 1207 chars, 544 tok, finish=stop, $0.0013
+[qwen38_27b] al_mubarak_usd_trade_fund_H1-2022_p06.png: 24.7s, 1256 chars, 798 tok, finish=stop, $0.0023
+[qwen38_27b] al_rajhi_FY2024_p09.png: 21.2s, 2323 chars, 1250 tok, finish=stop, $0.0029
+[qwen38_27b] al_rajhi_FY2024_p10.png: 31.7s, 1726 chars, 935 tok, finish=stop, $0.0021
+[qwen38_27b] al_rajhi_FY2024_p11.png: 9.2s, 1684 chars, 719 tok, finish=stop, $0.0040
+[qwen38_27b] al_rajhi_FY2024_p12.png: 54.1s, 2831 chars, 1560 tok, finish=stop, $0.0042
+[qwen38_27b] al_rajhi_FY2024_p13.png: 32.3s, 2363 chars, 1212 tok, finish=stop, $0.0036
+[qwen38_27b] al_rajhi_FY2024_p14.png: 28.2s, 2407 chars, 1150 tok, finish=stop, $0.0027
+[qwen38_27b] al_rajhi_FY2024_p15.png: 272.2s, 14105 chars, 8192 tok, finish=length, $0.0181
+[qwen38_27b] alahli_global_trade_fund_H1-2023_p03.png: 5.8s, 731 chars, 429 tok, finish=stop, $0.0017

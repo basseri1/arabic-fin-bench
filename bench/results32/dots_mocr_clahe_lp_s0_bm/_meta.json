@@ -1,0 +1,18 @@
+{
+ "model": "dots_mocr",
+ "backend": "vllm",
+ "url": "http://localhost:8001/v1",
+ "prompt": "Please output the layout information from the PDF image, including each layout element's bbox, its category, and the corresponding text content within the bbox.\n\n1. Bbox format: [x1, y1, x2, y2]\n\n2. L",
+ "gen": {
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "seed": 0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_LOGPROBS": "1",
+  "BENCH_CONC": "16",
+  "BENCH_SEED": "0",
+  "BENCH_BACKEND": "vllm"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "qwen38_27b",
+ "backend": "vllm",
+ "url": "http://localhost:8010/v1",
+ "prompt": "Extract all text and tables from this Arabic document page. Preserve the table structure using Markdown. Output only the extracted content.",
+ "gen": {
+  "temperature": 0.0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_CONC": "16",
+  "BENCH_BACKEND": "vllm"
+ }
+}

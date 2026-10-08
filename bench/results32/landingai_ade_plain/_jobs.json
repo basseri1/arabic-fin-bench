@@ -1,0 +1,634 @@
+{
+ "almarai_FY2024_p08": {
+  "job_id": "parse-01m40ka1kj8b70by0h469bdw5v",
+  "submitted": 1791021614.6429
+ },
+ "al_khodari_FY2018_p08": {
+  "job_id": "parse-01m40kb4sfve8hkt17njjtf939",
+  "submitted": 1791021650.667727
+ },
+ "al_khodari_FY2018_p09": {
+  "job_id": "parse-01m40kb65xg6m5g54kfpp2z9k2",
+  "submitted": 1791021652.12342
+ },
+ "al_khodari_FY2018_p10": {
+  "job_id": "parse-01m40kb7jn3tqp4e679t0dxqzv",
+  "submitted": 1791021653.52997
+ },
+ "al_khodari_FY2018_p11": {
+  "job_id": "parse-01m40kb9177k5q4g5qpbze8m27",
+  "submitted": 1791021655.0502641
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p03": {
+  "job_id": "parse-01m40kba9n233kd2a010793pgt",
+  "submitted": 1791021656.318314
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p04": {
+  "job_id": "parse-01m40kbbakxsjjzq6skawbrkm8",
+  "submitted": 1791021657.386528
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p05": {
+  "job_id": "parse-01m40kbcm03t29n52g3xxk65ce",
+  "submitted": 1791021658.6801238
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p06": {
+  "job_id": "parse-01m40kbdw0v3gfnj2avsd45j12",
+  "submitted": 1791021660.0077791
+ },
+ "al_rajhi_FY2024_p09": {
+  "job_id": "parse-01m40kbfj0hkdrs9bcj0fe93e7",
+  "submitted": 1791021661.75223
+ },
+ "al_rajhi_FY2024_p10": {
+  "job_id": "parse-01m40kbh82mw818pjkevxa7103",
+  "submitted": 1791021663.421577
+ },
+ "al_rajhi_FY2024_p11": {
+  "job_id": "parse-01m40kbjvc82ycyraj8xwwrhwe",
+  "submitted": 1791021665.069657
+ },
+ "al_rajhi_FY2024_p12": {
+  "job_id": "parse-01m40kbmfra6wg4ecbexqv08cp",
+  "submitted": 1791021666.8060648
+ },
+ "al_rajhi_FY2024_p13": {
+  "job_id": "parse-01m40kbp6r4d3ctr11vckxz27c",
+  "submitted": 1791021668.520397
+ },
+ "al_rajhi_FY2024_p14": {
+  "job_id": "parse-01m40kbqs7crt4qjpk53yx5esm",
+  "submitted": 1791021670.129188
+ },
+ "al_rajhi_FY2024_p15": {
+  "job_id": "parse-01m40kbsdd69hjqtqxbtv3f5as",
+  "submitted": 1791021671.8335302
+ },
+ "alahli_global_trade_fund_H1-2023_p03": {
+  "job_id": "parse-01m40kbtgdbg7msw4k8yavagcq",
+  "submitted": 1791021672.9542432
+ },
+ "alahli_global_trade_fund_H1-2023_p04": {
+  "job_id": "parse-01m40kbvtn4abxq7xtxpfb65yn",
+  "submitted": 1791021674.263296
+ },
+ "alahli_global_trade_fund_H1-2023_p05": {
+  "job_id": "parse-01m40kbx0wmvygtp2b6p4s7aag",
+  "submitted": 1791021675.486805
+ },
+ "alahli_global_trade_fund_H1-2023_p06": {
+  "job_id": "parse-01m40kbydytza9g1ke2s7khqxk",
+  "submitted": 1791021676.918325
+ },
+ "alif_meem_yaa_FY2023_p06": {
+  "job_id": "parse-01m40kbzks02v04nxp49zgyy9c",
+  "submitted": 1791021678.137517
+ },
+ "alif_meem_yaa_FY2023_p07": {
+  "job_id": "parse-01m40kc0sxsf05qv9d3hcsya5c",
+  "submitted": 1791021679.392939
+ },
+ "alif_meem_yaa_FY2023_p08": {
+  "job_id": "parse-01m40kc243mygvpmr4krsrs5jc",
+  "submitted": 1791021680.705473
+ },
+ "alif_meem_yaa_FY2023_p09": {
+  "job_id": "parse-01m40kc3hmyjxezhp08vycbdaj",
+  "submitted": 1791021682.154325
+ },
+ "alinma_tokio_marine_FY2022_p07": {
+  "job_id": "parse-01m40kc4x16tta5b45p1s7k19w",
+  "submitted": 1791021683.578816
+ },
+ "alinma_tokio_marine_FY2022_p08": {
+  "job_id": "parse-01m40kc69e4x8wqw1bg1nap0cn",
+  "submitted": 1791021684.9863412
+ },
+ "alinma_tokio_marine_FY2022_p09": {
+  "job_id": "parse-01m40kc7fyb252j1syjnjzp15a",
+  "submitted": 1791021686.2372859
+ },
+ "alinma_tokio_marine_FY2022_p10": {
+  "job_id": "parse-01m40kc8ttngq5e9gz6r2k4neh",
+  "submitted": 1791021687.579681
+ },
+ "alinma_tokio_marine_FY2022_p11": {
+  "job_id": "parse-01m40kca6qnctvp9q5wgkp8ykz",
+  "submitted": 1791021688.981534
+ },
+ "almarai_FY2024_p09": {
+  "job_id": "parse-01m40kcbddzf46h569vqf2y6s3",
+  "submitted": 1791021690.221791
+ },
+ "almarai_FY2024_p10": {
+  "job_id": "parse-01m40kccrc91n8dh7fpnjn127f",
+  "submitted": 1791021691.597711
+ },
+ "almarai_FY2024_p11": {
+  "job_id": "parse-01m40kce06ymnkwnctxepps69h",
+  "submitted": 1791021692.8569238
+ },
+ "almarai_FY2024_p12": {
+  "job_id": "parse-01m40kcf6p8t13aav27wg3aqja",
+  "submitted": 1791021694.094753
+ },
+ "almarai_FY2024_p13": {
+  "job_id": "parse-01m40kcgmxp6n0j3rj0qdcfrf4",
+  "submitted": 1791021695.638357
+ },
+ "arabian_drilling_FY2024_p08": {
+  "job_id": "parse-01m40kcj091fa6spjxwfjzyp52",
+  "submitted": 1791021696.9674282
+ },
+ "arabian_drilling_FY2024_p09": {
+  "job_id": "parse-01m40kck9j3f6cgyp8gq95yqj6",
+  "submitted": 1791021698.323158
+ },
+ "arabian_drilling_FY2024_p10": {
+  "job_id": "parse-01m40kcmtqe0zf1hcqaqknbcag",
+  "submitted": 1791021699.859155
+ },
+ "arabian_drilling_FY2024_p11": {
+  "job_id": "parse-01m40kcpax8sstk690bvbxtjr1",
+  "submitted": 1791021701.405417
+ },
+ "arabian_drilling_FY2024_p12": {
+  "job_id": "parse-01m40kcqmy6wwx28t9dc6yt19h",
+  "submitted": 1791021702.75628
+ },
+ "arabian_drilling_FY2024_p13": {
+  "job_id": "parse-01m40kcrw2yx4e8vv4zy2pp379",
+  "submitted": 1791021704.0279522
+ },
+ "aramco_FY2023_p12": {
+  "job_id": "parse-01m40kct64127etjbeajd09hyp",
+  "submitted": 1791021705.383281
+ },
+ "aramco_FY2023_p13": {
+  "job_id": "parse-01m40kcve82vn3xzrth4kfppnv",
+  "submitted": 1791021706.6470132
+ },
+ "aramco_FY2023_p14": {
+  "job_id": "parse-01m40kcwy4w788che3cw862t1y",
+  "submitted": 1791021708.220368
+ },
+ "aramco_FY2023_p15": {
+  "job_id": "parse-01m40kcy9ekvg01f20exm3cxfa",
+  "submitted": 1791021709.550027
+ },
+ "aramco_FY2023_p16": {
+  "job_id": "parse-01m40kcztrsv6w9swp6qekc7yh",
+  "submitted": 1791021711.121452
+ },
+ "aramco_FY2024_p12": {
+  "job_id": "parse-01m40kd12sqaxepepdsg80h38q",
+  "submitted": 1791021712.4305909
+ },
+ "aramco_FY2024_p13": {
+  "job_id": "parse-01m40kd2f753vs3ffympajsv0d",
+  "submitted": 1791021713.8389099
+ },
+ "aramco_FY2024_p14": {
+  "job_id": "parse-01m40kd3x8mqpta1xv6cdy2e2s",
+  "submitted": 1791021715.310775
+ },
+ "aramco_FY2024_p15": {
+  "job_id": "parse-01m40kd5erwd065hxvsedj6gk4",
+  "submitted": 1791021716.896533
+ },
+ "aramco_FY2024_p16": {
+  "job_id": "parse-01m40kd70btammz34qgntfhjnb",
+  "submitted": 1791021718.4567611
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p07": {
+  "job_id": "parse-01m40kd879edchk8aev2mw91cj",
+  "submitted": 1791021719.7548218
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p08": {
+  "job_id": "parse-01m40kd9hhkrqrp8bfnh8wv9c1",
+  "submitted": 1791021721.074794
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p09": {
+  "job_id": "parse-01m40kdb343kvwy0wnx6vp6gfg",
+  "submitted": 1791021722.644369
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p10": {
+  "job_id": "parse-01m40kdcb64vqzsy6kt0f4xy1r",
+  "submitted": 1791021723.9495091
+ },
+ "bahri_FY2024_p07": {
+  "job_id": "parse-01m40kddtdzvnyv6mnzsssdb92",
+  "submitted": 1791021725.522788
+ },
+ "bahri_FY2024_p08": {
+  "job_id": "parse-01m40kdf61bz7g6adk6x63y3h4",
+  "submitted": 1791021726.881451
+ },
+ "bahri_FY2024_p09": {
+  "job_id": "parse-01m40kdgen1da270khk3bak95w",
+  "submitted": 1791021728.184651
+ },
+ "bahri_FY2024_p10": {
+  "job_id": "parse-01m40kdj1z51qs739nqb85s9na",
+  "submitted": 1791021729.78779
+ },
+ "bahri_FY2024_p11": {
+  "job_id": "parse-01m40kdkgtb7zg8twv2h9m1bfh",
+  "submitted": 1791021731.329511
+ },
+ "bank_aljazira_FY2024_p07": {
+  "job_id": "parse-01m40kdn26dc9m2rmf2kr074nn",
+  "submitted": 1791021732.9019241
+ },
+ "bank_aljazira_FY2024_p08": {
+  "job_id": "parse-01m40kdphgqprhn2mmbxn03rex",
+  "submitted": 1791021734.434865
+ },
+ "bank_aljazira_FY2024_p09": {
+  "job_id": "parse-01m40kdqyygbr9x0gm9e1zg45h",
+  "submitted": 1791021735.873913
+ },
+ "bank_aljazira_FY2024_p10": {
+  "job_id": "parse-01m40kdsny0rtnx7fr06s7zcjj",
+  "submitted": 1791021737.620238
+ },
+ "bank_aljazira_FY2024_p11": {
+  "job_id": "parse-01m40kdvadh82d1bb0k5afawz9",
+  "submitted": 1791021739.314636
+ },
+ "bank_aljazira_FY2024_p12": {
+  "job_id": "parse-01m40kdwqnhez4qhsaatqmrkz2",
+  "submitted": 1791021740.75756
+ },
+ "bishah_FY2016_p04": {
+  "job_id": "parse-01m40kdyrgw6dxgad5q1j73ddz",
+  "submitted": 1791021742.8322072
+ },
+ "bishah_FY2016_p05": {
+  "job_id": "parse-01m40ke0n0fj7d6q22hfs2f3sz",
+  "submitted": 1791021744.760658
+ },
+ "bishah_FY2016_p06": {
+  "job_id": "parse-01m40ke2r6bemzrmm2fhsn8chk",
+  "submitted": 1791021746.9249458
+ },
+ "bishah_FY2016_p07": {
+  "job_id": "parse-01m40ke4rm0t6qgn9k4jhn71rs",
+  "submitted": 1791021748.97045
+ },
+ "blom_saudi_fund_FY2022_p04": {
+  "job_id": "parse-01m40ke5wxvxggb60j1jxnfrns",
+  "submitted": 1791021750.1626391
+ },
+ "blom_saudi_fund_FY2022_p05": {
+  "job_id": "parse-01m40ke6zcd9kekvk3gkvf353q",
+  "submitted": 1791021751.228472
+ },
+ "blom_saudi_fund_FY2022_p06": {
+  "job_id": "parse-01m40ke8bq9j1n61q35zbd6zdk",
+  "submitted": 1791021752.638032
+ },
+ "blom_saudi_fund_FY2022_p07": {
+  "job_id": "parse-01m40ke9npsbc3m4xh1z9dkzqk",
+  "submitted": 1791021753.996782
+ },
+ "buruj_FY2024_p08": {
+  "job_id": "parse-01m40keb729jtzdk2rp27wef5h",
+  "submitted": 1791021755.581314
+ },
+ "buruj_FY2024_p09": {
+  "job_id": "parse-01m40kecvx6hf9f93vxy0yk4bd",
+  "submitted": 1791021757.242754
+ },
+ "buruj_FY2024_p10": {
+  "job_id": "parse-01m40keeee1ejrn9m4kaa9nn7f",
+  "submitted": 1791021758.863838
+ },
+ "buruj_FY2024_p11": {
+  "job_id": "parse-01m40keg4vwxb1s1za2kjzs26t",
+  "submitted": 1791021760.6471722
+ },
+ "buruj_FY2024_p12": {
+  "job_id": "parse-01m40kehvrp0z8t79k2v192cz4",
+  "submitted": 1791021762.3950112
+ },
+ "cenomi_retail_FY2024_p09": {
+  "job_id": "parse-01m40kekd4ewad1cpmbnppdcns",
+  "submitted": 1791021763.943539
+ },
+ "cenomi_retail_FY2024_p10": {
+  "job_id": "parse-01m40kemts8x3tnsgee2n2kssb",
+  "submitted": 1791021765.430372
+ },
+ "cenomi_retail_FY2024_p11": {
+  "job_id": "parse-01m40kepaabdn4pxqn04y11yjy",
+  "submitted": 1791021766.943734
+ },
+ "cenomi_retail_FY2024_p12": {
+  "job_id": "parse-01m40keqpvx6tbyfkttqa8nnhc",
+  "submitted": 1791021768.3661819
+ },
+ "cenomi_retail_FY2024_p13": {
+  "job_id": "parse-01m40kes6w68512q45jsmw0ejd",
+  "submitted": 1791021769.890524
+ },
+ "cenomi_retail_FY2024_p14": {
+  "job_id": "parse-01m40ketpvhg6mepxnknv26294",
+  "submitted": 1791021771.4192379
+ },
+ "halwani_FY2024_p07": {
+  "job_id": "parse-01m40kewe4awwqe7bggynmjc5b",
+  "submitted": 1791021773.2313
+ },
+ "halwani_FY2024_p08": {
+  "job_id": "parse-01m40kexz7jjj27tnetnmpyvs5",
+  "submitted": 1791021774.806817
+ },
+ "halwani_FY2024_p09": {
+  "job_id": "parse-01m40kezgp1j41nvvbbtybb3sk",
+  "submitted": 1791021776.377867
+ },
+ "halwani_FY2024_p10": {
+  "job_id": "parse-01m40kf0qxfjzzfrccxt1mj4wk",
+  "submitted": 1791021777.58412
+ },
+ "halwani_FY2024_p11": {
+  "job_id": "parse-01m40kf54g9rtcj3nkfxeky7p3",
+  "submitted": 1791021782.232453
+ },
+ "halwani_FY2024_p12": {
+  "job_id": "parse-01m40kf6qs97hfepjfyf0f5rzq",
+  "submitted": 1791021783.760951
+ },
+ "halwani_FY2024_p13": {
+  "job_id": "parse-01m40kf8h26ceq1q83vwfs9mwq",
+  "submitted": 1791021785.599308
+ },
+ "herfy_FY2024_p07": {
+  "job_id": "parse-01m40kfa2b36q5kymc4ce6th15",
+  "submitted": 1791021787.139276
+ },
+ "herfy_FY2024_p08": {
+  "job_id": "parse-01m40kfbkct6krsaa3e5gmxt5p",
+  "submitted": 1791021788.714184
+ },
+ "herfy_FY2024_p09": {
+  "job_id": "parse-01m40kfd4g2qyxsx0y3k24keb7",
+  "submitted": 1791021790.274405
+ },
+ "herfy_FY2024_p10": {
+  "job_id": "parse-01m40kfep0zmhc3sjxbrt3vh8x",
+  "submitted": 1791021791.908108
+ },
+ "kingdom_holding_FY2024_p07": {
+  "job_id": "parse-01m40kfgcsw1tgp33rg48eenzt",
+  "submitted": 1791021793.67789
+ },
+ "kingdom_holding_FY2024_p08": {
+  "job_id": "parse-01m40kfj497x0w2nte2jexddt1",
+  "submitted": 1791021795.446327
+ },
+ "kingdom_holding_FY2024_p09": {
+  "job_id": "parse-01m40kfkv88a1x65kccfyff8zk",
+  "submitted": 1791021797.170819
+ },
+ "kingdom_holding_FY2024_p10": {
+  "job_id": "parse-01m40kfngfsqj5r0ej93hgytr7",
+  "submitted": 1791021798.9246342
+ },
+ "kingdom_holding_FY2024_p11": {
+  "job_id": "parse-01m40kfq8feexaw8gaaga0pwfa",
+  "submitted": 1791021800.652392
+ },
+ "liva_FY2024_p07": {
+  "job_id": "parse-01m40kfrf1qbwn33eb8bxhyxa6",
+  "submitted": 1791021801.878211
+ },
+ "liva_FY2024_p08": {
+  "job_id": "parse-01m40kfsq1sbxsd2qm88j54tr4",
+  "submitted": 1791021803.1747031
+ },
+ "liva_FY2024_p09": {
+  "job_id": "parse-01m40kftsjtdsxkr300e255yf7",
+  "submitted": 1791021804.2609339
+ },
+ "liva_FY2024_p10": {
+  "job_id": "parse-01m40kfw2f97w0cf3nbwjbbdyy",
+  "submitted": 1791021805.61085
+ },
+ "liva_FY2024_p11": {
+  "job_id": "parse-01m40kfxje7n3m7wenzkqdx1kz",
+  "submitted": 1791021807.128067
+ },
+ "maadaniyah_Q1-2025_p04": {
+  "job_id": "parse-01m40kfz1tpqt2p1jyzm2vmks4",
+  "submitted": 1791021808.620517
+ },
+ "maadaniyah_Q1-2025_p05": {
+  "job_id": "parse-01m40kg0k300xf386f5rj8ae5f",
+  "submitted": 1791021810.1981702
+ },
+ "maadaniyah_Q1-2025_p06": {
+  "job_id": "parse-01m40kg1ww5frwct1jjq3dy9qe",
+  "submitted": 1791021811.576897
+ },
+ "maadaniyah_Q1-2025_p07": {
+  "job_id": "parse-01m40kg3bfvtb8xgdwqj94cvm6",
+  "submitted": 1791021813.0763898
+ },
+ "maaden_FY2024_p11": {
+  "job_id": "parse-01m40kg53d2pns9t68x98nsvfc",
+  "submitted": 1791021814.8616042
+ },
+ "maaden_FY2024_p12": {
+  "job_id": "parse-01m40kg6jwaya760dhn9psy6b5",
+  "submitted": 1791021816.388154
+ },
+ "maaden_FY2024_p13": {
+  "job_id": "parse-01m40kg85zp6mcm4063a5n9951",
+  "submitted": 1791021818.0086641
+ },
+ "maaden_FY2024_p14": {
+  "job_id": "parse-01m40kg9vx981fm1ty1dpmdw3v",
+  "submitted": 1791021819.789778
+ },
+ "maaden_FY2024_p15": {
+  "job_id": "parse-01m40kgbm6mpx482pvp5e78ww6",
+  "submitted": 1791021821.506439
+ },
+ "maaden_FY2024_p16": {
+  "job_id": "parse-01m40kgde5jb2hrc4px2c4twr1",
+  "submitted": 1791021823.37776
+ },
+ "mesc_H1-2023_p04": {
+  "job_id": "parse-01m40kgf0dc4x16mkngxn7c3gn",
+  "submitted": 1791021824.9812942
+ },
+ "mesc_H1-2023_p05": {
+  "job_id": "parse-01m40kggf0faa1rby9s2aksndz",
+  "submitted": 1791021826.451355
+ },
+ "mesc_H1-2023_p06": {
+  "job_id": "parse-01m40kghr3d97g1ekveswwxsaz",
+  "submitted": 1791021827.7739189
+ },
+ "mesc_H1-2023_p07": {
+  "job_id": "parse-01m40kgk6z4rfswn1qwa2g98r4",
+  "submitted": 1791021829.340302
+ },
+ "musharaka_reit_FY2019_p06": {
+  "job_id": "parse-01m40kgmed1z742vgveyjxhc0j",
+  "submitted": 1791021830.5704792
+ },
+ "musharaka_reit_FY2019_p07": {
+  "job_id": "parse-01m40kgnn9j98x4cag07rb6tqx",
+  "submitted": 1791021831.767549
+ },
+ "musharaka_reit_FY2019_p08": {
+  "job_id": "parse-01m40kgpprjs3gd1z28qg5z80r",
+  "submitted": 1791021832.855202
+ },
+ "musharaka_reit_FY2019_p09": {
+  "job_id": "parse-01m40kgqzqb60krwm847ve5dz0",
+  "submitted": 1791021834.156852
+ },
+ "musharaka_reit_FY2019_p10": {
+  "job_id": "parse-01m40kgs6k9e40jzvgsc4x7f70",
+  "submitted": 1791021835.4039428
+ },
+ "nama_FY2024_p07": {
+  "job_id": "parse-01m40kgtpq6590wwbtyy2csvt0",
+  "submitted": 1791021836.975467
+ },
+ "nama_FY2024_p08": {
+  "job_id": "parse-01m40kgw41k38pnkc11g5j5c4c",
+  "submitted": 1791021838.402824
+ },
+ "nama_FY2024_p09": {
+  "job_id": "parse-01m40kgxhqqdh79x2cp14gzvhz",
+  "submitted": 1791021839.875426
+ },
+ "nama_FY2024_p10": {
+  "job_id": "parse-01m40kgz1tk6ndk6bh9505d0yh",
+  "submitted": 1791021841.391317
+ },
+ "othaim_FY2024_p07": {
+  "job_id": "parse-01m40kh0gkt1zctpj8fkh3jc3f",
+  "submitted": 1791021842.964109
+ },
+ "othaim_FY2024_p08": {
+  "job_id": "parse-01m40kh1rtf64qh7m5jx1g1qyw",
+  "submitted": 1791021844.244407
+ },
+ "othaim_FY2024_p09": {
+  "job_id": "parse-01m40kh33x0txe765svp1w53qt",
+  "submitted": 1791021845.600144
+ },
+ "othaim_FY2024_p10": {
+  "job_id": "parse-01m40kh4kxj0cp233dxaw5c11w",
+  "submitted": 1791021847.1612349
+ },
+ "othaim_FY2024_p11": {
+  "job_id": "parse-01m40kh5vnkj6s6m5artx09q51",
+  "submitted": 1791021848.371469
+ },
+ "othaim_FY2024_p12": {
+  "job_id": "parse-01m40kh728ma2dctk197krak6f",
+  "submitted": 1791021849.592433
+ },
+ "riyad_aliemar_fund_FY2023_p06": {
+  "job_id": "parse-01m40kh81z0bc8s67rb13y8jdy",
+  "submitted": 1791021850.618779
+ },
+ "riyad_aliemar_fund_FY2023_p07": {
+  "job_id": "parse-01m40kh92gas82q1g4ftpzb9fq",
+  "submitted": 1791021851.649141
+ },
+ "riyad_aliemar_fund_FY2023_p08": {
+  "job_id": "parse-01m40kha3nm6ezeqtjarhrdacn",
+  "submitted": 1791021852.730788
+ },
+ "riyad_aliemar_fund_FY2023_p09": {
+  "job_id": "parse-01m40khbaf44dj01pp3gbg182j",
+  "submitted": 1791021853.971266
+ },
+ "saudi_re_FY2024_p08": {
+  "job_id": "parse-01m40khch3fq9403bwvnjwqmbf",
+  "submitted": 1791021855.2245498
+ },
+ "saudi_re_FY2024_p09": {
+  "job_id": "parse-01m40khdth0q28yvynn62975ae",
+  "submitted": 1791021856.594212
+ },
+ "saudi_re_FY2024_p10": {
+  "job_id": "parse-01m40khez3p0g6p2nbpvt6tk3z",
+  "submitted": 1791021857.724663
+ },
+ "saudi_re_FY2024_p11": {
+  "job_id": "parse-01m40khg80fp67hzaqtbc224bv",
+  "submitted": 1791021859.0521238
+ },
+ "saudi_re_FY2024_p12": {
+  "job_id": "parse-01m40khhsg7t4pdcy4jb1g0f5a",
+  "submitted": 1791021860.595475
+ },
+ "sedco_capital_reit_FY2022_p07": {
+  "job_id": "parse-01m40khk5qy2b2dj2rsvms4ryz",
+  "submitted": 1791021862.0144
+ },
+ "sedco_capital_reit_FY2022_p08": {
+  "job_id": "parse-01m40khmhzs1ner0hbkvb5spaj",
+  "submitted": 1791021863.465777
+ },
+ "sedco_capital_reit_FY2022_p09": {
+  "job_id": "parse-01m40khp23ezdcvzs50zn93wv3",
+  "submitted": 1791021864.979059
+ },
+ "sedco_capital_reit_FY2022_p10": {
+  "job_id": "parse-01m40khqhy0a3s2y8n7e3789nh",
+  "submitted": 1791021866.5515652
+ },
+ "snb_FY2024_p12": {
+  "job_id": "parse-01m40khs01qj8pmnrb69azeaxw",
+  "submitted": 1791021868.005085
+ },
+ "snb_FY2024_p13": {
+  "job_id": "parse-01m40khtf16kqwdj5xy08tethj",
+  "submitted": 1791021869.463362
+ },
+ "snb_FY2024_p14": {
+  "job_id": "parse-01m40khvw7npvrs8d40cabmkce",
+  "submitted": 1791021870.958355
+ },
+ "snb_FY2024_p15": {
+  "job_id": "parse-01m40khxc741gk70ttsxjb7tb0",
+  "submitted": 1791021872.4656808
+ },
+ "snb_FY2024_p16": {
+  "job_id": "parse-01m40khyrw5fd7kw5vytv3zgsc",
+  "submitted": 1791021873.8948412
+ },
+ "taiba_FY2024_p09": {
+  "job_id": "parse-01m40kj0emd0n8gjmet1cxb5zn",
+  "submitted": 1791021875.608638
+ },
+ "taiba_FY2024_p10": {
+  "job_id": "parse-01m40kj2479q5s0kt55868p1kj",
+  "submitted": 1791021877.3015192
+ },
+ "taiba_FY2024_p11": {
+  "job_id": "parse-01m40kj3v3xyzq3dsb3agyfadf",
+  "submitted": 1791021879.128463
+ },
+ "taiba_FY2024_p12": {
+  "job_id": "parse-01m40kj5jt1nkcdw4d2ywmbhj9",
+  "submitted": 1791021880.851331
+ },
+ "taiba_FY2024_p13": {
+  "job_id": "parse-01m40kj74wq5cdd8gfe20pevsq",
+  "submitted": 1791021882.4613812
+ },
+ "taiba_FY2024_p14": {
+  "job_id": "parse-01m40kj8v2c8jbtzg4henjw5eb",
+  "submitted": 1791021884.199851
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen36_27b",
+ "backend": "openrouter:qwen/qwen3.6-27b",
+ "prompt": "Extract all text and tables from this Arabic document page. Preserve the table structure using Markdown. Output only the extracted content.",
+ "temperature": 0,
+ "max_tokens": 8192,
+ "reasoning_disabled": true,
+ "date": "2026-09-27"
+}

@@ -1,0 +1,14 @@
+{
+ "model": "nanonets",
+ "backend": "vllm",
+ "url": "http://localhost:8010/v1",
+ "prompt": "Extract the text from the above document as if you were reading it naturally. Return the tables in HTML format. Return the equations in LaTeX representation. If there is an image in the document and i",
+ "gen": {
+  "temperature": 0.0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_CONC": "16",
+  "BENCH_BACKEND": "vllm"
+ }
+}

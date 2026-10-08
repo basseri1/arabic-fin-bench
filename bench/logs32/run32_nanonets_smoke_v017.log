@@ -1,0 +1,4 @@
+[nanonets] 1 pages (1 to run) -> _tmp/nano_smoke_v017  backend=vllm http://localhost:8010/v1 conc=2
+[nanonets] al_khodari_FY2018_p08.png: 17.9s, 7772 chars, 3877 tok, finish=stop
+[nanonets] DONE in 18s
+al_khodari_FY2018_p08: 7772 chars, 1034 digits, 0% '!'

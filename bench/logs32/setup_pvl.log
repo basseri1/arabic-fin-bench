@@ -1,0 +1,102 @@
++ cd /home/myenv
++ python3 -m venv /home/myenv/venv_pvl
++ source /home/myenv/venv_pvl/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ '[' linux-gnu = cygwin ']'
+++ '[' linux-gnu = msys ']'
+++ export VIRTUAL_ENV=/home/myenv/venv_pvl
+++ VIRTUAL_ENV=/home/myenv/venv_pvl
+++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/myenv/venv_pvl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(venv_pvl) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(venv_pvl) '
+++ export VIRTUAL_ENV_PROMPT
+++ hash -r
++ pip install -q -U pip
++ pip install -q paddlepaddle-gpu==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
++ pip install -q -U 'paddleocr[doc-parser]>=3.6.0'
++ python -c 'import paddle, paddleocr; print("paddle", paddle.__version__, "cuda", paddle.device.is_compiled_with_cuda(), "paddleocr", paddleocr.__version__)'
+/home/myenv/venv_pvl/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+paddle 3.2.1 cuda True paddleocr 3.7.0
++ source /home/myenv/venv/bin/activate
+++ '[' -z '' ']'
+++ '[' -n x ']'
+++ SCRIPT_PATH=/home/myenv/venv/bin/activate
+++ '[' /home/myenv/venv/bin/activate = /home/myenv/setup_pvl.sh ']'
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z _ ']'
+++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export PATH
+++ unset _OLD_VIRTUAL_PATH
+++ '[' -z '' ']'
+++ hash -r
+++ '[' -z _ ']'
+++ PS1=
+++ export PS1
+++ unset _OLD_VIRTUAL_PS1
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/home/myenv/venv
+++ '[' linux-gnu = cygwin ']'
+++ '[' linux-gnu = msys ']'
+++ export VIRTUAL_ENV
+++ '[' -z '' ']'
+++ unset SCRIPT_PATH
+++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/myenv/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export PATH
+++ '[' x '!=' x ']'
++++ basename /home/myenv/venv
+++ VIRTUAL_ENV_PROMPT=venv
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(venv) '
+++ export PS1
+++ alias pydoc
+++ true
+++ hash -r
++ python -c 'from huggingface_hub import snapshot_download as s; p=s("PaddlePaddle/PaddleOCR-VL-1.6", local_dir="/home/myenv/models/PaddleOCR-VL-1.6"); print(p)'
+Fetching 20 files:   0%|          | 0/20 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 20 files:   5%|▌         | 1/20 [00:00<00:02,  6.84it/s]Fetching 20 files:  40%|████      | 8/20 [00:00<00:00, 35.38it/s]Fetching 20 files:  75%|███████▌  | 15/20 [00:00<00:00, 42.70it/s]Fetching 20 files: 100%|██████████| 20/20 [00:09<00:00,  1.44it/s]Fetching 20 files: 100%|██████████| 20/20 [00:09<00:00,  2.06it/s]
+/home/myenv/models/PaddleOCR-VL-1.6
++ cd /home/myenv/models/PaddleOCR-VL-1.6
++ ls
+LICENSE
+README.md
+added_tokens.json
+chat_template.jinja
+config.json
+configuration_paddleocr_vl.py
+generation_config.json
+image_processing_paddleocr_vl.py
+inference.yml
+model.safetensors
+modeling_paddleocr_vl.py
+preprocessor_config.json
+processing_paddleocr_vl.py
+processor_config.json
+special_tokens_map.json
+tokenizer.json
+tokenizer.model
+tokenizer_config.json
++ sha256sum model.safetensors
+85a479d506a11e724e7285d395c551be69f41dbc16b6342d3cacfb189aed71db  model.safetensors
++ echo SETUP_DONE
+SETUP_DONE

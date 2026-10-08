@@ -1,0 +1,5 @@
+[qwen36_27b] al_khodari_FY2018_p08.png: 48.9s, 2851 chars, 2952 tok, finish=stop, $0.0108
+[qwen36_27b] al_khodari_FY2018_p09.png: 20.9s, 2283 chars, 1523 tok, finish=stop, $0.0061
+[qwen36_27b] al_khodari_FY2018_p10.png: 80.8s, 2979 chars, 2678 tok, finish=stop, $0.0097
+[qwen36_27b] al_khodari_FY2018_p11.png: 72.7s, 3307 chars, 2279 tok, finish=stop, $0.0084
+[qwen36_27b] al_mubarak_usd_trade_fund_H1-2022_p03.png: 20.3s, 1150 chars, 712 tok, finish=stop, $0.0031

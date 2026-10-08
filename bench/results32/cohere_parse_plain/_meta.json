@@ -1,0 +1,6 @@
+{
+ "model": "cohere_parse",
+ "backend": "cohere-api /v2/parse:parse-v5.0",
+ "output_format": "markdown",
+ "date": "2026-09-27"
+}

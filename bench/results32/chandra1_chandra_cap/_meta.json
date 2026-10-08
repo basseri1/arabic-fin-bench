@@ -1,0 +1,14 @@
+{
+ "model": "chandra1",
+ "backend": "vllm",
+ "url": "http://localhost:8011/v1",
+ "prompt": "OCR this image to HTML, arranged as layout blocks.  Each layout block should be a div with the data-bbox attribute representing the bounding box of the block in x0 y0 x1 y1 format.  Bboxes are normali",
+ "gen": {
+  "temperature": 0.0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_CONC": "16",
+  "BENCH_BACKEND": "vllm"
+ }
+}

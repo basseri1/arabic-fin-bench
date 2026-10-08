@@ -1,0 +1,190 @@
+<div data-bbox="468 50 916 110" data-label="Section-Header">
+<p>شركة الراجحي المصرية للاستثمار (شركة مساهمة سعودية)<br/>
+    قائمة الدخل الموحدة<br/>
+    (بالآلاف الريالات السعودية)</p>
+</div>
+<div data-bbox="730 114 916 132" data-label="Text">
+<p>للسنة المنتهية في 31 ديسمبر</p>
+</div>
+<div data-bbox="865 133 915 149" data-label="Section-Header">
+<p><b>الدخل</b></p>
+</div>
+<div data-bbox="85 102 915 327" data-label="Table">
+<table border="1">
+<thead>
+<tr>
+<th>2023</th>
+<th>2024</th>
+<th>إيضاحات</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>38,737,616</td>
+<td>47,018,123</td>
+<td>23</td>
+<td>إجمالي الدخل من التمويل والاستثمار</td>
+</tr>
+<tr>
+<td>(17,468,497)</td>
+<td>(22,175,077)</td>
+<td>23</td>
+<td>إجمالي العوائد على التمويل والاستثمار</td>
+</tr>
+<tr>
+<td>21,269,119</td>
+<td>24,843,046</td>
+<td>23</td>
+<td>صافي الدخل من التمويل والاستثمار</td>
+</tr>
+<tr>
+<td>9,394,600</td>
+<td>10,768,382</td>
+<td>24</td>
+<td>دخل رسوم خدمات مصرفية</td>
+</tr>
+<tr>
+<td>(5,168,950)</td>
+<td>(6,075,655)</td>
+<td>24</td>
+<td>مصاريف رسوم خدمات مصرفية</td>
+</tr>
+<tr>
+<td>4,225,650</td>
+<td>4,692,727</td>
+<td>24</td>
+<td>رسوم خدمات مصرفية، صافي</td>
+</tr>
+<tr>
+<td>1,246,450</td>
+<td>1,292,866</td>
+<td></td>
+<td>دخل صرف عملات، صافي</td>
+</tr>
+<tr>
+<td>790,190</td>
+<td>1,226,664</td>
+<td>25</td>
+<td>دخل العمليات الأخرى، صافي</td>
+</tr>
+<tr>
+<td>27,531,409</td>
+<td>32,055,303</td>
+<td></td>
+<td><b>إجمالي دخل العمليات</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-bbox="835 347 910 363" data-label="Section-Header">
+<p><b>المصاريف</b></p>
+</div>
+<div data-bbox="85 362 910 650" data-label="Table">
+<table border="1">
+<tbody>
+<tr>
+<td>3,525,096</td>
+<td>3,723,809</td>
+<td>26</td>
+<td>رواتب ومزايا الموظفين</td>
+</tr>
+<tr>
+<td>1,578,009</td>
+<td>1,981,914</td>
+<td>13,12,11</td>
+<td>استهلاك وإطفاء</td>
+</tr>
+<tr>
+<td>2,394,841</td>
+<td>2,264,941</td>
+<td>27</td>
+<td>مصاريف عمومية وإدارية أخرى</td>
+</tr>
+<tr>
+<td>7,497,946</td>
+<td>7,970,664</td>
+<td></td>
+<td><b>إجمالي مصاريف العمليات قبل مخصص انخفاض الائتمان</b></td>
+</tr>
+<tr>
+<td>1,504,178</td>
+<td>2,116,744</td>
+<td>8</td>
+<td>مخصص الانخفاض في قيمة التمويل والموجودات المالية الأخرى، صافي</td>
+</tr>
+<tr>
+<td>9,002,124</td>
+<td>10,087,408</td>
+<td></td>
+<td><b>إجمالي مصاريف العمليات</b></td>
+</tr>
+<tr>
+<td>18,529,285</td>
+<td>21,967,895</td>
+<td></td>
+<td><b>صافي دخل السنة قبل الزكاة</b></td>
+</tr>
+<tr>
+<td>(1,908,126)</td>
+<td>(2,236,709)</td>
+<td>28</td>
+<td>مصروف زكاة</td>
+</tr>
+<tr>
+<td>16,621,159</td>
+<td>19,731,186</td>
+<td></td>
+<td><b>صافي دخل السنة</b></td>
+</tr>
+<tr>
+<td>16,621,159</td>
+<td>19,722,206</td>
+<td></td>
+<td><b>صافي دخل السنة العائد إلى :</b></td>
+</tr>
+<tr>
+<td>-</td>
+<td>8,980</td>
+<td></td>
+<td>حقوق المساهمين في المصرف</td>
+</tr>
+<tr>
+<td>16,621,159</td>
+<td>19,731,186</td>
+<td></td>
+<td><b>صافي دخل السنة</b></td>
+</tr>
+<tr>
+<td>3.95</td>
+<td>4.67</td>
+<td>29</td>
+<td>ربحية السهم الأساسية والمخفضة (بالريال السعودي)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-bbox="229 833 740 854" data-label="Text">
+<p>تشكل الإيضاحات المرفقة من 1 إلى 44 جزءاً لا يتجزأ من هذه القوائم المالية الموحدة.</p>
+</div>
+<div data-bbox="168 865 248 883" data-label="Text">
+<p>المدير المالي</p>
+</div>
+<div data-bbox="128 883 293 948" data-label="Text">
+<img alt="Signature of the Financial Manager" data-bbox="128 883 293 948"/>
+</div>
+<div data-bbox="436 868 533 885" data-label="Text">
+<p>الرئيس التنفيذي</p>
+</div>
+<div data-bbox="398 883 596 929" data-label="Text">
+<img alt="Signature of the CEO" data-bbox="398 883 596 929"/>
+</div>
+<div data-bbox="688 870 819 888" data-label="Text">
+<p>رئيس مجلس الإدارة</p>
+</div>
+<div data-bbox="653 883 823 942" data-label="Text">
+<img alt="Signature of the Chairman of the Board of Directors" data-bbox="653 883 823 942"/>
+</div>
+<div data-bbox="470 933 483 945" data-label="Page-Footer">
+<p>2</p>
+</div>

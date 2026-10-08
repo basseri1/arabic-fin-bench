@@ -1,0 +1,7 @@
+{
+ "model": "persar2b",
+ "backend": "vllm (line recognizer) + PaddleOCR det boxes",
+ "prompt": "Read the text in this image.",
+ "postproc": "rows by y-center clustering, RTL",
+ "date": "2026-09-27"
+}

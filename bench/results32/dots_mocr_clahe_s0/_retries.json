@@ -1,0 +1,232 @@
+[
+ {
+  "page": "alinma_tokio_marine_FY2022_p07",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 44 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 43 rows)"
+    ],
+    "figures": 39
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 43 rows)"
+    ],
+    "figures": 39
+   },
+   {
+    "seed": 3,
+    "flags": [],
+    "figures": 70
+   }
+  ],
+  "chosen": 3
+ },
+ {
+  "page": "almarai_FY2024_p08",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 52 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 52 rows)"
+    ],
+    "figures": 50
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 51 rows)"
+    ],
+    "figures": 52
+   },
+   {
+    "seed": 3,
+    "flags": [],
+    "figures": 82
+   }
+  ],
+  "chosen": 3
+ },
+ {
+  "page": "ashmore_saudi_equity_fund_H1-2020_p08",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 15 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 15 rows)"
+    ],
+    "figures": 13
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 19 rows)"
+    ],
+    "figures": 17
+   },
+   {
+    "seed": 3,
+    "flags": [],
+    "figures": 22
+   }
+  ],
+  "chosen": 3
+ },
+ {
+  "page": "halwani_FY2024_p09",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 13 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 13 rows)"
+    ],
+    "figures": 13
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 13 rows)"
+    ],
+    "figures": 13
+   },
+   {
+    "seed": 3,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 12 rows)"
+    ],
+    "figures": 12
+   }
+  ],
+  "chosen": "original kept"
+ },
+ {
+  "page": "maaden_FY2024_p16",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 45 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 45 rows)"
+    ],
+    "figures": 39
+   },
+   {
+    "seed": 2,
+    "flags": [],
+    "figures": 72
+   }
+  ],
+  "chosen": 2
+ },
+ {
+  "page": "musharaka_reit_FY2019_p08",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 17 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 17 rows)"
+    ],
+    "figures": 22
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 17 rows)"
+    ],
+    "figures": 22
+   },
+   {
+    "seed": 3,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 16 rows)"
+    ],
+    "figures": 21
+   }
+  ],
+  "chosen": "original kept"
+ },
+ {
+  "page": "musharaka_reit_FY2019_p10",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 18 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 30 rows)"
+    ],
+    "figures": 24
+   },
+   {
+    "seed": 2,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 31 rows)"
+    ],
+    "figures": 24
+   },
+   {
+    "seed": 3,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 24 rows)"
+    ],
+    "figures": 24
+   }
+  ],
+  "chosen": "original kept"
+ },
+ {
+  "page": "saudi_re_FY2024_p10",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 5 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [],
+    "figures": 15
+   }
+  ],
+  "chosen": 1
+ },
+ {
+  "page": "snb_FY2024_p13",
+  "flags": [
+   "column_loss(median 1 value cols, 2 periods, 32 rows)"
+  ],
+  "attempts": [
+   {
+    "seed": 1,
+    "flags": [
+     "column_loss(median 1 value cols, 2 periods, 32 rows)"
+    ],
+    "figures": 30
+   },
+   {
+    "seed": 2,
+    "flags": [],
+    "figures": 56
+   }
+  ],
+  "chosen": 2
+ }
+]

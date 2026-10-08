@@ -1,0 +1,158 @@
+{"page": "al_mubarak_usd_trade_fund_H1-2022_p04", "secs": 5.5, "chars": 705, "error": false, "gen_tokens": 386, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 73.1}
+{"page": "alahli_global_trade_fund_H1-2023_p03", "secs": 6.1, "chars": 879, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_rajhi_FY2024_p14", "secs": 6.1, "chars": 858, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_mubarak_usd_trade_fund_H1-2022_p03", "secs": 6.2, "chars": 911, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_mubarak_usd_trade_fund_H1-2022_p06", "secs": 6.2, "chars": 921, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_rajhi_FY2024_p11", "secs": 6.2, "chars": 798, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_khodari_FY2018_p09", "secs": 6.2, "chars": 933, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_mubarak_usd_trade_fund_H1-2022_p05", "secs": 8.1, "chars": 1008, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_rajhi_FY2024_p10", "secs": 8.3, "chars": 1350, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_rajhi_FY2024_p09", "secs": 9.1, "chars": 1703, "error": false, "gen_tokens": 878, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 100.5}
+{"page": "al_khodari_FY2018_p10", "secs": 9.3, "chars": 1523, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alahli_global_trade_fund_H1-2023_p04", "secs": 4.7, "chars": 1059, "error": false, "gen_tokens": 570, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 124.9}
+{"page": "al_khodari_FY2018_p08", "secs": 10.2, "chars": 1358, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "al_rajhi_FY2024_p15", "secs": 10.2, "chars": 2225, "error": false, "gen_tokens": 1099, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 111.1}
+{"page": "al_rajhi_FY2024_p13", "secs": 10.4, "chars": 1926, "error": false, "gen_tokens": 1164, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 115.1}
+{"page": "al_rajhi_FY2024_p12", "secs": 10.4, "chars": 1749, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alahli_global_trade_fund_H1-2023_p06", "secs": 4.7, "chars": 936, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alif_meem_yaa_FY2023_p07", "secs": 5.8, "chars": 981, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alahli_global_trade_fund_H1-2023_p05", "secs": 5.9, "chars": 996, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "almarai_FY2024_p08", "secs": 2.1, "chars": 170, "error": false, "gen_tokens": 98, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 50.0}
+{"page": "almarai_FY2024_p09", "secs": 2.1, "chars": 196, "error": false, "gen_tokens": 118, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 60.8}
+{"page": "almarai_FY2024_p11", "secs": 1.9, "chars": 203, "error": false, "gen_tokens": 120, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 68.6}
+{"page": "al_khodari_FY2018_p11", "secs": 14.0, "chars": 2897, "error": false, "gen_tokens": 1487, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 108.2}
+{"page": "alinma_tokio_marine_FY2022_p10", "secs": 4.8, "chars": 839, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alif_meem_yaa_FY2023_p09", "secs": 8.6, "chars": 1905, "error": false, "gen_tokens": 972, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 114.3}
+{"page": "alinma_tokio_marine_FY2022_p07", "secs": 7.6, "chars": 1841, "error": false, "gen_tokens": 976, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 130.7}
+{"page": "arabian_drilling_FY2024_p09", "secs": 3.5, "chars": 825, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "arabian_drilling_FY2024_p10", "secs": 3.4, "chars": 835, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "arabian_drilling_FY2024_p11", "secs": 3.5, "chars": 879, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alinma_tokio_marine_FY2022_p08", "secs": 7.7, "chars": 2120, "error": false, "gen_tokens": 1067, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 141.7}
+{"page": "arabian_drilling_FY2024_p08", "secs": 5.2, "chars": 1010, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alinma_tokio_marine_FY2022_p09", "secs": 8.4, "chars": 1662, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alif_meem_yaa_FY2023_p08", "secs": 11.9, "chars": 1013, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alif_meem_yaa_FY2023_p06", "secs": 11.9, "chars": 1029, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "almarai_FY2024_p10", "secs": 7.9, "chars": 1778, "error": false, "gen_tokens": 973, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 124.8}
+{"page": "almarai_FY2024_p13", "secs": 7.3, "chars": 1684, "error": false, "gen_tokens": 932, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 129.6}
+{"page": "arabian_drilling_FY2024_p12", "secs": 5.5, "chars": 990, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "arabian_drilling_FY2024_p13", "secs": 5.4, "chars": 1002, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2023_p13", "secs": 4.0, "chars": 765, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "almarai_FY2024_p12", "secs": 10.0, "chars": 2020, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2023_p15", "secs": 5.7, "chars": 1082, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2023_p14", "secs": 5.9, "chars": 1231, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "alinma_tokio_marine_FY2022_p11", "secs": 11.6, "chars": 2766, "error": false, "gen_tokens": 1464, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 128.3}
+{"page": "ashmore_saudi_equity_fund_H1-2020_p07", "secs": 4.2, "chars": 877, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "ashmore_saudi_equity_fund_H1-2020_p09", "secs": 4.0, "chars": 946, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "ashmore_saudi_equity_fund_H1-2020_p10", "secs": 4.4, "chars": 1337, "error": false, "gen_tokens": 665, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 155.1}
+{"page": "aramco_FY2024_p13", "secs": 6.9, "chars": 1896, "error": false, "gen_tokens": 1022, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 149.3}
+{"page": "bahri_FY2024_p07", "secs": 4.6, "chars": 1002, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2024_p14", "secs": 6.8, "chars": 2046, "error": false, "gen_tokens": 1038, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 155.9}
+{"page": "aramco_FY2024_p12", "secs": 8.5, "chars": 2172, "error": false, "gen_tokens": 1189, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 141.7}
+{"page": "ashmore_saudi_equity_fund_H1-2020_p08", "secs": 5.3, "chars": 1313, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bahri_FY2024_p08", "secs": 4.6, "chars": 1019, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2023_p12", "secs": 11.2, "chars": 2590, "error": false, "gen_tokens": 1524, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 137.5}
+{"page": "aramco_FY2024_p15", "secs": 8.0, "chars": 2032, "error": false, "gen_tokens": 1054, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 133.8}
+{"page": "bahri_FY2024_p09", "secs": 5.3, "chars": 1062, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bahri_FY2024_p10", "secs": 5.1, "chars": 1058, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bank_aljazira_FY2024_p07", "secs": 5.1, "chars": 883, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2023_p16", "secs": 12.0, "chars": 3044, "error": false, "gen_tokens": 1531, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 128.8}
+{"page": "bank_aljazira_FY2024_p08", "secs": 5.4, "chars": 874, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bank_aljazira_FY2024_p09", "secs": 5.2, "chars": 926, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bishah_FY2016_p05", "secs": 4.6, "chars": 903, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "aramco_FY2024_p16", "secs": 11.2, "chars": 2942, "error": false, "gen_tokens": 1568, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 142.4}
+{"page": "blom_saudi_fund_FY2022_p04", "secs": 3.2, "chars": 835, "error": false, "gen_tokens": 454, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 145.1}
+{"page": "bank_aljazira_FY2024_p11", "secs": 6.3, "chars": 879, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "blom_saudi_fund_FY2022_p06", "secs": 4.1, "chars": 879, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bishah_FY2016_p04", "secs": 7.1, "chars": 1523, "error": false, "gen_tokens": 806, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 124.1}
+{"page": "bank_aljazira_FY2024_p12", "secs": 7.5, "chars": 1583, "error": false, "gen_tokens": 862, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 118.1}
+{"page": "buruj_FY2024_p08", "secs": 3.9, "chars": 840, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "blom_saudi_fund_FY2022_p07", "secs": 4.1, "chars": 1107, "error": false, "gen_tokens": 533, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 133.7}
+{"page": "cenomi_retail_FY2024_p12", "secs": 1.7, "chars": 199, "error": false, "gen_tokens": 107, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 68.6}
+{"page": "cenomi_retail_FY2024_p09", "secs": 4.1, "chars": 799, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "buruj_FY2024_p09", "secs": 4.6, "chars": 851, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "buruj_FY2024_p10", "secs": 4.4, "chars": 860, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bishah_FY2016_p07", "secs": 7.4, "chars": 1243, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "cenomi_retail_FY2024_p10", "secs": 4.6, "chars": 1053, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bahri_FY2024_p11", "secs": 13.5, "chars": 2785, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bank_aljazira_FY2024_p10", "secs": 11.0, "chars": 2202, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "bishah_FY2016_p06", "secs": 9.9, "chars": 2182, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "halwani_FY2024_p10", "secs": 1.8, "chars": 223, "error": false, "gen_tokens": 121, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 71.5}
+{"page": "cenomi_retail_FY2024_p14", "secs": 5.1, "chars": 809, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "halwani_FY2024_p07", "secs": 5.2, "chars": 857, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "halwani_FY2024_p12", "secs": 4.6, "chars": 842, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "buruj_FY2024_p12", "secs": 9.0, "chars": 2231, "error": false, "gen_tokens": 1165, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 132.5}
+{"page": "halwani_FY2024_p08", "secs": 5.2, "chars": 1266, "error": false, "gen_tokens": 658, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 128.9}
+{"page": "halwani_FY2024_p13", "secs": 4.3, "chars": 803, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "kingdom_holding_FY2024_p11", "secs": 1.2, "chars": 237, "error": false, "gen_tokens": 124, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 137.2}
+{"page": "herfy_FY2024_p10", "secs": 5.2, "chars": 960, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "cenomi_retail_FY2024_p11", "secs": 9.7, "chars": 2063, "error": false, "gen_tokens": 1342, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 141.0}
+{"page": "cenomi_retail_FY2024_p13", "secs": 8.9, "chars": 2307, "error": false, "gen_tokens": 1160, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 133.1}
+{"page": "halwani_FY2024_p11", "secs": 7.3, "chars": 1042, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "herfy_FY2024_p08", "secs": 5.6, "chars": 1544, "error": false, "gen_tokens": 783, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 142.6}
+{"page": "herfy_FY2024_p07", "secs": 7.0, "chars": 1699, "error": false, "gen_tokens": 842, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 121.9}
+{"page": "kingdom_holding_FY2024_p08", "secs": 5.5, "chars": 933, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "kingdom_holding_FY2024_p10", "secs": 4.3, "chars": 876, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "herfy_FY2024_p09", "secs": 8.2, "chars": 1167, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "halwani_FY2024_p09", "secs": 10.2, "chars": 1947, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "buruj_FY2024_p11", "secs": 14.7, "chars": 1362, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "kingdom_holding_FY2024_p07", "secs": 7.9, "chars": 2017, "error": false, "gen_tokens": 1000, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 131.0}
+{"page": "maadaniyah_Q1-2025_p04", "secs": 4.1, "chars": 747, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "liva_FY2024_p09", "secs": 4.7, "chars": 1058, "error": false, "gen_tokens": 574, "prompt_tokens": 5070, "finish": "stop", "gen_tps": 123.7}
+{"page": "liva_FY2024_p08", "secs": 6.5, "chars": 1114, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "liva_FY2024_p07", "secs": 6.9, "chars": 1165, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maadaniyah_Q1-2025_p06", "secs": 4.2, "chars": 936, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maadaniyah_Q1-2025_p05", "secs": 5.7, "chars": 1072, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "kingdom_holding_FY2024_p09", "secs": 9.5, "chars": 2064, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "liva_FY2024_p10", "secs": 7.1, "chars": 1498, "error": false, "gen_tokens": 841, "prompt_tokens": 5316, "finish": "stop", "gen_tps": 119.8}
+{"page": "maaden_FY2024_p13", "secs": 4.2, "chars": 885, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "liva_FY2024_p11", "secs": 8.5, "chars": 2150, "error": false, "gen_tokens": 1069, "prompt_tokens": 5070, "finish": "stop", "gen_tps": 128.1}
+{"page": "musharaka_reit_FY2019_p08", "secs": 1.5, "chars": 258, "error": false, "gen_tokens": 143, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 103.6}
+{"page": "mesc_H1-2023_p04", "secs": 4.1, "chars": 945, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maaden_FY2024_p11", "secs": 6.7, "chars": 1381, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maaden_FY2024_p16", "secs": 5.8, "chars": 1232, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "musharaka_reit_FY2019_p06", "secs": 4.3, "chars": 848, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "mesc_H1-2023_p06", "secs": 4.7, "chars": 1022, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maaden_FY2024_p15", "secs": 6.3, "chars": 1153, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "musharaka_reit_FY2019_p09", "secs": 4.4, "chars": 859, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "musharaka_reit_FY2019_p07", "secs": 4.9, "chars": 1012, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "musharaka_reit_FY2019_p10", "secs": 4.4, "chars": 916, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "nama_FY2024_p08", "secs": 4.3, "chars": 959, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maaden_FY2024_p12", "secs": 10.2, "chars": 2241, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "nama_FY2024_p09", "secs": 4.4, "chars": 1166, "error": false, "gen_tokens": 616, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 145.5}
+{"page": "maaden_FY2024_p14", "secs": 11.0, "chars": 2443, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "maadaniyah_Q1-2025_p07", "secs": 12.5, "chars": 2891, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "mesc_H1-2023_p07", "secs": 8.6, "chars": 2165, "error": false, "gen_tokens": 1122, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 132.2}
+{"page": "othaim_FY2024_p09", "secs": 5.1, "chars": 842, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "othaim_FY2024_p10", "secs": 4.1, "chars": 816, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "othaim_FY2024_p11", "secs": 3.8, "chars": 816, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "mesc_H1-2023_p05", "secs": 10.4, "chars": 2454, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "othaim_FY2024_p08", "secs": 6.6, "chars": 1058, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "nama_FY2024_p07", "secs": 8.6, "chars": 2154, "error": false, "gen_tokens": 1057, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 125.7}
+{"page": "riyad_aliemar_fund_FY2023_p06", "secs": 4.4, "chars": 868, "error": false, "gen_tokens": 441, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 104.2}
+{"page": "riyad_aliemar_fund_FY2023_p07", "secs": 4.3, "chars": 846, "error": false, "gen_tokens": 448, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 106.1}
+{"page": "riyad_aliemar_fund_FY2023_p08", "secs": 5.8, "chars": 1051, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "saudi_re_FY2024_p09", "secs": 4.6, "chars": 878, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "othaim_FY2024_p07", "secs": 8.8, "chars": 2181, "error": false, "gen_tokens": 1090, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 126.0}
+{"page": "othaim_FY2024_p12", "secs": 7.2, "chars": 1535, "error": false, "gen_tokens": 792, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 111.1}
+{"page": "riyad_aliemar_fund_FY2023_p09", "secs": 5.9, "chars": 960, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "saudi_re_FY2024_p10", "secs": 4.7, "chars": 878, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "snb_FY2024_p15", "secs": 1.3, "chars": 211, "error": false, "gen_tokens": 121, "prompt_tokens": 4965, "finish": "stop", "gen_tps": 100.7}
+{"page": "saudi_re_FY2024_p11", "secs": 4.8, "chars": 1084, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "nama_FY2024_p10", "secs": 10.4, "chars": 2624, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "snb_FY2024_p12", "secs": 3.2, "chars": 816, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "sedco_capital_reit_FY2022_p08", "secs": 5.3, "chars": 862, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "sedco_capital_reit_FY2022_p07", "secs": 6.4, "chars": 1349, "error": false, "gen_tokens": 696, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 111.8}
+{"page": "saudi_re_FY2024_p08", "secs": 8.1, "chars": 1789, "error": false, "gen_tokens": 903, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 112.6}
+{"page": "snb_FY2024_p14", "secs": 4.1, "chars": 813, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "sedco_capital_reit_FY2022_p09", "secs": 6.2, "chars": 946, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "taiba_FY2024_p13", "secs": 3.2, "chars": 797, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "taiba_FY2024_p11", "secs": 3.4, "chars": 797, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "taiba_FY2024_p10", "secs": 3.6, "chars": 844, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "sedco_capital_reit_FY2022_p10", "secs": 6.6, "chars": 1953, "error": false, "gen_tokens": 1027, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 160.5}
+{"page": "taiba_FY2024_p14", "secs": 3.5, "chars": 831, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "taiba_FY2024_p12", "secs": 4.1, "chars": 1489, "error": false, "gen_tokens": 792, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 207.5}
+{"page": "saudi_re_FY2024_p12", "secs": 9.5, "chars": 3428, "error": false, "gen_tokens": 1704, "prompt_tokens": 4887, "finish": "stop", "gen_tps": 184.5}
+{"page": "taiba_FY2024_p09", "secs": 5.1, "chars": 2175, "error": false, "gen_tokens": 1068, "prompt_tokens": 5024, "finish": "stop", "gen_tps": 222.5}
+{"page": "snb_FY2024_p13", "secs": 6.5, "chars": 2426, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "snb_FY2024_p16", "secs": 6.6, "chars": 1904, "error": false, "gen_tokens": null, "prompt_tokens": null, "finish": "loop"}
+{"page": "blom_saudi_fund_FY2022_p05", "secs": 44.7, "chars": 8299, "error": false, "gen_tokens": 8192, "prompt_tokens": 5024, "finish": "length", "gen_tps": 183.5}

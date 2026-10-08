@@ -1,0 +1,13 @@
+{
+ "model": "qari03",
+ "backend": "vllm",
+ "url": "http://localhost:8010/v1",
+ "prompt": "Below is the image of one page of a document, as well as some raw textual content that was previously extracted for it. Just return the plain text representation of this document as if you were readin",
+ "gen": {
+  "temperature": 0.0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_CONC": "16"
+ }
+}

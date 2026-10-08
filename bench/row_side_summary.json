@@ -1,0 +1,240 @@
+{
+ "unlabeled_cells": 110,
+ "systems": {
+  "Cohere Parse": {
+   "eligible": 3878,
+   "misplaced_row": 6,
+   "offsets": {
+    "next line": 4,
+    "line before": 2,
+    "section heading": 0,
+    "two lines away": 0,
+    "three or more lines away": 0,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 136,
+   "unresolved_row_status": {
+    "label unmatched": 72,
+    "no label": 64
+   },
+   "unresolved_row_unlabeled": 0,
+   "misplaced_row_unlabeled": 0,
+   "unlabeled_outcomes": {
+    "complete": 110
+   },
+   "row_side": 0.036616812790097986,
+   "row_side_without_unlabeled": 0.036616812790097986,
+   "period_side": 0.006962351727694688,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly in its tables": 83,
+    "labels mostly absent": 12,
+    "labels mostly outside its tables": 1
+   }
+  },
+  "Mistral OCR": {
+   "eligible": 3878,
+   "misplaced_row": 332,
+   "offsets": {
+    "next line": 121,
+    "line before": 134,
+    "section heading": 62,
+    "two lines away": 13,
+    "three or more lines away": 2,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 256,
+   "unresolved_row_status": {
+    "no label": 231,
+    "label unmatched": 25
+   },
+   "unresolved_row_unlabeled": 0,
+   "misplaced_row_unlabeled": 18,
+   "unlabeled_outcomes": {
+    "complete": 86,
+    "misplaced: row": 18,
+    "unresolved: column": 5
+   },
+   "row_side": 0.15162454873646208,
+   "row_side_without_unlabeled": 0.14698298091799897,
+   "period_side": 0.029396596183599792,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly in its tables": 85,
+    "labels mostly outside its tables": 4,
+    "labels mostly absent": 7
+   }
+  },
+  "LandingAI ADE": {
+   "eligible": 3878,
+   "misplaced_row": 11,
+   "offsets": {
+    "next line": 0,
+    "line before": 0,
+    "section heading": 11,
+    "two lines away": 0,
+    "three or more lines away": 0,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 157,
+   "unresolved_row_status": {
+    "label unmatched": 157
+   },
+   "unresolved_row_unlabeled": 0,
+   "misplaced_row_unlabeled": 6,
+   "unlabeled_outcomes": {
+    "complete": 99,
+    "misplaced: row": 6,
+    "unresolved: column": 4
+   },
+   "row_side": 0.04332129963898917,
+   "row_side_without_unlabeled": 0.04177411036616813,
+   "period_side": 0.04409489427539969,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly in its tables": 90,
+    "labels mostly absent": 6
+   }
+  },
+  "dots.mocr pipeline, seed 0": {
+   "eligible": 3878,
+   "misplaced_row": 50,
+   "offsets": {
+    "next line": 17,
+    "line before": 18,
+    "section heading": 15,
+    "two lines away": 0,
+    "three or more lines away": 0,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 1180,
+   "unresolved_row_status": {
+    "no label": 1162,
+    "label unmatched": 18
+   },
+   "unresolved_row_unlabeled": 0,
+   "misplaced_row_unlabeled": 5,
+   "unlabeled_outcomes": {
+    "complete": 104,
+    "misplaced: row": 5
+   },
+   "row_side": 0.31717380092831354,
+   "row_side_without_unlabeled": 0.315884476534296,
+   "period_side": 0.0015471892728210418,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly absent": 24,
+    "labels mostly in its tables": 68,
+    "labels mostly outside its tables": 4
+   }
+  },
+  "dots.mocr pipeline, seed 1": {
+   "eligible": 3878,
+   "misplaced_row": 55,
+   "offsets": {
+    "next line": 27,
+    "line before": 14,
+    "section heading": 14,
+    "two lines away": 0,
+    "three or more lines away": 0,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 1291,
+   "unresolved_row_status": {
+    "no label": 1270,
+    "label unmatched": 21
+   },
+   "unresolved_row_unlabeled": 0,
+   "misplaced_row_unlabeled": 3,
+   "unlabeled_outcomes": {
+    "complete": 106,
+    "misplaced: row": 3
+   },
+   "row_side": 0.3470861268695204,
+   "row_side_without_unlabeled": 0.34631253223310987,
+   "period_side": 0.0020629190304280558,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly absent": 27,
+    "labels mostly in its tables": 65,
+    "labels mostly outside its tables": 4
+   }
+  },
+  "dots.mocr pipeline, seed 2": {
+   "eligible": 3878,
+   "misplaced_row": 67,
+   "offsets": {
+    "next line": 19,
+    "line before": 28,
+    "section heading": 18,
+    "two lines away": 2,
+    "three or more lines away": 0,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 1229,
+   "unresolved_row_status": {
+    "no label": 1206,
+    "label unmatched": 23
+   },
+   "unresolved_row_unlabeled": 2,
+   "misplaced_row_unlabeled": 3,
+   "unlabeled_outcomes": {
+    "complete": 101,
+    "unresolved: column": 2,
+    "unresolved: row": 2,
+    "misplaced: row": 3
+   },
+   "row_side": 0.334192882929345,
+   "row_side_without_unlabeled": 0.3329035585353275,
+   "period_side": 0.0036101083032490976,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly absent": 25,
+    "labels mostly in its tables": 66,
+    "labels mostly outside its tables": 5
+   }
+  },
+  "Chandra OCR 2, own input size": {
+   "eligible": 3878,
+   "misplaced_row": 548,
+   "offsets": {
+    "next line": 233,
+    "line before": 200,
+    "section heading": 77,
+    "two lines away": 25,
+    "three or more lines away": 13,
+    "another statement": 0,
+    "credited to another cell": 0
+   },
+   "unresolved_row": 374,
+   "unresolved_row_status": {
+    "no label": 317,
+    "label unmatched": 57
+   },
+   "unresolved_row_unlabeled": 2,
+   "misplaced_row_unlabeled": 25,
+   "unlabeled_outcomes": {
+    "complete": 66,
+    "misplaced: row": 25,
+    "unresolved: column": 9,
+    "unresolved: row": 2,
+    "misplaced: column": 4
+   },
+   "row_side": 0.2377514182568334,
+   "row_side_without_unlabeled": 0.23078906652913872,
+   "period_side": 0.0590510572460031,
+   "label_placement": {
+    "pages": 96,
+    "labels mostly in its tables": 82,
+    "labels mostly outside its tables": 7,
+    "labels mostly absent": 7
+   }
+  }
+ }
+}

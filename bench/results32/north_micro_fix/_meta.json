@@ -1,0 +1,15 @@
+{
+ "model": "north_micro",
+ "backend": "transformers 5.17.0",
+ "checkpoint": "CohereLabs/North-Micro-Vision-Instruct",
+ "revision": "fa548d9aa62c1220bfd21fc6cfc465f1bd2a1a40",
+ "model_dir": "/home/myenv/models/NorthMicroVision_fa548d9",
+ "prompt": "Extract all text and tables from this Arabic document page. Preserve the table structure using Markdown. Output only the extracted content.",
+ "decoding": {
+  "do_sample": false
+ },
+ "seed": 0,
+ "max_new_tokens": 8192,
+ "batch": 16,
+ "date": "2026-10-02"
+}

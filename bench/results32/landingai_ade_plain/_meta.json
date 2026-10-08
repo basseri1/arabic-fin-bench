@@ -1,0 +1,7 @@
+{
+ "model": "landingai_ade",
+ "backend": "landingai-ade /v2/parse/jobs:dpt-3-pro-20260710",
+ "service_tier": "standard",
+ "output_format": "markdown, tables as html (default options)",
+ "date": "2026-10-03"
+}

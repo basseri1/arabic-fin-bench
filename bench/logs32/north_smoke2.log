@@ -1,0 +1,19 @@
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+Loading weights:   0%|          | 0/577 [00:00<?, ?it/s]Loading weights:   0%|          | 1/577 [00:00<00:58,  9.87it/s]Loading weights:  23%|██▎       | 131/577 [00:00<00:00, 750.43it/s]Loading weights:  37%|███▋      | 216/577 [00:00<00:00, 792.07it/s]Loading weights:  94%|█████████▍| 544/577 [00:00<00:00, 1754.31it/s]Loading weights: 100%|██████████| 577/577 [00:00<00:00, 1349.92it/s]
+[north_micro] 2 pages (2 to run), batch 2, cpu
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 1: 2 pages in 178s
+[north_micro] DONE in 178s

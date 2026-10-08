@@ -1,0 +1,6 @@
+[qwen38_27b] 2 pages (2 to run) -> _tmp/q38_smoke  backend=vllm http://localhost:8010/v1 conc=2
+[qwen38_27b] almarai_FY2024_p09.png: 16.5s, 1356 chars, 733 tok, finish=stop
+[qwen38_27b] aramco_FY2024_p12.png: 30.0s, 2444 chars, 1410 tok, finish=stop
+[qwen38_27b] DONE in 30s
+almarai_FY2024_p09: 1356 chars, 268 digits, 0% '!'
+aramco_FY2024_p12: 2444 chars, 563 digits, 0% '!'

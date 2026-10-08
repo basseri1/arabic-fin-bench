@@ -1,0 +1,628 @@
+{
+ "schema_version": "1.0",
+ "filing_id": "riyad_aliemar_fund_FY2023",
+ "entity": "Riyad Al-Iemar Fund",
+ "source": {
+  "sha256": "8d1ab2eff5ad6dbc4d162746df9c0d2343ba16b21bd65bd1416c269e14ce853f",
+  "file": "filings/riyad_aliemar_fund_FY2023.pdf"
+ },
+ "period_end": "2023-12-31",
+ "report": "annual",
+ "digits": "arabic-indic",
+ "consolidated": false,
+ "annotator": "the benchmark's annotator: transcribed by hand from the page images, without OCR or AI tools; automatic checks: arithmetic totals, plus the text layer where the page has one",
+ "statements": [
+  {
+   "id": "s1",
+   "type": "financial_position",
+   "title_ar": "قائمة المركز المالي",
+   "pages": [
+    6
+   ],
+   "unit": {
+    "currency": "SAR",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "31 ديسمبر 2023",
+     "currency": "SAR",
+     "period": "2023-12-31"
+    },
+    {
+     "id": "c2",
+     "label": "31 ديسمبر 2022",
+     "currency": "SAR",
+     "period": "2022-12-31"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "الموجودات"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "نقد وما يماثله",
+     "notes": [
+      "6"
+     ],
+     "values": {
+      "c1": 280255,
+      "c2": 677847
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "item",
+     "label_ar": "استثمارات مدرجة بالقيمة العادلة من خلال الربح أو الخسارة",
+     "notes": [
+      "7"
+     ],
+     "values": {
+      "c1": 8566082,
+      "c2": 11471944
+     }
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "توزيعات أرباح مدينة",
+     "values": {
+      "c1": "nil",
+      "c2": 420
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "total",
+     "label_ar": "مجموع الموجودات",
+     "values": {
+      "c1": 8846337,
+      "c2": 12150211
+     },
+     "sum_of": [
+      "r2",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "id": "r6",
+     "kind": "section",
+     "label_ar": "المطلوبات"
+    },
+    {
+     "id": "r7",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة مستحقة الدفع",
+     "notes": [
+      "11"
+     ],
+     "values": {
+      "c1": 2341,
+      "c2": 3806
+     }
+    },
+    {
+     "id": "r8",
+     "kind": "item",
+     "label_ar": "مصاريف مستحقة أخرى",
+     "values": {
+      "c1": 61439,
+      "c2": 39014
+     }
+    },
+    {
+     "id": "r9",
+     "kind": "total",
+     "label_ar": "مجموع المطلوبات",
+     "values": {
+      "c1": 63780,
+      "c2": 42820
+     },
+     "sum_of": [
+      "r7",
+      "r8"
+     ]
+    },
+    {
+     "id": "r10",
+     "kind": "total",
+     "label_ar": "حقوق الملكية العائدة إلى حاملي الوحدات",
+     "values": {
+      "c1": 8782557,
+      "c2": 12107391
+     },
+     "sum_of": [
+      "r5",
+      "-r9"
+     ]
+    },
+    {
+     "id": "r11",
+     "kind": "item",
+     "label_ar": "الوحدات المصدرة (بالعدد)",
+     "notes": [
+      "8"
+     ],
+     "values": {
+      "c1": 443069.94,
+      "c2": 824659.38
+     },
+     "comment": "number of units"
+    },
+    {
+     "id": "r12",
+     "kind": "item",
+     "label_ar": "حقوق الملكية العائدة إلى كل وحدة",
+     "values": {
+      "c1": 19.82,
+      "c2": 14.68
+     },
+     "comment": "riyals per unit"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "type": "comprehensive_income",
+   "title_ar": "قائمة الدخل / (الخسارة) الشاملة",
+   "pages": [
+    7
+   ],
+   "unit": {
+    "currency": "SAR",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "للسنة المنتهية في 31 ديسمبر 2023",
+     "currency": "SAR",
+     "period": "2023-12-31"
+    },
+    {
+     "id": "c2",
+     "label": "للسنة المنتهية في 31 ديسمبر 2022",
+     "currency": "SAR",
+     "period": "2022-12-31"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "الدخل / (الخسارة)"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "صافي الربح / (الخسارة) من استثمارات مدرجة بالقيمة العادلة من خلال الربح أو الخسارة",
+     "notes": [
+      "9"
+     ],
+     "values": {
+      "c1": 3408015,
+      "c2": -2604315
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "item",
+     "label_ar": "إيرادات توزيعات أرباح",
+     "values": {
+      "c1": 307056,
+      "c2": 345694
+     }
+    },
+    {
+     "id": "r4",
+     "kind": "subtotal",
+     "label_ar": "",
+     "values": {
+      "c1": 3715071,
+      "c2": -2258621
+     },
+     "sum_of": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "id": "r5",
+     "kind": "section",
+     "label_ar": "المصاريف"
+    },
+    {
+     "id": "r6",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة",
+     "notes": [
+      "11"
+     ],
+     "values": {
+      "c1": -203274,
+      "c2": -296962
+     }
+    },
+    {
+     "id": "r7",
+     "kind": "item",
+     "label_ar": "مصاريف أخرى",
+     "notes": [
+      "10"
+     ],
+     "values": {
+      "c1": -148332,
+      "c2": -114101
+     }
+    },
+    {
+     "id": "r8",
+     "kind": "item",
+     "label_ar": "تكلفة تمويل",
+     "notes": [
+      "11"
+     ],
+     "values": {
+      "c1": "nil",
+      "c2": -18319
+     }
+    },
+    {
+     "id": "r9",
+     "kind": "subtotal",
+     "label_ar": "",
+     "values": {
+      "c1": -351606,
+      "c2": -429382
+     },
+     "sum_of": [
+      "r6",
+      "r7",
+      "r8"
+     ]
+    },
+    {
+     "id": "r10",
+     "kind": "total",
+     "label_ar": "صافي الدخل / (الخسارة) للسنة",
+     "values": {
+      "c1": 3363465,
+      "c2": -2688003
+     },
+     "sum_of": [
+      "r4",
+      "r9"
+     ]
+    },
+    {
+     "id": "r11",
+     "kind": "item",
+     "label_ar": "الدخل الشامل الآخر للسنة",
+     "values": {
+      "c1": "nil",
+      "c2": "nil"
+     }
+    },
+    {
+     "id": "r12",
+     "kind": "total",
+     "label_ar": "مجموع الدخل / (الخسارة) الشاملة للسنة",
+     "values": {
+      "c1": 3363465,
+      "c2": -2688003
+     },
+     "sum_of": [
+      "r10",
+      "r11"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "type": "changes_in_net_assets",
+   "title_ar": "قائمة التغيرات في حقوق الملكية العائدة إلى حاملي الوحدات",
+   "pages": [
+    8
+   ],
+   "unit": {
+    "currency": "SAR",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "للسنة المنتهية في 31 ديسمبر 2023",
+     "currency": "SAR",
+     "period": "2023-12-31"
+    },
+    {
+     "id": "c2",
+     "label": "للسنة المنتهية في 31 ديسمبر 2022",
+     "currency": "SAR",
+     "period": "2022-12-31"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "item",
+     "label_ar": "حقوق الملكية العائدة إلى حاملي الوحدات في بداية السنة",
+     "values": {
+      "c1": 12107391,
+      "c2": 14552867
+     }
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "مجموع الدخل / (الخسارة) الشاملة للسنة",
+     "values": {
+      "c1": 3363465,
+      "c2": -2688003
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "section",
+     "label_ar": "الاشتراكات والاستردادات من قبل حاملي الوحدات"
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "إصدار الوحدات",
+     "values": {
+      "c1": 1831688,
+      "c2": 7295064
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "item",
+     "label_ar": "استرداد الوحدات",
+     "values": {
+      "c1": -8519987,
+      "c2": -7052537
+     }
+    },
+    {
+     "id": "r6",
+     "kind": "subtotal",
+     "label_ar": "صافي التغير من معاملات الوحدات",
+     "values": {
+      "c1": -6688299,
+      "c2": 242527
+     },
+     "sum_of": [
+      "r4",
+      "r5"
+     ]
+    },
+    {
+     "id": "r7",
+     "kind": "total",
+     "label_ar": "حقوق الملكية العائدة إلى حاملي الوحدات في نهاية السنة",
+     "values": {
+      "c1": 8782557,
+      "c2": 12107391
+     },
+     "sum_of": [
+      "r1",
+      "r2",
+      "r6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "type": "cash_flows",
+   "title_ar": "قائمة التدفقات النقدية",
+   "pages": [
+    9
+   ],
+   "unit": {
+    "currency": "SAR",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "31 ديسمبر 2023",
+     "currency": "SAR",
+     "period": "2023-12-31"
+    },
+    {
+     "id": "c2",
+     "label": "31 ديسمبر 2022",
+     "currency": "SAR",
+     "period": "2022-12-31"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "التدفقات النقدية من الأنشطة التشغيلية:"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "صافي الدخل / (الخسارة) للسنة",
+     "values": {
+      "c1": 3363465,
+      "c2": -2688003
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "section",
+     "label_ar": "تعديلات لـ:"
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "(ربح) / خسارة غير محققة من استثمارات مدرجة بالقيمة العادلة من خلال الربح أو الخسارة",
+     "notes": [
+      "9"
+     ],
+     "values": {
+      "c1": -1440323,
+      "c2": 2825422
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "subtotal",
+     "label_ar": "",
+     "values": {
+      "c1": 1923142,
+      "c2": 137419
+     },
+     "sum_of": [
+      "r2",
+      "r4"
+     ]
+    },
+    {
+     "id": "r6",
+     "kind": "section",
+     "label_ar": "صافي التغيرات في الموجودات والمطلوبات التشغيلية:"
+    },
+    {
+     "id": "r7",
+     "kind": "item",
+     "label_ar": "استثمارات مدرجة بالقيمة العادلة من خلال الربح أو الخسارة",
+     "values": {
+      "c1": 4346185,
+      "c2": -1165844
+     }
+    },
+    {
+     "id": "r8",
+     "kind": "item",
+     "label_ar": "توزيعات أرباح مدينة",
+     "values": {
+      "c1": 420,
+      "c2": 23599
+     }
+    },
+    {
+     "id": "r9",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة مستحقة الدفع",
+     "values": {
+      "c1": -1465,
+      "c2": -72870
+     }
+    },
+    {
+     "id": "r10",
+     "kind": "item",
+     "label_ar": "مصاريف مستحقة أخرى",
+     "values": {
+      "c1": 22425,
+      "c2": -10132
+     }
+    },
+    {
+     "id": "r11",
+     "kind": "total",
+     "label_ar": "صافي النقد الناتج من / (المستخدم في) الأنشطة التشغيلية",
+     "values": {
+      "c1": 6290707,
+      "c2": -1087828
+     },
+     "sum_of": [
+      "r5",
+      "r7",
+      "r8",
+      "r9",
+      "r10"
+     ]
+    },
+    {
+     "id": "r12",
+     "kind": "section",
+     "label_ar": "التدفقات النقدية من الأنشطة التمويلية:"
+    },
+    {
+     "id": "r13",
+     "kind": "item",
+     "label_ar": "متحصلات من إصدار وحدات",
+     "values": {
+      "c1": 1831688,
+      "c2": 7295064
+     }
+    },
+    {
+     "id": "r14",
+     "kind": "item",
+     "label_ar": "استردادات الوحدات",
+     "values": {
+      "c1": -8519987,
+      "c2": -7052537
+     }
+    },
+    {
+     "id": "r15",
+     "kind": "total",
+     "label_ar": "صافي النقد (المستخدم في) / الناتج من الأنشطة التمويلية",
+     "values": {
+      "c1": -6688299,
+      "c2": 242527
+     },
+     "sum_of": [
+      "r13",
+      "r14"
+     ]
+    },
+    {
+     "id": "r16",
+     "kind": "total",
+     "label_ar": "صافي التغيرات في النقد وما يماثله",
+     "values": {
+      "c1": -397592,
+      "c2": -845301
+     },
+     "sum_of": [
+      "r11",
+      "r15"
+     ]
+    },
+    {
+     "id": "r17",
+     "kind": "item",
+     "label_ar": "نقد وما يماثله في بداية السنة",
+     "values": {
+      "c1": 677847,
+      "c2": 1523148
+     }
+    },
+    {
+     "id": "r18",
+     "kind": "total",
+     "label_ar": "نقد وما يماثله في نهاية السنة",
+     "notes": [
+      "6"
+     ],
+     "values": {
+      "c1": 280255,
+      "c2": 677847
+     },
+     "sum_of": [
+      "r16",
+      "r17"
+     ]
+    }
+   ]
+  }
+ ],
+ "verified_by": "the benchmark's annotator, cell by cell against the page images (approved 2026-09-27)"
+}

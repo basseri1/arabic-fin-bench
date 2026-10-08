@@ -1,0 +1,250 @@
+{
+ "inconsistencies": [
+  {
+   "id": "I1",
+   "filing": "alinma_tokio_marine_FY2022",
+   "st": "s2",
+   "row": "r28",
+   "col": "c1",
+   "kind": "sign",
+   "line_en": "Changes in mathematical reserves",
+   "note": "2022 figure printed in parentheses; the subtotal and the cash-flow statement imply a positive figure",
+   "corrected": 358,
+   "statement": "income",
+   "label": "التغيرات في الاحتياطات الحسابية",
+   "period": "2022-12-31",
+   "printed": -358,
+   "scale": 1000
+  },
+  {
+   "id": "I2",
+   "filing": "alinma_tokio_marine_FY2022",
+   "st": "s2",
+   "row": "r34",
+   "col": "c1",
+   "kind": "sign",
+   "line_en": "Allowance for doubtful debts",
+   "note": "2022 figure printed in parentheses; the subtotal and the cash-flow statement imply a positive figure",
+   "corrected": 8580,
+   "statement": "income",
+   "label": "مخصص ديون مشكوك في تحصيلها",
+   "period": "2022-12-31",
+   "printed": -8580,
+   "scale": 1000
+  },
+  {
+   "id": "I3",
+   "filing": "blom_saudi_fund_FY2022",
+   "st": "s2",
+   "row": "r10",
+   "col": "c1",
+   "kind": "sign",
+   "line_en": "Total expenses",
+   "note": "2022 total expenses printed without parentheses, unlike its components and the 2021 figure",
+   "corrected": -564308,
+   "statement": "comprehensive_income",
+   "label": "إجمالي المصاريف",
+   "period": "2022-12-31",
+   "printed": 564308,
+   "scale": 1
+  },
+  {
+   "id": "I4",
+   "filing": "nama_FY2024",
+   "st": "s3",
+   "row": "r3",
+   "col": "c5",
+   "kind": "sign",
+   "line_en": "Other comprehensive loss (total equity)",
+   "note": "total-equity column of other comprehensive income printed in parentheses; its component and the comprehensive income statement show a positive figure",
+   "corrected": 385,
+   "statement": "changes_in_equity",
+   "label": "الخسارة الشاملة الاخرى للسنة",
+   "period": "",
+   "printed": -385,
+   "scale": 1000
+  },
+  {
+   "id": "I5",
+   "filing": "bishah_FY2016",
+   "st": "s2",
+   "row": "r9",
+   "col": "c2",
+   "kind": "truncated subtotal",
+   "line_en": "Net loss before extraordinary losses",
+   "note": "2015 subtotal printed as (1,474); its components give (1,473,570), the figure carried to the next total",
+   "corrected": -1473570,
+   "statement": "income",
+   "label": "صافي الخسارة قبل الخسائر الاستثنائية",
+   "period": "2015-12-31",
+   "printed": -1474,
+   "scale": 1
+  },
+  {
+   "id": "I6",
+   "filing": "cenomi_retail_FY2024",
+   "st": "s4",
+   "row": "r4",
+   "col": "c7",
+   "kind": "rounding gap",
+   "line_en": "Other comprehensive income (total equity)",
+   "note": "2023 other comprehensive income in the changes-in-equity statement is one riyal from the comprehensive income statement",
+   "corrected": null,
+   "other": [
+    "s3",
+    "r9",
+    "c2"
+   ],
+   "statement": "changes_in_equity",
+   "label": "الدخل الشامل الاخر",
+   "period": "",
+   "printed": -39641893,
+   "scale": 1,
+   "other_statement": "comprehensive_income",
+   "other_value": -39641894,
+   "gap": 1
+  }
+ ],
+ "affected": [
+  {
+   "by": "I1",
+   "filing": "alinma_tokio_marine_FY2022",
+   "st": "s2",
+   "row": "r31",
+   "col": "c1",
+   "line_en": "Total underwriting costs and expenses",
+   "sum_of": [
+    "r26",
+    "r27",
+    "r28",
+    "r29",
+    "r30"
+   ],
+   "statement": "income",
+   "label": "إجمالي تكاليف ومصروفات الاكتتاب",
+   "period": "2022-12-31",
+   "printed": -155328,
+   "components_as_printed": -156044,
+   "components_corrected": -155328,
+   "scale": 1000
+  },
+  {
+   "by": "I2",
+   "filing": "alinma_tokio_marine_FY2022",
+   "st": "s2",
+   "row": "r38",
+   "col": "c1",
+   "line_en": "Total other operating expenses, net",
+   "sum_of": [
+    "r33",
+    "r34",
+    "r35",
+    "r36",
+    "r37"
+   ],
+   "statement": "income",
+   "label": "اجمالي مصروفات التشغيل الأخرى، بالصافي",
+   "period": "2022-12-31",
+   "printed": -54025,
+   "components_as_printed": -71185,
+   "components_corrected": -54025,
+   "scale": 1000
+  },
+  {
+   "by": "I3",
+   "filing": "blom_saudi_fund_FY2022",
+   "st": "s2",
+   "row": "r10",
+   "col": "c1",
+   "line_en": "Total expenses",
+   "sum_of": [
+    "r8",
+    "r9"
+   ],
+   "statement": "comprehensive_income",
+   "label": "إجمالي المصاريف",
+   "period": "2022-12-31",
+   "printed": 564308,
+   "components_as_printed": -564308,
+   "components_corrected": -564308,
+   "scale": 1
+  },
+  {
+   "by": "I3",
+   "filing": "blom_saudi_fund_FY2022",
+   "st": "s2",
+   "row": "r11",
+   "col": "c1",
+   "line_en": "Net income for the year",
+   "sum_of": [
+    "r6",
+    "r10"
+   ],
+   "statement": "comprehensive_income",
+   "label": "صافي دخل السنة",
+   "period": "2022-12-31",
+   "printed": 459766,
+   "components_as_printed": 1588382,
+   "components_corrected": 459766,
+   "scale": 1
+  },
+  {
+   "by": "I4",
+   "filing": "nama_FY2024",
+   "st": "s3",
+   "row": "r4",
+   "col": "c5",
+   "line_en": "Total comprehensive income (total equity)",
+   "sum_of": [
+    "r2",
+    "r3"
+   ],
+   "statement": "changes_in_equity",
+   "label": "مجموع الدخل الشاملة للسنة",
+   "period": "",
+   "printed": -156500,
+   "components_as_printed": -157270,
+   "components_corrected": -156500,
+   "scale": 1000
+  },
+  {
+   "by": "I5",
+   "filing": "bishah_FY2016",
+   "st": "s2",
+   "row": "r9",
+   "col": "c2",
+   "line_en": "Net loss before extraordinary losses",
+   "sum_of": [
+    "r6",
+    "r7",
+    "r8"
+   ],
+   "statement": "income",
+   "label": "صافي الخسارة قبل الخسائر الاستثنائية",
+   "period": "2015-12-31",
+   "printed": -1474,
+   "components_as_printed": -1473570,
+   "components_corrected": -1473570,
+   "scale": 1
+  }
+ ],
+ "not_in_source": [
+  {
+   "filing": "halwani_FY2024",
+   "st": "cash_flows",
+   "line": "سداد التزامات عقود إيجار (lease payments)",
+   "period": "2023",
+   "page_value": -8095329,
+   "misread": -8065329,
+   "subtotal_line": "صافي النقد (المستخدم في) الأنشطة التمويلية",
+   "subtotal": -21681009,
+   "note": "A check of the ground truth read the lease payments as (8,065,329), which would leave the financing subtotal 30,000 short. The page (re-read at 400 dpi) shows (8,095,329); with it the subtotal reconciles. The ground truth already had (8,095,329) and is unchanged."
+  }
+ ],
+ "counts": {
+  "printed_totals": 773,
+  "with_component_list": 767,
+  "affected": 6,
+  "inconsistencies": 6
+ }
+}

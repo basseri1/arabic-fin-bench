@@ -1,0 +1,1682 @@
+{
+ "S057": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S075": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠١٧ ديسمبر ٣١ (معدلة) (إيضاح ٣٤)"
+ },
+ "S141": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة)"
+ },
+ "S170": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "احتياطي ترجمة عمليات أجنبية (ريال سعودي)"
+ },
+ "S188": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S214": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S150": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢م"
+ },
+ "S004": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الأرباح المبقة"
+ },
+ "S015": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الإجمالي"
+ },
+ "S154": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ م"
+ },
+ "S160": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الإجمالي"
+ },
+ "S209": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الأرباح المبقة"
+ },
+ "S232": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ م"
+ },
+ "S027": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S012": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية"
+ },
+ "S062": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤م بألاف الريالات السعودية"
+ },
+ "S064": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م بالآلاف الريالات السعودية"
+ },
+ "S210": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣م بالآلاف الريالات السعودية"
+ },
+ "S224": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية"
+ },
+ "S238": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية"
+ },
+ "S005": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م"
+ },
+ "S158": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S073": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ ريال سعودي"
+ },
+ "S113": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ الوحدات"
+ },
+ "S187": {
+  "fact": "wrong column",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S199": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤"
+ },
+ "S223": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣"
+ },
+ "S026": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S090": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S152": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S021": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤"
+ },
+ "S032": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "كما في ٣١ ديسمبر ٢٠٢٣"
+ },
+ "S106": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤"
+ },
+ "S163": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "مجموع حقوق الملكية"
+ },
+ "S008": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S068": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدّلة - ايضاح ٢٥) الموجودات"
+ },
+ "S101": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م"
+ },
+ "S131": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S194": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S041": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م"
+ },
+ "S189": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م"
+ },
+ "S009": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الأرباح المبقاة"
+ },
+ "S025": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "فروقات ترجمة عملة اجنبية لشركة تابعة في الخارج"
+ },
+ "S087": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م"
+ },
+ "S120": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S200": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "١ يناير ٢٠٢٣م"
+ },
+ "S028": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣"
+ },
+ "S097": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣"
+ },
+ "S128": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "السنة المنتهية في ٣١ ديسمبر ٢٠٢٢"
+ },
+ "S145": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣"
+ },
+ "S013": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S110": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S218": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S204": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢م   ريال سعودي"
+ },
+ "S205": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١م ريال سعودي"
+ },
+ "S077": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S100": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S117": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024 57,842,369 (30,112,179)"
+ },
+ "S144": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023"
+ },
+ "S040": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S146": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S148": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S178": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S184": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S230": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٨"
+ },
+ "S067": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ دولار أمريكي"
+ },
+ "S001": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "اجمالي حقوق الملكية العائدة إلى المساهمين في المصرف"
+ },
+ "S029": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "رأس المال"
+ },
+ "S084": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "31 ديسمبر 2023"
+ },
+ "S037": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ م الوحدات بالآلاف"
+ },
+ "S157": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢ م (مراجعة) ١٧٧"
+ },
+ "S235": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": true,
+  "header_now": "لفترة الستة أشهر المنتهية في ٣٠ يونيو ٢٠٢٣ م"
+ },
+ "S081": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S006": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S039": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S051": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S066": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S071": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S083": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية"
+ },
+ "S105": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S109": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية"
+ },
+ "S149": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S153": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية"
+ },
+ "S172": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S180": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": true,
+  "header_now": "31 ديسمبر 2023 م بالآف الريالات السعودية"
+ },
+ "S185": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S196": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "للسنة المنتهية في 31 ديسمبر 2024م بالآلاف الريالات السعودية"
+ },
+ "S023": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S111": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ ريال سعودي"
+ },
+ "S195": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ ريال سعودي"
+ },
+ "S216": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤"
+ },
+ "S096": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م"
+ },
+ "S095": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S186": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤"
+ },
+ "S156": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": true,
+  "header_now": "2023"
+ },
+ "S177": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": true,
+  "header_now": "السنة المنتهية في 31 ديسمبر 2024"
+ },
+ "S070": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ مارس ٢٠٢٥ (غير مدققة)"
+ },
+ "S126": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ مارس ٢٠٢٥ (غير مدققة)"
+ },
+ "S222": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ مارس ٢٠٢٥ (غير مدققة)"
+ },
+ "S063": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدلة إيضاح - ٣١)"
+ },
+ "S108": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدلة إيضاح ٣١)"
+ },
+ "S065": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م ر.س"
+ },
+ "S080": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م ر.س"
+ },
+ "S122": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م ر.س"
+ },
+ "S226": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م ر.س (معادلة إيضاح ٣٧)"
+ },
+ "S055": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الاحتياطي النظامي"
+ },
+ "S129": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "31 ديسمبر 2024 م"
+ },
+ "S171": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الاحتياطي النظامي"
+ },
+ "S181": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S098": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ م ريال سعودي"
+ },
+ "S031": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "أسهم خزينة"
+ },
+ "S038": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية بدون حقوق الأقلية"
+ },
+ "S042": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "حقوق الأقلية"
+ },
+ "S045": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S059": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "احتياطي نظامي"
+ },
+ "S094": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية العائدة لمساهمي البنك"
+ },
+ "S130": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية بدون حقوق الأقلية"
+ },
+ "S175": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية العائدة لمساهمي البنك"
+ },
+ "S061": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S159": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S118": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S132": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٨"
+ },
+ "S166": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S208": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S211": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٨"
+ },
+ "S119": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ دولار أمريكي"
+ },
+ "S137": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ دولار أمريكي"
+ },
+ "S176": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ دولار أمريكي"
+ },
+ "S103": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S138": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2024"
+ },
+ "S217": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S074": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م"
+ },
+ "S174": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢م"
+ },
+ "S179": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الإجمالي"
+ },
+ "S202": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢م"
+ },
+ "S213": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م"
+ },
+ "S018": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢١ م لأقرب ألف ريال سعودي"
+ },
+ "S164": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢١ م لأقرب ألف ريال سعودي"
+ },
+ "S229": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢ م لأقرب ألف ريال سعودي"
+ },
+ "S002": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤م بآلاف الريالات السعودية"
+ },
+ "S054": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م بآلاف الريالات السعودية"
+ },
+ "S058": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤م بآلاف الريالات السعودية"
+ },
+ "S203": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣م بآلاف الريالات السعودية"
+ },
+ "S114": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S135": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S231": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S016": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": true,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ ريال سعودي"
+ },
+ "S143": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ ريال سعودي"
+ },
+ "S225": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١ ريال سعودي"
+ },
+ "S085": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S169": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S239": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S215": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤"
+ },
+ "S125": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م (معدلة - إيضاح ٢٥)"
+ },
+ "S151": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S167": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤م"
+ },
+ "S035": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٥ (غير مدققة)"
+ },
+ "S047": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣م (معدلة إيضاح - ٣١) **الموجودات** موجودات غير متداولة"
+ },
+ "S060": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣م (معدلة إيضاح - ٣١)"
+ },
+ "S165": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤م"
+ },
+ "S197": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "خسارة من إعادة القياس الإكتواري وفروقات ترجمة عمليات أجنبية"
+ },
+ "S079": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م إيضاح"
+ },
+ "S192": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معللة إيضاح ٣٧)"
+ },
+ "S050": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢"
+ },
+ "S115": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢"
+ },
+ "S127": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢"
+ },
+ "S076": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الاحتياطيات الأخرى"
+ },
+ "S093": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S112": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م*"
+ },
+ "S134": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S139": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S207": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": ""
+ },
+ "S221": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S142": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١م ريال سعودي"
+ },
+ "S147": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ م ريال سعودي"
+ },
+ "S123": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023"
+ },
+ "S227": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023"
+ },
+ "S014": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S162": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "علاوة إصدار"
+ },
+ "S173": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "أرباح مبقاة"
+ },
+ "S020": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S133": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)"
+ },
+ "S233": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣٠ يونيو ٢٠٢٢ دولار أمريكي (غير مراجعة)"
+ },
+ "S003": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي أرباح مقترح توزيعها"
+ },
+ "S036": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S044": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023"
+ },
+ "S053": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023 التدفقات النقدية من الأنشطة الاستثمارية"
+ },
+ "S056": {
+  "fact": "correct, column not assessed",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S124": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية"
+ },
+ "S168": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية العائدة إلى المساهمين في المصرف"
+ },
+ "S190": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "2023"
+ },
+ "S049": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S072": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S220": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "م ٢٠٢٣"
+ },
+ "S086": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي"
+ },
+ "S116": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي"
+ },
+ "S136": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي"
+ },
+ "S019": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية الموجودات الموجودات غير المتداولة"
+ },
+ "S048": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية"
+ },
+ "S069": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية"
+ },
+ "S240": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S228": {
+  "fact": "wrong column",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢ ريال سعودي"
+ },
+ "S034": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣"
+ },
+ "S052": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S046": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S104": {
+  "fact": "wrong column",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S161": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S198": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S201": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S043": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤"
+ },
+ "S193": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣"
+ },
+ "S234": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣"
+ },
+ "S030": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدلة - إيضاح ٢٥)"
+ },
+ "S091": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدلة - إيضاح ٢٥)"
+ },
+ "S212": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م"
+ },
+ "S078": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ (غير مدققة)"
+ },
+ "S082": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ (غير مدققة)"
+ },
+ "S107": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٥ (غير مدققة)"
+ },
+ "S182": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٥ (غير مدققة)"
+ },
+ "S219": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٥ (غير مدققة)"
+ },
+ "S237": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ (غير مدققة)"
+ },
+ "S007": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "م ٢٠٢٤"
+ },
+ "S011": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م (معدلة إيضاح - ٣١)"
+ },
+ "S022": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م"
+ },
+ "S024": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "م ٢٠٢٣ (معدلة إيضاح - ٣١)"
+ },
+ "S121": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "م ٢٠٢٤"
+ },
+ "S017": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "الأرباح المبقاة"
+ },
+ "S206": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م"
+ },
+ "S033": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣"
+ },
+ "S088": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٣ م"
+ },
+ "S099": {
+  "fact": "wrong row",
+  "group": "wrong context",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م"
+ },
+ "S089": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢١م ريال سعودي"
+ },
+ "S155": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٢م ريال سعودي"
+ },
+ "S092": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "احتياطي الرقم"
+ },
+ "S236": {
+  "fact": "column not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "إجمالي حقوق الملكية العامة لمساهمي البنيك"
+ },
+ "S010": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م ريال"
+ },
+ "S102": {
+  "fact": "correct",
+  "group": "complete",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م ع"
+ },
+ "S140": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٣ م (معدل - الإيضاح ٤٠) لٍ"
+ },
+ "S183": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٣١ ديسمبر ٢٠٢٤ م الل"
+ },
+ "S191": {
+  "fact": "correct, row not stated",
+  "group": "unresolved",
+  "unlabeled_line": false,
+  "header_changed": false,
+  "header_now": "٢٠٢٤ م لٍ"
+ }
+}

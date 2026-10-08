@@ -1,0 +1,8 @@
+{
+ "model": "paddleocr_vl16",
+ "checkpoint": "PaddlePaddle/PaddleOCR-VL-1.6",
+ "pipeline": "paddleocr 3.7.0 PaddleOCRVL(pipeline_version=v1.6), paddle 3.2.1",
+ "vl_rec_backend": "vllm-server",
+ "server": "http://localhost:8118/v1",
+ "date": "2026-10-02"
+}

@@ -1,0 +1,11 @@
+{"run": "nanonets_plain", "secs": 163, "conc": 16, "pages": 158, "server": "v017"}
+{"run": "chandra1_chandra_cap", "secs": 407, "conc": 16, "pages": 158}
+{"run": "dots_mocr_plain", "secs": 136, "conc": 16, "pages": 158}
+{"run": "dots_mocr_clahe_pass", "secs": 137, "conc": 16, "pages": 158}
+{"run": "dots_mocr_clahe_bm_ver", "secs": 172, "conc": 16, "pages": 158}
+{"run": "chandra2_chandra_cap", "secs": 259, "conc": 16, "pages": 158}
+{"run": "north_micro_plain", "secs": 562, "conc": 16, "pages": 158}
+{"run": "qwen38_27b_local_plain", "secs": 348, "conc": 16, "pages": 158}
+{"run": "north_micro_vendor_s0", "secs": 1234, "conc": 16, "pages": 158}
+{"run": "qari03_plain", "secs": 72, "conc": 16, "pages": 158, "note": "2 Oct 2026, model alone on the GPU; logs32/run_qari03_plain.log"}
+{"run": "paddleocr_vl16_plain", "secs": 72, "conc": 16, "pages": 158, "note": "2 Oct 2026, pipeline and vLLM server alone on the GPU, server start-up excluded; logs32/run_paddleocr_vl16_plain.log"}

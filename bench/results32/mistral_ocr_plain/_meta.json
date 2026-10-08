@@ -1,0 +1,11 @@
+{
+ "model": "mistral_ocr",
+ "backend": "mistral api /v1/ocr",
+ "requested_model": "mistral-ocr-latest",
+ "date": "2026-09-27",
+ "served_model": "mistral-ocr-latest",
+ "usage_info": {
+  "pages_processed": 1,
+  "doc_size_bytes": 698240
+ }
+}

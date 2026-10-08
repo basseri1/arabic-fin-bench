@@ -1,0 +1,1036 @@
+{
+ "thresholds": {
+  "row": 90,
+  "col": 70,
+  "dev_grid": {
+   "70,70": [
+    2706,
+    202,
+    108
+   ],
+   "70,80": [
+    2706,
+    202,
+    108
+   ],
+   "70,90": [
+    2706,
+    202,
+    108
+   ],
+   "80,70": [
+    2706,
+    202,
+    108
+   ],
+   "80,80": [
+    2706,
+    202,
+    108
+   ],
+   "80,90": [
+    2706,
+    202,
+    108
+   ],
+   "90,70": [
+    2708,
+    198,
+    110
+   ],
+   "90,80": [
+    2708,
+    198,
+    110
+   ],
+   "90,90": [
+    2708,
+    198,
+    110
+   ]
+  }
+ },
+ "main": {
+  "dots.mocr pipeline, seed 0": {
+   "rule": "arithmetic + agreement (rule fixed in the pilot)",
+   "emitted": 4994,
+   "accepted": 4533,
+   "coverage": 0.907689227072487,
+   "acc_err": 0.01257445400397088,
+   "acc_err_n": 57,
+   "acc_value_err": 0.0,
+   "acc_classes": {
+    "wrong row": 55,
+    "wrong column": 2
+   },
+   "acc_incomplete": 0.4559894109861019,
+   "recovery_vp": 0.7499018453082057,
+   "ub_naive": 0.01565377756889943,
+   "ub_cluster": 0.018898585790985745,
+   "deff": 3.3691468420100645,
+   "filings_err": 14,
+   "filings": 22,
+   "ub_filings": 0.8044373834518446,
+   "recovery": 0.47290930506478207,
+   "detect": 0.4,
+   "omissions": 13,
+   "omissions_detected": 0,
+   "workload": 0.09049862583431488,
+   "fact_assessable": 4179,
+   "fact_err": 0.4235463029432879,
+   "fact_err_classes": {
+    "correct, row not stated": 1057,
+    "column not stated": 656,
+    "wrong row": 55,
+    "wrong column": 2
+   },
+   "fact_detect": 0.11808669656203288,
+   "rho": 0.011554251945072362,
+   "value_rho": 0.0324045540024394,
+   "value_deff": 7.644406504772914,
+   "value_acc_err_n": 0,
+   "value_ub_naive": 0.000660653561429433,
+   "value_ub_cluster": 0.005039086074323409
+  },
+  "dots.mocr pipeline, seed 1": {
+   "rule": "arithmetic + agreement (rule fixed in the pilot)",
+   "emitted": 4928,
+   "accepted": 4499,
+   "coverage": 0.9129464285714286,
+   "acc_err": 0.01155812402756168,
+   "acc_err_n": 52,
+   "acc_value_err": 0.0,
+   "acc_classes": {
+    "wrong row": 50,
+    "wrong column": 2
+   },
+   "acc_incomplete": 0.4772171593687486,
+   "recovery_vp": 0.7504907734589713,
+   "ub_naive": 0.014540374807456891,
+   "ub_cluster": 0.018341917644980894,
+   "deff": 4.004604980445298,
+   "filings_err": 12,
+   "filings": 22,
+   "ub_filings": 0.7286868096901826,
+   "recovery": 0.45151158225363175,
+   "detect": 0.46938775510204084,
+   "omissions": 14,
+   "omissions_detected": 0,
+   "workload": 0.08421672555948174,
+   "fact_assessable": 4147,
+   "fact_err": 0.44538220400289363,
+   "fact_err_classes": {
+    "correct, row not stated": 1171,
+    "column not stated": 624,
+    "wrong row": 50,
+    "wrong column": 2
+   },
+   "fact_detect": 0.10165369649805447,
+   "rho": 0.014764643638551832,
+   "value_rho": 0.03240678497552674,
+   "value_deff": 7.594780742519691,
+   "value_acc_err_n": 0,
+   "value_ub_naive": 0.0006656446135537412,
+   "value_ub_cluster": 0.00504757652542863
+  },
+  "dots.mocr pipeline, seed 2": {
+   "rule": "arithmetic + agreement (rule fixed in the pilot)",
+   "emitted": 4884,
+   "accepted": 4454,
+   "coverage": 0.911957411957412,
+   "acc_err": 0.01571621014818141,
+   "acc_err_n": 70,
+   "acc_value_err": 0.0,
+   "acc_classes": {
+    "wrong row": 68,
+    "wrong column": 2
+   },
+   "acc_incomplete": 0.46632240682532555,
+   "recovery_vp": 0.7416568511974873,
+   "ub_naive": 0.019141562759904217,
+   "ub_cluster": 0.023681410074522135,
+   "deff": 4.3589793033397495,
+   "filings_err": 13,
+   "filings": 22,
+   "ub_filings": 0.7672761213239978,
+   "recovery": 0.45288574793875147,
+   "detect": 0.375,
+   "omissions": 14,
+   "omissions_detected": 0,
+   "workload": 0.08441303494307027,
+   "fact_assessable": 4100,
+   "fact_err": 0.4373170731707317,
+   "fact_err_classes": {
+    "correct, row not stated": 1117,
+    "wrong row": 68,
+    "column not stated": 606,
+    "wrong column": 2
+   },
+   "fact_detect": 0.09899497487437187,
+   "rho": 0.01667363372596446,
+   "value_rho": 0.034501406785927245,
+   "value_deff": 7.950465221601344,
+   "value_acc_err_n": 0,
+   "value_ub_naive": 0.0006723675446970393,
+   "value_ub_cluster": 0.005335238705491317
+  },
+  "Chandra OCR 2, own input size": {
+   "rule": "arithmetic + agreement (rule fixed in the pilot)",
+   "emitted": 4938,
+   "accepted": 4489,
+   "coverage": 0.9090724989874444,
+   "acc_err": 0.12051681889062152,
+   "acc_err_n": 541,
+   "acc_value_err": 0.0,
+   "acc_classes": {
+    "wrong row": 527,
+    "sign": 1,
+    "wrong column": 13
+   },
+   "acc_incomplete": 0.3521942526175095,
+   "recovery_vp": 0.5936395759717314,
+   "ub_naive": 0.1288041855331944,
+   "ub_cluster": 0.1663132934687468,
+   "deff": 24.41650630086575,
+   "filings_err": 20,
+   "filings": 22,
+   "ub_filings": 0.9836024836865158,
+   "recovery": 0.46466431095406363,
+   "detect": 0.09983361064891846,
+   "omissions": 15,
+   "omissions_detected": 0,
+   "workload": 0.08814291323125245,
+   "fact_assessable": 4152,
+   "fact_err": 0.42991329479768786,
+   "fact_err_classes": {
+    "correct, row not stated": 320,
+    "wrong row": 527,
+    "column not stated": 924,
+    "sign": 1,
+    "wrong column": 13
+   },
+   "fact_detect": 0.12371134020618557,
+   "rho": 0.11532642458451903,
+   "value_rho": 0.011259752799178485,
+   "value_deff": 3.2862416251786497,
+   "value_acc_err_n": 0,
+   "value_ub_naive": 0.0006671269537842722,
+   "value_ub_cluster": 0.002190665995447073
+  }
+ },
+ "ablation": {
+  "dots.mocr pipeline, seed 0 (token run)": {
+   "accept everything": {
+    "rule": "accept everything",
+    "emitted": 4961,
+    "accepted": 4961,
+    "coverage": 1.0,
+    "acc_err": 0.01914936504736948,
+    "acc_err_n": 95,
+    "acc_value_err": 0.005845595646039105,
+    "acc_classes": {
+     "wrong value": 29,
+     "sign": 1,
+     "wrong row": 62,
+     "wrong column": 3
+    },
+    "acc_incomplete": 0.4753073977020762,
+    "recovery_vp": 0.8131134668237142,
+    "ub_naive": 0.02266944520523099,
+    "ub_cluster": 0.02666923026974817,
+    "deff": 3.567673995079062,
+    "filings_err": 18,
+    "filings": 22,
+    "ub_filings": 0.9354043846500993,
+    "recovery": 0.4923439340400471,
+    "detect": 0.0,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.0,
+    "fact_assessable": 4558,
+    "fact_err": 0.44975866608161474,
+    "fact_err_classes": {
+     "correct, row not stated": 1231,
+     "wrong value": 29,
+     "sign": 1,
+     "column not stated": 724,
+     "wrong row": 62,
+     "wrong column": 3
+    },
+    "fact_detect": 0.0,
+    "budget_err": NaN,
+    "budget_fact_err": NaN
+   },
+   "arithmetic only": {
+    "rule": "arithmetic only",
+    "emitted": 4961,
+    "accepted": 4551,
+    "coverage": 0.9173553719008265,
+    "acc_err": 0.012964183695891012,
+    "acc_err_n": 59,
+    "acc_value_err": 0.00043946385409800046,
+    "acc_classes": {
+     "wrong row": 56,
+     "wrong column": 1,
+     "wrong value": 2
+    },
+    "acc_incomplete": 0.47066578773895845,
+    "recovery_vp": 0.7532391048292109,
+    "ub_naive": 0.016077442041596328,
+    "ub_cluster": 0.01960663810585223,
+    "deff": 3.3545243012174675,
+    "filings_err": 13,
+    "filings": 22,
+    "ub_filings": 0.7672761213239978,
+    "recovery": 0.4613270514330585,
+    "detect": 0.37894736842105264,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.08048684727129957,
+    "fact_assessable": 4195,
+    "fact_err": 0.4398092967818832,
+    "fact_err_classes": {
+     "correct, row not stated": 1131,
+     "column not stated": 655,
+     "wrong row": 56,
+     "wrong column": 1,
+     "wrong value": 2
+    },
+    "fact_detect": 0.1,
+    "budget_err": 0.012964183695891012,
+    "budget_fact_err": 0.43980929678188324
+   },
+   "agreement only": {
+    "rule": "agreement only",
+    "emitted": 4961,
+    "accepted": 4864,
+    "coverage": 0.9804474904253174,
+    "acc_err": 0.015419407894736841,
+    "acc_err_n": 75,
+    "acc_value_err": 0.001850328947368421,
+    "acc_classes": {
+     "sign": 1,
+     "wrong row": 62,
+     "wrong value": 9,
+     "wrong column": 3
+    },
+    "acc_incomplete": 0.4747121710526316,
+    "recovery_vp": 0.7981939536709854,
+    "ub_naive": 0.018654671929587856,
+    "ub_cluster": 0.021792686843996423,
+    "deff": 3.5172458967752216,
+    "filings_err": 18,
+    "filings": 22,
+    "ub_filings": 0.9354043846500993,
+    "recovery": 0.4868472712995681,
+    "detect": 0.21052631578947367,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.019042010208087948,
+    "fact_assessable": 4465,
+    "fact_err": 0.44456886898096304,
+    "fact_err_classes": {
+     "correct, row not stated": 1187,
+     "sign": 1,
+     "column not stated": 723,
+     "wrong row": 62,
+     "wrong value": 9,
+     "wrong column": 3
+    },
+    "fact_detect": 0.03170731707317073,
+    "budget_err": 0.015419407894736841,
+    "budget_fact_err": 0.4445688689809631
+   },
+   "arithmetic + agreement (rule fixed in the pilot)": {
+    "rule": "arithmetic + agreement (rule fixed in the pilot)",
+    "emitted": 4961,
+    "accepted": 4485,
+    "coverage": 0.9040516024994961,
+    "acc_err": 0.012709030100334449,
+    "acc_err_n": 57,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 56,
+     "wrong column": 1
+    },
+    "acc_incomplete": 0.46956521739130436,
+    "recovery_vp": 0.7408716136631331,
+    "ub_naive": 0.015821045411900346,
+    "ub_cluster": 0.01881491952855901,
+    "deff": 3.320212399278772,
+    "filings_err": 13,
+    "filings": 22,
+    "ub_filings": 0.7672761213239978,
+    "recovery": 0.4558303886925795,
+    "detect": 0.4,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.0934432665881429,
+    "fact_assessable": 4133,
+    "fact_err": 0.4381804984272925,
+    "fact_err_classes": {
+     "correct, row not stated": 1100,
+     "column not stated": 654,
+     "wrong row": 56,
+     "wrong column": 1
+    },
+    "fact_detect": 0.11658536585365854,
+    "budget_err": 0.012709030100334449,
+    "budget_fact_err": 0.4381804984272925
+   },
+   "+ completeness checks": {
+    "rule": "+ completeness checks",
+    "emitted": 4961,
+    "accepted": 1397,
+    "coverage": 0.28159645232815966,
+    "acc_err": 0.025053686471009307,
+    "acc_err_n": 35,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 34,
+     "wrong column": 1
+    },
+    "acc_incomplete": 0.15819613457408732,
+    "recovery_vp": 0.2673733804475854,
+    "ub_naive": 0.03308097264304807,
+    "ub_cluster": 0.03831879921009191,
+    "deff": 2.2176326226449965,
+    "filings_err": 7,
+    "filings": 22,
+    "ub_filings": 0.5154567426084287,
+    "recovery": 0.22398900667451904,
+    "detect": 0.631578947368421,
+    "omissions": 16,
+    "omissions_detected": 9,
+    "workload": 0.7251668629760503,
+    "fact_assessable": 1211,
+    "fact_err": 0.057803468208092484,
+    "fact_err_classes": {
+     "correct, row not stated": 35,
+     "wrong row": 34,
+     "wrong column": 1
+    },
+    "fact_detect": 0.9658536585365853,
+    "budget_err": 0.016797688638043404,
+    "budget_fact_err": 0.3936093182279004
+   },
+   "+ context agreement": {
+    "rule": "+ context agreement",
+    "emitted": 4961,
+    "accepted": 929,
+    "coverage": 0.1872606329369079,
+    "acc_err": 0.0193756727664155,
+    "acc_err_n": 18,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 18
+    },
+    "acc_incomplete": 0.13993541442411195,
+    "recovery_vp": 0.17883784844915587,
+    "ub_naive": 0.02859712970497133,
+    "ub_cluster": 0.032776949796530536,
+    "deff": 1.805889799380648,
+    "filings_err": 5,
+    "filings": 22,
+    "ub_filings": 0.4197999498701549,
+    "recovery": 0.15331762858264625,
+    "detect": 0.8105263157894737,
+    "omissions": 16,
+    "omissions_detected": 9,
+    "workload": 0.8170396544954849,
+    "fact_assessable": 803,
+    "fact_err": 0.0273972602739726,
+    "fact_err_classes": {
+     "correct, row not stated": 4,
+     "wrong row": 18
+    },
+    "fact_detect": 0.9892682926829268,
+    "budget_err": 0.016797688638043404,
+    "budget_fact_err": 0.3936395591871259
+   },
+   "+ token probabilities": {
+    "rule": "+ token probabilities",
+    "emitted": 4961,
+    "accepted": 912,
+    "coverage": 0.18383390445474704,
+    "acc_err": 0.015350877192982455,
+    "acc_err_n": 14,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 14
+    },
+    "acc_incomplete": 0.1337719298245614,
+    "recovery_vp": 0.1762858264625049,
+    "ub_naive": 0.023894510534481272,
+    "ub_cluster": 0.02817970929113925,
+    "deff": 1.7909333293048062,
+    "filings_err": 3,
+    "filings": 22,
+    "ub_filings": 0.3159128080222453,
+    "recovery": 0.15233608166470358,
+    "detect": 0.8526315789473684,
+    "omissions": 16,
+    "omissions_detected": 9,
+    "workload": 0.8203769140164899,
+    "fact_assessable": 793,
+    "fact_err": 0.021437578814627996,
+    "fact_err_classes": {
+     "correct, row not stated": 3,
+     "wrong row": 14
+    },
+    "fact_detect": 0.9917073170731707,
+    "budget_err": 0.016797688638043404,
+    "budget_fact_err": 0.39203354297693915
+   }
+  },
+  "Chandra OCR 2, own input size (token run)": {
+   "accept everything": {
+    "rule": "accept everything",
+    "emitted": 4932,
+    "accepted": 4932,
+    "coverage": 1.0,
+    "acc_err": 0.11780210867802109,
+    "acc_err_n": 581,
+    "acc_value_err": 0.005068937550689375,
+    "acc_classes": {
+     "wrong value": 25,
+     "wrong row": 533,
+     "sign": 3,
+     "wrong column": 20
+    },
+    "acc_incomplete": 0.36678832116788324,
+    "recovery_vp": 0.6474283470749902,
+    "ub_naive": 0.12562201397363498,
+    "ub_cluster": 0.1605417465874355,
+    "deff": 24.852357664006668,
+    "filings_err": 22,
+    "filings": 22,
+    "ub_filings": 1.0,
+    "recovery": 0.49901845308205733,
+    "detect": 0.0,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.0,
+    "fact_assessable": 4573,
+    "fact_err": 0.4441285808003499,
+    "fact_err_classes": {
+     "wrong value": 25,
+     "correct, row not stated": 397,
+     "wrong row": 533,
+     "column not stated": 1053,
+     "sign": 3,
+     "wrong column": 20
+    },
+    "fact_detect": 0.0,
+    "budget_err": NaN,
+    "budget_fact_err": NaN
+   },
+   "arithmetic only": {
+    "rule": "arithmetic only",
+    "emitted": 4932,
+    "accepted": 4515,
+    "coverage": 0.9154501216545012,
+    "acc_err": 0.11760797342192691,
+    "acc_err_n": 531,
+    "acc_value_err": 0.00132890365448505,
+    "acc_classes": {
+     "wrong row": 511,
+     "sign": 1,
+     "wrong column": 13,
+     "wrong value": 6
+    },
+    "acc_incomplete": 0.35437430786268,
+    "recovery_vp": 0.6003140950137417,
+    "ub_naive": 0.12578831575052962,
+    "ub_cluster": 0.1605417465874355,
+    "deff": 22.82660753246068,
+    "filings_err": 20,
+    "filings": 22,
+    "ub_filings": 0.9836024836865158,
+    "recovery": 0.4680015704750687,
+    "detect": 0.08605851979345955,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.08186101295641932,
+    "fact_assessable": 4180,
+    "fact_err": 0.4296650717703349,
+    "fact_err_classes": {
+     "correct, row not stated": 339,
+     "wrong row": 511,
+     "column not stated": 926,
+     "sign": 1,
+     "wrong column": 13,
+     "wrong value": 6
+    },
+    "fact_detect": 0.11570654849827672,
+    "budget_err": 0.11760797342192693,
+    "budget_fact_err": 0.4296650717703349
+   },
+   "agreement only": {
+    "rule": "agreement only",
+    "emitted": 4932,
+    "accepted": 4874,
+    "coverage": 0.9882400648824007,
+    "acc_err": 0.11407468198604842,
+    "acc_err_n": 556,
+    "acc_value_err": 0.0018465326220763233,
+    "acc_classes": {
+     "wrong row": 525,
+     "sign": 3,
+     "wrong column": 19,
+     "wrong value": 9
+    },
+    "acc_incomplete": 0.3649979482970866,
+    "recovery_vp": 0.6431095406360424,
+    "ub_naive": 0.12183900479182701,
+    "ub_cluster": 0.1605417465874355,
+    "deff": 24.570598652904348,
+    "filings_err": 22,
+    "filings": 22,
+    "ub_filings": 1.0,
+    "recovery": 0.4984295249312917,
+    "detect": 0.043029259896729774,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.011385944248135061,
+    "fact_assessable": 4531,
+    "fact_err": 0.43963804899580666,
+    "fact_err_classes": {
+     "correct, row not stated": 394,
+     "wrong row": 525,
+     "column not stated": 1042,
+     "sign": 3,
+     "wrong column": 19,
+     "wrong value": 9
+    },
+    "fact_detect": 0.019202363367799114,
+    "budget_err": 0.11407468198604843,
+    "budget_fact_err": 0.43963804899580666
+   },
+   "arithmetic + agreement (rule fixed in the pilot)": {
+    "rule": "arithmetic + agreement (rule fixed in the pilot)",
+    "emitted": 4932,
+    "accepted": 4473,
+    "coverage": 0.906934306569343,
+    "acc_err": 0.11580594679186229,
+    "acc_err_n": 518,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 504,
+     "sign": 1,
+     "wrong column": 13
+    },
+    "acc_incomplete": 0.3518891124524927,
+    "recovery_vp": 0.596780526109148,
+    "ub_naive": 0.12397402500908096,
+    "ub_cluster": 0.1605417465874355,
+    "deff": 22.622575145110726,
+    "filings_err": 20,
+    "filings": 22,
+    "ub_filings": 0.9836024836865158,
+    "recovery": 0.46741264232430313,
+    "detect": 0.10843373493975904,
+    "omissions": 16,
+    "omissions_detected": 0,
+    "workload": 0.09010600706713781,
+    "fact_assessable": 4152,
+    "fact_err": 0.4265414258188825,
+    "fact_err_classes": {
+     "correct, row not stated": 338,
+     "wrong row": 504,
+     "column not stated": 915,
+     "sign": 1,
+     "wrong column": 13
+    },
+    "fact_detect": 0.12801575578532742,
+    "budget_err": 0.11580594679186229,
+    "budget_fact_err": 0.42654142581888244
+   },
+   "+ completeness checks": {
+    "rule": "+ completeness checks",
+    "emitted": 4932,
+    "accepted": 2498,
+    "coverage": 0.5064882400648824,
+    "acc_err": 0.1833466773418735,
+    "acc_err_n": 458,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 456,
+     "sign": 1,
+     "wrong column": 1
+    },
+    "acc_incomplete": 0.11689351481184948,
+    "recovery_vp": 0.39870435806831567,
+    "ub_naive": 0.19655449788426405,
+    "ub_cluster": 0.2452818807353647,
+    "deff": 16.597333006071786,
+    "filings_err": 15,
+    "filings": 22,
+    "ub_filings": 0.8400586961448866,
+    "recovery": 0.3431488025127601,
+    "detect": 0.2117039586919105,
+    "omissions": 16,
+    "omissions_detected": 11,
+    "workload": 0.5049077345897134,
+    "fact_assessable": 2256,
+    "fact_err": 0.225177304964539,
+    "fact_err_classes": {
+     "wrong row": 456,
+     "sign": 1,
+     "column not stated": 9,
+     "correct, row not stated": 41,
+     "wrong column": 1
+    },
+    "fact_detect": 0.7498769079271295,
+    "budget_err": 0.12953951518428403,
+    "budget_fact_err": 0.38445760885063585
+   },
+   "+ context agreement": {
+    "rule": "+ context agreement",
+    "emitted": 4932,
+    "accepted": 1473,
+    "coverage": 0.298661800486618,
+    "acc_err": 0.012898845892735914,
+    "acc_err_n": 19,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 19
+    },
+    "acc_incomplete": 0.11608961303462322,
+    "recovery_vp": 0.2854338437377307,
+    "ub_naive": 0.018869741316498594,
+    "ub_cluster": 0.04278054490656316,
+    "deff": 10.15345298542544,
+    "filings_err": 5,
+    "filings": 22,
+    "ub_filings": 0.4197999498701549,
+    "recovery": 0.2518649391440911,
+    "detect": 0.9672977624784854,
+    "omissions": 16,
+    "omissions_detected": 11,
+    "workload": 0.7061248527679623,
+    "fact_assessable": 1308,
+    "fact_err": 0.0191131498470948,
+    "fact_err_classes": {
+     "correct, row not stated": 6,
+     "wrong row": 19
+    },
+    "fact_detect": 0.9876907927129492,
+    "budget_err": 0.12999008741101198,
+    "budget_fact_err": 0.38453191918798263
+   },
+   "+ token probabilities": {
+    "rule": "+ token probabilities",
+    "emitted": 4932,
+    "accepted": 1331,
+    "coverage": 0.26987023519870235,
+    "acc_err": 0.012772351615326822,
+    "acc_err_n": 17,
+    "acc_value_err": 0.0,
+    "acc_classes": {
+     "wrong row": 17
+    },
+    "acc_incomplete": 0.12096168294515403,
+    "recovery_vp": 0.2579505300353357,
+    "ub_naive": 0.01909673107388296,
+    "ub_cluster": 0.0430731968156658,
+    "deff": 9.260739850857851,
+    "filings_err": 5,
+    "filings": 22,
+    "ub_filings": 0.4197999498701549,
+    "recovery": 0.22634471927758146,
+    "detect": 0.9707401032702238,
+    "omissions": 16,
+    "omissions_detected": 11,
+    "workload": 0.7340007852375343,
+    "fact_assessable": 1176,
+    "fact_err": 0.0195578231292517,
+    "fact_err_classes": {
+     "correct, row not stated": 6,
+     "wrong row": 17
+    },
+    "fact_detect": 0.9886755292959133,
+    "budget_err": 0.12999008741101198,
+    "budget_fact_err": 0.38479481011735545
+   }
+  }
+ },
+ "budget": {},
+ "natural": {
+  "dots.mocr pipeline, seed 0": {
+   "wrong column": [
+    3,
+    2
+   ],
+   "wrong row": [
+    62,
+    55
+   ],
+   "sign": [
+    1,
+    0
+   ],
+   "same wrong value in both engines": [
+    9,
+    0
+   ],
+   "dropped content (>=30% of a statement)": [
+    3,
+    2
+   ]
+  },
+  "dots.mocr pipeline, seed 1": {
+   "wrong column": [
+    3,
+    2
+   ],
+   "wrong row": [
+    63,
+    50
+   ],
+   "sign": [
+    1,
+    0
+   ],
+   "same wrong value in both engines": [
+    9,
+    0
+   ],
+   "dropped content (>=30% of a statement)": [
+    2,
+    1
+   ]
+  },
+  "dots.mocr pipeline, seed 2": {
+   "wrong column": [
+    2,
+    2
+   ],
+   "wrong row": [
+    75,
+    68
+   ],
+   "sign": [
+    0,
+    0
+   ],
+   "same wrong value in both engines": [
+    10,
+    0
+   ],
+   "dropped content (>=30% of a statement)": [
+    3,
+    2
+   ]
+  },
+  "Chandra OCR 2, own input size": {
+   "wrong column": [
+    20,
+    13
+   ],
+   "wrong row": [
+    556,
+    527
+   ],
+   "sign": [
+    3,
+    1
+   ],
+   "same wrong value in both engines": [
+    9,
+    0
+   ],
+   "dropped content (>=30% of a statement)": [
+    8,
+    4
+   ]
+  }
+ },
+ "challenge": {
+  "dots.mocr pipeline, seed 0": {
+   "period swap (one row)": {
+    "instances": 44,
+    "scored as errors": 44,
+    "accepted, pilot rule": 22,
+    "accepted, + completeness": 10,
+    "accepted, + context agreement": 1
+   },
+   "period swap (whole table)": {
+    "instances": 44,
+    "scored as errors": 44,
+    "accepted, pilot rule": 44,
+    "accepted, + completeness": 18,
+    "accepted, + context agreement": 7
+   },
+   "dropped negative": {
+    "instances": 44,
+    "scored as errors": 38,
+    "accepted, pilot rule": 10,
+    "accepted, + completeness": 3,
+    "accepted, + context agreement": 2,
+    "no error left": 6
+   },
+   "shifted labels": {
+    "instances": 44,
+    "scored as errors": 44,
+    "accepted, pilot rule": 44,
+    "accepted, + completeness": 26,
+    "accepted, + context agreement": 2
+   },
+   "same digit error in both engines": {
+    "instances": 44,
+    "scored as errors": 43,
+    "accepted, pilot rule": 0,
+    "accepted, + completeness": 0,
+    "accepted, + context agreement": 0,
+    "no error left": 1
+   },
+   "dropped column": {
+    "instances": 44,
+    "caught, completeness": 44,
+    "already flagged": 18
+   }
+  },
+  "Chandra OCR 2, own input size": {
+   "period swap (one row)": {
+    "instances": 44,
+    "scored as errors": 44,
+    "accepted, pilot rule": 20,
+    "accepted, + completeness": 13,
+    "accepted, + context agreement": 0
+   },
+   "period swap (whole table)": {
+    "instances": 44,
+    "scored as errors": 44,
+    "accepted, pilot rule": 44,
+    "accepted, + completeness": 28,
+    "accepted, + context agreement": 6
+   },
+   "dropped negative": {
+    "instances": 44,
+    "scored as errors": 38,
+    "accepted, pilot rule": 10,
+    "accepted, + completeness": 9,
+    "accepted, + context agreement": 7,
+    "no error left": 6
+   },
+   "shifted labels": {
+    "instances": 44,
+    "scored as errors": 41,
+    "accepted, pilot rule": 37,
+    "accepted, + completeness": 25,
+    "accepted, + context agreement": 0,
+    "no error left": 3
+   },
+   "same digit error in both engines": {
+    "instances": 44,
+    "scored as errors": 42,
+    "accepted, pilot rule": 0,
+    "accepted, + completeness": 0,
+    "accepted, + context agreement": 0,
+    "no error left": 2
+   },
+   "dropped column": {
+    "instances": 44,
+    "caught, completeness": 43,
+    "already flagged": 16
+   }
+  }
+ },
+ "resolver": {
+  "dots.mocr pipeline, seed 0": {
+   "right": 2561,
+   "wrong": 27,
+   "unresolved": 121
+  },
+  "dots.mocr pipeline, seed 1": {
+   "right": 2549,
+   "wrong": 36,
+   "unresolved": 89
+  },
+  "dots.mocr pipeline, seed 2": {
+   "right": 2537,
+   "wrong": 28,
+   "unresolved": 97
+  },
+  "Chandra OCR 2, own input size": {
+   "right": 2015,
+   "wrong": 407,
+   "unresolved": 195
+  }
+ },
+ "leaders": {
+  "Mistral OCR": {
+   "figures": 4894,
+   "classes": {
+    "correct": 3124,
+    "correct, row not stated": 256,
+    "wrong row": 429,
+    "column not stated": 691,
+    "wrong value": 15,
+    "correct, column not assessed": 327,
+    "wrong column": 50,
+    "sign": 2
+   },
+   "value_ok": 0.9969350224765018,
+   "recovered_complete": 0.613270514330585
+  },
+  "Cohere Parse": {
+   "figures": 4984,
+   "classes": {
+    "correct": 3604,
+    "correct, column not assessed": 1143,
+    "wrong value": 21,
+    "correct, row not stated": 136,
+    "wrong row": 18,
+    "column not stated": 62
+   },
+   "value_ok": 0.9957865168539326,
+   "recovered_complete": 0.707499018453082
+  },
+  "LandingAI ADE": {
+   "figures": 4986,
+   "classes": {
+    "correct": 3453,
+    "correct, row not stated": 157,
+    "wrong value": 166,
+    "column not stated": 557,
+    "correct, column not assessed": 604,
+    "wrong row": 48,
+    "wrong column": 1
+   },
+   "value_ok": 0.9667067789811472,
+   "recovered_complete": 0.6778563015312132
+  },
+  "dots.mocr pipeline, seed 0": {
+   "figures": 4994,
+   "classes": {
+    "correct, row not stated": 1188,
+    "wrong value": 29,
+    "correct": 2582,
+    "sign": 1,
+    "column not stated": 724,
+    "correct, column not assessed": 405,
+    "wrong row": 62,
+    "wrong column": 3
+   },
+   "value_ok": 0.9941930316379656,
+   "recovered_complete": 0.5068708284255987
+  },
+  "Chandra OCR 2, own input size": {
+   "figures": 4938,
+   "classes": {
+    "correct": 2526,
+    "wrong value": 22,
+    "correct, row not stated": 379,
+    "wrong row": 556,
+    "column not stated": 1057,
+    "sign": 3,
+    "correct, column not assessed": 375,
+    "wrong column": 20
+   },
+   "value_ok": 0.9955447549615228,
+   "recovered_complete": 0.4958775029446408
+  }
+ }
+}

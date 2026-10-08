@@ -1,0 +1,495 @@
+{
+ "parser": {
+  "Cohere Parse": {
+   "complete": [
+    3541,
+    3604
+   ],
+   "unresolved: row": [
+    136,
+    136
+   ],
+   "misplaced: row": [
+    7,
+    6
+   ],
+   "unresolved: column": [
+    58,
+    27
+   ],
+   "misplaced: column": [
+    31,
+    0
+   ],
+   "misread or omitted": [
+    105,
+    105
+   ]
+  },
+  "Mistral OCR": {
+   "complete": [
+    3124,
+    3124
+   ],
+   "unresolved: row": [
+    256,
+    256
+   ],
+   "misplaced: row": [
+    332,
+    332
+   ],
+   "unresolved: column": [
+    64,
+    64
+   ],
+   "misplaced: column": [
+    50,
+    50
+   ],
+   "misread or omitted": [
+    50,
+    50
+   ]
+  },
+  "dots.mocr pipeline, seed 0": {
+   "complete": [
+    2582,
+    2582
+   ],
+   "unresolved: row": [
+    1180,
+    1180
+   ],
+   "misplaced: row": [
+    50,
+    50
+   ],
+   "unresolved: column": [
+    3,
+    3
+   ],
+   "misplaced: column": [
+    3,
+    3
+   ],
+   "misread or omitted": [
+    59,
+    59
+   ]
+  },
+  "Chandra OCR 2, own input size": {
+   "complete": [
+    2526,
+    2526
+   ],
+   "unresolved: row": [
+    374,
+    374
+   ],
+   "misplaced: row": [
+    548,
+    548
+   ],
+   "unresolved: column": [
+    209,
+    209
+   ],
+   "misplaced: column": [
+    20,
+    20
+   ],
+   "misread or omitted": [
+    194,
+    194
+   ]
+  }
+ },
+ "no_label": {
+  "Cohere Parse": {
+   "no label in the output row": 64
+  },
+  "Mistral OCR": {
+   "no label in the output row": 227,
+   "label of this line on its own row just above": 4
+  },
+  "dots.mocr pipeline, seed 0": {
+   "no label in the output row": 1150,
+   "label of this line on its own row just above": 10,
+   "Arabic text in the row, not taken as a label": 2
+  },
+  "Chandra OCR 2, own input size": {
+   "no label in the output row": 283,
+   "label of this line on its own row just above": 24,
+   "Arabic text in the row, not taken as a label": 10
+  }
+ },
+ "shifts": {
+  "Cohere Parse": {
+   "neither": 2,
+   "a label on its own row just above (wrapped or split label)": 1
+  },
+  "Mistral OCR": {
+   "neither": 7,
+   "figures written on a heading's row": 25,
+   "a label on its own row just above (wrapped or split label)": 13,
+   "a heading on its own row just above": 2
+  },
+  "dots.mocr pipeline, seed 0": {
+   "figures written on a heading's row": 9,
+   "neither": 3,
+   "a label on its own row just above (wrapped or split label)": 4,
+   "a heading on its own row just above": 1
+  },
+  "Chandra OCR 2, own input size": {
+   "neither": 15,
+   "figures written on a heading's row": 36,
+   "a label on its own row just above (wrapped or split label)": 29
+  }
+ },
+ "periods": {
+  "Cohere Parse": {
+   "unresolved: header names no year": 7,
+   "unresolved: no header (none to inherit)": 20
+  },
+  "Mistral OCR": {
+   "unresolved: header years do not line up with the columns of figures": 4,
+   "misplaced: header year maps to another period": 50,
+   "unresolved: header names no year": 28,
+   "unresolved: no header (none to inherit)": 32
+  },
+  "dots.mocr pipeline, seed 0": {
+   "misplaced: header year maps to another period": 2,
+   "unresolved: header year maps to another period": 1,
+   "misplaced: header years do not line up with the columns of figures": 1,
+   "unresolved: header years do not line up with the columns of figures": 1,
+   "unresolved: two printed columns share a year the header does not separate": 1
+  },
+  "Chandra OCR 2, own input size": {
+   "misplaced: header year maps to another period": 6,
+   "unresolved: header names no year": 18,
+   "unresolved: no header (none to inherit)": 114,
+   "unresolved: header years do not line up with the columns of figures": 1,
+   "misplaced: no header (none to inherit)": 14,
+   "unresolved: two printed columns share a year the header does not separate": 76
+  }
+ },
+ "configs": {
+  "dots_mocr_plain_s0": {
+   "complete": 0.61397627643115,
+   "unresolved: row": 0.334708612686952,
+   "misplaced: row": 0.013408973697782363,
+   "unresolved: column": 0.0036101083032490976,
+   "misplaced: column": 0.0015471892728210418,
+   "misread or omitted": 0.03197524497163486,
+   "value wrong or missing": 0.03274883960804539
+  },
+  "dots_mocr_plain_s0_bm": {
+   "complete": 0.61397627643115,
+   "unresolved: row": 0.334708612686952,
+   "misplaced: row": 0.013408973697782363,
+   "unresolved: column": 0.0036101083032490976,
+   "misplaced: column": 0.0015471892728210418,
+   "misread or omitted": 0.03197524497163486,
+   "value wrong or missing": 0.03274883960804539
+  },
+  "dots_mocr_clahe_s0_raw": {
+   "complete": 0.6627127385250129,
+   "unresolved: row": 0.27617328519855594,
+   "misplaced: row": 0.013408973697782363,
+   "unresolved: column": 0.006188757091284167,
+   "misplaced: column": 0.0012893243940175349,
+   "misread or omitted": 0.03996905621454358,
+   "value wrong or missing": 0.040226921093347086
+  },
+  "dots_mocr_clahe_s0": {
+   "complete": 0.6652913873130479,
+   "unresolved: row": 0.3037648272305312,
+   "misplaced: row": 0.012893243940175348,
+   "unresolved: column": 0.0010314595152140279,
+   "misplaced: column": 0.0007735946364105209,
+   "misread or omitted": 0.01598762248581743,
+   "value wrong or missing": 0.016245487364620937
+  },
+  "dots_mocr_clahe_s0_bm": {
+   "complete": 0.6652913873130479,
+   "unresolved: row": 0.3037648272305312,
+   "misplaced: row": 0.012893243940175348,
+   "unresolved: column": 0.0010314595152140279,
+   "misplaced: column": 0.0007735946364105209,
+   "misread or omitted": 0.01598762248581743,
+   "value wrong or missing": 0.016245487364620937
+  },
+  "dots_mocr_clahe_s0_bm_ver": {
+   "complete": 0.665807117070655,
+   "unresolved: row": 0.3042805569881382,
+   "misplaced: row": 0.012893243940175348,
+   "unresolved: column": 0.0007735946364105209,
+   "misplaced: column": 0.0007735946364105209,
+   "misread or omitted": 0.015214027849406911,
+   "value wrong or missing": 0.015471892728210418
+  },
+  "chandra2_plain": {
+   "complete": 0.6389891696750902,
+   "unresolved: row": 0.08225889633831872,
+   "misplaced: row": 0.129190304280557,
+   "unresolved: column": 0.03558535327488396,
+   "misplaced: column": 0.021402784940691078,
+   "misread or omitted": 0.09205776173285199,
+   "value wrong or missing": 0.092573491490459
+  },
+  "chandra2_plain_ver": {
+   "complete": 0.6395048994326973,
+   "unresolved: row": 0.08277462609592573,
+   "misplaced: row": 0.129706034038164,
+   "unresolved: column": 0.03532748839608046,
+   "misplaced: column": 0.021402784940691078,
+   "misread or omitted": 0.09076843733883445,
+   "value wrong or missing": 0.09128416709644147
+  },
+  "chandra2_chandra_cap": {
+   "complete": 0.6503352243424445,
+   "unresolved: row": 0.0964414646725116,
+   "misplaced: row": 0.14130995358432183,
+   "unresolved: column": 0.053893759669932956,
+   "misplaced: column": 0.005157297576070139,
+   "misread or omitted": 0.05105724600309438,
+   "value wrong or missing": 0.052862300154718926
+  },
+  "chandra2_chandra_cap_ver": {
+   "complete": 0.6513666838576586,
+   "unresolved: row": 0.0964414646725116,
+   "misplaced: row": 0.14130995358432183,
+   "unresolved: column": 0.053893759669932956,
+   "misplaced: column": 0.005157297576070139,
+   "misread or omitted": 0.05002578648788035,
+   "value wrong or missing": 0.051830840639504897
+  }
+ },
+ "dots_stages": {
+  "al_khodari_FY2018_p08 (financial_position)": {
+   "dots_mocr_plain_s0": 0.06896551724137931,
+   "dots_mocr_plain_s0_bm": 0.06896551724137931,
+   "dots_mocr_clahe_s0_raw": 0.06896551724137931,
+   "dots_mocr_clahe_s0": 0.06896551724137931,
+   "dots_mocr_clahe_s0_bm": 0.06896551724137931,
+   "dots_mocr_clahe_s0_bm_ver": 0.06896551724137931
+  },
+  "al_khodari_FY2018_p09 (income_and_comprehensive_income)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "alif_meem_yaa_FY2023_p09 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "alinma_tokio_marine_FY2022_p07 (financial_position)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "almarai_FY2024_p08 (financial_position)": {
+   "dots_mocr_plain_s0": 1.0,
+   "dots_mocr_plain_s0_bm": 1.0,
+   "dots_mocr_clahe_s0_raw": 1.0,
+   "dots_mocr_clahe_s0": 0.027777777777777776,
+   "dots_mocr_clahe_s0_bm": 0.027777777777777776,
+   "dots_mocr_clahe_s0_bm_ver": 0.027777777777777776
+  },
+  "almarai_FY2024_p13 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "bahri_FY2024_p10 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.08333333333333333,
+   "dots_mocr_plain_s0_bm": 0.08333333333333333,
+   "dots_mocr_clahe_s0_raw": 0.05555555555555555,
+   "dots_mocr_clahe_s0": 0.05555555555555555,
+   "dots_mocr_clahe_s0_bm": 0.05555555555555555,
+   "dots_mocr_clahe_s0_bm_ver": 0.05555555555555555
+  },
+  "bahri_FY2024_p10 (other)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "cenomi_retail_FY2024_p13 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.021739130434782608,
+   "dots_mocr_plain_s0_bm": 0.021739130434782608,
+   "dots_mocr_clahe_s0_raw": 0.043478260869565216,
+   "dots_mocr_clahe_s0": 0.043478260869565216,
+   "dots_mocr_clahe_s0_bm": 0.043478260869565216,
+   "dots_mocr_clahe_s0_bm_ver": 0.043478260869565216
+  },
+  "cenomi_retail_FY2024_p14 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.2391304347826087,
+   "dots_mocr_plain_s0_bm": 0.2391304347826087,
+   "dots_mocr_clahe_s0_raw": 0.2391304347826087,
+   "dots_mocr_clahe_s0": 0.2391304347826087,
+   "dots_mocr_clahe_s0_bm": 0.2391304347826087,
+   "dots_mocr_clahe_s0_bm_ver": 0.2391304347826087
+  },
+  "halwani_FY2024_p07 (comprehensive_income)": {
+   "dots_mocr_plain_s0": 0.18181818181818182,
+   "dots_mocr_plain_s0_bm": 0.18181818181818182,
+   "dots_mocr_clahe_s0_raw": 0.18181818181818182,
+   "dots_mocr_clahe_s0": 0.18181818181818182,
+   "dots_mocr_clahe_s0_bm": 0.18181818181818182,
+   "dots_mocr_clahe_s0_bm_ver": 0.18181818181818182
+  },
+  "halwani_FY2024_p09 (financial_position)": {
+   "dots_mocr_plain_s0": 0.42424242424242425,
+   "dots_mocr_plain_s0_bm": 0.42424242424242425,
+   "dots_mocr_clahe_s0_raw": 0.42424242424242425,
+   "dots_mocr_clahe_s0": 0.42424242424242425,
+   "dots_mocr_clahe_s0_bm": 0.42424242424242425,
+   "dots_mocr_clahe_s0_bm_ver": 0.42424242424242425
+  },
+  "halwani_FY2024_p13 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.475,
+   "dots_mocr_plain_s0_bm": 0.475,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "halwani_FY2024_p13 (other)": {
+   "dots_mocr_plain_s0": 1.0,
+   "dots_mocr_plain_s0_bm": 1.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "kingdom_holding_FY2024_p09 (comprehensive_income)": {
+   "dots_mocr_plain_s0": 0.3,
+   "dots_mocr_plain_s0_bm": 0.3,
+   "dots_mocr_clahe_s0_raw": 0.4,
+   "dots_mocr_clahe_s0": 0.4,
+   "dots_mocr_clahe_s0_bm": 0.4,
+   "dots_mocr_clahe_s0_bm_ver": 0.4
+  },
+  "liva_FY2024_p07 (financial_position)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "nama_FY2024_p07 (financial_position)": {
+   "dots_mocr_plain_s0": 1.0,
+   "dots_mocr_plain_s0_bm": 1.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "othaim_FY2024_p07 (financial_position)": {
+   "dots_mocr_plain_s0": 0.05714285714285714,
+   "dots_mocr_plain_s0_bm": 0.05714285714285714,
+   "dots_mocr_clahe_s0_raw": 0.05714285714285714,
+   "dots_mocr_clahe_s0": 0.05714285714285714,
+   "dots_mocr_clahe_s0_bm": 0.05714285714285714,
+   "dots_mocr_clahe_s0_bm_ver": 0.05714285714285714
+  },
+  "othaim_FY2024_p11 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.022222222222222223,
+   "dots_mocr_plain_s0_bm": 0.022222222222222223,
+   "dots_mocr_clahe_s0_raw": 0.022222222222222223,
+   "dots_mocr_clahe_s0": 0.022222222222222223,
+   "dots_mocr_clahe_s0_bm": 0.022222222222222223,
+   "dots_mocr_clahe_s0_bm_ver": 0.022222222222222223
+  },
+  "othaim_FY2024_p12 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "othaim_FY2024_p12 (other)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "riyad_aliemar_fund_FY2023_p08 (changes_in_net_assets)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "sedco_capital_reit_FY2022_p08 (income_and_comprehensive_income)": {
+   "dots_mocr_plain_s0": 1.0,
+   "dots_mocr_plain_s0_bm": 1.0,
+   "dots_mocr_clahe_s0_raw": 0.21428571428571427,
+   "dots_mocr_clahe_s0": 0.21428571428571427,
+   "dots_mocr_clahe_s0_bm": 0.21428571428571427,
+   "dots_mocr_clahe_s0_bm_ver": 0.21428571428571427
+  },
+  "taiba_FY2024_p09 (financial_position)": {
+   "dots_mocr_plain_s0": 0.14634146341463414,
+   "dots_mocr_plain_s0_bm": 0.14634146341463414,
+   "dots_mocr_clahe_s0_raw": 0.14634146341463414,
+   "dots_mocr_clahe_s0": 0.14634146341463414,
+   "dots_mocr_clahe_s0_bm": 0.14634146341463414,
+   "dots_mocr_clahe_s0_bm_ver": 0.14634146341463414
+  },
+  "taiba_FY2024_p10 (income)": {
+   "dots_mocr_plain_s0": 1.0,
+   "dots_mocr_plain_s0_bm": 1.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "taiba_FY2024_p11 (comprehensive_income)": {
+   "dots_mocr_plain_s0": 0.4,
+   "dots_mocr_plain_s0_bm": 0.4,
+   "dots_mocr_clahe_s0_raw": 0.4,
+   "dots_mocr_clahe_s0": 0.4,
+   "dots_mocr_clahe_s0_bm": 0.4,
+   "dots_mocr_clahe_s0_bm_ver": 0.4
+  },
+  "taiba_FY2024_p14 (cash_flows)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  },
+  "taiba_FY2024_p14 (other)": {
+   "dots_mocr_plain_s0": 0.0,
+   "dots_mocr_plain_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_raw": 0.0,
+   "dots_mocr_clahe_s0": 0.0,
+   "dots_mocr_clahe_s0_bm": 0.0,
+   "dots_mocr_clahe_s0_bm_ver": 0.0
+  }
+ }
+}

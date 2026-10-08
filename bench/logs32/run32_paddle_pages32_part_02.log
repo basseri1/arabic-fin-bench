@@ -1,0 +1,65 @@
+[33mChecking connectivity to the model hosters, this may take a while. To bypass this check, set `DISABLE_MODEL_SOURCE_CHECK` to `True`.[0m
+/home/myenv/venv_paddle/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+WARNING: OMP_NUM_THREADS set to 4, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.82it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:00<00:00, 18.53it/s]Fetching 6 files: 100%|██████████| 6/6 [00:03<00:00,  1.61it/s]
+[33mEncountering exception when download model from huggingface: 
+Destination path '/home/myenv/.paddlex/official_models/PP-OCRv5_server_det/temp_dir' already exists, will try to download from other model sources: `aistudio`.[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+[33mEncountering exception when download model from aistudio: 
+repo not found, will try to download from other model sources: `modelscope`.[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+2026-09-27 19:46:00,256 | INFO    | modelscope_hub.download | Downloading 6 files from PaddlePaddle/PP-OCRv5_server_det@master
+<Response [404]>
+Downloading:   0%|          | 0/6 [00:00<?, ?file/s]
+.gitattributes:   0%|          | 0.00/2.13k [00:00<?, ?B/s][A
+                                                           [ADownloading: 100%|██████████| 6/6 [00:00<00:00,  6.24file/s]Downloading: 100%|██████████| 6/6 [00:00<00:00,  6.23file/s]
+[32mCreating model: ('arabic_PP-OCRv5_mobile_rec', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `/home/myenv/.paddlex/official_models/arabic_PP-OCRv5_mobile_rec`.[0m
+[paddle_ar] blom_saudi_fund_FY2022_p07.png: 30.7s, 58 lines, 1159 chars
+[paddle_ar] buruj_FY2024_p08.png: 36.2s, 124 lines, 1731 chars
+[paddle_ar] buruj_FY2024_p09.png: 34.7s, 100 lines, 1649 chars
+[paddle_ar] buruj_FY2024_p10.png: 25.0s, 32 lines, 685 chars
+[paddle_ar] buruj_FY2024_p11.png: 40.9s, 120 lines, 1871 chars
+[paddle_ar] buruj_FY2024_p12.png: 36.9s, 128 lines, 2304 chars
+[paddle_ar] cenomi_retail_FY2024_p09.png: 41.6s, 149 lines, 2431 chars
+[paddle_ar] cenomi_retail_FY2024_p10.png: 28.0s, 118 lines, 1912 chars
+[paddle_ar] cenomi_retail_FY2024_p11.png: 30.8s, 52 lines, 1059 chars
+[paddle_ar] cenomi_retail_FY2024_p12.png: 28.2s, 102 lines, 1544 chars
+[paddle_ar] cenomi_retail_FY2024_p13.png: 38.7s, 132 lines, 2375 chars
+[paddle_ar] cenomi_retail_FY2024_p14.png: 23.3s, 51 lines, 1043 chars
+[paddle_ar] halwani_FY2024_p07.png: 37.0s, 107 lines, 1834 chars
+[paddle_ar] halwani_FY2024_p08.png: 26.2s, 97 lines, 1434 chars
+[paddle_ar] halwani_FY2024_p09.png: 22.1s, 63 lines, 1024 chars
+[paddle_ar] halwani_FY2024_p10.png: 20.6s, 39 lines, 678 chars
+[paddle_ar] halwani_FY2024_p11.png: 21.3s, 49 lines, 878 chars
+[paddle_ar] halwani_FY2024_p12.png: 24.6s, 94 lines, 1662 chars
+[paddle_ar] halwani_FY2024_p13.png: 25.6s, 110 lines, 2065 chars
+[paddle_ar] herfy_FY2024_p07.png: 26.4s, 114 lines, 1817 chars
+[paddle_ar] herfy_FY2024_p08.png: 20.0s, 85 lines, 1443 chars
+[paddle_ar] herfy_FY2024_p09.png: 20.5s, 64 lines, 1257 chars
+[paddle_ar] herfy_FY2024_p10.png: 32.2s, 158 lines, 2721 chars
+[paddle_ar] kingdom_holding_FY2024_p07.png: 27.1s, 164 lines, 2450 chars
+[paddle_ar] kingdom_holding_FY2024_p08.png: 22.0s, 91 lines, 1488 chars
+[paddle_ar] kingdom_holding_FY2024_p09.png: 20.4s, 55 lines, 1151 chars
+[paddle_ar] kingdom_holding_FY2024_p10.png: 30.2s, 146 lines, 2259 chars
+[paddle_ar] kingdom_holding_FY2024_p11.png: 32.9s, 166 lines, 2972 chars
+[paddle_ar] liva_FY2024_p07.png: 33.9s, 153 lines, 1839 chars
+[paddle_ar] liva_FY2024_p08.png: 25.5s, 85 lines, 1367 chars
+[paddle_ar] liva_FY2024_p09.png: 18.3s, 38 lines, 746 chars
+[paddle_ar] liva_FY2024_p10.png: 21.8s, 97 lines, 1232 chars
+[paddle_ar] liva_FY2024_p11.png: 23.0s, 114 lines, 1917 chars
+[paddle_ar] maadaniyah_Q1-2025_p04.png: 23.7s, 118 lines, 2024 chars
+[paddle_ar] maadaniyah_Q1-2025_p05.png: 14.1s, 81 lines, 1302 chars
+[paddle_ar] maadaniyah_Q1-2025_p06.png: 11.7s, 41 lines, 808 chars
+[paddle_ar] maadaniyah_Q1-2025_p07.png: 20.4s, 128 lines, 2288 chars
+[paddle_ar] maaden_FY2024_p11.png: 15.0s, 105 lines, 1696 chars
+[paddle_ar] maaden_FY2024_p12.png: 16.6s, 73 lines, 1520 chars
+[paddle_ar] maaden_FY2024_p13.png: 23.4s, 192 lines, 2966 chars
+[paddle_ar] maaden_FY2024_p14.png: 15.6s, 157 lines, 2636 chars
+[paddle_ar] maaden_FY2024_p15.png: 12.9s, 161 lines, 2676 chars
+[paddle_ar] maaden_FY2024_p16.png: 13.1s, 173 lines, 3461 chars
+[paddle_ar] DONE

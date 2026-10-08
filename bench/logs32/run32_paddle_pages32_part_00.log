@@ -1,0 +1,46 @@
+[33mChecking connectivity to the model hosters, this may take a while. To bypass this check, set `DISABLE_MODEL_SOURCE_CHECK` to `True`.[0m
+/home/myenv/venv_paddle/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+WARNING: OMP_NUM_THREADS set to 4, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.72it/s]Fetching 6 files:  67%|██████▋   | 4/6 [00:00<00:00, 17.43it/s]Fetching 6 files: 100%|██████████| 6/6 [00:03<00:00,  1.55it/s]Fetching 6 files: 100%|██████████| 6/6 [00:03<00:00,  1.95it/s]
+[32mCreating model: ('arabic_PP-OCRv5_mobile_rec', None)[0m
+[32mUsing official model (arabic_PP-OCRv5_mobile_rec), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/arabic_PP-OCRv5_mobile_rec`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.69it/s]Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  5.03it/s]Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  5.09it/s]
+[paddle_ar] al_khodari_FY2018_p08.png: 45.2s, 190 lines, 2802 chars
+[paddle_ar] al_khodari_FY2018_p09.png: 34.9s, 107 lines, 1871 chars
+[paddle_ar] al_khodari_FY2018_p10.png: 49.9s, 163 lines, 2382 chars
+[paddle_ar] al_khodari_FY2018_p11.png: 37.6s, 139 lines, 2720 chars
+[paddle_ar] al_mubarak_usd_trade_fund_H1-2022_p03.png: 23.7s, 51 lines, 860 chars
+[paddle_ar] al_mubarak_usd_trade_fund_H1-2022_p04.png: 19.9s, 38 lines, 587 chars
+[paddle_ar] al_mubarak_usd_trade_fund_H1-2022_p05.png: 27.9s, 51 lines, 1024 chars
+[paddle_ar] al_mubarak_usd_trade_fund_H1-2022_p06.png: 25.7s, 55 lines, 1068 chars
+[paddle_ar] al_rajhi_FY2024_p09.png: 36.8s, 124 lines, 1952 chars
+[paddle_ar] al_rajhi_FY2024_p10.png: 32.6s, 94 lines, 1501 chars
+[paddle_ar] al_rajhi_FY2024_p11.png: 28.6s, 71 lines, 1497 chars
+[paddle_ar] al_rajhi_FY2024_p12.png: 37.8s, 150 lines, 2352 chars
+[paddle_ar] al_rajhi_FY2024_p13.png: 37.6s, 115 lines, 1907 chars
+[paddle_ar] al_rajhi_FY2024_p14.png: 37.2s, 108 lines, 2083 chars
+[paddle_ar] al_rajhi_FY2024_p15.png: 31.6s, 106 lines, 2127 chars
+[paddle_ar] alahli_global_trade_fund_H1-2023_p03.png: 20.1s, 42 lines, 645 chars
+[paddle_ar] alahli_global_trade_fund_H1-2023_p04.png: 23.3s, 56 lines, 849 chars
+[paddle_ar] alahli_global_trade_fund_H1-2023_p05.png: 21.2s, 52 lines, 1052 chars
+[paddle_ar] alahli_global_trade_fund_H1-2023_p06.png: 19.3s, 52 lines, 983 chars
+[paddle_ar] alif_meem_yaa_FY2023_p06.png: 21.2s, 113 lines, 1704 chars
+[paddle_ar] alif_meem_yaa_FY2023_p07.png: 18.6s, 80 lines, 1327 chars
+[paddle_ar] alif_meem_yaa_FY2023_p08.png: 25.1s, 79 lines, 1239 chars
+[paddle_ar] alif_meem_yaa_FY2023_p09.png: 25.9s, 116 lines, 1936 chars
+[paddle_ar] alinma_tokio_marine_FY2022_p07.png: 28.4s, 157 lines, 2014 chars
+[paddle_ar] alinma_tokio_marine_FY2022_p08.png: 28.4s, 170 lines, 2374 chars
+[paddle_ar] alinma_tokio_marine_FY2022_p09.png: 17.4s, 36 lines, 686 chars
+[paddle_ar] alinma_tokio_marine_FY2022_p10.png: 14.7s, 61 lines, 871 chars
+[paddle_ar] alinma_tokio_marine_FY2022_p11.png: 32.4s, 177 lines, 2643 chars
+[paddle_ar] almarai_FY2024_p08.png: 33.7s, 175 lines, 2281 chars
+[paddle_ar] almarai_FY2024_p09.png: 27.1s, 94 lines, 1384 chars
+[paddle_ar] almarai_FY2024_p10.png: 20.6s, 64 lines, 1379 chars
+[paddle_ar] almarai_FY2024_p11.png: 30.8s, 206 lines, 2429 chars
+[paddle_ar] almarai_FY2024_p12.png: 28.7s, 139 lines, 2016 chars
+[paddle_ar] almarai_FY2024_p13.png: 18.5s, 72 lines, 1279 chars
+[paddle_ar] DONE

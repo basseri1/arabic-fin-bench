@@ -1,0 +1,50 @@
+[33mChecking connectivity to the model hosters, this may take a while. To bypass this check, set `DISABLE_MODEL_SOURCE_CHECK` to `True`.[0m
+/home/myenv/venv_paddle/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+WARNING: OMP_NUM_THREADS set to 4, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mUsing official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/PP-OCRv5_server_det`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.68it/s]Fetching 6 files:  67%|██████▋   | 4/6 [00:00<00:00, 17.06it/s]Fetching 6 files: 100%|██████████| 6/6 [00:02<00:00,  1.74it/s]Fetching 6 files: 100%|██████████| 6/6 [00:02<00:00,  2.18it/s]
+[32mCreating model: ('arabic_PP-OCRv5_mobile_rec', None)[0m
+[32mUsing official model (arabic_PP-OCRv5_mobile_rec), the model files will be automatically downloaded and saved in `/home/myenv/.paddlex/official_models/arabic_PP-OCRv5_mobile_rec`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  6.55it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:00<00:00, 21.39it/s]Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  3.79it/s]
+[paddle_ar] arabian_drilling_FY2024_p08.png: 28.7s, 105 lines, 1473 chars
+[paddle_ar] arabian_drilling_FY2024_p09.png: 28.0s, 46 lines, 814 chars
+[paddle_ar] arabian_drilling_FY2024_p10.png: 33.2s, 90 lines, 1418 chars
+[paddle_ar] arabian_drilling_FY2024_p11.png: 27.3s, 68 lines, 1129 chars
+[paddle_ar] arabian_drilling_FY2024_p12.png: 41.1s, 109 lines, 1875 chars
+[paddle_ar] arabian_drilling_FY2024_p13.png: 26.8s, 59 lines, 1114 chars
+[paddle_ar] aramco_FY2023_p12.png: 32.0s, 140 lines, 1888 chars
+[paddle_ar] aramco_FY2023_p13.png: 30.8s, 93 lines, 1591 chars
+[paddle_ar] aramco_FY2023_p14.png: 56.8s, 254 lines, 2962 chars
+[paddle_ar] aramco_FY2023_p15.png: 60.8s, 284 lines, 3017 chars
+[paddle_ar] aramco_FY2023_p16.png: 55.2s, 273 lines, 3786 chars
+[paddle_ar] aramco_FY2024_p12.png: 36.1s, 141 lines, 1892 chars
+[paddle_ar] aramco_FY2024_p13.png: 31.1s, 94 lines, 1600 chars
+[paddle_ar] aramco_FY2024_p14.png: 53.8s, 255 lines, 2967 chars
+[paddle_ar] aramco_FY2024_p15.png: 49.5s, 279 lines, 2865 chars
+[paddle_ar] aramco_FY2024_p16.png: 42.3s, 266 lines, 3640 chars
+[paddle_ar] ashmore_saudi_equity_fund_H1-2020_p07.png: 19.2s, 57 lines, 940 chars
+[paddle_ar] ashmore_saudi_equity_fund_H1-2020_p08.png: 18.2s, 50 lines, 770 chars
+[paddle_ar] ashmore_saudi_equity_fund_H1-2020_p09.png: 18.0s, 30 lines, 721 chars
+[paddle_ar] ashmore_saudi_equity_fund_H1-2020_p10.png: 16.1s, 53 lines, 1147 chars
+[paddle_ar] bahri_FY2024_p07.png: 24.8s, 138 lines, 2035 chars
+[paddle_ar] bahri_FY2024_p08.png: 25.2s, 85 lines, 1227 chars
+[paddle_ar] bahri_FY2024_p09.png: 16.4s, 45 lines, 985 chars
+[paddle_ar] bahri_FY2024_p10.png: 28.9s, 160 lines, 2669 chars
+[paddle_ar] bahri_FY2024_p11.png: 27.7s, 122 lines, 1632 chars
+[paddle_ar] bank_aljazira_FY2024_p07.png: 22.3s, 115 lines, 1743 chars
+[paddle_ar] bank_aljazira_FY2024_p08.png: 30.1s, 126 lines, 1990 chars
+[paddle_ar] bank_aljazira_FY2024_p09.png: 20.9s, 60 lines, 1223 chars
+[paddle_ar] bank_aljazira_FY2024_p10.png: 32.6s, 182 lines, 2484 chars
+[paddle_ar] bank_aljazira_FY2024_p11.png: 25.6s, 138 lines, 2570 chars
+[paddle_ar] bank_aljazira_FY2024_p12.png: 15.0s, 60 lines, 1204 chars
+[paddle_ar] bishah_FY2016_p04.png: 14.1s, 124 lines, 1700 chars
+[paddle_ar] bishah_FY2016_p05.png: 12.7s, 58 lines, 746 chars
+[paddle_ar] bishah_FY2016_p06.png: 15.8s, 91 lines, 1577 chars
+[paddle_ar] bishah_FY2016_p07.png: 16.5s, 73 lines, 932 chars
+[paddle_ar] blom_saudi_fund_FY2022_p04.png: 11.5s, 48 lines, 826 chars
+[paddle_ar] blom_saudi_fund_FY2022_p05.png: 12.5s, 48 lines, 771 chars
+[paddle_ar] blom_saudi_fund_FY2022_p06.png: 13.3s, 49 lines, 919 chars
+[paddle_ar] DONE

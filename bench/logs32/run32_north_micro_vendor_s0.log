@@ -1,0 +1,55 @@
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+Loading weights:   0%|          | 0/577 [00:00<?, ?it/s]Loading weights: 100%|██████████| 577/577 [00:00<00:00, 10080.95it/s]
+[north_micro] 158 pages (158 to run), batch 16, cuda
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 1: 16 pages in 139s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 2: 16 pages in 330s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 3: 16 pages in 174s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 4: 16 pages in 69s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 5: 16 pages in 74s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 6: 16 pages in 58s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 7: 16 pages in 77s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 8: 16 pages in 66s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 9: 16 pages in 75s
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 10: 14 pages in 163s
+[north_micro] DONE in 1225s

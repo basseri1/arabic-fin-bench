@@ -1,0 +1,174 @@
+[dots_mocr] 158 pages (158 to run) -> results32/dots_mocr_clahe_s1  backend=vllm http://localhost:8001/v1 conc=8
+[dots_mocr] al_mubarak_usd_trade_fund_H1-2022_p04.png: 11.4s, 1511 chars, 834 tok, finish=stop
+[dots_mocr] al_mubarak_usd_trade_fund_H1-2022_p03.png: 14.3s, 2115 chars, 1151 tok, finish=stop
+[dots_mocr] al_mubarak_usd_trade_fund_H1-2022_p05.png: 15.9s, 2274 chars, 1282 tok, finish=stop
+[dots_mocr] al_mubarak_usd_trade_fund_H1-2022_p06.png: 17.2s, 2380 chars, 1368 tok, finish=stop
+[dots_mocr] al_khodari_FY2018_p09.png: 22.5s, 2900 chars, 2051 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p11.png: 12.1s, 2928 chars, 1413 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p10.png: 15.7s, 3223 chars, 1733 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p09.png: 20.7s, 4373 chars, 2254 tok, finish=stop
+[dots_mocr] al_khodari_FY2018_p11.png: 34.6s, 5310 chars, 3403 tok, finish=stop
+[dots_mocr] al_khodari_FY2018_p10.png: 37.2s, 5093 chars, 3685 tok, finish=stop
+[dots_mocr] al_khodari_FY2018_p08.png: 39.1s, 4774 chars, 3861 tok, finish=stop
+[dots_mocr] alahli_global_trade_fund_H1-2023_p03.png: 9.4s, 1774 chars, 911 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p12.png: 26.0s, 5011 chars, 2809 tok, finish=stop
+[dots_mocr] alahli_global_trade_fund_H1-2023_p04.png: 10.4s, 1820 chars, 947 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p13.png: 25.8s, 5354 chars, 2646 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p14.png: 21.6s, 3970 chars, 2022 tok, finish=stop
+[dots_mocr] alahli_global_trade_fund_H1-2023_p05.png: 13.9s, 2318 chars, 1234 tok, finish=stop
+[dots_mocr] alahli_global_trade_fund_H1-2023_p06.png: 12.0s, 1974 chars, 1046 tok, finish=stop
+[dots_mocr] al_rajhi_FY2024_p15.png: 23.5s, 4214 chars, 2089 tok, finish=stop
+[dots_mocr] alif_meem_yaa_FY2023_p07.png: 16.6s, 2597 chars, 1630 tok, finish=stop
+[dots_mocr] alinma_tokio_marine_FY2022_p09.png: 9.2s, 1852 chars, 971 tok, finish=stop
+[dots_mocr] alif_meem_yaa_FY2023_p08.png: 18.0s, 2626 chars, 1729 tok, finish=stop
+[dots_mocr] alif_meem_yaa_FY2023_p06.png: 21.6s, 2738 chars, 2028 tok, finish=stop
+[dots_mocr] alinma_tokio_marine_FY2022_p07.png: 18.9s, 3080 chars, 1890 tok, finish=stop
+[dots_mocr] alif_meem_yaa_FY2023_p09.png: 20.3s, 2724 chars, 1983 tok, finish=stop
+[dots_mocr] alinma_tokio_marine_FY2022_p10.png: 15.1s, 2841 chars, 1660 tok, finish=stop
+[dots_mocr] almarai_FY2024_p10.png: 13.6s, 2721 chars, 1449 tok, finish=stop
+[dots_mocr] alinma_tokio_marine_FY2022_p08.png: 27.4s, 4816 chars, 2822 tok, finish=stop
+[dots_mocr] almarai_FY2024_p09.png: 17.8s, 3074 chars, 1842 tok, finish=stop
+[dots_mocr] almarai_FY2024_p13.png: 13.4s, 2120 chars, 1283 tok, finish=stop
+[dots_mocr] almarai_FY2024_p08.png: 26.8s, 4782 chars, 2794 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p09.png: 12.3s, 2153 chars, 1313 tok, finish=stop
+[dots_mocr] alinma_tokio_marine_FY2022_p11.png: 31.0s, 5749 chars, 3238 tok, finish=stop
+[dots_mocr] almarai_FY2024_p12.png: 24.8s, 4038 chars, 2542 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p08.png: 21.3s, 2979 chars, 2221 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p11.png: 18.0s, 2758 chars, 1940 tok, finish=stop
+[dots_mocr] almarai_FY2024_p11.png: 33.1s, 4992 chars, 3436 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p10.png: 21.0s, 3399 chars, 2176 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p13.png: 16.2s, 2629 chars, 1578 tok, finish=stop
+[dots_mocr] aramco_FY2023_p13.png: 15.8s, 3321 chars, 1607 tok, finish=stop
+[dots_mocr] aramco_FY2023_p12.png: 20.0s, 3445 chars, 1920 tok, finish=stop
+[dots_mocr] arabian_drilling_FY2024_p12.png: 25.9s, 3743 chars, 2561 tok, finish=stop
+[dots_mocr] aramco_FY2024_p12.png: 17.8s, 3449 chars, 1922 tok, finish=stop
+[dots_mocr] aramco_FY2024_p13.png: 15.0s, 3297 chars, 1612 tok, finish=stop
+[dots_mocr] aramco_FY2023_p14.png: 28.7s, 5292 chars, 3078 tok, finish=stop
+[dots_mocr] ashmore_saudi_equity_fund_H1-2020_p07.png: 9.4s, 1922 chars, 991 tok, finish=stop
+[dots_mocr] aramco_FY2023_p16.png: 27.5s, 5341 chars, 3003 tok, finish=stop
+[dots_mocr] aramco_FY2023_p15.png: 29.2s, 6086 chars, 3143 tok, finish=stop
+[dots_mocr] ashmore_saudi_equity_fund_H1-2020_p08.png: 9.9s, 1707 chars, 846 tok, finish=stop
+[dots_mocr] ashmore_saudi_equity_fund_H1-2020_p09.png: 10.3s, 1877 chars, 903 tok, finish=stop
+[dots_mocr] aramco_FY2024_p14.png: 28.0s, 4958 chars, 2974 tok, finish=stop
+[dots_mocr] aramco_FY2024_p15.png: 28.9s, 5799 chars, 2992 tok, finish=stop
+[dots_mocr] ashmore_saudi_equity_fund_H1-2020_p10.png: 13.4s, 2372 chars, 1148 tok, finish=stop
+[dots_mocr] aramco_FY2024_p16.png: 29.4s, 5597 chars, 3071 tok, finish=stop
+[dots_mocr] bahri_FY2024_p09.png: 13.4s, 2380 chars, 1247 tok, finish=stop
+[dots_mocr] bahri_FY2024_p08.png: 20.3s, 3035 chars, 1892 tok, finish=stop
+[dots_mocr] bahri_FY2024_p07.png: 23.7s, 4023 chars, 2265 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p09.png: 13.4s, 2616 chars, 1373 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p07.png: 22.6s, 3886 chars, 2505 tok, finish=stop
+[dots_mocr] bahri_FY2024_p10.png: 25.5s, 3979 chars, 2729 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p12.png: 12.0s, 2137 chars, 1277 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p08.png: 24.5s, 4144 chars, 2578 tok, finish=stop
+[dots_mocr] bahri_FY2024_p11.png: 31.9s, 5148 chars, 3285 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p10.png: 25.6s, 4000 chars, 2739 tok, finish=stop
+[dots_mocr] bishah_FY2016_p05.png: 12.6s, 1971 chars, 1040 tok, finish=stop
+[dots_mocr] bank_aljazira_FY2024_p11.png: 27.4s, 4827 chars, 2875 tok, finish=stop
+[dots_mocr] bishah_FY2016_p04.png: 21.6s, 3888 chars, 2122 tok, finish=stop
+[dots_mocr] blom_saudi_fund_FY2022_p04.png: 13.0s, 2153 chars, 1179 tok, finish=stop
+[dots_mocr] blom_saudi_fund_FY2022_p05.png: 12.2s, 1976 chars, 1077 tok, finish=stop
+[dots_mocr] bishah_FY2016_p06.png: 19.3s, 3235 chars, 1633 tok, finish=stop
+[dots_mocr] bishah_FY2016_p07.png: 19.6s, 2920 chars, 1615 tok, finish=stop
+[dots_mocr] blom_saudi_fund_FY2022_p06.png: 13.6s, 2114 chars, 1168 tok, finish=stop
+[dots_mocr] blom_saudi_fund_FY2022_p07.png: 15.2s, 2268 chars, 1326 tok, finish=stop
+[dots_mocr] buruj_FY2024_p10.png: 12.3s, 2002 chars, 1093 tok, finish=stop
+[dots_mocr] buruj_FY2024_p09.png: 21.7s, 3441 chars, 2202 tok, finish=stop
+[dots_mocr] buruj_FY2024_p08.png: 24.8s, 3703 chars, 2493 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p11.png: 13.5s, 2551 chars, 1475 tok, finish=stop
+[dots_mocr] buruj_FY2024_p12.png: 23.3s, 3449 chars, 2438 tok, finish=stop
+[dots_mocr] buruj_FY2024_p11.png: 25.1s, 3916 chars, 2525 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p10.png: 26.6s, 4381 chars, 2891 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p12.png: 21.3s, 3179 chars, 2299 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p14.png: 15.1s, 2455 chars, 1476 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p09.png: 32.6s, 5017 chars, 3529 tok, finish=stop
+[dots_mocr] halwani_FY2024_p10.png: 10.9s, 1684 chars, 1106 tok, finish=stop
+[dots_mocr] halwani_FY2024_p09.png: 15.6s, 3032 chars, 1693 tok, finish=stop
+[dots_mocr] cenomi_retail_FY2024_p13.png: 23.7s, 3065 chars, 2436 tok, finish=stop
+[dots_mocr] halwani_FY2024_p08.png: 21.9s, 3290 chars, 2191 tok, finish=stop
+[dots_mocr] halwani_FY2024_p11.png: 15.1s, 2310 chars, 1406 tok, finish=stop
+[dots_mocr] halwani_FY2024_p07.png: 25.4s, 3983 chars, 2502 tok, finish=stop
+[dots_mocr] halwani_FY2024_p12.png: 20.9s, 3398 chars, 2179 tok, finish=stop
+[dots_mocr] herfy_FY2024_p09.png: 17.2s, 2866 chars, 1796 tok, finish=stop
+[dots_mocr] halwani_FY2024_p13.png: 23.0s, 3716 chars, 2392 tok, finish=stop
+[dots_mocr] herfy_FY2024_p08.png: 21.1s, 3339 chars, 2060 tok, finish=stop
+[dots_mocr] kingdom_holding_FY2024_p08.png: 16.1s, 2631 chars, 1701 tok, finish=stop
+[dots_mocr] herfy_FY2024_p07.png: 27.2s, 4131 chars, 2738 tok, finish=stop
+[dots_mocr] kingdom_holding_FY2024_p09.png: 13.6s, 2298 chars, 1266 tok, finish=stop
+[dots_mocr] kingdom_holding_FY2024_p07.png: 29.3s, 4940 chars, 3251 tok, finish=stop
+[dots_mocr] liva_FY2024_p09.png: 10.0s, 2058 chars, 1068 tok, finish=stop
+[dots_mocr] herfy_FY2024_p10.png: 32.6s, 5521 chars, 3530 tok, finish=stop
+[dots_mocr] liva_FY2024_p08.png: 17.0s, 3161 chars, 1782 tok, finish=stop
+[dots_mocr] liva_FY2024_p07.png: 21.9s, 3100 chars, 2253 tok, finish=stop
+[dots_mocr] kingdom_holding_FY2024_p10.png: 29.0s, 4335 chars, 2946 tok, finish=stop
+[dots_mocr] liva_FY2024_p10.png: 20.6s, 3515 chars, 2182 tok, finish=stop
+[dots_mocr] maadaniyah_Q1-2025_p06.png: 12.2s, 2040 chars, 1274 tok, finish=stop
+[dots_mocr] kingdom_holding_FY2024_p11.png: 36.0s, 6167 chars, 3652 tok, finish=stop
+[dots_mocr] maadaniyah_Q1-2025_p05.png: 18.4s, 2963 chars, 1779 tok, finish=stop
+[dots_mocr] maadaniyah_Q1-2025_p04.png: 22.9s, 3150 chars, 2277 tok, finish=stop
+[dots_mocr] liva_FY2024_p11.png: 24.8s, 4420 chars, 2479 tok, finish=stop
+[dots_mocr] maaden_FY2024_p12.png: 16.4s, 3000 chars, 1690 tok, finish=stop
+[dots_mocr] mesc_H1-2023_p04.png: 5.9s, 1409 chars, None tok, finish=loop
+[dots_mocr] maaden_FY2024_p11.png: 21.9s, 3094 chars, 2185 tok, finish=stop
+[dots_mocr] maadaniyah_Q1-2025_p07.png: 27.3s, 4360 chars, 2753 tok, finish=stop
+[dots_mocr] maaden_FY2024_p15.png: 24.6s, 3680 chars, 2816 tok, finish=stop
+[dots_mocr] musharaka_reit_FY2019_p06.png: 13.5s, 2736 chars, 1716 tok, finish=stop
+[dots_mocr] mesc_H1-2023_p06.png: 18.6s, 3327 chars, 2073 tok, finish=stop
+[dots_mocr] maaden_FY2024_p13.png: 35.0s, 4627 chars, 3788 tok, finish=stop
+[dots_mocr] maaden_FY2024_p16.png: 29.0s, 5414 chars, 3126 tok, finish=stop
+[dots_mocr] mesc_H1-2023_p05.png: 25.7s, 4629 chars, 2760 tok, finish=stop
+[dots_mocr] musharaka_reit_FY2019_p08.png: 11.5s, 1766 chars, 1099 tok, finish=stop
+[dots_mocr] musharaka_reit_FY2019_p07.png: 16.7s, 2631 chars, 1634 tok, finish=stop
+[dots_mocr] maaden_FY2024_p14.png: 44.9s, 7600 chars, 4794 tok, finish=stop
+[dots_mocr] mesc_H1-2023_p07.png: 37.5s, 7156 chars, 4283 tok, finish=stop
+[dots_mocr] musharaka_reit_FY2019_p10.png: 19.3s, 3691 chars, 2137 tok, finish=stop
+[dots_mocr] musharaka_reit_FY2019_p09.png: 23.4s, 3966 chars, 2422 tok, finish=stop
+[dots_mocr] nama_FY2024_p08.png: 19.2s, 3461 chars, 2018 tok, finish=stop
+[dots_mocr] nama_FY2024_p07.png: 27.4s, 4930 chars, 2983 tok, finish=stop
+[dots_mocr] nama_FY2024_p09.png: 22.8s, 3967 chars, 2420 tok, finish=stop
+[dots_mocr] othaim_FY2024_p09.png: 13.9s, 2392 chars, 1357 tok, finish=stop
+[dots_mocr] othaim_FY2024_p07.png: 25.9s, 4604 chars, 2891 tok, finish=stop
+[dots_mocr] nama_FY2024_p10.png: 29.5s, 5493 chars, 3195 tok, finish=stop
+[dots_mocr] othaim_FY2024_p08.png: 22.2s, 3341 chars, 2230 tok, finish=stop
+[dots_mocr] riyad_aliemar_fund_FY2023_p06.png: 10.6s, 1954 chars, 1063 tok, finish=stop
+[dots_mocr] riyad_aliemar_fund_FY2023_p07.png: 11.7s, 1984 chars, 1129 tok, finish=stop
+[dots_mocr] riyad_aliemar_fund_FY2023_p08.png: 10.5s, 1664 chars, 929 tok, finish=stop
+[dots_mocr] othaim_FY2024_p11.png: 26.7s, 4049 chars, 2769 tok, finish=stop
+[dots_mocr] othaim_FY2024_p10.png: 31.5s, 4336 chars, 3259 tok, finish=stop
+[dots_mocr] othaim_FY2024_p12.png: 24.1s, 4029 chars, 2374 tok, finish=stop
+[dots_mocr] riyad_aliemar_fund_FY2023_p09.png: 16.2s, 2496 chars, 1458 tok, finish=stop
+[dots_mocr] saudi_re_FY2024_p10.png: 14.3s, 2634 chars, 1397 tok, finish=stop
+[dots_mocr] sedco_capital_reit_FY2022_p09.png: 7.4s, 1349 chars, 801 tok, finish=stop
+[dots_mocr] saudi_re_FY2024_p09.png: 23.7s, 3667 chars, 2360 tok, finish=stop
+[dots_mocr] sedco_capital_reit_FY2022_p08.png: 14.1s, 2128 chars, 1405 tok, finish=stop
+[dots_mocr] saudi_re_FY2024_p08.png: 27.4s, 4149 chars, 2653 tok, finish=stop
+[dots_mocr] sedco_capital_reit_FY2022_p07.png: 19.7s, 2936 chars, 1961 tok, finish=stop
+[dots_mocr] snb_FY2024_p15.png: 5.9s, 1367 chars, None tok, finish=loop
+[dots_mocr] snb_FY2024_p14.png: 12.9s, 2903 chars, 1415 tok, finish=stop
+[dots_mocr] sedco_capital_reit_FY2022_p10.png: 23.4s, 3826 chars, 2493 tok, finish=stop
+[dots_mocr] snb_FY2024_p13.png: 17.8s, 3829 chars, 1902 tok, finish=stop
+[dots_mocr] saudi_re_FY2024_p12.png: 32.5s, 5693 chars, 3430 tok, finish=stop
+[dots_mocr] snb_FY2024_p12.png: 24.3s, 4396 chars, 2422 tok, finish=stop
+[dots_mocr] saudi_re_FY2024_p11.png: 46.1s, 7070 chars, 4892 tok, finish=stop
+[dots_mocr] taiba_FY2024_p09.png: 20.8s, 4660 chars, 2293 tok, finish=stop
+[dots_mocr] taiba_FY2024_p11.png: 13.2s, 2435 chars, 1418 tok, finish=stop
+[dots_mocr] taiba_FY2024_p10.png: 18.0s, 2862 chars, 2022 tok, finish=stop
+[dots_mocr] snb_FY2024_p16.png: 29.4s, 7175 chars, 3526 tok, finish=stop
+[dots_mocr] taiba_FY2024_p13.png: 20.2s, 3846 chars, 2577 tok, finish=stop
+[dots_mocr] taiba_FY2024_p12.png: 25.7s, 4634 chars, 3405 tok, finish=stop
+[dots_mocr] taiba_FY2024_p14.png: 21.8s, 5124 chars, 3101 tok, finish=stop
+[dots_mocr] DONE in 419s
+[retry] ashmore_saudi_equity_fund_H1-2020_p08: ['column_loss(median 1 value cols, 2 periods, 15 rows)'] -> 3
+[retry] bahri_FY2024_p07: ['column_loss(median 1 value cols, 2 periods, 41 rows)'] -> 2
+[retry] alinma_tokio_marine_FY2022_p07: ['column_loss(median 1 value cols, 2 periods, 44 rows)'] -> 3
+[retry] halwani_FY2024_p09: ['column_loss(median 1 value cols, 2 periods, 13 rows)'] -> original kept
+[retry] almarai_FY2024_p08: ['column_loss(median 1 value cols, 2 periods, 52 rows)'] -> 3
+[retry] musharaka_reit_FY2019_p08: ['column_loss(median 1 value cols, 2 periods, 17 rows)'] -> original kept
+[retry] maaden_FY2024_p16: ['column_loss(median 1 value cols, 2 periods, 45 rows)'] -> 2
+[retry] othaim_FY2024_p12: ['column_loss(median 1 value cols, 2 periods, 5 rows)'] -> 2
+[retry] snb_FY2024_p13: ['column_loss(median 1 value cols, 2 periods, 32 rows)'] -> 2
+[retry] musharaka_reit_FY2019_p10: ['column_loss(median 1 value cols, 2 periods, 18 rows)'] -> original kept
+[retry] taiba_FY2024_p09: ['column_loss(median 1 value cols, 2 periods, 49 rows)'] -> 3
+retries: 11 flagged pages in results32/dots_mocr_clahe_s1
+post_dots: 158 pages -> results32/dots_mocr_clahe_s1_bm
+validate: 6 fixes -> results32/dots_mocr_clahe_s1_bm_ver

@@ -1,0 +1,672 @@
+{
+ "schema_version": "1.0",
+ "filing_id": "al_mubarak_usd_trade_fund_H1-2022",
+ "entity": "Al Mubarak USD Trade Fund",
+ "source": {
+  "sha256": "bba6110211707a4d976573957274e7250dab30886a66881ce0fc141a6e7b0575",
+  "file": "filings/al_mubarak_usd_trade_fund_H1-2022.pdf"
+ },
+ "period_end": "2022-06-30",
+ "report": "interim",
+ "digits": "arabic-indic",
+ "consolidated": false,
+ "annotator": "the benchmark's annotator: transcribed by hand from the page images, without OCR or AI tools; automatic checks: arithmetic totals, plus the text layer where the page has one",
+ "statements": [
+  {
+   "id": "s1",
+   "type": "financial_position",
+   "title_ar": "قائمة المركز المالي الأولية الموجزة",
+   "pages": [
+    3
+   ],
+   "unit": {
+    "currency": "USD",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "30 يونيو 2022 دولار أمريكي (غير مراجعة)",
+     "currency": "USD",
+     "period": "2022-06-30"
+    },
+    {
+     "id": "c2",
+     "label": "31 ديسمبر 2021 دولار أمريكي (مراجعة)",
+     "currency": "USD",
+     "period": "2021-12-31"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "الموجودات"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "إيداعات مرابحة بالتكلفة المطفأة",
+     "notes": [
+      "6"
+     ],
+     "values": {
+      "c1": 20600000,
+      "c2": 22550000
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "item",
+     "label_ar": "دخل عمولة خاصة مستحقة",
+     "values": {
+      "c1": 35764,
+      "c2": 23127
+     }
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "رصيد لدى البنك",
+     "notes": [
+      "5"
+     ],
+     "values": {
+      "c1": 38475,
+      "c2": 70870
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "total",
+     "label_ar": "إجمالي الموجودات",
+     "values": {
+      "c1": 20674239,
+      "c2": 22643997
+     },
+     "sum_of": [
+      "r2",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "id": "r6",
+     "kind": "section",
+     "label_ar": "المطلوبات"
+    },
+    {
+     "id": "r7",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة مستحقة",
+     "values": {
+      "c1": 11835,
+      "c2": 11293
+     }
+    },
+    {
+     "id": "r8",
+     "kind": "item",
+     "label_ar": "مصاريف مستحقة الدفع",
+     "values": {
+      "c1": 6224,
+      "c2": 8072
+     }
+    },
+    {
+     "id": "r9",
+     "kind": "total",
+     "label_ar": "إجمالي المطلوبات",
+     "values": {
+      "c1": 18059,
+      "c2": 19365
+     },
+     "sum_of": [
+      "r7",
+      "r8"
+     ]
+    },
+    {
+     "id": "r10",
+     "kind": "total",
+     "label_ar": "حقوق الملكية المتعلقة بمالكي الوحدات (إجمالي حقوق الملكية)",
+     "values": {
+      "c1": 20656180,
+      "c2": 22624632
+     },
+     "sum_of": [
+      "r5",
+      "-r9"
+     ]
+    },
+    {
+     "id": "r11",
+     "kind": "total",
+     "label_ar": "إجمالي المطلوبات وحقوق الملكية",
+     "values": {
+      "c1": 20674239,
+      "c2": 22643997
+     },
+     "sum_of": [
+      "r9",
+      "r10"
+     ]
+    },
+    {
+     "id": "r12",
+     "kind": "item",
+     "label_ar": "وحدات مصدرة قابلة للاسترداد",
+     "values": {
+      "c1": 1071493,
+      "c2": 1175619
+     },
+     "comment": "number of units"
+    },
+    {
+     "id": "r13",
+     "kind": "item",
+     "label_ar": "صافي قيمة الموجودات العائد لكل وحدة",
+     "values": {
+      "c1": 19.28,
+      "c2": 19.24
+     },
+     "comment": "dollars per unit"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "type": "comprehensive_income",
+   "title_ar": "قائمة الدخل الشامل الأولية الموجزة (غير مراجعة)",
+   "pages": [
+    4
+   ],
+   "unit": {
+    "currency": "USD",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2022",
+     "currency": "USD",
+     "period": "2022-06-30"
+    },
+    {
+     "id": "c2",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2021",
+     "currency": "USD",
+     "period": "2021-06-30"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "الدخل"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "دخل عمولة خاصة",
+     "notes": [
+      "7"
+     ],
+     "values": {
+      "c1": 72921,
+      "c2": 44195
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "subtotal",
+     "label_ar": "إجمالي الدخل",
+     "values": {
+      "c1": 72921,
+      "c2": 44195
+     },
+     "sum_of": [
+      "r2"
+     ]
+    },
+    {
+     "id": "r4",
+     "kind": "section",
+     "label_ar": "المصاريف"
+    },
+    {
+     "id": "r5",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة",
+     "notes": [
+      "7"
+     ],
+     "values": {
+      "c1": -21258,
+      "c2": -22340
+     }
+    },
+    {
+     "id": "r6",
+     "kind": "item",
+     "label_ar": "مصاريف أخرى",
+     "notes": [
+      "7"
+     ],
+     "values": {
+      "c1": -15787,
+      "c2": -15850
+     }
+    },
+    {
+     "id": "r7",
+     "kind": "subtotal",
+     "label_ar": "إجمالي المصاريف",
+     "values": {
+      "c1": -37045,
+      "c2": -38190
+     },
+     "sum_of": [
+      "r5",
+      "r6"
+     ]
+    },
+    {
+     "id": "r8",
+     "kind": "total",
+     "label_ar": "صافي دخل الفترة",
+     "values": {
+      "c1": 35876,
+      "c2": 6005
+     },
+     "sum_of": [
+      "r3",
+      "r7"
+     ]
+    },
+    {
+     "id": "r9",
+     "kind": "item",
+     "label_ar": "الدخل الشامل الآخر للفترة",
+     "values": {
+      "c1": "nil",
+      "c2": "nil"
+     }
+    },
+    {
+     "id": "r10",
+     "kind": "total",
+     "label_ar": "إجمالي الدخل الشامل للفترة",
+     "values": {
+      "c1": 35876,
+      "c2": 6005
+     },
+     "sum_of": [
+      "r8",
+      "r9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "type": "changes_in_net_assets",
+   "title_ar": "قائمة التغيرات في حقوق الملكية الأولية الموجزة العائدة إلى مالكي الوحدات (غير مراجعة)",
+   "pages": [
+    5
+   ],
+   "unit": {
+    "currency": "USD",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2022",
+     "currency": "USD",
+     "period": "2022-06-30"
+    },
+    {
+     "id": "c2",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2021",
+     "currency": "USD",
+     "period": "2021-06-30"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "item",
+     "label_ar": "حقوق الملكية المتعلقة بمالكي الوحدات في بداية الفترة",
+     "values": {
+      "c1": 22624632,
+      "c2": 21197560
+     }
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "إجمالي الدخل الشامل للفترة",
+     "values": {
+      "c1": 35876,
+      "c2": 6005
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "section",
+     "label_ar": "الوحدات المصدرة والمستردة"
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "وحدات مصدرة خلال الفترة",
+     "values": {
+      "c1": 73000,
+      "c2": 2353990
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "item",
+     "label_ar": "وحدات مستردة خلال الفترة",
+     "values": {
+      "c1": -2077328,
+      "c2": -381924
+     }
+    },
+    {
+     "id": "r6",
+     "kind": "subtotal",
+     "label_ar": "صافي التغيرات في الوحدات",
+     "values": {
+      "c1": -2004328,
+      "c2": 1972066
+     },
+     "sum_of": [
+      "r4",
+      "r5"
+     ]
+    },
+    {
+     "id": "r7",
+     "kind": "total",
+     "label_ar": "حقوق الملكية المتعلقة بمالكي الوحدات في نهاية الفترة",
+     "values": {
+      "c1": 20656180,
+      "c2": 23175631
+     },
+     "sum_of": [
+      "r1",
+      "r2",
+      "r6"
+     ]
+    },
+    {
+     "id": "r8",
+     "kind": "section",
+     "label_ar": "معاملات الوحدات القابلة للاسترداد"
+    },
+    {
+     "id": "r9",
+     "kind": "item",
+     "label_ar": "الوحدات في بداية الفترة",
+     "values": {
+      "c1": 1175619,
+      "c2": 1102115
+     },
+     "comment": "number of units"
+    },
+    {
+     "id": "r10",
+     "kind": "item",
+     "label_ar": "وحدات مصدرة خلال الفترة",
+     "values": {
+      "c1": 3793,
+      "c2": 122378
+     },
+     "comment": "number of units"
+    },
+    {
+     "id": "r11",
+     "kind": "item",
+     "label_ar": "وحدات مستردة خلال الفترة",
+     "values": {
+      "c1": -107919,
+      "c2": -19853
+     },
+     "comment": "number of units"
+    },
+    {
+     "id": "r12",
+     "kind": "subtotal",
+     "label_ar": "صافي التغيرات في الوحدات",
+     "values": {
+      "c1": -104126,
+      "c2": 102525
+     },
+     "sum_of": [
+      "r10",
+      "r11"
+     ]
+    },
+    {
+     "id": "r13",
+     "kind": "total",
+     "label_ar": "الوحدات في نهاية الفترة",
+     "values": {
+      "c1": 1071493,
+      "c2": 1204640
+     },
+     "sum_of": [
+      "r9",
+      "r12"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "type": "cash_flows",
+   "title_ar": "قائمة التدفقات النقدية الأولية الموجزة (غير مراجعة)",
+   "pages": [
+    6
+   ],
+   "unit": {
+    "currency": "USD",
+    "scale": 1
+   },
+   "columns": [
+    {
+     "id": "c1",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2022",
+     "currency": "USD",
+     "period": "2022-06-30"
+    },
+    {
+     "id": "c2",
+     "label": "لفترة الستة أشهر المنتهية في 30 يونيو 2021",
+     "currency": "USD",
+     "period": "2021-06-30"
+    }
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "kind": "section",
+     "label_ar": "الأنشطة التشغيلية"
+    },
+    {
+     "id": "r2",
+     "kind": "item",
+     "label_ar": "صافي دخل الفترة",
+     "values": {
+      "c1": 35876,
+      "c2": 6005
+     }
+    },
+    {
+     "id": "r3",
+     "kind": "section",
+     "label_ar": "التعديلات لـ:"
+    },
+    {
+     "id": "r4",
+     "kind": "item",
+     "label_ar": "دخل عمولة خاصة",
+     "values": {
+      "c1": -72921,
+      "c2": -44195
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "subtotal",
+     "label_ar": "",
+     "values": {
+      "c1": -37045,
+      "c2": -38190
+     },
+     "sum_of": [
+      "r2",
+      "r4"
+     ]
+    },
+    {
+     "id": "r6",
+     "kind": "section",
+     "label_ar": "التغيرات في الموجودات والمطلوبات التشغيلية:"
+    },
+    {
+     "id": "r7",
+     "kind": "item",
+     "label_ar": "إيداعات مرابحة بالتكلفة المطفأة",
+     "values": {
+      "c1": 4700000,
+      "c2": -2100000
+     }
+    },
+    {
+     "id": "r8",
+     "kind": "item",
+     "label_ar": "أتعاب إدارة مستحقة ومصاريف مستحقة الدفع",
+     "values": {
+      "c1": -1306,
+      "c2": 1000
+     }
+    },
+    {
+     "id": "r9",
+     "kind": "subtotal",
+     "label_ar": "",
+     "values": {
+      "c1": 4661649,
+      "c2": -2137190
+     },
+     "sum_of": [
+      "r5",
+      "r7",
+      "r8"
+     ]
+    },
+    {
+     "id": "r10",
+     "kind": "item",
+     "label_ar": "عمولة خاصة مستلمة",
+     "values": {
+      "c1": 60284,
+      "c2": 43741
+     }
+    },
+    {
+     "id": "r11",
+     "kind": "total",
+     "label_ar": "صافي التدفقات النقدية من (المستخدمة في) الأنشطة التشغيلية",
+     "values": {
+      "c1": 4721933,
+      "c2": -2093449
+     },
+     "sum_of": [
+      "r9",
+      "r10"
+     ]
+    },
+    {
+     "id": "r12",
+     "kind": "section",
+     "label_ar": "الأنشطة التمويلية"
+    },
+    {
+     "id": "r13",
+     "kind": "item",
+     "label_ar": "متحصلات من الوحدات المصدرة",
+     "values": {
+      "c1": 73000,
+      "c2": 2353990
+     }
+    },
+    {
+     "id": "r14",
+     "kind": "item",
+     "label_ar": "سداد الوحدات المستردة",
+     "values": {
+      "c1": -2077328,
+      "c2": -381924
+     }
+    },
+    {
+     "id": "r15",
+     "kind": "total",
+     "label_ar": "صافي التدفقات النقدية (المستخدمة في) من الأنشطة التمويلية",
+     "values": {
+      "c1": -2004328,
+      "c2": 1972066
+     },
+     "sum_of": [
+      "r13",
+      "r14"
+     ]
+    },
+    {
+     "id": "r16",
+     "kind": "total",
+     "label_ar": "صافي الزيادة (النقص) في النقدية وشبه النقدية",
+     "values": {
+      "c1": 2717605,
+      "c2": -121383
+     },
+     "sum_of": [
+      "r11",
+      "r15"
+     ]
+    },
+    {
+     "id": "r17",
+     "kind": "item",
+     "label_ar": "النقدية وشبه النقدية في بداية الفترة",
+     "values": {
+      "c1": 2270870,
+      "c2": 3644602
+     }
+    },
+    {
+     "id": "r18",
+     "kind": "total",
+     "label_ar": "النقدية وشبه النقدية في نهاية الفترة",
+     "notes": [
+      "5"
+     ],
+     "values": {
+      "c1": 4988475,
+      "c2": 3523219
+     },
+     "sum_of": [
+      "r16",
+      "r17"
+     ]
+    }
+   ]
+  }
+ ],
+ "verified_by": "the benchmark's annotator, cell by cell against the page images (approved 2026-09-27)"
+}

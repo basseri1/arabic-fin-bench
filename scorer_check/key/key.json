@@ -1,0 +1,5673 @@
+{
+ "S001": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p12",
+  "value": 90259431.0,
+  "label": "الرصيد كما في 31 ديسمبر 2023",
+  "header": "اجمالي حقوق الملكية العائدة إلى المساهمين في المصرف",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    3,
+    "r1"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S002": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": 64010.0,
+  "label": "توزيعات أرباح مدفوعة",
+  "header": "٣١ ديسمبر ٢٠٢٤م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r44"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S003": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -5000000.0,
+  "label": "محول إلى الاحتياطي النظامي",
+  "header": "إجمالي أرباح مقترح توزيعها",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r13"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S004": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p08",
+  "value": 294182.0,
+  "label": "إجمالي الدخل الشامل",
+  "header": "الأرباح المبقة",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r5"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S005": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p07",
+  "value": 1752378.0,
+  "label": "دائنون تجاريون ودائنون آخرون",
+  "header": "٢٠٢٣م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r36"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r36",
+    "c2"
+   ]
+  }
+ },
+ "S006": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": -5477.0,
+  "label": "مكافأة مجلس الإدارة",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    4,
+    "r48"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S007": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p08",
+  "value": 3534.0,
+  "label": "عكس (مصروفات) الزكاة",
+  "header": "م ٢٠٢٤",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c1"
+   ]
+  }
+ },
+ "S008": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p11",
+  "value": -86398.0,
+  "label": "مطلوبات عقود التأمين",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r13"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S009": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p10",
+  "value": 194603.0,
+  "label": "",
+  "header": "الأرباح المبقاة",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S010": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p11",
+  "value": 445673151.0,
+  "label": "",
+  "header": "٢٠٢٤ م ريال",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S011": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p07",
+  "value": 44551.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٣ م (معدلة إيضاح - ٣١)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S012": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p08",
+  "value": 20807810.0,
+  "label": "مصاريف مدفوعة مقدماً طويلة الأجل",
+  "header": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r4"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S013": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p08",
+  "value": 189653.0,
+  "label": "مطلوبات عقود إسناد إعادة التأمين",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r18"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r18",
+    "c2"
+   ]
+  }
+ },
+ "S014": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p12",
+  "value": 109170895.0,
+  "label": "إجمالي الدخل الشامل للسنة",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r12"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S015": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p08",
+  "value": 294182.0,
+  "label": "إجمالي الدخل الشامل",
+  "header": "الإجمالي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r5"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S016": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p07",
+  "value": 2148127.0,
+  "label": "",
+  "header": "٢٠٢٢ ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S017": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p10",
+  "value": -12834587.0,
+  "label": "",
+  "header": "الأرباح المبقاة",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S018": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p11",
+  "value": -7184.0,
+  "label": "حصة معيدي التأمين من المطالبات تحت التسوية",
+  "header": "٣١ ديسمبر ٢٠٢١ م لأقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r16"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S019": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p08",
+  "value": 1123769.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية الموجودات الموجودات غير المتداولة",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S020": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -4593042.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S021": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "herfy_FY2024",
+  "page": "herfy_FY2024_p07",
+  "value": 9622497.0,
+  "label": "",
+  "header": "٢٠٢٤",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S022": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p10",
+  "value": -30330.0,
+  "label": "مصاريف مستحقة ومطلوبات أخرى",
+  "header": "٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r21"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r21",
+    "c1"
+   ]
+  }
+ },
+ "S023": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "income",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p08",
+  "value": 266168.0,
+  "label": "الحصة في نتائج استثمارات محاسب عنها بطريقة حقوق الملكية",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c2"
+   ]
+  }
+ },
+ "S024": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p08",
+  "value": -13742.0,
+  "label": "عكس (مصروفات) الزكاة",
+  "header": "م ٢٠٢٣ (معدلة إيضاح - ٣١)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c2"
+   ]
+  }
+ },
+ "S025": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p10",
+  "value": -5441017.0,
+  "label": "",
+  "header": "فروقات ترجمة عملة اجنبية لشركة تابعة في الخارج",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S026": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p09",
+  "value": 115052278.0,
+  "label": "ذمم دائنة تجارية",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r36"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S027": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p11",
+  "value": 248314.0,
+  "label": "",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S028": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p09",
+  "value": 4346185.0,
+  "label": "استثمارات مدروجة بالقيمة العادلة من خلال الربع أو الخسارة",
+  "header": "٣١ ديسمبر ٢٠٢٣",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r7"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r7",
+    "c1"
+   ]
+  }
+ },
+ "S029": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": 40000000.0,
+  "label": "الرصيد في 31 ديسمبر 2023",
+  "header": "رأس المال",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    4,
+    "r16"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S030": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p08",
+  "value": -6169.0,
+  "label": "مخصص الزكاة والضريبة",
+  "header": "٢٠٢٣ م (معدلة - إيضاح ٢٥)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r16",
+    "c2"
+   ]
+  }
+ },
+ "S031": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 103453.0,
+  "label": "شراء أسهم خزينة لبرنامج أسهم الموظفين",
+  "header": "أسهم خزينة",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r12"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S032": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p07",
+  "value": 1923789.0,
+  "label": "استثمارات بالقيمة العادلة من خلال الربع أو الخسارة",
+  "header": "كما في ٣١ ديسمبر ٢٠٢٣",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r4"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S033": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": 1831688.0,
+  "label": "",
+  "header": "٢٠٢٣",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S034": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "income",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p10",
+  "value": -87846648.0,
+  "label": "خسارة السنة من العمليات غير المستمرة",
+  "header": "٣١ ديسمبر ٢٠٢٣",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r22"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r22",
+    "c2"
+   ]
+  }
+ },
+ "S035": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p07",
+  "value": -2418291.0,
+  "label": "مصاريف مستحقة ومطلوبات أخرى",
+  "header": "٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r22"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r22",
+    "c1"
+   ]
+  }
+ },
+ "S036": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -5000000.0,
+  "label": "محول إلى الاحتياطي النظامي",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r13"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S037": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alahli_global_trade_fund_H1-2023",
+  "page": "alahli_global_trade_fund_H1-2023_p05",
+  "value": 8000.0,
+  "label": "الوحدات المصدرة",
+  "header": "٢٠٢٢ م الوحدات بالآلاف",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    2,
+    "r10"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    2,
+    "r10",
+    "c2"
+   ]
+  }
+ },
+ "S038": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": -764076.0,
+  "label": "استدعاء صكوك الشريحة الأولى",
+  "header": "إجمالي حقوق الملكية بدون حقوق الأقلية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r10"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S039": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": 2313667.0,
+  "label": "ربح السنة",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r1"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S040": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p13",
+  "value": 18258320.0,
+  "label": "تكاليف تمويل على التزامات عقود الإيجار",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r23"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r23",
+    "c1"
+   ]
+  }
+ },
+ "S041": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p10",
+  "value": 5286.0,
+  "label": "إعادة قياس ربح منافع نهاية الخدمة للموظفين",
+  "header": "٢٠٢٤ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r1"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S042": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 6000000.0,
+  "label": "العمول للاحتياطي النظامي",
+  "header": "حقوق الأقلية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r8"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S043": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "herfy_FY2024",
+  "page": "herfy_FY2024_p07",
+  "value": 2447483.0,
+  "label": "موجودات غير متداولة أخرى",
+  "header": "٢٠٢٤",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r8"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r8",
+    "c1"
+   ]
+  }
+ },
+ "S044": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "income",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p10",
+  "value": 18529285.0,
+  "label": "صافي دخل السنة قبل الزكاة",
+  "header": "2023",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r18"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r18",
+    "c2"
+   ]
+  }
+ },
+ "S045": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "income",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p13",
+  "value": 3218210.0,
+  "label": "مصاريف عمومية وإدارية أخرى",
+  "header": "2024",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r16",
+    "c1"
+   ]
+  }
+ },
+ "S046": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p09",
+  "value": 6801644.0,
+  "label": "تمم دائنة تجارية",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r36"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S047": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p07",
+  "value": 777935.0,
+  "label": "إجمالي المطلوبات",
+  "header": "٣١ ديسمبر ٢٠٢٣م (معدلة إيضاح - ٣١) **الموجودات** موجودات غير متداولة",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r38"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r38",
+    "c2"
+   ]
+  }
+ },
+ "S048": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": -409128.0,
+  "label": "تسوية تحوطات التدفقات النقدية المحولة لقائمة الربح أو الخسارة",
+  "header": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r9"
+   ],
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S049": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p06",
+  "value": 70000000.0,
+  "label": "رأس المال",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r15"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r15",
+    "c1"
+   ]
+  }
+ },
+ "S050": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": -2688003.0,
+  "label": "",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S051": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": -122093.0,
+  "label": "مدفوعات أصل عقود الايجار",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    4,
+    "r46"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S052": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p09",
+  "value": 1149972559.0,
+  "label": "ممتلكات ومعدات",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r2"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r2",
+    "c2"
+   ]
+  }
+ },
+ "S053": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "other",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p15",
+  "value": 166677.0,
+  "label": "التزامات عقود الإيجار",
+  "header": "2023 التدفقات النقدية من الأنشطة الاستثمارية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    6,
+    "r5"
+   ],
+   "claimed": [
+    [
+     6,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    6,
+    "r5",
+    "c2"
+   ]
+  }
+ },
+ "S054": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p08",
+  "value": 1741819.0,
+  "label": "موجودات حيوية",
+  "header": "٣١ ديسمبر ٢٠٢٣م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r7"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r7",
+    "c2"
+   ]
+  }
+ },
+ "S055": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p11",
+  "value": 24885899.0,
+  "label": "التحويل إلى الاحتياطي النظامي",
+  "header": "الاحتياطي النظامي",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    3,
+    "r6"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S056": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -42712.0,
+  "label": "فروق صرف عملات ناتجة عن ترجمة عمليات أجنبية",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    4,
+    "r7"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S057": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": 5602300.0,
+  "label": "(الخسارة) / الربح الناتج عن ترجمة العمليات الأجنبية",
+  "header": "",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S058": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": -3539323.0,
+  "label": "معاملات مع حقوق الملكية غير المسيطرة",
+  "header": "٣١ ديسمبر ٢٠٢٤م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r49"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S059": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 5366282.0,
+  "label": "إصدار أسهم منح",
+  "header": "احتياطي نظامي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r7"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S060": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p08",
+  "value": -21410.0,
+  "label": "تكاليف تمويل، صافي",
+  "header": "٢٠٢٣م (معدلة إيضاح - ٣١)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r9"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r9",
+    "c2"
+   ]
+  }
+ },
+ "S061": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p14",
+  "value": -9672468.0,
+  "label": "صافي التغير في القيمة العادلة لتحوط التدفق النقدي",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    5,
+    "r2"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S062": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p12",
+  "value": 39970.0,
+  "label": "إطفاء موجودات غير ملموسة",
+  "header": "٣١ ديسمبر ٢٠٢٤م بألاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r7"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r7",
+    "c1"
+   ]
+  }
+ },
+ "S063": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p08",
+  "value": -490144.0,
+  "label": "تكلفة الإيرادات",
+  "header": "٢٠٢٣ م (معدلة إيضاح - ٣١)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r2"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r2",
+    "c2"
+   ]
+  }
+ },
+ "S064": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": 2313667.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٤ م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S065": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p11",
+  "value": -13223442.0,
+  "label": "وضريبة اجنبية مدفوعة",
+  "header": "٢٠٢٣ م ر.س",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S066": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": -187955.0,
+  "label": "الحركة في القيمة العادلة لتحوطات التدفقات النقدية",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r8"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S067": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "al_mubarak_usd_trade_fund_H1-2022",
+  "page": "al_mubarak_usd_trade_fund_H1-2022_p06",
+  "value": -381924.0,
+  "label": "سداد الوحدات المستردة",
+  "header": "٢٠٢١ دولار أمريكي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r14"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r14",
+    "c2"
+   ]
+  }
+ },
+ "S068": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p07",
+  "value": 832178.0,
+  "label": "إجمالي المطلوبات وحقوق الملكية",
+  "header": "٢٠٢٣ م (معدّلة - ايضاح ٢٥) الموجودات",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r30"
+   ],
+   "claimed": [
+    [
+     0,
+     "c3"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r30",
+    "c3"
+   ]
+  }
+ },
+ "S069": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": -14430.0,
+  "label": "الحركة في القيمة العادلة لتحوطات التدفقات النقدية",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r8"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S070": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p04",
+  "value": 354000000.0,
+  "label": "",
+  "header": "٣١ مارس ٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S071": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": -29651.0,
+  "label": "معاملات مع حقوق الملكية غير المسيطرة",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    4,
+    "r49"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S072": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p09",
+  "value": 1079177.0,
+  "label": "",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S073": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p06",
+  "value": -1873908.0,
+  "label": "وحدات مصدرة خلال السنة",
+  "header": "٢٠٢١ ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r5"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S074": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p07",
+  "value": 223318301.0,
+  "label": "الإيرادات",
+  "header": "٢٠٢٣م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r1"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r1",
+    "c1"
+   ]
+  }
+ },
+ "S075": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -56421364.0,
+  "label": "صافي خسارة السنة",
+  "header": "٢٠١٧ ديسمبر ٣١ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r13"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r13",
+    "c2"
+   ]
+  }
+ },
+ "S076": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p11",
+  "value": 2015504.0,
+  "label": "",
+  "header": "الاحتياطيات الأخرى",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S077": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p14",
+  "value": 1130176.0,
+  "label": "أدوات الدين المدرجة بالقيمة العادلة من خلال قائمة الدخل الشامل الآخر:",
+  "header": "2024",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r7"
+   ],
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S078": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p05",
+  "value": -0.15,
+  "label": "الخسارة الأساسية والمخفضة للسهم",
+  "header": "٢٠٢٤ (غير مدققة)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r19"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S079": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p11",
+  "value": 536531.0,
+  "label": "",
+  "header": "٢٠٢٤ م إيضاح",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S080": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p11",
+  "value": -30945979.0,
+  "label": "نهاية الخدمة المدفوعة للموظفين",
+  "header": "٢٠٢٤ م ر.س",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S081": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p07",
+  "value": -654283.0,
+  "label": "التكلفة التمويلية",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r10"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r10",
+    "c1"
+   ]
+  }
+ },
+ "S082": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p07",
+  "value": 9698220.0,
+  "label": "صافي النقد الناتج من الأنشطة التمويلية",
+  "header": "٢٠٢٤ (غير مدققة)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r37"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r37",
+    "c2"
+   ]
+  }
+ },
+ "S083": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p12",
+  "value": -60504.0,
+  "label": "إضافات لموجودات غير ملموسة",
+  "header": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r35"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r35",
+    "c1"
+   ]
+  }
+ },
+ "S084": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p09",
+  "value": 1362658.0,
+  "label": "استثمارات عقارية، صافي",
+  "header": "31 ديسمبر 2023",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r9"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r9",
+    "c2"
+   ]
+  }
+ },
+ "S085": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p09",
+  "value": 235247382.0,
+  "label": "**الموجودات المتداولة**",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r13"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S086": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p08",
+  "value": -2423.0,
+  "label": "التغيرات في حصة معيدي التأمين من المطالبات المتكبدة",
+  "header": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S087": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p07",
+  "value": 1226332672.0,
+  "label": "مخزون",
+  "header": "٣١ ديسمبر ٢٠٢٣م",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    0,
+    "r12"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S088": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p12",
+  "value": 53557632.0,
+  "label": "النقد وما يعادله في بداية السنة",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r42"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S089": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p08",
+  "value": -35437775.0,
+  "label": "",
+  "header": "٢٠٢١م ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S090": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "other",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p13",
+  "value": 211721.0,
+  "label": "تسويات في موجودات والتزامات عقود حق الاستخدام",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r6"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r6",
+    "c1"
+   ]
+  }
+ },
+ "S091": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p08",
+  "value": -3564.0,
+  "label": "صافي المصاريف المالية للتأمين",
+  "header": "٢٠٢٣ م (معدلة - إيضاح ٢٥)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c2"
+   ]
+  }
+ },
+ "S092": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": -5400000.0,
+  "label": "",
+  "header": "احتياطي الرقم",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S093": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p10",
+  "value": 126444998.0,
+  "label": "إجمالي الدخل الشامل للسنة",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    2,
+    "r9"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S094": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 292203.0,
+  "label": "الدخل/(الخسارة) الشاملة الأخرى خلال السنة",
+  "header": "إجمالي حقوق الملكية العائدة لمساهمي البنك",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    3,
+    "r3"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S095": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "herfy_FY2024",
+  "page": "herfy_FY2024_p10",
+  "value": 169198464.0,
+  "label": "نقد ناتج من الأنشطة التشغيلية",
+  "header": "2024",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r22"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r22",
+    "c1"
+   ]
+  }
+ },
+ "S096": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "income",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p07",
+  "value": 44667304.0,
+  "label": "ربح / خسارة السنة",
+  "header": "٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r16"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r16",
+    "c1"
+   ]
+  }
+ },
+ "S097": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": 12107391.0,
+  "label": "",
+  "header": "٢٠٢٣",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S098": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "other",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p08",
+  "value": -35437775.0,
+  "label": "صافي الدخل / (الخسارة) للسنة",
+  "header": "٢٠٢١ م ريال سعودي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r14"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r14",
+    "c2"
+   ]
+  }
+ },
+ "S099": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p12",
+  "value": -17246091.0,
+  "label": "النقد وما يعادله في بداية السنة",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r42"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S100": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p16",
+  "value": 820280.0,
+  "label": "",
+  "header": "2024",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S101": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p11",
+  "value": 1074.0,
+  "label": "موجودات عقود التأمين",
+  "header": "٢٠٢٣م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r12"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S102": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p13",
+  "value": 3238663.0,
+  "label": "ال انخفاض في قيمة عقارات استثمارية",
+  "header": "٢٠٢٣ م ع",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r13"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r13",
+    "c2"
+   ]
+  }
+ },
+ "S103": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "income",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p10",
+  "value": 19722206.0,
+  "label": "حقوق المساهمين في المصرف",
+  "header": "2024",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r22"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r22",
+    "c1"
+   ]
+  }
+ },
+ "S104": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p09",
+  "value": 16250000.0,
+  "label": "مرابحات إسلامية قصيرة الأجل",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    1,
+    "r34"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S105": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": 1904539.0,
+  "label": "إجمالي الدخل الشامل للسنة",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r11"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S106": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p08",
+  "value": 1236970.0,
+  "label": "الربح للسنة العائد إلى:",
+  "header": "٢٠٢٤",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r19"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S107": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p07",
+  "value": 151910.0,
+  "label": "إستهلاك أصول حق الإستخدام",
+  "header": "٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r7"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r7",
+    "c1"
+   ]
+  }
+ },
+ "S108": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p10",
+  "value": 5255.0,
+  "label": "فروقات ترجمة عمليات أجنبية",
+  "header": "٢٠٢٣ م (معدلة إيضاح ٣١)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r39"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S109": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p12",
+  "value": 1064.0,
+  "label": "الحصة في نتائج شركة زميلة",
+  "header": "٣١ ديسمبر ٢٠٢٣ م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r15"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r15",
+    "c2"
+   ]
+  }
+ },
+ "S110": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p10",
+  "value": 5038135.0,
+  "label": "",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S111": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p07",
+  "value": -2369217.0,
+  "label": "",
+  "header": "٢٠٢٢ ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S112": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p08",
+  "value": 89100000.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٣ م*",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S113": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "other",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p06",
+  "value": 6453.0,
+  "label": "الوحدات في بداية السنة",
+  "header": "٢٠٢١ الوحدات",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    2,
+    "r9"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    2,
+    "r9",
+    "c2"
+   ]
+  }
+ },
+ "S114": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p08",
+  "value": 2.19,
+  "label": "ربحية السهم:",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r20"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S115": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": -7052537.0,
+  "label": "",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S116": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p08",
+  "value": 2205.0,
+  "label": "التغيرات في الاحتياطات الأخرى",
+  "header": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r24"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S117": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "income",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p13",
+  "value": 12060984.0,
+  "label": "إجمالي مصاريف العمليات التشغيلية",
+  "header": "2024 57,842,369 (30,112,179)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r19"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r19",
+    "c1"
+   ]
+  }
+ },
+ "S118": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p08",
+  "value": 2296986405.0,
+  "label": "",
+  "header": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c3"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S119": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "al_mubarak_usd_trade_fund_H1-2022",
+  "page": "al_mubarak_usd_trade_fund_H1-2022_p06",
+  "value": -37045.0,
+  "label": "",
+  "header": "٢٠٢٢ دولار أمريكي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S120": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "income",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p08",
+  "value": 79075507.0,
+  "label": "إيرادات تأجير، صافي",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r4"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r4",
+    "c1"
+   ]
+  }
+ },
+ "S121": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p08",
+  "value": 2839.0,
+  "label": "بنود لن يتم إعادة تصنيفها الى الربح او الخسارة",
+  "header": "م ٢٠٢٤",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r15"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S122": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p11",
+  "value": 724645971.0,
+  "label": "",
+  "header": "٢٠٢٣ م ر.س",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S123": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p12",
+  "value": 175904873.0,
+  "label": "**إجمالي حقوق الملكية بدون حقوق الأقلية**",
+  "header": "2023",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r33"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r33",
+    "c2"
+   ]
+  }
+ },
+ "S124": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -820678.0,
+  "label": "استبعاد ادوات حقوق ملكية مدرجة بالقيمة العادلة من خلال الدخل الشامل الآخر",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r11"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S125": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p08",
+  "value": -6412.0,
+  "label": "المباشرة للشركة",
+  "header": "٢٠٢٣م (معدلة - إيضاح ٢٥)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S126": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p04",
+  "value": 24654631.0,
+  "label": "",
+  "header": "٣١ مارس ٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S127": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": 14552867.0,
+  "label": "",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٢",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S128": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": -7052537.0,
+  "label": "",
+  "header": "السنة المنتهية في ٣١ ديسمبر ٢٠٢٢",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S129": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p09",
+  "value": -987822423.0,
+  "label": "مصروفات خدمة إعادة التأمين",
+  "header": "31 ديسمبر 2024 م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r2"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r2",
+    "c1"
+   ]
+  }
+ },
+ "S130": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 6000000.0,
+  "label": "العمول للاحتياطي النظامي",
+  "header": "إجمالي حقوق الملكية بدون حقوق الأقلية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r8"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S131": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p07",
+  "value": 1019046.0,
+  "label": "إجمالي الموجودات",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r13"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r13",
+    "c1"
+   ]
+  }
+ },
+ "S132": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -263737.0,
+  "label": "(الخسارة) / الربح الناتج عن ترجمة العمليات الأجنبية",
+  "header": "٣١ ديسمبر ٢٠١٨",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S133": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p08",
+  "value": 2460075.0,
+  "label": "",
+  "header": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c3"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S134": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p09",
+  "value": 1.4,
+  "label": "ربحية السهم الأساسية والمخفضة",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r23"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r23",
+    "c2"
+   ]
+  }
+ },
+ "S135": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p08",
+  "value": 1613428.0,
+  "label": "ربح السنة المتعلق العائد إلى:",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S136": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "income",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p08",
+  "value": -2294.0,
+  "label": "الزكاة للسنة",
+  "header": "٣١ ديسمبر ٢٠٢٢م لاقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r42"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r42",
+    "c1"
+   ]
+  }
+ },
+ "S137": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "other",
+  "filing": "al_mubarak_usd_trade_fund_H1-2022",
+  "page": "al_mubarak_usd_trade_fund_H1-2022_p05",
+  "value": 23175631.0,
+  "label": "حقوق الملكية المتعلقة بمالكي الوحدات في نهاية الفترة",
+  "header": "٢٠٢١ دولار أمريكي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    2,
+    "r7"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    2,
+    "r7",
+    "c2"
+   ]
+  }
+ },
+ "S138": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "income",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p11",
+  "value": 1360.0,
+  "label": "- حصة في الدخل الشامل الآخر من شركة زميلة",
+  "header": "2024",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    2,
+    "r6"
+   ],
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    2,
+    "r6",
+    "c1"
+   ]
+  }
+ },
+ "S139": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p10",
+  "value": 1559726.0,
+  "label": "استثمارات مالية بالقيمة العادلة من خلال الدخل الشامل الآخر - صافي التغير في القيمة العادلة",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    2,
+    "r4"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S140": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p14",
+  "value": 161862.0,
+  "label": "",
+  "header": "٢٠٢٣ م (معدل - الإيضاح ٤٠) لٍ",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c2"
+    ],
+    [
+     5,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S141": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p11",
+  "value": 95349728.0,
+  "label": "أطفاء موجودات غير ملموسة",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r5"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S142": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p10",
+  "value": 1090566.0,
+  "label": "مبالغ مدفوعة مقدما وذمم مدينة أخرى",
+  "header": "٢٠٢١م ريال سعودي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r12"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r12",
+    "c2"
+   ]
+  }
+ },
+ "S143": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p06",
+  "value": 10000.0,
+  "label": "وحدات مستردة خلال السنة",
+  "header": "٢٠٢١ ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r4"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S144": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p16",
+  "value": -228386.0,
+  "label": "",
+  "header": "2023",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S145": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "riyad_aliemar_fund_FY2023",
+  "page": "riyad_aliemar_fund_FY2023_p08",
+  "value": -8519987.0,
+  "label": "",
+  "header": "٢٠٢٣",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S146": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -526707328.0,
+  "label": "تكلفة الإيرادات",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r2"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r2",
+    "c2"
+   ]
+  }
+ },
+ "S147": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "other",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p08",
+  "value": 12897309.0,
+  "label": "مصروفات تشغيل ومصروفات أخرى",
+  "header": "٢٠٢٢ م ريال سعودي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c1"
+   ]
+  }
+ },
+ "S148": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p08",
+  "value": 445554905.0,
+  "label": "حقوق الملكية العائدة لمساهمي الشركة",
+  "header": "١ يناير ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r26"
+   ],
+   "claimed": [
+    [
+     0,
+     "c3"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r26",
+    "c3"
+   ]
+  }
+ },
+ "S149": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": -409128.0,
+  "label": "الخسارة الشاملة الأخرى للسنة، صافي من ضريبة الدخل",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r10"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S150": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alahli_global_trade_fund_H1-2023",
+  "page": "alahli_global_trade_fund_H1-2023_p04",
+  "value": 1259.0,
+  "label": "إجمالي الدخل",
+  "header": "٢٠٢٢م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r2"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r2",
+    "c2"
+   ]
+  }
+ },
+ "S151": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p10",
+  "value": 389992.0,
+  "label": "٢٠٢٤م",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r1"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S152": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p13",
+  "value": -11746314.0,
+  "label": "شراء ممتلكات وآلات ومعدات",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r29"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r29",
+    "c1"
+   ]
+  }
+ },
+ "S153": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p12",
+  "value": -143111.0,
+  "label": "ذمم دائنة تجارية وذمم دائنة أخرى",
+  "header": "٣١ ديسمبر ٢٠٢٤ م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r23"
+   ],
+   "claimed": [
+    [
+     4,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r23",
+    "c1"
+   ]
+  }
+ },
+ "S154": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p09",
+  "value": 922984.0,
+  "label": "مخصص لمنافع الموظفين",
+  "header": "٢٠٢٢ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r9"
+   ],
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r9",
+    "c2"
+   ]
+  }
+ },
+ "S155": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p08",
+  "value": 426567.0,
+  "label": "",
+  "header": "٢٠٢٢م ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S156": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p08",
+  "value": 1519498.0,
+  "label": "",
+  "header": "",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S157": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "alahli_global_trade_fund_H1-2023",
+  "page": "alahli_global_trade_fund_H1-2023_p03",
+  "value": 37061.0,
+  "label": "الوحدات المصدرة بالآلاف (بالعدد)",
+  "header": "٣١ ديسمبر ٢٠٢٢ م (مراجعة) ١٧٧",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r9"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r9",
+    "c2"
+   ]
+  }
+ },
+ "S158": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "income",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p08",
+  "value": -321167.0,
+  "label": "مصاريفات عمومية وإدارية",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r6"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r6",
+    "c1"
+   ]
+  }
+ },
+ "S159": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p14",
+  "value": 47269406.0,
+  "label": "رسملة تكاليف الإقتراض",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    5,
+    "r5"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S160": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p08",
+  "value": 33515220.0,
+  "label": "الخسارة الشاملة الأخرى",
+  "header": "الإجمالي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r4"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S161": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p09",
+  "value": 149279252.0,
+  "label": "زكاة وضريبة دخل مستحقة الدفع",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r38"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S162": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p12",
+  "value": 1720000000.0,
+  "label": "الرصيد كما في ٣١ ديسمبر ٢٠٢٢",
+  "header": "علاوة إصدار",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r9"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S163": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p10",
+  "value": 4454653.0,
+  "label": "",
+  "header": "مجموع حقوق الملكية بالقيمة العادلة من خلال الدخل الشامل الآخر",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S164": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p11",
+  "value": -141000.0,
+  "label": "متحصلات من بيع استثمارات",
+  "header": "٣١ ديسمبر ٢٠٢١ م لأقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r41"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S165": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p07",
+  "value": 10036.0,
+  "label": "مطلوبات عقود الإيجار - الجزء غير المتداول",
+  "header": "٣١ ديسمبر ٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r28"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r28",
+    "c1"
+   ]
+  }
+ },
+ "S166": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -8316.0,
+  "label": "المساهمين في المجموعة",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r22"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S167": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p08",
+  "value": 31233.0,
+  "label": "صافي نتائج الاستثمار",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r9"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r9",
+    "c1"
+   ]
+  }
+ },
+ "S168": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -5000000.0,
+  "label": "محول إلى الاحتياطي النظامي",
+  "header": "إجمالي حقوق الملكية العائدة إلى المساهمين في المصرف",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r13"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S169": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p09",
+  "value": 1356936890.0,
+  "label": "**أصول محتفظ بها للبيع**",
+  "header": "٣١ ديسمبر ٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r14"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S170": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p10",
+  "value": -392753.0,
+  "label": "",
+  "header": "احتياطي ترجمة عمليات أجنبية (ريال سعودي)",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S171": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p11",
+  "value": 89100000.0,
+  "label": "الرصيد كما في 31 ديسمبر 2024م",
+  "header": "الاحتياطي النظامي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r16"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S172": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p13",
+  "value": 666336.0,
+  "label": "نقد وما في حكمه في 1 يناير",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    4,
+    "r52"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S173": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p12",
+  "value": 899335837.0,
+  "label": "صافي ربح السنة",
+  "header": "أرباح مبقاة",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r2"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S174": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p06",
+  "value": 37428512.0,
+  "label": "**إجمالي المطلوبات**",
+  "header": "٣١ ديسمبر ٢٠٢٢م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r30"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S175": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": -764076.0,
+  "label": "استدعاء صكوك الشريحة الأولى",
+  "header": "إجمالي حقوق الملكية العائدة لمساهمي البنك",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r10"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S176": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "al_mubarak_usd_trade_fund_H1-2022",
+  "page": "al_mubarak_usd_trade_fund_H1-2022_p06",
+  "value": -72921.0,
+  "label": "دخل عمولة خاصة",
+  "header": "٢٠٢٢ دولار أمريكي",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r4"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r4",
+    "c1"
+   ]
+  }
+ },
+ "S177": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "income",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p08",
+  "value": 1209032.0,
+  "label": "الحصة في الربح من نتائج أعمال الشركات المستثمر بها بطريقة حقوق الملكية",
+  "header": "السنة المنتهية في 31 ديسمبر",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r8"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r8",
+    "c1"
+   ]
+  }
+ },
+ "S178": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -56421364.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S179": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p08",
+  "value": 33515220.0,
+  "label": "صافي ربح السنة",
+  "header": "الإجمالي",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    2,
+    "r3"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S180": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p09",
+  "value": 2051529.0,
+  "label": "",
+  "header": "",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S181": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p08",
+  "value": 29046147.0,
+  "label": "دخل العمولة المستحق إلى هيئة التأمين",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r22"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r22",
+    "c1"
+   ]
+  }
+ },
+ "S182": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p05",
+  "value": -0.09,
+  "label": "الخسارة الأساسية والمخفضة للسهم",
+  "header": "٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r19"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S183": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p09",
+  "value": 134999199.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٤ م الل",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S184": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p08",
+  "value": 247303548.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S185": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": 1632.0,
+  "label": "حقوق الملكية غير المسيطرة",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r14"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S186": {
+  "system": "Cohere Parse",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "herfy_FY2024",
+  "page": "herfy_FY2024_p07",
+  "value": 77760767.0,
+  "label": "التزامات منافع الموظفين",
+  "header": "٢٠٢٤",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r25"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r25",
+    "c1"
+   ]
+  }
+ },
+ "S187": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p11",
+  "value": -53574927.0,
+  "label": "الدخل الشامل الآخر للسنة",
+  "header": "",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r9"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S188": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -56421364.0,
+  "label": "الحصص غير المسيطرة",
+  "header": "",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r23"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S189": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p10",
+  "value": 23625.0,
+  "label": "التدفقات النقدية من الأنشطة التمويلية",
+  "header": "٢٠٢٤ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r31"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S190": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p14",
+  "value": 18529285.0,
+  "label": "التدفقات النقدية من الأنشطة التشغيلية",
+  "header": "2023",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    5,
+    "r1"
+   ],
+   "claimed": [
+    [
+     5,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S191": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "taiba_FY2024",
+  "page": "taiba_FY2024_p14",
+  "value": -369652.0,
+  "label": "",
+  "header": "٢٠٢٤ م لٍ",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     4,
+     "c1"
+    ],
+    [
+     5,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S192": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "income",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p09",
+  "value": 488583164.0,
+  "label": "صافي ربح السنة",
+  "header": "٢٠٢٣ م (معللة إيضاح ٣٧)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    2,
+    "r1"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    2,
+    "r1",
+    "c2"
+   ]
+  }
+ },
+ "S193": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "herfy_FY2024",
+  "page": "herfy_FY2024_p08",
+  "value": 664755.0,
+  "label": "أرباح من موجودات مالية محتفظ بها بالقيمة العادلة",
+  "header": "٢٠٢٣",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S194": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p09",
+  "value": 17798.0,
+  "label": "صافي التغير في القيمة العادلة لاستثمارات الأسهم بالقيمة العادلة من خلال",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S195": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p07",
+  "value": 307530.0,
+  "label": "صافي النقد الناتج من العمليات",
+  "header": "٢٠٢٢ ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    3,
+    "r10"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S196": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p10",
+  "value": -58915.0,
+  "label": "الخسائر الإكتوارية لمزايا نهاية الخدمة للموظفين",
+  "header": "للسنة المنتهية في 31 ديسمبر 2023م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": [
+    2,
+    "r3"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S197": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "nama_FY2024",
+  "page": "nama_FY2024_p09",
+  "value": -6210.0,
+  "label": "الرصيد كما في ١ يناير ٢٠٢٤م",
+  "header": "خسارة من إعادة القياس الإكتواري وفروقات ترجمة عمليات أجنبية",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    2,
+    "r6"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S198": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p08",
+  "value": 163076003.0,
+  "label": "نمم مدينة تجارية وموجودات متداولة أخرى",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r12"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r12",
+    "c2"
+   ]
+  }
+ },
+ "S199": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "income",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p10",
+  "value": -1.32,
+  "label": "من العمليات المستمرة",
+  "header": "٣١ ديسمبر ٢٠٢٤",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r29"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r29",
+    "c1"
+   ]
+  }
+ },
+ "S200": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p07",
+  "value": 4644806303.0,
+  "label": "مجموع الالتزامات",
+  "header": "١ يناير ٢٠٢٣م",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    0,
+    "r42"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S201": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "halwani_FY2024",
+  "page": "halwani_FY2024_p09",
+  "value": 352767882.0,
+  "label": "الجزء المتداول من التزامات عقود إيجار",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r35"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S202": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p07",
+  "value": -933571.0,
+  "label": "الانخفاض في القيمة على الذمم المدينة لمبيعات الأقساط - مخصص خسائر ائتمانية متوقعة",
+  "header": "٢٠٢٢م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r7"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r7",
+    "c2"
+   ]
+  }
+ },
+ "S203": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p09",
+  "value": 2406.0,
+  "label": "المساهمين في الشركة",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣م بآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r16"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S204": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p08",
+  "value": 12897309.0,
+  "label": "مصاريف تشغيل ومصاريف أخرى",
+  "header": "٢٠٢٢م   ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S205": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "sedco_capital_reit_FY2022",
+  "page": "sedco_capital_reit_FY2022_p10",
+  "value": -35437775.0,
+  "label": "",
+  "header": "٢٠٢١م ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S206": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p08",
+  "value": 0.54,
+  "label": "ربحية السهم",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r23"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S207": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p10",
+  "value": 711479.0,
+  "label": "استثمارات مالية بالقيمة العادلة من خلال الدخل الشامل الآخر - صافي التغير في القيمة العادلة",
+  "header": "",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": [
+    2,
+    "r4"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S208": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -37053522.0,
+  "label": "بغرض البيع",
+  "header": "٣١ ديسمبر ٢٠١٧ (معدلة) (إيضاح ٣٤)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S209": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "changes in equity",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p08",
+  "value": 33515220.0,
+  "label": "الخسارة الشاملة الأخرى",
+  "header": "الأرباح المبقة",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r4"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S210": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "income",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p09",
+  "value": 2693888.0,
+  "label": "الربح من العمليات",
+  "header": "للسنة المنتهية في ٣١ ديسمبر ٢٠٢٣م بالآلاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r8"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r8",
+    "c2"
+   ]
+  }
+ },
+ "S211": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p08",
+  "value": 547085.0,
+  "label": "الحصص غير المسيطرة",
+  "header": "٣١ ديسمبر ٢٠١٨",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r27"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r27",
+    "c1"
+   ]
+  }
+ },
+ "S212": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "liva_FY2024",
+  "page": "liva_FY2024_p08",
+  "value": 0.82,
+  "label": "(مدرجة بالريال السعودي للسهم)",
+  "header": "٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S213": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p09",
+  "value": 43402652.0,
+  "label": "",
+  "header": "٢٠٢٣م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S214": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p10",
+  "value": 19722206.0,
+  "label": "صافي دخل السنة العائد إلى :",
+  "header": "",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r21"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S215": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "income",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p08",
+  "value": 1207166.0,
+  "label": "- الحصص غير المسيطرة",
+  "header": "٢٠٢٤",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r21"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S216": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p11",
+  "value": 42541896.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٤",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     2,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S217": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "al_rajhi_FY2024",
+  "page": "al_rajhi_FY2024_p13",
+  "value": -9369.0,
+  "label": "صافي التغير في القيمة العادلة لاستثمارات الأسهم المدرجة بالقيمة العادلة من خلال الدخل الشامل الآخر",
+  "header": "إجمالي حقوق الملكية",
+  "scorer": {
+   "fact": "correct, column not assessed",
+   "row_key": [
+    4,
+    "r3"
+   ],
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S218": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p08",
+  "value": 22314278.0,
+  "label": "الدخل المستحق من الوديع النظامية",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r13"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r13",
+    "c1"
+   ]
+  }
+ },
+ "S219": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "other",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p05",
+  "value": -5186063.0,
+  "label": "مصاريف إدارية",
+  "header": "٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r5"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r5",
+    "c1"
+   ]
+  }
+ },
+ "S220": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p07",
+  "value": -3922182.0,
+  "label": "ال انخفاض في القيمة الذمم المدينة التجارية - مخصص للخسائر الائتمانية المتوقعة",
+  "header": "م ٢٠٢٣",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r6"
+   ],
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r6",
+    "c1"
+   ]
+  }
+ },
+ "S221": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "saudi_re_FY2024",
+  "page": "saudi_re_FY2024_p08",
+  "value": 94824666.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S222": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p04",
+  "value": 9032273.0,
+  "label": "",
+  "header": "٣١ مارس ٢٠٢٥ (غير مدققة)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S223": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p10",
+  "value": -1112807484.0,
+  "label": "خسارة السنة",
+  "header": "٣١ ديسمبر ٢٠٢٣",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S224": {
+  "system": "Chandra OCR 2",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p08",
+  "value": 36194015.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S225": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p06",
+  "value": -1873908.0,
+  "label": "وحدات مصدرة خلال السنة",
+  "header": "٢٠٢١ ريال سعودي",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    2,
+    "r5"
+   ],
+   "claimed": [
+    [
+     2,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S226": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "income",
+  "filing": "othaim_FY2024",
+  "page": "othaim_FY2024_p08",
+  "value": 488583164.0,
+  "label": "",
+  "header": "٢٠٢٣ م ر.س (معادلة إيضاح ٣٧)",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S227": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p16",
+  "value": 820280.0,
+  "label": "إطفاء موجودات غير ملموسة",
+  "header": "2023",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r10"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r10",
+    "c2"
+   ]
+  }
+ },
+ "S228": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "blom_saudi_fund_FY2022",
+  "page": "blom_saudi_fund_FY2022_p07",
+  "value": 4720666.0,
+  "label": "الأنشطة التشغيلية  صافي دخل السنة",
+  "header": "٢٠٢٢ ريال سعودي",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S229": {
+  "system": "Mistral OCR",
+  "group": "unresolved",
+  "stype": "financial position",
+  "filing": "alinma_tokio_marine_FY2022",
+  "page": "alinma_tokio_marine_FY2022_p07",
+  "value": 175594.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠٢٢ م لأقرب ألف ريال سعودي",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S230": {
+  "system": "Cohere Parse",
+  "group": "unresolved",
+  "stype": "other",
+  "filing": "al_khodari_FY2018",
+  "page": "al_khodari_FY2018_p09",
+  "value": -1593328282.0,
+  "label": "",
+  "header": "٣١ ديسمبر ٢٠١٨",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     1,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S231": {
+  "system": "Mistral OCR",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p10",
+  "value": 59407.0,
+  "label": "دائنون تجاريون ودائنون آخرون",
+  "header": "٢٠٢٤م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    3,
+    "r18"
+   ],
+   "claimed": [
+    [
+     3,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    3,
+    "r18",
+    "c1"
+   ]
+  }
+ },
+ "S232": {
+  "system": "Chandra OCR 2",
+  "group": "complete",
+  "stype": "other",
+  "filing": "alif_meem_yaa_FY2023",
+  "page": "alif_meem_yaa_FY2023_p07",
+  "value": 406848.0,
+  "label": "إيرادات تمولية",
+  "header": "٢٠٢٢ م",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    1,
+    "r11"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    1,
+    "r11",
+    "c2"
+   ]
+  }
+ },
+ "S233": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "financial position",
+  "filing": "al_mubarak_usd_trade_fund_H1-2022",
+  "page": "al_mubarak_usd_trade_fund_H1-2022_p03",
+  "value": 11835.0,
+  "label": "أتعاب إدارة مستحقة",
+  "header": "٣٠ يونيو ٢٠٢٢ دولار أمريكي (غير مراجعة)",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    0,
+    "r7"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": [
+    0,
+    "r7",
+    "c1"
+   ]
+  }
+ },
+ "S234": {
+  "system": "dots.mocr",
+  "group": "complete",
+  "stype": "cash flows",
+  "filing": "kingdom_holding_FY2024",
+  "page": "kingdom_holding_FY2024_p11",
+  "value": -1037636.0,
+  "label": "توزيعات أرباح مدفوعة",
+  "header": "٢٠٢٣",
+  "scorer": {
+   "fact": "correct",
+   "row_key": [
+    4,
+    "r43"
+   ],
+   "claimed": [
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": [
+    4,
+    "r43",
+    "c2"
+   ]
+  }
+ },
+ "S235": {
+  "system": "Cohere Parse",
+  "group": "wrong context",
+  "stype": "cash flows",
+  "filing": "alahli_global_trade_fund_H1-2023",
+  "page": "alahli_global_trade_fund_H1-2023_p06",
+  "value": 2462.0,
+  "label": "",
+  "header": "لفترة الستة أشهر المنتهية في ٣٠ يونيو ٢٠٢٢ م",
+  "scorer": {
+   "fact": "wrong column",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S236": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "changes in equity",
+  "filing": "snb_FY2024",
+  "page": "snb_FY2024_p15",
+  "value": 17894277.0,
+  "label": "",
+  "header": "إجمالي حقوق الملكية العامة لمساهمي البنيك",
+  "scorer": {
+   "fact": "column not stated",
+   "row_key": null,
+   "claimed": [],
+   "ctx": null
+  }
+ },
+ "S237": {
+  "system": "dots.mocr",
+  "group": "wrong context",
+  "stype": "other",
+  "filing": "maadaniyah_Q1-2025",
+  "page": "maadaniyah_Q1-2025_p05",
+  "value": -0.21,
+  "label": "- من العمليات المستمرة",
+  "header": "٢٠٢٤ (غير مدققة)",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    1,
+    "r20"
+   ],
+   "claimed": [
+    [
+     1,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S238": {
+  "system": "Chandra OCR 2",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "almarai_FY2024",
+  "page": "almarai_FY2024_p08",
+  "value": 249659.0,
+  "label": "ضريبة دخل مستحقة",
+  "header": "٣١ ديسمبر ٢٠٢٣م بألاف الريالات السعودية",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r42"
+   ],
+   "claimed": [
+    [
+     0,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S239": {
+  "system": "Mistral OCR",
+  "group": "wrong context",
+  "stype": "financial position",
+  "filing": "cenomi_retail_FY2024",
+  "page": "cenomi_retail_FY2024_p09",
+  "value": 1092709161.0,
+  "label": "**أصول محتفظ بها للبيع**",
+  "header": "٣١ ديسمبر ٢٠٢٤ م",
+  "scorer": {
+   "fact": "wrong row",
+   "row_key": [
+    0,
+    "r14"
+   ],
+   "claimed": [
+    [
+     0,
+     "c1"
+    ]
+   ],
+   "ctx": null
+  }
+ },
+ "S240": {
+  "system": "dots.mocr",
+  "group": "unresolved",
+  "stype": "cash flows",
+  "filing": "bahri_FY2024",
+  "page": "bahri_FY2024_p10",
+  "value": 1893848.0,
+  "label": "",
+  "header": "٢٠٢٣ م",
+  "scorer": {
+   "fact": "correct, row not stated",
+   "row_key": null,
+   "claimed": [
+    [
+     3,
+     "c2"
+    ],
+    [
+     4,
+     "c2"
+    ]
+   ],
+   "ctx": null
+  }
+ }
+}

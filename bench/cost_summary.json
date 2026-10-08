@@ -1,0 +1,100 @@
+{
+ "gpu_prices": {
+  "on-demand, to 30 Sep 2026": 3.85,
+  "on-demand, from 1 Oct 2026": 4.5,
+  "reserved (35% off the new rate)": 2.9250000000000003
+ },
+ "selfhosted_ppm": {
+  "dots.mocr, out of the box": 69.70588235294119,
+  "dots.mocr, adopted pipeline": 55.11627906976744,
+  "Chandra OCR 2": 36.602316602316606,
+  "two engines (dots.mocr pipeline + Chandra OCR 2), as RQ2 needs": 21.995359628770302
+ },
+ "per_1000": {
+  "dots.mocr, out of the box": {
+   "on-demand, to 30 Sep 2026": 0.920534458509142,
+   "on-demand, from 1 Oct 2026": 1.0759493670886073,
+   "reserved (35% off the new rate)": 0.6993670886075949
+  },
+  "dots.mocr, adopted pipeline": {
+   "on-demand, to 30 Sep 2026": 1.1642053445850915,
+   "on-demand, from 1 Oct 2026": 1.360759493670886,
+   "reserved (35% off the new rate)": 0.884493670886076
+  },
+  "Chandra OCR 2": {
+   "on-demand, to 30 Sep 2026": 1.753076652601969,
+   "on-demand, from 1 Oct 2026": 2.0490506329113924,
+   "reserved (35% off the new rate)": 1.3318829113924051
+  },
+  "two engines (dots.mocr pipeline + Chandra OCR 2), as RQ2 needs": {
+   "on-demand, to 30 Sep 2026": 2.9172819971870605,
+   "on-demand, from 1 Oct 2026": 3.4098101265822787,
+   "reserved (35% off the new rate)": 2.216376582278481
+  }
+ },
+ "capacity": {
+  "dots.mocr, out of the box": 3053117.647058824,
+  "dots.mocr, adopted pipeline": 2414093.023255814,
+  "Chandra OCR 2": 1603181.4671814675,
+  "two engines (dots.mocr pipeline + Chandra OCR 2), as RQ2 needs": 963396.7517401392
+ },
+ "api": {
+  "Cohere Parse (API list price)": 1.5,
+  "Mistral OCR (API list price)": 4.0,
+  "Mistral OCR (batch API, half price)": 2.0,
+  "LandingAI ADE (API list price, synchronous)": 25.96,
+  "LandingAI ADE (Parse Jobs, standard tier)": 13.23,
+  "Qwen3.6-27B via OpenRouter": 8.282227310126583,
+  "Qwen3.8-27B via OpenRouter": 3.6338262696202532,
+  "ERNIE 4.5 VL via OpenRouter": 2.003591265822785
+ },
+ "pinned": {
+  "Alibaba": 3.4851770833333333,
+  "Darkbloom": 2.0694125,
+  "DeepInfra": 3.493409375,
+  "Parasail": 3.702413333333334,
+  "Reka": 4.499159166666667
+ },
+ "breakeven": {
+  "dots.mocr, out of the box": {
+   "Cohere Parse (API list price)": 2190000.0,
+   "Mistral OCR (API list price)": 821250.0,
+   "Mistral OCR (batch API, half price)": 1642500.0,
+   "LandingAI ADE (API list price, synchronous)": 126540.83204930663,
+   "LandingAI ADE (Parse Jobs, standard tier)": 248299.31972789115,
+   "Qwen3.6-27B via OpenRouter": 396632.43678224925,
+   "Qwen3.8-27B via OpenRouter": 904005.7934149101,
+   "ERNIE 4.5 VL via OpenRouter": 1639555.959359305
+  },
+  "dots.mocr, adopted pipeline": {
+   "Cohere Parse (API list price)": 2190000.0,
+   "Mistral OCR (API list price)": 821250.0,
+   "Mistral OCR (batch API, half price)": 1642500.0,
+   "LandingAI ADE (API list price, synchronous)": 126540.83204930663,
+   "LandingAI ADE (Parse Jobs, standard tier)": 248299.31972789115,
+   "Qwen3.6-27B via OpenRouter": 396632.43678224925,
+   "Qwen3.8-27B via OpenRouter": 904005.7934149101,
+   "ERNIE 4.5 VL via OpenRouter": 1639555.959359305
+  },
+  "Chandra OCR 2": {
+   "Cohere Parse (API list price)": 2190000.0,
+   "Mistral OCR (API list price)": 821250.0,
+   "Mistral OCR (batch API, half price)": 1642500.0,
+   "LandingAI ADE (API list price, synchronous)": 126540.83204930663,
+   "LandingAI ADE (Parse Jobs, standard tier)": 248299.31972789115,
+   "Qwen3.6-27B via OpenRouter": 396632.43678224925,
+   "Qwen3.8-27B via OpenRouter": 904005.7934149101,
+   "ERNIE 4.5 VL via OpenRouter": 1639555.959359305
+  },
+  "two engines (dots.mocr pipeline + Chandra OCR 2), as RQ2 needs": {
+   "Cohere Parse (API list price)": 2190000.0,
+   "Mistral OCR (API list price)": 821250.0,
+   "Mistral OCR (batch API, half price)": 1642500.0,
+   "LandingAI ADE (API list price, synchronous)": 126540.83204930663,
+   "LandingAI ADE (Parse Jobs, standard tier)": 248299.31972789115,
+   "Qwen3.6-27B via OpenRouter": 396632.43678224925,
+   "Qwen3.8-27B via OpenRouter": 904005.7934149101,
+   "ERNIE 4.5 VL via OpenRouter": 1639555.959359305
+  }
+ }
+}

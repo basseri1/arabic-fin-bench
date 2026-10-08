@@ -1,0 +1,6 @@
+{
+ "model": "paddle_ar",
+ "backend": "paddleocr 3.x PaddleOCR(lang='ar') CPU: PP-OCRv5 det + arabic rec",
+ "postproc": "lines -> rows by y-center clustering (0.6 x median line height), RTL order",
+ "date": "2026-09-27"
+}

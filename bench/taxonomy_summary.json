@@ -1,0 +1,1379 @@
+{
+ "rows": [
+  {
+   "system": "Mistral OCR",
+   "setting": "200 dpi page",
+   "how": "API",
+   "run": "mistral_ocr_plain",
+   "pages": {
+    "loop": 1
+   },
+   "statements": {
+    "omission": 3,
+    "labels dropped": 8
+   },
+   "figures": {
+    "misread digit": 7,
+    "separator": 14
+   },
+   "emitted": 7525,
+   "pairs": [
+    [
+     "9→2",
+     2
+    ],
+    [
+     "1→6",
+     1
+    ],
+    [
+     "3→8",
+     1
+    ],
+    [
+     "2→3",
+     1
+    ]
+   ],
+   "recall_arabic_indic": 0.9898287845397525,
+   "recall_western": 0.9171296296296296
+  },
+  {
+   "system": "Cohere Parse",
+   "setting": "200 dpi page, parse-v5.0, markdown output",
+   "how": "API",
+   "run": "cohere_parse_plain",
+   "pages": {
+    "no figures": 1
+   },
+   "statements": {
+    "omission": 6,
+    "labels invented": 1,
+    "labels dropped": 1,
+    "misplaced": 2
+   },
+   "figures": {
+    "misread digit": 13,
+    "separator": 16
+   },
+   "emitted": 7615,
+   "pairs": [
+    [
+     "5→0",
+     4
+    ],
+    [
+     "3→2",
+     1
+    ],
+    [
+     "3→8",
+     1
+    ],
+    [
+     "3→7",
+     1
+    ]
+   ],
+   "recall_arabic_indic": 0.9847431768096288,
+   "recall_western": 0.9574074074074074
+  },
+  {
+   "system": "dots.mocr",
+   "setting": "adopted pipeline: CLAHE, structure retry, band-merge, verification",
+   "how": "self-hosted, 1×H100",
+   "run": "dots_mocr_clahe_s0_bm_ver",
+   "pages": {
+    "loop": 2,
+    "unrelated": 2,
+    "no figures": 1
+   },
+   "statements": {
+    "labels dropped": 24,
+    "omission": 7
+   },
+   "figures": {
+    "misread digit": 17,
+    "separator": 24
+   },
+   "emitted": 7660,
+   "pairs": [
+    [
+     "5→0",
+     12
+    ],
+    [
+     "3→8",
+     1
+    ],
+    [
+     "2→7",
+     1
+    ]
+   ],
+   "recall_arabic_indic": 0.9801661298525174,
+   "recall_western": 0.9273148148148148
+  },
+  {
+   "system": "Chandra OCR 2",
+   "setting": "own input size (≤ 6.3 MP)",
+   "how": "self-hosted, 1×H100",
+   "run": "chandra2_chandra_cap",
+   "pages": {},
+   "statements": {
+    "omission": 4,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 19,
+    "separator": 15
+   },
+   "emitted": 7674,
+   "pairs": [
+    [
+     "5→0",
+     3
+    ],
+    [
+     "3→2",
+     3
+    ],
+    [
+     "8→1",
+     2
+    ],
+    [
+     "3→8",
+     1
+    ]
+   ],
+   "recall_arabic_indic": 0.9762671639260891,
+   "recall_western": 1.0
+  },
+  {
+   "system": "LandingAI ADE",
+   "setting": "200 dpi page, DPT-3 Pro (dpt-3-pro-20260710), Parse Jobs, standard tier",
+   "how": "API",
+   "run": "landingai_ade_plain",
+   "pages": {
+    "unrelated": 1
+   },
+   "statements": {
+    "omission": 2
+   },
+   "figures": {
+    "misread digit": 47,
+    "separator": 22
+   },
+   "emitted": 7773,
+   "pairs": [
+    [
+     "5→0",
+     10
+    ],
+    [
+     "7→2",
+     3
+    ],
+    [
+     "6→9",
+     2
+    ],
+    [
+     "2→0",
+     2
+    ]
+   ],
+   "recall_arabic_indic": 0.9701644346499406,
+   "recall_western": 0.9916666666666667
+  },
+  {
+   "system": "dots.mocr",
+   "setting": "out of the box (200 dpi page)",
+   "how": "self-hosted, 1×H100",
+   "run": "dots_mocr_plain_s0",
+   "pages": {
+    "loop": 3,
+    "unrelated": 3,
+    "no figures": 1
+   },
+   "statements": {
+    "labels dropped": 29,
+    "omission": 11,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 22,
+    "separator": 30
+   },
+   "emitted": 7605,
+   "pairs": [
+    [
+     "5→0",
+     12
+    ],
+    [
+     "3→8",
+     1
+    ],
+    [
+     "2→7",
+     1
+    ]
+   ],
+   "recall_arabic_indic": 0.9616884217664011,
+   "recall_western": 0.9277777777777778
+  },
+  {
+   "system": "Qwen3.6-27B",
+   "setting": "200 dpi page, generic prompt, reasoning off",
+   "how": "API",
+   "run": "qwen36_27b_plain",
+   "pages": {
+    "loop": 23,
+    "budget": 23,
+    "no figures": 15,
+    "skeleton": 11,
+    "unrelated": 2
+   },
+   "statements": {
+    "labels dropped": 2,
+    "omission": 27,
+    "labels invented": 2,
+    "misplaced": 3
+   },
+   "figures": {
+    "misread digit": 172,
+    "separator": 11,
+    "reversed digits": 34
+   },
+   "emitted": 6482,
+   "pairs": [
+    [
+     "3→2",
+     34
+    ],
+    [
+     "5→0",
+     7
+    ],
+    [
+     "6→2",
+     6
+    ],
+    [
+     "6→1",
+     5
+    ]
+   ],
+   "recall_arabic_indic": 0.8599762671639261,
+   "recall_western": 0.6055555555555555
+  },
+  {
+   "system": "Persian–Arabic line OCR",
+   "setting": "PaddleOCR line boxes, one crop per line",
+   "how": "self-hosted, 1×H100",
+   "run": "persar2b_plain",
+   "pages": {},
+   "statements": {
+    "omission": 45
+   },
+   "figures": {
+    "misread digit": 681,
+    "separator": 43
+   },
+   "emitted": 7794,
+   "pairs": [
+    [
+     "3→2",
+     121
+    ],
+    [
+     "3→4",
+     29
+    ],
+    [
+     "2→3",
+     22
+    ],
+    [
+     "6→7",
+     21
+    ]
+   ],
+   "recall_arabic_indic": 0.7808103068316664,
+   "recall_western": 0.9949074074074075
+  },
+  {
+   "system": "Qwen3.8-27B",
+   "setting": "200 dpi page, generic prompt, reasoning off (official BF16 weights)",
+   "how": "self-hosted, 1×H100",
+   "run": "qwen38_27b_local_plain",
+   "pages": {
+    "loop": 2,
+    "no figures": 1
+   },
+   "statements": {
+    "omission": 56,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 1024,
+    "separator": 11
+   },
+   "emitted": 7502,
+   "pairs": [
+    [
+     "5→0",
+     283
+    ],
+    [
+     "6→7",
+     236
+    ],
+    [
+     "6→2",
+     82
+    ],
+    [
+     "3→2",
+     50
+    ]
+   ],
+   "recall_arabic_indic": 0.7375826411256146,
+   "recall_western": 0.9120370370370371
+  },
+  {
+   "system": "Surya OCR 2",
+   "setting": "200 dpi page, vendor pipeline",
+   "how": "self-hosted, 1×H100",
+   "run": "surya2_plain",
+   "pages": {
+    "unrelated": 1,
+    "loop": 3,
+    "no figures": 13,
+    "skeleton": 10
+   },
+   "statements": {
+    "omission": 53,
+    "labels dropped": 7
+   },
+   "figures": {
+    "misread digit": 42,
+    "separator": 11
+   },
+   "emitted": 5959,
+   "pairs": [
+    [
+     "3→2",
+     10
+    ],
+    [
+     "2→3",
+     4
+    ],
+    [
+     "5→0",
+     4
+    ],
+    [
+     "6→2",
+     3
+    ]
+   ],
+   "recall_arabic_indic": 0.7058823529411765,
+   "recall_western": 0.8601851851851852
+  },
+  {
+   "system": "Chandra OCR 1",
+   "setting": "own input size (≤ 6.3 MP)",
+   "how": "self-hosted, 1×H100",
+   "run": "chandra1_chandra_cap",
+   "pages": {
+    "no figures": 15,
+    "loop": 16,
+    "budget": 4
+   },
+   "statements": {
+    "omission": 47,
+    "labels dropped": 9,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 98,
+    "separator": 15
+   },
+   "emitted": 6010,
+   "pairs": [
+    [
+     "3→2",
+     15
+    ],
+    [
+     "6→2",
+     10
+    ],
+    [
+     "2→3",
+     6
+    ],
+    [
+     "6→3",
+     6
+    ]
+   ],
+   "recall_arabic_indic": 0.6840142397016443,
+   "recall_western": 0.8958333333333334
+  },
+  {
+   "system": "Qwen3.8-27B",
+   "setting": "200 dpi page, generic prompt, reasoning off",
+   "how": "API",
+   "run": "qwen38_27b_plain",
+   "pages": {
+    "unrelated": 5,
+    "loop": 6,
+    "budget": 6,
+    "no figures": 5,
+    "skeleton": 5
+   },
+   "statements": {
+    "omission": 73
+   },
+   "figures": {
+    "misread digit": 1007,
+    "separator": 17
+   },
+   "emitted": 7212,
+   "pairs": [
+    [
+     "5→0",
+     191
+    ],
+    [
+     "6→2",
+     131
+    ],
+    [
+     "6→7",
+     127
+    ],
+    [
+     "3→2",
+     59
+    ]
+   ],
+   "recall_arabic_indic": 0.6824885573826073,
+   "recall_western": 0.7962962962962963
+  },
+  {
+   "system": "Qwen3-VL-32B (FP8)",
+   "setting": "200 dpi page, generic prompt",
+   "how": "self-hosted, 1×H100",
+   "run": "qwen3vl_32b_plain",
+   "pages": {
+    "loop": 3,
+    "no figures": 1,
+    "skeleton": 1,
+    "unrelated": 5
+   },
+   "statements": {
+    "omission": 65,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 667,
+    "separator": 20
+   },
+   "emitted": 6570,
+   "pairs": [
+    [
+     "5→0",
+     178
+    ],
+    [
+     "6→7",
+     142
+    ],
+    [
+     "2→7",
+     91
+    ],
+    [
+     "3→2",
+     30
+    ]
+   ],
+   "recall_arabic_indic": 0.663163248008137,
+   "recall_western": 0.8101851851851852
+  },
+  {
+   "system": "PaddleOCR PP-OCRv5 Arabic",
+   "setting": "classical detection + recognition",
+   "how": "self-hosted, CPU",
+   "run": "paddle_ar_plain",
+   "pages": {
+    "no figures": 1,
+    "unrelated": 2
+   },
+   "statements": {
+    "omission": 109
+   },
+   "figures": {
+    "misread digit": 1158,
+    "separator": 83
+   },
+   "emitted": 7502,
+   "pairs": [
+    [
+     "5→0",
+     383
+    ],
+    [
+     "6→7",
+     37
+    ],
+    [
+     "3→2",
+     20
+    ],
+    [
+     "2→3",
+     6
+    ]
+   ],
+   "recall_arabic_indic": 0.5761993558230208,
+   "recall_western": 0.9541666666666667
+  },
+  {
+   "system": "Nanonets-OCR2",
+   "setting": "200 dpi page, vendor prompt",
+   "how": "self-hosted, 1×H100",
+   "run": "nanonets_plain",
+   "pages": {
+    "no figures": 30,
+    "skeleton": 21,
+    "loop": 28,
+    "budget": 9,
+    "unrelated": 6
+   },
+   "statements": {
+    "omission": 98,
+    "labels dropped": 11,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 835,
+    "separator": 20
+   },
+   "emitted": 7723,
+   "pairs": [
+    [
+     "3→2",
+     230
+    ],
+    [
+     "5→0",
+     91
+    ],
+    [
+     "0→5",
+     40
+    ],
+    [
+     "7→2",
+     30
+    ]
+   ],
+   "recall_arabic_indic": 0.37582641125614513,
+   "recall_western": 0.8435185185185186
+  },
+  {
+   "system": "PaddleOCR-VL-1.6",
+   "setting": "vendor pipeline: layout detection + VLM (vLLM)",
+   "how": "self-hosted, 1×H100",
+   "run": "paddleocr_vl16_plain",
+   "pages": {
+    "loop": 19,
+    "unrelated": 81,
+    "no figures": 20
+   },
+   "statements": {
+    "omission": 125,
+    "labels dropped": 3
+   },
+   "figures": {
+    "misread digit": 506,
+    "separator": 101,
+    "reversed digits": 1
+   },
+   "emitted": 6544,
+   "pairs": [
+    [
+     "6→3",
+     61
+    ],
+    [
+     "4→6",
+     45
+    ],
+    [
+     "2→3",
+     35
+    ],
+    [
+     "6→7",
+     20
+    ]
+   ],
+   "recall_arabic_indic": 0.05509408374300729,
+   "recall_western": 0.9939814814814815
+  },
+  {
+   "system": "ERNIE 4.5 VL",
+   "setting": "200 dpi page, generic prompt",
+   "how": "API",
+   "run": "ernie45_vl_plain",
+   "pages": {
+    "unrelated": 91,
+    "no figures": 19,
+    "skeleton": 11,
+    "loop": 4
+   },
+   "statements": {
+    "omission": 128,
+    "labels invented": 13,
+    "labels dropped": 2
+   },
+   "figures": {
+    "misread digit": 226,
+    "separator": 29,
+    "reversed digits": 1
+   },
+   "emitted": 4948,
+   "pairs": [
+    [
+     "5→0",
+     19
+    ],
+    [
+     "2→3",
+     14
+    ],
+    [
+     "2→0",
+     12
+    ],
+    [
+     "2→7",
+     8
+    ]
+   ],
+   "recall_arabic_indic": 0.016273944736395998,
+   "recall_western": 0.8717592592592592
+  },
+  {
+   "system": "Command A Vision",
+   "setting": "200 dpi page, generic prompt",
+   "how": "API",
+   "run": "cmda_vision_plain",
+   "pages": {
+    "no figures": 69,
+    "skeleton": 38,
+    "unrelated": 45,
+    "budget": 13,
+    "loop": 16
+   },
+   "statements": {
+    "omission": 141,
+    "labels dropped": 11,
+    "labels invented": 13,
+    "misplaced": 1
+   },
+   "figures": {
+    "separator": 73,
+    "misread digit": 165,
+    "reversed digits": 9
+   },
+   "emitted": 3897,
+   "pairs": [
+    [
+     "0→2",
+     15
+    ],
+    [
+     "1→2",
+     12
+    ],
+    [
+     "6→2",
+     11
+    ],
+    [
+     "0→5",
+     10
+    ]
+   ],
+   "recall_arabic_indic": 0.0038989659264282083,
+   "recall_western": 0.687962962962963
+  },
+  {
+   "system": "Nemotron Nano 12B VL",
+   "setting": "200 dpi page, generic prompt",
+   "how": "self-hosted, 1×H100",
+   "run": "nemotron12b_vl_plain",
+   "pages": {
+    "budget": 6,
+    "unrelated": 54,
+    "loop": 102,
+    "no figures": 88,
+    "skeleton": 2
+   },
+   "statements": {
+    "omission": 142,
+    "labels dropped": 14
+   },
+   "figures": {
+    "separator": 39,
+    "misread digit": 87,
+    "reversed digits": 1
+   },
+   "emitted": 5624,
+   "pairs": [
+    [
+     "6→7",
+     42
+    ],
+    [
+     "4→1",
+     6
+    ],
+    [
+     "3→4",
+     3
+    ],
+    [
+     "8→0",
+     3
+    ]
+   ],
+   "recall_arabic_indic": 0.0016952025767079167,
+   "recall_western": 0.3907407407407407
+  },
+  {
+   "system": "Qari-OCR v0.3",
+   "setting": "200 dpi page, vendor prompt",
+   "how": "self-hosted, 1×H100",
+   "run": "qari03_plain",
+   "pages": {
+    "loop": 102,
+    "no figures": 141,
+    "unrelated": 9,
+    "budget": 1
+   },
+   "statements": {
+    "omission": 154,
+    "misplaced": 1,
+    "labels dropped": 1,
+    "labels invented": 2
+   },
+   "figures": {
+    "separator": 7,
+    "misread digit": 11
+   },
+   "emitted": 1799,
+   "pairs": [
+    [
+     "7→9",
+     2
+    ],
+    [
+     "1→8",
+     2
+    ],
+    [
+     "7→8",
+     2
+    ]
+   ],
+   "recall_arabic_indic": 0.0005085607730123749,
+   "recall_western": 0.11574074074074074
+  }
+ ],
+ "examples": {
+  "loop": [
+   "dots.mocr (out of the box): al_rajhi_FY2024_p12",
+   "dots.mocr (out of the box): mesc_H1-2023_p04",
+   "dots.mocr (pipeline): al_rajhi_FY2024_p12",
+   "dots.mocr (pipeline): mesc_H1-2023_p04",
+   "Chandra OCR 1: alahli_global_trade_fund_H1-2023_p06",
+   "Chandra OCR 1: alinma_tokio_marine_FY2022_p11",
+   "Nanonets-OCR2: al_khodari_FY2018_p10",
+   "Nanonets-OCR2: al_rajhi_FY2024_p12",
+   "Qwen3-VL-32B (FP8): aramco_FY2024_p15",
+   "Qwen3-VL-32B (FP8): bank_aljazira_FY2024_p10",
+   "Qwen3.8-27B (self-hosted): almarai_FY2024_p10",
+   "Qwen3.8-27B (self-hosted): snb_FY2024_p15",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p09",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p10",
+   "Qari-OCR v0.3: al_khodari_FY2018_p08",
+   "Qari-OCR v0.3: al_khodari_FY2018_p09",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018_p08",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018_p09",
+   "Surya OCR 2: al_khodari_FY2018_p10",
+   "Surya OCR 2: bahri_FY2024_p10",
+   "Mistral OCR: snb_FY2024_p15",
+   "Qwen3.6-27B: almarai_FY2024_p09",
+   "Qwen3.6-27B: almarai_FY2024_p11",
+   "Qwen3.8-27B (API): al_rajhi_FY2024_p15",
+   "Qwen3.8-27B (API): aramco_FY2023_p15",
+   "ERNIE 4.5 VL: herfy_FY2024_p07",
+   "ERNIE 4.5 VL: maaden_FY2024_p16",
+   "Command A Vision: aramco_FY2024_p15",
+   "Command A Vision: bahri_FY2024_p07"
+  ],
+  "unrelated": [
+   "dots.mocr (out of the box): bishah_FY2016_p04",
+   "dots.mocr (out of the box): bishah_FY2016_p05",
+   "dots.mocr (pipeline): bishah_FY2016_p04",
+   "dots.mocr (pipeline): bishah_FY2016_p05",
+   "Nanonets-OCR2: alif_meem_yaa_FY2023_p07",
+   "Nanonets-OCR2: bahri_FY2024_p10",
+   "Qwen3-VL-32B (FP8): bishah_FY2016_p05",
+   "Qwen3-VL-32B (FP8): bishah_FY2016_p06",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p08",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p09",
+   "Qari-OCR v0.3: al_khodari_FY2018_p10",
+   "Qari-OCR v0.3: almarai_FY2024_p12",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018_p08",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018_p09",
+   "Surya OCR 2: al_khodari_FY2018_p08",
+   "PaddleOCR PP-OCRv5 Arabic: bishah_FY2016_p04",
+   "PaddleOCR PP-OCRv5 Arabic: bishah_FY2016_p05",
+   "LandingAI ADE: saudi_re_FY2024_p11",
+   "Qwen3.6-27B: liva_FY2024_p07",
+   "Qwen3.6-27B: nama_FY2024_p08",
+   "Qwen3.8-27B (API): al_khodari_FY2018_p09",
+   "Qwen3.8-27B (API): halwani_FY2024_p08",
+   "ERNIE 4.5 VL: al_khodari_FY2018_p08",
+   "ERNIE 4.5 VL: al_khodari_FY2018_p09",
+   "Command A Vision: al_khodari_FY2018_p09",
+   "Command A Vision: al_mubarak_usd_trade_fund_H1-2022_p05"
+  ],
+  "no figures": [
+   "dots.mocr (out of the box): mesc_H1-2023_p04",
+   "dots.mocr (pipeline): mesc_H1-2023_p04",
+   "Chandra OCR 1: al_khodari_FY2018_p08",
+   "Chandra OCR 1: alahli_global_trade_fund_H1-2023_p06",
+   "Nanonets-OCR2: al_khodari_FY2018_p09",
+   "Nanonets-OCR2: al_khodari_FY2018_p11",
+   "Qwen3-VL-32B (FP8): aramco_FY2024_p15",
+   "Qwen3.8-27B (self-hosted): snb_FY2024_p15",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p10",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p11",
+   "Qari-OCR v0.3: al_khodari_FY2018_p08",
+   "Qari-OCR v0.3: al_khodari_FY2018_p09",
+   "PaddleOCR-VL-1.6: al_mubarak_usd_trade_fund_H1-2022_p03",
+   "PaddleOCR-VL-1.6: alahli_global_trade_fund_H1-2023_p03",
+   "Surya OCR 2: almarai_FY2024_p12",
+   "Surya OCR 2: bahri_FY2024_p07",
+   "PaddleOCR PP-OCRv5 Arabic: alinma_tokio_marine_FY2022_p09",
+   "Cohere Parse: al_rajhi_FY2024_p15",
+   "Qwen3.6-27B: almarai_FY2024_p11",
+   "Qwen3.6-27B: almarai_FY2024_p13",
+   "Qwen3.8-27B (API): al_rajhi_FY2024_p15",
+   "Qwen3.8-27B (API): aramco_FY2023_p15",
+   "ERNIE 4.5 VL: alahli_global_trade_fund_H1-2023_p05",
+   "ERNIE 4.5 VL: alif_meem_yaa_FY2023_p09",
+   "Command A Vision: al_khodari_FY2018_p08",
+   "Command A Vision: al_khodari_FY2018_p10"
+  ],
+  "labels dropped": [
+   "dots.mocr (out of the box): al_khodari_FY2018 s1",
+   "dots.mocr (out of the box): al_khodari_FY2018 s2",
+   "dots.mocr (pipeline): al_khodari_FY2018 s1",
+   "dots.mocr (pipeline): al_khodari_FY2018 s2",
+   "Chandra OCR 1: al_rajhi_FY2024 s1",
+   "Chandra OCR 1: alinma_tokio_marine_FY2022 s1",
+   "Nanonets-OCR2: almarai_FY2024 s4",
+   "Nanonets-OCR2: arabian_drilling_FY2024 s1",
+   "Nemotron Nano 12B VL: al_rajhi_FY2024 s1",
+   "Nemotron Nano 12B VL: al_rajhi_FY2024 s2",
+   "Qari-OCR v0.3: aramco_FY2023 s1",
+   "PaddleOCR-VL-1.6: aramco_FY2024 s3",
+   "PaddleOCR-VL-1.6: snb_FY2024 s1",
+   "Surya OCR 2: almarai_FY2024 s1",
+   "Surya OCR 2: aramco_FY2023 s1",
+   "Mistral OCR: aramco_FY2023 s4",
+   "Mistral OCR: buruj_FY2024 s2",
+   "Cohere Parse: maadaniyah_Q1-2025 s1",
+   "Qwen3.6-27B: al_khodari_FY2018 s1",
+   "Qwen3.6-27B: almarai_FY2024 s2",
+   "ERNIE 4.5 VL: aramco_FY2023 s4",
+   "ERNIE 4.5 VL: aramco_FY2024 s1",
+   "Command A Vision: al_rajhi_FY2024 s1",
+   "Command A Vision: al_rajhi_FY2024 s2"
+  ],
+  "omission": [
+   "dots.mocr (out of the box): al_rajhi_FY2024 s4 (changes_in_equity)",
+   "dots.mocr (out of the box): alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "dots.mocr (pipeline): al_rajhi_FY2024 s4 (changes_in_equity)",
+   "dots.mocr (pipeline): alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "Chandra OCR 2: alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "Chandra OCR 2: othaim_FY2024 s1 (financial_position)",
+   "Chandra OCR 1: al_khodari_FY2018 s1 (financial_position)",
+   "Chandra OCR 1: al_khodari_FY2018 s3 (changes_in_equity)",
+   "Nanonets-OCR2: al_khodari_FY2018 s1 (financial_position)",
+   "Nanonets-OCR2: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Qwen3-VL-32B (FP8): al_khodari_FY2018 s1 (financial_position)",
+   "Qwen3-VL-32B (FP8): al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Qwen3.8-27B (self-hosted): al_khodari_FY2018 s1 (financial_position)",
+   "Qwen3.8-27B (self-hosted): al_khodari_FY2018 s3 (changes_in_equity)",
+   "Nemotron Nano 12B VL: al_khodari_FY2018 s1 (financial_position)",
+   "Nemotron Nano 12B VL: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Qari-OCR v0.3: al_khodari_FY2018 s1 (financial_position)",
+   "Qari-OCR v0.3: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018 s1 (financial_position)",
+   "PaddleOCR-VL-1.6: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Surya OCR 2: al_khodari_FY2018 s1 (financial_position)",
+   "Surya OCR 2: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Persian–Arabic line OCR: al_khodari_FY2018 s3 (changes_in_equity)",
+   "Persian–Arabic line OCR: al_khodari_FY2018 s4 (cash_flows)",
+   "PaddleOCR PP-OCRv5 Arabic: al_khodari_FY2018 s1 (financial_position)",
+   "PaddleOCR PP-OCRv5 Arabic: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Mistral OCR: alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "Mistral OCR: nama_FY2024 s4 (cash_flows)",
+   "Cohere Parse: al_rajhi_FY2024 s6 (cash_flows)",
+   "Cohere Parse: al_rajhi_FY2024 s7 (other)",
+   "LandingAI ADE: alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "LandingAI ADE: saudi_re_FY2024 s4 (changes_in_equity)",
+   "Qwen3.6-27B: al_mubarak_usd_trade_fund_H1-2022 s3 (changes_in_net_assets)",
+   "Qwen3.6-27B: alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "Qwen3.8-27B (API): al_khodari_FY2018 s1 (financial_position)",
+   "Qwen3.8-27B (API): al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "ERNIE 4.5 VL: al_khodari_FY2018 s1 (financial_position)",
+   "ERNIE 4.5 VL: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "Command A Vision: al_khodari_FY2018 s1 (financial_position)",
+   "Command A Vision: al_khodari_FY2018 s2 (income_and_comprehensive_income)"
+  ],
+  "misplaced": [
+   "dots.mocr (out of the box): othaim_FY2024 s6 (other)",
+   "Chandra OCR 2: saudi_re_FY2024 s3 (comprehensive_income)",
+   "Chandra OCR 1: saudi_re_FY2024 s1 (financial_position)",
+   "Nanonets-OCR2: blom_saudi_fund_FY2022 s3 (changes_in_net_assets)",
+   "Qwen3-VL-32B (FP8): nama_FY2024 s5 (other)",
+   "Qwen3.8-27B (self-hosted): sedco_capital_reit_FY2022 s3 (changes_in_net_assets)",
+   "Qari-OCR v0.3: aramco_FY2023 s1 (income)",
+   "Cohere Parse: saudi_re_FY2024 s4 (changes_in_equity)",
+   "Cohere Parse: snb_FY2024 s4 (changes_in_equity)",
+   "Qwen3.6-27B: liva_FY2024 s2 (income)",
+   "Qwen3.6-27B: musharaka_reit_FY2019 s4 (cash_flows)",
+   "Command A Vision: ashmore_saudi_equity_fund_H1-2020 s3 (changes_in_net_assets)"
+  ],
+  "budget": [
+   "Chandra OCR 1: alahli_global_trade_fund_H1-2023_p06",
+   "Chandra OCR 1: alinma_tokio_marine_FY2022_p11",
+   "Nanonets-OCR2: alif_meem_yaa_FY2023_p07",
+   "Nanonets-OCR2: almarai_FY2024_p10",
+   "Nemotron Nano 12B VL: al_khodari_FY2018_p08",
+   "Nemotron Nano 12B VL: alinma_tokio_marine_FY2022_p11",
+   "Qari-OCR v0.3: blom_saudi_fund_FY2022_p05",
+   "Qwen3.6-27B: almarai_FY2024_p09",
+   "Qwen3.6-27B: almarai_FY2024_p11",
+   "Qwen3.8-27B (API): al_rajhi_FY2024_p15",
+   "Qwen3.8-27B (API): aramco_FY2023_p15",
+   "Command A Vision: arabian_drilling_FY2024_p13",
+   "Command A Vision: aramco_FY2024_p15"
+  ],
+  "skeleton": [
+   "Nanonets-OCR2: al_khodari_FY2018_p09",
+   "Nanonets-OCR2: al_khodari_FY2018_p11",
+   "Qwen3-VL-32B (FP8): aramco_FY2024_p15",
+   "Nemotron Nano 12B VL: bank_aljazira_FY2024_p09",
+   "Nemotron Nano 12B VL: othaim_FY2024_p08",
+   "Surya OCR 2: almarai_FY2024_p12",
+   "Surya OCR 2: bahri_FY2024_p07",
+   "Qwen3.6-27B: almarai_FY2024_p11",
+   "Qwen3.6-27B: almarai_FY2024_p13",
+   "Qwen3.8-27B (API): al_rajhi_FY2024_p15",
+   "Qwen3.8-27B (API): aramco_FY2023_p15",
+   "ERNIE 4.5 VL: alahli_global_trade_fund_H1-2023_p05",
+   "ERNIE 4.5 VL: alif_meem_yaa_FY2023_p09",
+   "Command A Vision: al_khodari_FY2018_p08",
+   "Command A Vision: al_khodari_FY2018_p10"
+  ],
+  "labels invented": [
+   "Qari-OCR v0.3: bishah_FY2016 s4",
+   "Qari-OCR v0.3: snb_FY2024 s5",
+   "Cohere Parse: cenomi_retail_FY2024 s1",
+   "Qwen3.6-27B: arabian_drilling_FY2024 s5",
+   "Qwen3.6-27B: blom_saudi_fund_FY2022 s3",
+   "ERNIE 4.5 VL: al_rajhi_FY2024 s4",
+   "ERNIE 4.5 VL: aramco_FY2023 s2",
+   "Command A Vision: alahli_global_trade_fund_H1-2023 s2",
+   "Command A Vision: aramco_FY2023 s1"
+  ]
+ },
+ "digit_pairs": [
+  [
+   "5→0",
+   1232
+  ],
+  [
+   "6→7",
+   644
+  ],
+  [
+   "3→2",
+   596
+  ],
+  [
+   "6→2",
+   271
+  ],
+  [
+   "2→7",
+   170
+  ],
+  [
+   "2→3",
+   160
+  ],
+  [
+   "6→3",
+   117
+  ],
+  [
+   "0→5",
+   115
+  ],
+  [
+   "6→1",
+   96
+  ],
+  [
+   "4→6",
+   90
+  ],
+  [
+   "7→2",
+   63
+  ],
+  [
+   "6→9",
+   55
+  ],
+  [
+   "3→4",
+   54
+  ],
+  [
+   "4→5",
+   46
+  ],
+  [
+   "0→1",
+   42
+  ],
+  [
+   "0→9",
+   36
+  ],
+  [
+   "2→4",
+   36
+  ],
+  [
+   "2→6",
+   34
+  ],
+  [
+   "1→0",
+   29
+  ],
+  [
+   "4→3",
+   28
+  ],
+  [
+   "0→2",
+   28
+  ],
+  [
+   "2→0",
+   27
+  ],
+  [
+   "1→2",
+   27
+  ],
+  [
+   "4→1",
+   26
+  ],
+  [
+   "7→8",
+   24
+  ],
+  [
+   "2→1",
+   24
+  ],
+  [
+   "3→8",
+   23
+  ],
+  [
+   "6→5",
+   23
+  ],
+  [
+   "3→6",
+   22
+  ],
+  [
+   "8→4",
+   22
+  ],
+  [
+   "7→6",
+   20
+  ],
+  [
+   "6→4",
+   19
+  ],
+  [
+   "9→8",
+   19
+  ],
+  [
+   "3→7",
+   18
+  ],
+  [
+   "7→1",
+   17
+  ],
+  [
+   "2→9",
+   17
+  ],
+  [
+   "9→4",
+   17
+  ],
+  [
+   "0→3",
+   16
+  ],
+  [
+   "1→6",
+   16
+  ],
+  [
+   "4→0",
+   15
+  ],
+  [
+   "4→2",
+   15
+  ],
+  [
+   "6→8",
+   15
+  ],
+  [
+   "7→9",
+   14
+  ],
+  [
+   "0→4",
+   14
+  ],
+  [
+   "7→3",
+   13
+  ],
+  [
+   "0→8",
+   13
+  ],
+  [
+   "8→1",
+   12
+  ],
+  [
+   "5→1",
+   12
+  ],
+  [
+   "5→6",
+   12
+  ],
+  [
+   "2→5",
+   12
+  ],
+  [
+   "7→0",
+   12
+  ],
+  [
+   "8→0",
+   12
+  ],
+  [
+   "9→7",
+   12
+  ],
+  [
+   "1→9",
+   11
+  ],
+  [
+   "9→1",
+   11
+  ],
+  [
+   "5→9",
+   11
+  ],
+  [
+   "9→6",
+   10
+  ],
+  [
+   "6→0",
+   10
+  ],
+  [
+   "1→5",
+   10
+  ],
+  [
+   "0→7",
+   9
+  ],
+  [
+   "7→4",
+   9
+  ],
+  [
+   "0→6",
+   8
+  ],
+  [
+   "4→9",
+   8
+  ],
+  [
+   "9→2",
+   8
+  ],
+  [
+   "1→8",
+   8
+  ],
+  [
+   "3→0",
+   8
+  ],
+  [
+   "3→1",
+   7
+  ],
+  [
+   "7→5",
+   7
+  ],
+  [
+   "4→7",
+   7
+  ],
+  [
+   "4→8",
+   7
+  ],
+  [
+   "8→6",
+   7
+  ],
+  [
+   "5→7",
+   6
+  ],
+  [
+   "1→7",
+   6
+  ],
+  [
+   "9→3",
+   6
+  ],
+  [
+   "3→5",
+   6
+  ],
+  [
+   "5→4",
+   6
+  ],
+  [
+   "2→8",
+   5
+  ],
+  [
+   "8→5",
+   5
+  ],
+  [
+   "8→7",
+   5
+  ],
+  [
+   "1→3",
+   5
+  ],
+  [
+   "9→5",
+   5
+  ],
+  [
+   "5→2",
+   5
+  ],
+  [
+   "5→3",
+   5
+  ],
+  [
+   "3→9",
+   4
+  ],
+  [
+   "9→0",
+   4
+  ],
+  [
+   "8→9",
+   4
+  ],
+  [
+   "8→3",
+   3
+  ],
+  [
+   "5→8",
+   3
+  ],
+  [
+   "8→2",
+   2
+  ],
+  [
+   "1→4",
+   2
+  ]
+ ]
+}

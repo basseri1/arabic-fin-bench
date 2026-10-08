@@ -1,0 +1,491 @@
+{
+ "delta": 0.02,
+ "rq1": [
+  {
+   "onprem": "dots.mocr adopted pipeline (3 seeds)",
+   "hosted": "Mistral OCR",
+   "recall_a": 0.9639405740660608,
+   "recall_b": 0.9675465166594548,
+   "filing": {
+    "diff": -0.0036059425933939737,
+    "lo95_one_sided": -0.0285754504504504,
+    "ci95": [
+     -0.03241106719367581,
+     0.03583502366463831
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.0036059425933939737,
+    "lo95_one_sided": -0.028066998641919416,
+    "ci95": [
+     -0.03237639553429039,
+     0.03238866396761131
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.0285754504504504
+  },
+  {
+   "onprem": "dots.mocr adopted pipeline (3 seeds)",
+   "hosted": "Cohere Parse",
+   "recall_a": 0.9639405740660608,
+   "recall_b": 0.9684119428818693,
+   "filing": {
+    "diff": -0.004471368815808452,
+    "lo95_one_sided": -0.02553246086733396,
+    "ci95": [
+     -0.02994100294985247,
+     0.02111613876319751
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.004471368815808452,
+    "lo95_one_sided": -0.02623311341501733,
+    "ci95": [
+     -0.030332841449417947,
+     0.022798074199943397
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.02553246086733396
+  },
+  {
+   "onprem": "dots.mocr adopted pipeline (3 seeds)",
+   "hosted": "LandingAI ADE",
+   "recall_a": 0.9639405740660608,
+   "recall_b": 0.977498918217222,
+   "filing": {
+    "diff": -0.013558344151161195,
+    "lo95_one_sided": -0.036010646625958986,
+    "ci95": [
+     -0.039936102236421744,
+     0.01604869950193699
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.013558344151161195,
+    "lo95_one_sided": -0.03677758318739055,
+    "ci95": [
+     -0.042223970626803164,
+     0.01338371909935443
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.036010646625958986
+  },
+  {
+   "onprem": "Chandra OCR 2 (own input size)",
+   "hosted": "Mistral OCR",
+   "recall_a": 0.9554305495456512,
+   "recall_b": 0.9675465166594548,
+   "filing": {
+    "diff": -0.012115967113803583,
+    "lo95_one_sided": -0.062217762167586455,
+    "ci95": [
+     -0.07324988409828459,
+     0.04898499558693736
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.012115967113803583,
+    "lo95_one_sided": -0.06271777003484325,
+    "ci95": [
+     -0.07435387673956262,
+     0.04739336492891
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.062217762167586455
+  },
+  {
+   "onprem": "Chandra OCR 2 (own input size)",
+   "hosted": "Cohere Parse",
+   "recall_a": 0.9554305495456512,
+   "recall_b": 0.9684119428818693,
+   "filing": {
+    "diff": -0.012981393336218061,
+    "lo95_one_sided": -0.05998322147651014,
+    "ci95": [
+     -0.06991799741044458,
+     0.037797480167988784
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.012981393336218061,
+    "lo95_one_sided": -0.05879671832269828,
+    "ci95": [
+     -0.0695921985815603,
+     0.03202995008319465
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.05998322147651014
+  },
+  {
+   "onprem": "Chandra OCR 2 (own input size)",
+   "hosted": "LandingAI ADE",
+   "recall_a": 0.9554305495456512,
+   "recall_b": 0.977498918217222,
+   "filing": {
+    "diff": -0.022068368671570804,
+    "lo95_one_sided": -0.06071964017991005,
+    "ci95": [
+     -0.06873428331936293,
+     0.017117117117117164
+    ],
+    "units": 22
+   },
+   "statement": {
+    "diff": -0.022068368671570804,
+    "lo95_one_sided": -0.0658578856152513,
+    "ci95": [
+     -0.07623718234507348,
+     0.01727272727272733
+    ],
+    "units": 107
+   },
+   "noninferior": false,
+   "smallest_margin": 0.06071964017991005
+  }
+ ],
+ "rq1_filings": {
+  "filings": 22,
+  "distribution": {
+   "dots.mocr adopted pipeline (3 seeds)": {
+    "at_least_99": 8,
+    "between": 9,
+    "severe": [
+     {
+      "filing": "al_rajhi_FY2024",
+      "recall": 0.9112554112554113,
+      "flagged_totals": 4,
+      "checked_totals": 48
+     },
+     {
+      "filing": "alahli_global_trade_fund_H1-2023",
+      "recall": 0.9492753623188406,
+      "flagged_totals": 0,
+      "checked_totals": 18
+     },
+     {
+      "filing": "halwani_FY2024",
+      "recall": 0.9391304347826087,
+      "flagged_totals": 0,
+      "checked_totals": 40
+     },
+     {
+      "filing": "othaim_FY2024",
+      "recall": 0.8953771289537713,
+      "flagged_totals": 2,
+      "checked_totals": 56
+     },
+     {
+      "filing": "snb_FY2024",
+      "recall": 0.84,
+      "flagged_totals": 1,
+      "checked_totals": 58
+     }
+    ],
+    "worst": 0.84
+   },
+   "Chandra OCR 2 (own input size)": {
+    "at_least_99": 12,
+    "between": 7,
+    "severe": [
+     {
+      "filing": "othaim_FY2024",
+      "recall": 0.7591240875912408,
+      "flagged_totals": 0,
+      "checked_totals": 77
+     },
+     {
+      "filing": "saudi_re_FY2024",
+      "recall": 0.9459459459459459,
+      "flagged_totals": 0,
+      "checked_totals": 42
+     },
+     {
+      "filing": "taiba_FY2024",
+      "recall": 0.6981132075471698,
+      "flagged_totals": 0,
+      "checked_totals": 39
+     }
+    ],
+    "worst": 0.6981132075471698
+   },
+   "Mistral OCR": {
+    "at_least_99": 15,
+    "between": 5,
+    "severe": [
+     {
+      "filing": "nama_FY2024",
+      "recall": 0.6597938144329897,
+      "flagged_totals": 0,
+      "checked_totals": 29
+     },
+     {
+      "filing": "snb_FY2024",
+      "recall": 0.78,
+      "flagged_totals": 0,
+      "checked_totals": 40
+     }
+    ],
+    "worst": 0.6597938144329897
+   },
+   "Cohere Parse": {
+    "at_least_99": 10,
+    "between": 9,
+    "severe": [
+     {
+      "filing": "al_khodari_FY2018",
+      "recall": 0.9491525423728814,
+      "flagged_totals": 2,
+      "checked_totals": 84
+     },
+     {
+      "filing": "al_rajhi_FY2024",
+      "recall": 0.8116883116883117,
+      "flagged_totals": 6,
+      "checked_totals": 45
+     },
+     {
+      "filing": "cenomi_retail_FY2024",
+      "recall": 0.9022556390977443,
+      "flagged_totals": 0,
+      "checked_totals": 49
+     }
+    ],
+    "worst": 0.8116883116883117
+   },
+   "LandingAI ADE": {
+    "at_least_99": 10,
+    "between": 10,
+    "severe": [
+     {
+      "filing": "othaim_FY2024",
+      "recall": 0.9416058394160584,
+      "flagged_totals": 3,
+      "checked_totals": 68
+     },
+     {
+      "filing": "saudi_re_FY2024",
+      "recall": 0.7927927927927928,
+      "flagged_totals": 3,
+      "checked_totals": 26
+     }
+    ],
+    "worst": 0.7927927927927928
+   }
+  },
+  "pairs": [
+   {
+    "onprem": "dots.mocr adopted pipeline (3 seeds)",
+    "hosted": "Mistral OCR",
+    "better": 2,
+    "tie": 13,
+    "worse": 7
+   },
+   {
+    "onprem": "dots.mocr adopted pipeline (3 seeds)",
+    "hosted": "Cohere Parse",
+    "better": 6,
+    "tie": 9,
+    "worse": 7
+   },
+   {
+    "onprem": "dots.mocr adopted pipeline (3 seeds)",
+    "hosted": "LandingAI ADE",
+    "better": 1,
+    "tie": 15,
+    "worse": 6
+   },
+   {
+    "onprem": "Chandra OCR 2 (own input size)",
+    "hosted": "Mistral OCR",
+    "better": 2,
+    "tie": 15,
+    "worse": 5
+   },
+   {
+    "onprem": "Chandra OCR 2 (own input size)",
+    "hosted": "Cohere Parse",
+    "better": 6,
+    "tie": 12,
+    "worse": 4
+   },
+   {
+    "onprem": "Chandra OCR 2 (own input size)",
+    "hosted": "LandingAI ADE",
+    "better": 2,
+    "tie": 18,
+    "worse": 2
+   }
+  ]
+ },
+ "cross_engine": {
+  "dev": {
+   "dots.mocr adopted pipeline (3 seeds)": {
+    "severe": 3,
+    "severe_flagged": 3,
+    "other": 7,
+    "other_flagged": 0,
+    "missed": []
+   },
+   "Chandra OCR 2 (own input size)": {
+    "severe": 1,
+    "severe_flagged": 1,
+    "other": 9,
+    "other_flagged": 4,
+    "missed": []
+   },
+   "Mistral OCR": {
+    "severe": 1,
+    "severe_flagged": 1,
+    "other": 9,
+    "other_flagged": 3,
+    "missed": []
+   },
+   "Cohere Parse": {
+    "severe": 1,
+    "severe_flagged": 1,
+    "other": 9,
+    "other_flagged": 3,
+    "missed": []
+   },
+   "LandingAI ADE": {
+    "severe": 1,
+    "severe_flagged": 1,
+    "other": 9,
+    "other_flagged": 3,
+    "missed": []
+   }
+  },
+  "test": {
+   "dots.mocr adopted pipeline (3 seeds)": {
+    "severe": 5,
+    "severe_flagged": 5,
+    "other": 17,
+    "other_flagged": 3,
+    "missed": []
+   },
+   "Chandra OCR 2 (own input size)": {
+    "severe": 3,
+    "severe_flagged": 2,
+    "other": 19,
+    "other_flagged": 1,
+    "missed": [
+     {
+      "filing": "saudi_re_FY2024",
+      "recall": 0.9459459459459459,
+      "disagreement": 0.04672897196261682
+     }
+    ]
+   },
+   "Mistral OCR": {
+    "severe": 2,
+    "severe_flagged": 2,
+    "other": 20,
+    "other_flagged": 1,
+    "missed": []
+   },
+   "Cohere Parse": {
+    "severe": 3,
+    "severe_flagged": 3,
+    "other": 19,
+    "other_flagged": 2,
+    "missed": []
+   },
+   "LandingAI ADE": {
+    "severe": 2,
+    "severe_flagged": 2,
+    "other": 20,
+    "other_flagged": 1,
+    "missed": []
+   }
+  }
+ },
+ "rq2": [
+  {
+   "output": "dots.mocr pipeline, seed 0",
+   "split": "test",
+   "accepted": 4533,
+   "wrong_accepted": 0,
+   "review_share": 0.092310772927513,
+   "upper95": 0.000660653561429414,
+   "filings": 22
+  },
+  {
+   "output": "dots.mocr pipeline, seed 0",
+   "split": "all",
+   "accepted": 6848,
+   "wrong_accepted": 0,
+   "review_share": 0.09093322713394403,
+   "upper95": 0.0004373652323624855,
+   "filings": 32
+  },
+  {
+   "output": "dots.mocr pipeline, seed 1",
+   "split": "test",
+   "accepted": 4499,
+   "wrong_accepted": 0,
+   "review_share": 0.0870535714285714,
+   "upper95": 0.0006656446135537841,
+   "filings": 22
+  },
+  {
+   "output": "dots.mocr pipeline, seed 1",
+   "split": "all",
+   "accepted": 6730,
+   "wrong_accepted": 0,
+   "review_share": 0.08819943097141314,
+   "upper95": 0.00044503203947676706,
+   "filings": 32
+  },
+  {
+   "output": "dots.mocr pipeline, seed 2",
+   "split": "test",
+   "accepted": 4454,
+   "wrong_accepted": 0,
+   "review_share": 0.08804258804258802,
+   "upper95": 0.0006723675446970168,
+   "filings": 22
+  },
+  {
+   "output": "dots.mocr pipeline, seed 2",
+   "split": "all",
+   "accepted": 6700,
+   "wrong_accepted": 0,
+   "review_share": 0.08905506458191703,
+   "upper95": 0.0004470242747959263,
+   "filings": 32
+  },
+  {
+   "output": "Chandra OCR 2, own input size",
+   "split": "test",
+   "accepted": 4489,
+   "wrong_accepted": 0,
+   "review_share": 0.09092750101255564,
+   "upper95": 0.0006671269537842361,
+   "filings": 22
+  },
+  {
+   "output": "Chandra OCR 2, own input size",
+   "split": "all",
+   "accepted": 6757,
+   "wrong_accepted": 0,
+   "review_share": 0.09665775401069521,
+   "upper95": 0.000443254149639416,
+   "filings": 32
+  }
+ ]
+}

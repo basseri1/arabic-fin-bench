@@ -1,0 +1,43 @@
+start 2026-09-27 19:29:34
+chandra up 19:29:34
+dots_mocr_clahe_s0 done 19:38:07
+chandra2_chandra_cap done 19:43:31
+dots_mocr_plain_s0 done 19:45:14
+dots_mocr_clahe_s1 done 19:54:24
+hosted done 2026-09-27 19:55:46
+chandra2_plain done 19:56:13
+dots_mocr_plain_s1 done 19:58:37
+dots_mocr_clahe_s2 done 20:02:31
+paddle_ar done 2026-09-27 20:04:26
+dots_mocr_plain_s2 done 20:05:39
+ALL DONE 2026-09-27 20:05:39
+phase2 start (dots/chandra servers stopped) 20:06:14
+nanonets_plain done 20:09:07
+qwen3vl_32b_plain done 20:20:06
+nemotron12b_vl_plain done 20:25:41
+persar2b_plain done 20:30:03
+chandra1_plain done 20:40:47
+surya2_plain done 21:33:29
+PHASE2 DONE 21:33:32
+phase3 start 21:33:45
+nanonets smoke ok (v017) 21:35:23
+nanonets_plain done (v017) 21:38:21
+chandra1_chandra_cap done 21:46:59
+dots solo timing done 21:53:24
+chandra2 solo timing done 21:58:49
+PHASE3 DONE 21:58:50
+phase4 start 21:59:00
+SERVE FAILED qwen38 22:01:50
+north_micro_plain done 22:11:32
+PHASE4 DONE 22:11:32
+phase5 start 22:11:53
+qwen38 smoke ok 22:15:23
+qwen38_27b_local_plain done 22:21:11
+PHASE5 DONE 22:21:22
+phase6 start 22:21:31
+north_micro_vendor_s0 done 22:42:05
+PHASE6 DONE 22:42:05
+phase7 start 05:39:21
+dots_mocr_clahe_lp_s0 done 05:42:38
+chandra2_chandra_cap_lp done 05:48:28
+PHASE7 DONE 05:48:31

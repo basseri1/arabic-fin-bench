@@ -1,0 +1,20 @@
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+Loading weights:   0%|          | 0/577 [00:00<?, ?it/s]Loading weights:   0%|          | 1/577 [00:00<01:42,  5.61it/s]Loading weights:  19%|█▊        | 107/577 [00:00<00:01, 452.61it/s]Loading weights:  28%|██▊       | 164/577 [00:00<00:00, 481.13it/s]Loading weights:  38%|███▊      | 219/577 [00:00<00:00, 486.74it/s]Loading weights:  75%|███████▍  | 432/577 [00:00<00:00, 1013.59it/s]Loading weights: 100%|██████████| 577/577 [00:00<00:00, 823.61it/s] 
+[north_micro] 1 pages (1 to run), batch 1, cpu
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[transformers] `standardize_rope_params` was called but no RoPE parameters were found.
+[north_micro] batch 1: 1 pages in 98s
+[north_micro] DONE in 98s
