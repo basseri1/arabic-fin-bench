@@ -14,6 +14,9 @@ Rows credited by row recall with at least two distinct non-zero figures; 'swappe
 | Chandra OCR 2 | 2,699 | 16 | 0.6% | 1,829 | 3 |
 | dots.mocr (pipeline) | 2,685 | 0 | 0.0% | 1,885 | 0 |
 | dots.mocr (out of the box) | 2,561 | 1 | 0.0% | 1,815 | 1 |
+| LightOnOCR-3 1B | 2,569 | 40 | 1.6% | 1,791 | 21 |
+| nace.ai Parse | 2,410 | 3 | 0.1% | 1,616 | 0 |
+| LightOnOCR-3 4B | 2,411 | 13 | 0.5% | 1,643 | 13 |
 | Qwen3.6-27B | 2,290 | 35 | 1.5% | 1,616 | 0 |
 | Chandra OCR 1 | 1,940 | 17 | 0.9% | 1,298 | 16 |
 | Persian–Arabic line OCR | 1,968 | 0 | 0.0% | 1,293 | 0 |
@@ -22,6 +25,8 @@ Rows credited by row recall with at least two distinct non-zero figures; 'swappe
 | Qwen3.8-27B (API) | 1,686 | 100 | 5.9% | 1,137 | 0 |
 | Qwen3-VL-32B (FP8) | 1,576 | 0 | 0.0% | 1,041 | 0 |
 | PaddleOCR PP-OCRv5 Arabic | 1,317 | 1 | 0.1% | 775 | 1 |
+| LightOnOCR-3 0.8B | 1,285 | 3 | 0.2% | 730 | 2 |
+| nace.ai Parse | 1,125 | 0 | 0.0% | 729 | 0 |
 | Nanonets-OCR2 | 962 | 19 | 2.0% | 531 | 14 |
 | PaddleOCR-VL-1.6 | 597 | 0 | 0.0% | 242 | 0 |
 | ERNIE 4.5 VL | 551 | 0 | 0.0% | 216 | 0 |
@@ -42,10 +47,15 @@ GriTS-Con: mean over statements, 95% CI by bootstrap over filings; orientation-i
 | dots.mocr (out of the box) | 93.7% | 76.2 | 72.5–80.4 | 78.4 | 78.6 | 91.8% | 73.8 |
 | Chandra OCR 2 | 95.5% | 73.6 | 70.0–76.8 | 77.7 | 74.7 | 96.6% | 74.2 |
 | Qwen3.8-27B (API) | 64.1% | 70.9 | 67.8–73.9 | 74.5 | 71.7 | 64.3% | 69.0 |
+| nace.ai Parse | 85.9% | 70.6 | 65.2–75.4 | 73.0 | 73.5 | 87.4% | 70.5 |
 | Qwen3.8-27B (self-hosted) | 69.7% | 67.8 | 64.6–71.0 | 71.4 | 68.4 | 70.8% | 67.2 |
+| LightOnOCR-3 4B | 86.0% | 65.4 | 61.8–69.0 | 65.1 | 71.1 | 86.7% | 66.0 |
+| LightOnOCR-3 1B | 92.2% | 65.2 | 61.3–69.2 | 64.4 | 70.9 | 91.4% | 65.8 |
 | Qwen3-VL-32B (FP8) | 57.8% | 64.9 | 60.4–69.0 | 64.5 | 70.3 | 59.6% | 64.8 |
 | Qwen3.6-27B | 84.4% | 64.5 | 59.2–69.8 | 65.9 | 68.3 | 82.7% | 61.9 |
+| LightOnOCR-3 0.8B | 41.9% | 56.1 | 50.9–61.4 | 54.3 | 62.8 | 49.4% | 56.5 |
 | Surya OCR 2 | 62.8% | 52.3 | 47.3–57.1 | 51.0 | 59.1 | 69.3% | 54.9 |
+| nace.ai Parse | 42.1% | 51.6 | 44.2–58.1 | 49.4 | 60.5 | 44.0% | 50.6 |
 | Persian–Arabic line OCR | 70.2% | 51.5 | 48.9–54.3 | 55.5 | 51.1 | 72.5% | 51.9 |
 | PaddleOCR PP-OCRv5 Arabic | 45.0% | 47.9 | 44.8–50.7 | 51.8 | 48.0 | 50.8% | 48.5 |
 | Chandra OCR 1 | 70.6% | 46.2 | 41.6–50.5 | 44.6 | 54.3 | 73.7% | 49.9 |
@@ -68,13 +78,18 @@ GriTS-Con recall computed on the value columns alone (figures in the right cell)
 | Cohere Parse | 96.8% | 92.9 | 95.0 | 94.6 | 93.0 | 94.8 |
 | dots.mocr (out of the box) | 93.7% | 92.4 | 94.6 | 70.7 | 89.2 | 66.6 |
 | LandingAI ADE | 97.7% | 92.4 | 95.6 | 87.2 | 92.6 | 87.2 |
+| LightOnOCR-3 1B | 92.2% | 90.6 | 93.7 | 56.7 | 89.2 | 57.5 |
+| LightOnOCR-3 4B | 86.0% | 88.6 | 93.5 | 71.2 | 88.5 | 74.0 |
+| nace.ai Parse | 85.9% | 82.6 | 88.3 | 68.1 | 83.6 | 70.1 |
 | Qwen3.6-27B | 84.4% | 76.7 | 82.9 | 75.0 | 74.7 | 72.9 |
 | Qwen3.8-27B (self-hosted) | 69.7% | 74.7 | 89.4 | 90.5 | 74.8 | 89.2 |
 | Qwen3.8-27B (API) | 64.1% | 72.3 | 89.3 | 90.1 | 70.7 | 87.8 |
 | Chandra OCR 1 | 70.6% | 61.9 | 65.6 | 29.5 | 66.4 | 29.2 |
 | Qwen3-VL-32B (FP8) | 57.8% | 61.9 | 73.6 | 86.5 | 63.5 | 85.6 |
 | Surya OCR 2 | 62.8% | 57.2 | 62.1 | 53.2 | 62.8 | 52.4 |
+| LightOnOCR-3 0.8B | 41.9% | 53.8 | 71.4 | 62.4 | 58.3 | 60.0 |
 | Persian–Arabic line OCR | 70.2% | 52.2 | 65.8 | 83.3 | 52.5 | 83.2 |
+| nace.ai Parse | 42.1% | 49.5 | 66.3 | 30.1 | 50.8 | 31.8 |
 | Nanonets-OCR2 | 34.0% | 36.0 | 44.9 | 50.1 | 39.8 | 48.6 |
 | PaddleOCR PP-OCRv5 Arabic | 45.0% | 33.0 | 60.2 | 82.0 | 35.2 | 81.2 |
 | PaddleOCR-VL-1.6 | 15.3% | 16.5 | 39.9 | 32.6 | 21.0 | 33.9 |
@@ -83,7 +98,7 @@ GriTS-Con recall computed on the value columns alone (figures in the right cell)
 | Command A Vision | 8.2% | 6.4 | 13.4 | 14.6 | 11.1 | 16.3 |
 | Qari-OCR v0.3 | 1.9% | 0.0 | 0.1 | 0.1 | 0.3 | 0.1 |
 
-Rank agreement with row recall across the 20 configurations — GriTS-Con F: test ρ = 0.93, τ = 0.82; all ρ = 0.93, τ = 0.80. Exact-match values: test ρ = 0.94, τ = 0.83; all ρ = 0.95, τ = 0.85.
+Rank agreement with row recall across the 25 configurations — GriTS-Con F: test ρ = 0.91, τ = 0.78; all ρ = 0.92, τ = 0.79. Exact-match values: test ρ = 0.96, τ = 0.87; all ρ = 0.97, τ = 0.87.
 
-**Reading.** Placing figures in their exact cells ranks the systems almost exactly as row recall does (ρ = 0.94), and row recall rarely credits a row with swapped period columns (at most 1.5% of credited rows for the leading systems), so the primary metric is not an artefact of ignoring structure. The leading systems tie on figures (dots.mocr (pipeline) 93.5, Chandra OCR 2 93.0, Mistral OCR 95.9, Cohere Parse 92.9, LandingAI ADE 92.4) and differ on labels (dots.mocr (pipeline) 71.0, Chandra OCR 2 77.4, Mistral OCR 86.5, Cohere Parse 94.6, LandingAI ADE 87.2). GriTS-Con's LCS similarity gives most of the credit to a figure with a wrong digit, which flatters systems that misread digits; for financial figures the exact-match variant is the meaningful one.
+**Reading.** Placing figures in their exact cells ranks the systems almost exactly as row recall does (ρ = 0.96), and row recall rarely credits a row with swapped period columns (at most 1.5% of credited rows for the leading systems), so the primary metric is not an artefact of ignoring structure. The leading systems tie on figures (dots.mocr (pipeline) 93.5, Chandra OCR 2 93.0, Mistral OCR 95.9, Cohere Parse 92.9, LandingAI ADE 92.4) and differ on labels (dots.mocr (pipeline) 71.0, Chandra OCR 2 77.4, Mistral OCR 86.5, Cohere Parse 94.6, LandingAI ADE 87.2). GriTS-Con's LCS similarity gives most of the credit to a figure with a wrong digit, which flatters systems that misread digits; for financial figures the exact-match variant is the meaningful one.
 

@@ -29,6 +29,13 @@ SPECS.update({
  # Qwen3.8-27B self-hosted (official BF16 checkpoint); reasoning off, as in the hosted run
  "qwen38_27b":     dict(prompt=GENERIC_PROMPT, max_tokens=8192, gen=dict(temperature=0.0), prep=None, port=8010,
                         extra=dict(chat_template_kwargs={"enable_thinking": False})),
+ # LightOnOCR-3 (added 9 Oct 2026): the vendor's transcription mode is an empty prompt (the image alone); greedy decoding
+ # as for the other document models; thinking disabled for the Qwen3.5-based 0.8B and 4B (vendor flag). vLLM 0.30.0.
+ "lightonocr3_08b": dict(prompt="", max_tokens=8192, gen=dict(temperature=0.0), prep=None, port=8012,
+                         extra=dict(chat_template_kwargs={"enable_thinking": False})),
+ "lightonocr3_1b":  dict(prompt="", max_tokens=8192, gen=dict(temperature=0.0), prep=None, port=8012),
+ "lightonocr3_4b":  dict(prompt="", max_tokens=8192, gen=dict(temperature=0.0), prep=None, port=8012,
+                         extra=dict(chat_template_kwargs={"enable_thinking": False})),
 })
 def b64_image(path, prep):
     if prep == "chandra":
@@ -42,9 +49,10 @@ def run_page(p, spec, url, logprobs):
     if os.environ.get("BENCH_SEED") is not None: gen["seed"] = int(os.environ["BENCH_SEED"])
     prompt = Path(os.environ["BENCH_PROMPT_FILE"]).read_text() if os.environ.get("BENCH_PROMPT_FILE") else spec["prompt"]
     max_tokens = int(os.environ.get("BENCH_MAX_TOKENS", spec["max_tokens"]))
-    body = {"model": "model", "messages": [{"role": "user", "content": [
-                {"type": "image_url", "image_url": {"url": "data:image/png;base64," + b64_image(p, spec["prep"])}},
-                {"type": "text", "text": prompt}]}],
+    content = [{"type": "image_url", "image_url": {"url": "data:image/png;base64," + b64_image(p, spec["prep"])}}]
+    if prompt:                                      # an empty prompt (LightOnOCR-3 transcription mode) sends the image alone
+        content.append({"type": "text", "text": prompt})
+    body = {"model": "model", "messages": [{"role": "user", "content": content}],
             "max_tokens": max_tokens, "stream": True, "stream_options": {"include_usage": True}, **gen, **spec.get("extra", {})}
     if logprobs: body["logprobs"] = True; body["top_logprobs"] = 2
     t0 = time.time(); parts = []; toks = []; n = 0; finish = None; usage = None; loop_stop = False; timed_out = False

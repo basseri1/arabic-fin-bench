@@ -12,7 +12,10 @@ Counted with fixed, automatic rules; definitions in the header of `bench/taxonom
 | Chandra OCR 2 | 0 | 0 | 0 | 0 | 0 |
 | LandingAI ADE | 0 | 0 | 0 | 0 | 1 |
 | dots.mocr (out of the box) | 3 | 0 | 1 | 0 | 3 |
+| LightOnOCR-3 1B | 4 | 0 | 0 | 0 | 0 |
+| LightOnOCR-3 4B | 2 | 0 | 0 | 0 | 0 |
 | Qwen3.6-27B | 23 | 23 | 15 | 11 | 2 |
+| nace.ai Parse | 5 | 0 | 8 | 0 | 5 |
 | Persian–Arabic line OCR | 0 | 0 | 0 | 0 | 0 |
 | Qwen3.8-27B (self-hosted) | 2 | 0 | 1 | 0 | 0 |
 | Surya OCR 2 | 3 | 0 | 13 | 10 | 1 |
@@ -20,6 +23,8 @@ Counted with fixed, automatic rules; definitions in the header of `bench/taxonom
 | Qwen3.8-27B (API) | 6 | 6 | 5 | 5 | 5 |
 | Qwen3-VL-32B (FP8) | 3 | 0 | 1 | 1 | 5 |
 | PaddleOCR PP-OCRv5 Arabic | 0 | 0 | 1 | 0 | 2 |
+| LightOnOCR-3 0.8B | 7 | 0 | 7 | 2 | 11 |
+| nace.ai Parse | 13 | 0 | 27 | 0 | 19 |
 | Nanonets-OCR2 | 28 | 9 | 30 | 21 | 6 |
 | PaddleOCR-VL-1.6 | 19 | 0 | 20 | 0 | 81 |
 | ERNIE 4.5 VL | 4 | 0 | 19 | 11 | 91 |
@@ -37,7 +42,10 @@ Counted with fixed, automatic rules; definitions in the header of `bench/taxonom
 | Chandra OCR 2 | 4 | 1 | 0 | 0 | 0 |
 | LandingAI ADE | 2 | 0 | 0 | 0 | 0 |
 | dots.mocr (out of the box) | 11 | 1 | 29 | 0 | 0 |
+| LightOnOCR-3 1B | 15 | 3 | 2 | 0 | 0 |
+| LightOnOCR-3 4B | 19 | 1 | 2 | 0 | 0 |
 | Qwen3.6-27B | 27 | 3 | 2 | 2 | 0 |
+| nace.ai Parse | 28 | 1 | 16 | 0 | 0 |
 | Persian–Arabic line OCR | 45 | 0 | 0 | 0 | 0 |
 | Qwen3.8-27B (self-hosted) | 56 | 1 | 0 | 0 | 0 |
 | Surya OCR 2 | 53 | 0 | 7 | 0 | 0 |
@@ -45,6 +53,8 @@ Counted with fixed, automatic rules; definitions in the header of `bench/taxonom
 | Qwen3.8-27B (API) | 73 | 0 | 0 | 0 | 0 |
 | Qwen3-VL-32B (FP8) | 65 | 1 | 0 | 0 | 0 |
 | PaddleOCR PP-OCRv5 Arabic | 109 | 0 | 0 | 0 | 0 |
+| LightOnOCR-3 0.8B | 87 | 0 | 0 | 0 | 0 |
+| nace.ai Parse | 106 | 0 | 36 | 0 | 0 |
 | Nanonets-OCR2 | 98 | 1 | 11 | 0 | 0 |
 | PaddleOCR-VL-1.6 | 125 | 0 | 3 | 0 | 0 |
 | ERNIE 4.5 VL | 128 | 0 | 2 | 13 | 0 |
@@ -64,7 +74,10 @@ Counts of emitted figures; rates are per 1,000 emitted figures. Digit pairs are 
 | Chandra OCR 2 | 7,674 | 19 | 2.5 | 15 | 0 | 5→0 (3), 3→2 (3), 8→1 (2), 3→8 (1) | 97.6% | 100.0% |
 | LandingAI ADE | 7,773 | 47 | 6.0 | 22 | 0 | 5→0 (10), 7→2 (3), 6→9 (2), 2→0 (2) | 97.0% | 99.2% |
 | dots.mocr (out of the box) | 7,605 | 22 | 2.9 | 30 | 0 | 5→0 (12), 3→8 (1), 2→7 (1) | 96.2% | 92.8% |
+| LightOnOCR-3 1B | 7,380 | 60 | 8.1 | 26 | 0 | 5→0 (16), 3→2 (5), 2→3 (4), 6→9 (4) | 93.4% | 93.1% |
+| LightOnOCR-3 4B | 7,435 | 358 | 48.2 | 18 | 0 | 5→0 (194), 6→7 (59), 6→2 (34), 3→2 (10) | 88.6% | 93.9% |
 | Qwen3.6-27B | 6,482 | 172 | 26.5 | 11 | 34 | 3→2 (34), 5→0 (7), 6→2 (6), 6→1 (5) | 86.0% | 60.6% |
+| nace.ai Parse | 7,100 | 100 | 14.1 | 43 | 0 | 3→2 (19), 2→3 (13), 6→3 (12), 6→7 (10) | 85.1% | 91.7% |
 | Persian–Arabic line OCR | 7,794 | 681 | 87.4 | 43 | 0 | 3→2 (121), 3→4 (29), 2→3 (22), 6→7 (21) | 78.1% | 99.5% |
 | Qwen3.8-27B (self-hosted) | 7,502 | 1024 | 136.5 | 11 | 0 | 5→0 (283), 6→7 (236), 6→2 (82), 3→2 (50) | 73.8% | 91.2% |
 | Surya OCR 2 | 5,959 | 42 | 7.0 | 11 | 0 | 3→2 (10), 2→3 (4), 5→0 (4), 6→2 (3) | 70.6% | 86.0% |
@@ -72,6 +85,8 @@ Counts of emitted figures; rates are per 1,000 emitted figures. Digit pairs are 
 | Qwen3.8-27B (API) | 7,212 | 1007 | 139.6 | 17 | 0 | 5→0 (191), 6→2 (131), 6→7 (127), 3→2 (59) | 68.2% | 79.6% |
 | Qwen3-VL-32B (FP8) | 6,570 | 667 | 101.5 | 20 | 0 | 5→0 (178), 6→7 (142), 2→7 (91), 3→2 (30) | 66.3% | 81.0% |
 | PaddleOCR PP-OCRv5 Arabic | 7,502 | 1158 | 154.4 | 83 | 0 | 5→0 (383), 6→7 (37), 3→2 (20), 2→3 (6) | 57.6% | 95.4% |
+| LightOnOCR-3 0.8B | 6,535 | 920 | 140.8 | 43 | 0 | 5→0 (396), 6→7 (192), 3→2 (58), 6→2 (36) | 50.0% | 90.3% |
+| nace.ai Parse | 5,512 | 475 | 86.2 | 125 | 1 | 3→2 (109), 6→2 (53), 6→3 (36), 2→3 (36) | 41.0% | 68.1% |
 | Nanonets-OCR2 | 7,723 | 835 | 108.1 | 20 | 0 | 3→2 (230), 5→0 (91), 0→5 (40), 7→2 (30) | 37.6% | 84.4% |
 | PaddleOCR-VL-1.6 | 6,544 | 506 | 77.3 | 101 | 1 | 6→3 (61), 4→6 (45), 2→3 (35), 6→7 (20) | 5.5% | 99.4% |
 | ERNIE 4.5 VL | 4,948 | 226 | 45.7 | 29 | 1 | 5→0 (19), 2→3 (14), 2→0 (12), 2→7 (8) | 1.6% | 87.2% |
@@ -79,7 +94,7 @@ Counts of emitted figures; rates are per 1,000 emitted figures. Digit pairs are 
 | Nemotron Nano 12B VL | 5,624 | 87 | 15.5 | 39 | 1 | 6→7 (42), 4→1 (6), 3→4 (3), 8→0 (3) | 0.2% | 39.1% |
 | Qari-OCR v0.3 | 1,799 | 11 | 6.1 | 7 | 0 | 7→9 (2), 1→8 (2), 7→8 (2) | 0.1% | 11.6% |
 
-Across all systems, one-digit substitutions by digit pair (printed → read): 5→0 1232 (26%), 6→7 644 (14%), 3→2 596 (13%), 6→2 271 (6%), 2→7 170 (4%), 2→3 160 (3%), 6→3 117 (2%), 0→5 115 (2%).
+Across all systems, one-digit substitutions by digit pair (printed → read): 5→0 1851 (29%), 6→7 931 (15%), 3→2 797 (13%), 6→2 403 (6%), 2→3 219 (3%), 2→7 198 (3%), 6→3 167 (3%), 0→5 118 (2%).
 
 ## Examples (up to two per system and category)
 

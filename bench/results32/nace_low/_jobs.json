@@ -1,0 +1,1266 @@
+{
+ "al_khodari_FY2018_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-147e-7091-8b32-33b00401e78e"
+  },
+  "job_id": "4b6611e4-cadd-4066-ae6f-35de11bf9a1d"
+ },
+ "al_khodari_FY2018_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-1496-7f20-85f8-f773af9721bc"
+  },
+  "job_id": "f75c9ef4-369c-45b8-9d44-22f509439413"
+ },
+ "al_khodari_FY2018_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-15f2-7902-9dc6-3b732c7697d5"
+  },
+  "job_id": "20516373-7c57-4366-a922-21018d630eca"
+ },
+ "al_khodari_FY2018_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-1bb7-7270-a836-fbe18883c043"
+  },
+  "job_id": "c60aa709-bd5d-479d-94b5-5e8ebfeb2db2"
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p03": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-301a-7572-88ed-f062a06280aa"
+  },
+  "job_id": "fba7422f-8cf4-4ce7-b102-cb4f68bd7955"
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-3a42-7cd0-b886-f73111ac2fd7"
+  },
+  "job_id": "7fabd2c2-b360-4b71-90f5-3849b37de52d"
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-3c62-7781-b3f7-0181279561fd"
+  },
+  "job_id": "662145fa-03b9-4e25-baba-b5fae518ca60"
+ },
+ "al_mubarak_usd_trade_fund_H1-2022_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-456e-7642-a3db-d25397d51d1c"
+  },
+  "job_id": "eef63c5f-6fa8-4cec-8991-b7dce06dd624"
+ },
+ "al_rajhi_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-5230-78e0-83e2-be33dabb66a3"
+  },
+  "job_id": "9e314db5-551a-48fa-bfcb-edcc590b203d"
+ },
+ "al_rajhi_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-55d4-7301-bcb4-792519d81b22"
+  },
+  "job_id": "8b4ba455-e3e0-4349-8dec-43a199eb33ef"
+ },
+ "al_rajhi_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-603e-7523-93fe-236d747fda5f"
+  },
+  "job_id": "98f8954b-db20-4da0-bdc2-95e7a8f88cf3"
+ },
+ "al_rajhi_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-6e7f-72a3-9738-916c05ca1688"
+  },
+  "job_id": "7c9b5d9a-8c6a-4608-8651-f50be90f687d"
+ },
+ "al_rajhi_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-71cb-7dd0-b38c-716fb871cac9"
+  },
+  "job_id": "75acadd5-f924-4fe7-bd4b-f0a83134704f"
+ },
+ "al_rajhi_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-7481-7941-88e9-394702e2576c"
+  },
+  "job_id": "2ca3fd3d-4b16-445f-b388-576e0cf7324b"
+ },
+ "al_rajhi_FY2024_p15": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-76be-72a1-a407-bf5361f8815a"
+  },
+  "job_id": "f183eb9b-1cfe-4b73-a828-250a9fc8b3cf"
+ },
+ "alahli_global_trade_fund_H1-2023_p03": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-8e68-7181-8d05-309049a69719"
+  },
+  "job_id": "b24669e2-4c47-429a-9c35-20950df1194e"
+ },
+ "alahli_global_trade_fund_H1-2023_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-934a-7ab1-a527-73f15e07009d"
+  },
+  "job_id": "e9d74c9c-1ecf-4d19-80b7-8169695e3553"
+ },
+ "alahli_global_trade_fund_H1-2023_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-9396-7ae1-b94e-641bbb17b8b9"
+  },
+  "job_id": "f9b57990-4b86-4034-a676-6f9f47d21034"
+ },
+ "alahli_global_trade_fund_H1-2023_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-9586-7fb3-ac64-722a9c18600a"
+  },
+  "job_id": "7ffe58bc-97f1-426b-bcf3-0b4f65620160"
+ },
+ "alif_meem_yaa_FY2023_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-a37a-7601-81ee-633eb92e4566"
+  },
+  "job_id": "b15d5a21-c664-416b-9804-413da851fb5c"
+ },
+ "alif_meem_yaa_FY2023_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-a9a7-7ec2-83f3-6303664b5e85"
+  },
+  "job_id": "14a0197d-d223-43b3-aae1-0762010621a8"
+ },
+ "alif_meem_yaa_FY2023_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-a9b3-74e2-90ce-7a0a016f363d"
+  },
+  "job_id": "cb0e0bee-72b0-4260-8797-92b924b00096"
+ },
+ "alif_meem_yaa_FY2023_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-adde-74d1-b682-35e7b6683853"
+  },
+  "job_id": "e1cde826-1f97-49f0-a203-3547cfd95332"
+ },
+ "alinma_tokio_marine_FY2022_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-c3bf-72c2-ab1f-6aae4c6ad06c"
+  },
+  "job_id": "65c0f25b-4a23-426a-88f8-a782e17bfc57"
+ },
+ "alinma_tokio_marine_FY2022_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-c3ca-7f40-ad2b-c3831e61a5ea"
+  },
+  "job_id": "ce802eee-f4d9-495b-81db-1f6babba0607"
+ },
+ "alinma_tokio_marine_FY2022_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-c58b-7453-93db-b720ae558e90"
+  },
+  "job_id": "9508b24d-f0e7-4084-aa82-5cfab594d722"
+ },
+ "alinma_tokio_marine_FY2022_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-ce8b-7513-a05f-25ab0e8b9343"
+  },
+  "job_id": "03fb40c9-6b01-46f4-a1bf-ab76d5143226"
+ },
+ "alinma_tokio_marine_FY2022_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-dbfa-7012-b21e-51ecbcf0318d"
+  },
+  "job_id": "8d5e496c-104a-4ebf-bebe-81edc0e9a9c3"
+ },
+ "almarai_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c7-3364-75a2-bc1c-921b1d54e76f"
+  },
+  "job_id": "f3a987d2-577a-4594-abee-49240598416c"
+ },
+ "almarai_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-e52d-7ba2-8195-c2aa28d0495b"
+  },
+  "job_id": "6aaddabf-3fa5-4b10-b659-2fd6112ae36b"
+ },
+ "almarai_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-f16a-7523-885a-42d5d02ae85a"
+  },
+  "job_id": "2d3bdbf0-f62e-4c44-b173-ca820096f628"
+ },
+ "almarai_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-fbf0-7e22-b034-b380792c8b11"
+  },
+  "job_id": "58b56773-9dc2-4268-b56f-0174ff56a585"
+ },
+ "almarai_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c8-fcee-7581-ba35-2a83f34e756d"
+  },
+  "job_id": "4fe4c971-b0ae-4045-909e-784b97131906"
+ },
+ "almarai_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-00fa-7ba1-b304-eb41bd1b4fb2"
+  },
+  "job_id": "a2346320-6e2f-4ea9-9d61-6f28d100bb1b"
+ },
+ "arabian_drilling_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-0c0d-7e62-a794-56f6946dfd6a"
+  },
+  "job_id": "dd12ed6e-5ea6-49fa-9f3b-037aff991260"
+ },
+ "arabian_drilling_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-1ce1-7863-8cd2-50a7ddb24f68"
+  },
+  "job_id": "9770286b-90be-43bd-82b9-0c469d9259b5"
+ },
+ "arabian_drilling_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-20b2-7693-8708-6f40b4855238"
+  },
+  "job_id": "23b46611-614e-4de7-a07f-b2f7b1304d4b"
+ },
+ "arabian_drilling_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-220a-7733-b2ed-02d58fbb31ff"
+  },
+  "job_id": "7f4590f0-8510-4807-95ee-1ff784d38183"
+ },
+ "arabian_drilling_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-23b1-7e13-a4a9-2ef336588fde"
+  },
+  "job_id": "f8df3fae-6958-4926-a104-6d0e423789fc"
+ },
+ "arabian_drilling_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-3708-76e0-bcc1-902ebaa9e443"
+  },
+  "job_id": "a9291584-5b73-491d-8e4e-03aa78e59c2e"
+ },
+ "aramco_FY2023_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-3b4c-7ec0-ae52-c03e06d23709"
+  },
+  "job_id": "ade4ddfb-ce58-4432-bf25-82e35432ea7f"
+ },
+ "aramco_FY2023_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-3d34-7782-994d-bcf63090e65e"
+  },
+  "job_id": "5e898a90-e92e-4e0a-87fe-f0cf3c6b45aa"
+ },
+ "aramco_FY2023_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-4489-7781-95b3-44daf2d497c4"
+  },
+  "job_id": "d1582614-539c-40ac-b9a0-eedee2e1f1dd"
+ },
+ "aramco_FY2023_p15": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-50c3-7122-91a6-1d688d068467"
+  },
+  "job_id": "027c4127-0a50-40c9-b408-6a5660dd8cf5"
+ },
+ "aramco_FY2023_p16": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-5769-7c00-a205-1bc8302061c1"
+  },
+  "job_id": "b8e74651-0315-4572-b754-3c872e08b559"
+ },
+ "aramco_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-57b6-7df3-a6d1-412b49a5df33"
+  },
+  "job_id": "743ed287-e0b2-464f-8a20-cb53368cde3e"
+ },
+ "aramco_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-6d81-7202-985b-7260100c0e1c"
+  },
+  "job_id": "f75e210a-9f10-4374-9172-b157db6d02d2"
+ },
+ "aramco_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-7256-7be0-9b4a-e58101422bbc"
+  },
+  "job_id": "a55ebe60-9ef7-48b2-a23d-c378d372a712"
+ },
+ "aramco_FY2024_p15": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-77b9-70e3-a8cb-09bcc0b3c888"
+  },
+  "job_id": "dee4952f-317c-4895-86e0-bb711c43cd2f"
+ },
+ "aramco_FY2024_p16": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-8a2b-7492-8cd5-a21589e9afc5"
+  },
+  "job_id": "7ad16e73-8cbc-423d-a29b-3035ed053d70"
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-8cee-7101-ba1a-3f09904872ee"
+  },
+  "job_id": "ef9bf60a-525e-4a83-877e-6a4b58a0c307"
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-8f12-7392-a5e1-9851927db3a0"
+  },
+  "job_id": "685433ed-22ad-4309-899d-e182af9628ed"
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-a377-7b61-8147-20a1e0542f9a"
+  },
+  "job_id": "871f8c38-6ce8-4c23-a3cc-dd459e753a4e"
+ },
+ "ashmore_saudi_equity_fund_H1-2020_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-a39f-7c00-b225-5a9a5b0693b6"
+  },
+  "job_id": "36ca8493-f532-4513-a014-9d5ddc13a9f9"
+ },
+ "bahri_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-a7d6-7723-99ef-74ba704bd327"
+  },
+  "job_id": "696663d0-135f-48df-855b-46f0af14ed86"
+ },
+ "bahri_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-b119-7281-b986-f373fd63a23c"
+  },
+  "job_id": "94d243a3-5e76-428e-8a8e-b65469dd21fb"
+ },
+ "bahri_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-b7f7-7801-ae42-c088090f1705"
+  },
+  "job_id": "31a845fe-edb0-4ccb-9ae8-b2622ea0bac9"
+ },
+ "bahri_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-c24c-7a61-9b32-040f8541cb81"
+  },
+  "job_id": "2470b46d-9d4f-40c1-b0ca-d46a9618870d"
+ },
+ "bahri_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-cbcb-7202-8904-2acb4cb09f92"
+  },
+  "job_id": "cf356393-aefd-41ee-ae8f-d244b9b49045"
+ },
+ "bank_aljazira_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-d947-78b0-93e7-8fcd307aa544"
+  },
+  "job_id": "eac339d5-4a23-48f8-bddd-86471ac73727"
+ },
+ "bank_aljazira_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-d995-7200-aa48-a1fe59d76f0f"
+  },
+  "job_id": "f7aa4ffd-94fd-452d-9dc3-ce7942b18b7f"
+ },
+ "bank_aljazira_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-e7a5-70c3-a9e4-a4a7c73f51a4"
+  },
+  "job_id": "cc4ed567-ade1-4991-a7e7-b2877b9b6445"
+ },
+ "bank_aljazira_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-e952-7141-8c64-cca6e037c954"
+  },
+  "job_id": "5ce22342-ec5c-4840-bca6-e0b3569cb9a0"
+ },
+ "bank_aljazira_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120c9-f9d6-7b23-9b30-c6f557b17ecc"
+  },
+  "job_id": "1c32f492-0827-4b56-b095-2ec672cd4ea8"
+ },
+ "bank_aljazira_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-00f4-7ae1-9fb8-786b45345751"
+  },
+  "job_id": "10727ad6-2611-4fc6-ae60-068df82c1412"
+ },
+ "bishah_FY2016_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-0f4c-72e2-a0f4-385f20d5edf0"
+  },
+  "job_id": "d572d14f-a0bd-4d9a-b038-f26275c006ed"
+ },
+ "bishah_FY2016_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-1dc3-7ff0-a473-7d96dcdc3571"
+  },
+  "job_id": "01eda53c-c41b-44e3-ade5-6d29443d8e59"
+ },
+ "bishah_FY2016_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-2d00-7432-9896-f77191b05702"
+  },
+  "job_id": "4cc445e1-31a5-474f-8b54-4e0c356bb7dc"
+ },
+ "bishah_FY2016_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-3346-7e71-a02d-99bb55458030"
+  },
+  "job_id": "3981a858-1fcb-4d87-89c4-7262fc1e54af"
+ },
+ "blom_saudi_fund_FY2022_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-34e7-7711-990d-9b8c2d737e5c"
+  },
+  "job_id": "f4065db1-71e6-4d5e-8748-484226633b1c"
+ },
+ "blom_saudi_fund_FY2022_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-4484-7e80-9718-524116e0d576"
+  },
+  "job_id": "67ae3195-fafa-4219-bbad-a723ec87b67e"
+ },
+ "blom_saudi_fund_FY2022_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-499f-74d1-8884-e52dd947b467"
+  },
+  "job_id": "38f24d30-e7d3-4216-9ee3-fff4dded7eef"
+ },
+ "blom_saudi_fund_FY2022_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-49d7-77b1-9ab0-ea328da6232c"
+  },
+  "job_id": "7c8fde7a-14ac-41b3-a746-3067f735b611"
+ },
+ "buruj_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-50a7-7ba2-a175-c9607da76074"
+  },
+  "job_id": "7b93d75f-96e0-4e53-b64f-fdcdc8fe466d"
+ },
+ "buruj_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-5d1d-7de0-8213-0c3500a55111"
+  },
+  "job_id": "a72ef208-4b53-4ff1-b2eb-c44df43ca453"
+ },
+ "buruj_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-6318-7730-bcd8-1c7941a9837f"
+  },
+  "job_id": "09cdcd7c-8493-4213-84d1-6ca05438ae1e"
+ },
+ "buruj_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-655d-7670-8108-4cfd13862818"
+  },
+  "job_id": "ef640664-ac16-4393-8c8a-f5366ae453d0"
+ },
+ "buruj_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-70cf-7ed1-ab07-b48725332202"
+  },
+  "job_id": "de7aca7c-f241-4b91-8f29-aa1b8fa28ffa"
+ },
+ "cenomi_retail_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-7ad5-7f90-a156-9cc32e010999"
+  },
+  "job_id": "7f632909-88cc-4d58-9385-82e84e08ec7e"
+ },
+ "cenomi_retail_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-8010-7b21-b914-c968130ea539"
+  },
+  "job_id": "a0c33859-116c-460f-8162-eb1f78050024"
+ },
+ "cenomi_retail_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-8055-7c60-9b0b-0ee6e0e64cc2"
+  },
+  "job_id": "c7e1bea2-7126-41c4-8927-8b39f98555b5"
+ },
+ "cenomi_retail_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-967a-74d1-b8de-e2b7ad2656eb"
+  },
+  "job_id": "fbaf946b-7ac0-422d-9518-07fe78130ac0"
+ },
+ "cenomi_retail_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-9aa2-7c61-b5ef-fb073e9373a5"
+  },
+  "job_id": "25a4bd50-fbe0-4941-b008-08140f70d386"
+ },
+ "cenomi_retail_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-9d94-7373-8440-e2c0998d2461"
+  },
+  "job_id": "24428572-bee4-47aa-8bc5-b1ca9ec3c06b"
+ },
+ "halwani_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-a39d-7231-97ef-faeeb63beec9"
+  },
+  "job_id": "38e03074-dcda-4c9a-9167-71b8a43c171d"
+ },
+ "halwani_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-b005-7150-83c5-013a60f5c66a"
+  },
+  "job_id": "5202710d-7c27-4911-a91d-f836ee59a252"
+ },
+ "halwani_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-b72d-7020-ae86-762290cae55e"
+  },
+  "job_id": "3ccd7ef7-783b-4e74-8536-6e2620fd4851"
+ },
+ "halwani_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-b9b9-7922-afb4-5d5994443a2f"
+  },
+  "job_id": "c52f2e90-ba70-4eb2-aa99-c3320f198c67"
+ },
+ "halwani_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-bf61-7c63-9382-d8f7b54b59f9"
+  },
+  "job_id": "593bad76-bf89-4148-a4ef-e7a450b6afd2"
+ },
+ "halwani_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-d0ff-7361-8bcc-2a5b175bdb7e"
+  },
+  "job_id": "4efc7627-3c2a-401a-94b9-f10b90d90e2e"
+ },
+ "herfy_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-d1dd-7aa1-b1b8-9d000bb3c762"
+  },
+  "job_id": "3dd1cd39-2394-474c-a424-4ea3d59bd6a6"
+ },
+ "halwani_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-d2aa-76f0-94e3-e0e455f68703"
+  },
+  "job_id": "5036fb90-533a-4d3d-b369-c999f8e8c524"
+ },
+ "herfy_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-dbf5-7300-88b9-d7969cce8615"
+  },
+  "job_id": "9ab3a562-4aae-49a4-b92a-0958766d047d"
+ },
+ "herfy_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-ee66-7473-bd11-b6eb6fcd7599"
+  },
+  "job_id": "bd541690-22d0-45e7-a3cf-d63cd6a1b143"
+ },
+ "herfy_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-ef6b-7940-9bfc-0292202b2c56"
+  },
+  "job_id": "21ab2c5b-f4ca-4938-89b0-687d760358a8"
+ },
+ "kingdom_holding_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-f2a1-71b0-85c8-7e7b8be52572"
+  },
+  "job_id": "9e5fc2cc-776e-430c-9ff4-5e52fb795cbd"
+ },
+ "kingdom_holding_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120ca-f89d-7a62-88a6-f6a14f7ff32d"
+  },
+  "job_id": "40854407-890a-4402-ad83-afcbcb109223"
+ },
+ "kingdom_holding_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-0823-7b50-ac10-e7b1f9b952a7"
+  },
+  "job_id": "ed01834c-2fc1-41df-a34f-4463793c2c5b"
+ },
+ "kingdom_holding_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-166d-7a12-ad87-46adc00ba29d"
+  },
+  "job_id": "6f156dbd-b156-488c-8764-bfd0c8bac75a"
+ },
+ "kingdom_holding_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-2650-72a0-9b23-d2a80e5d5472"
+  },
+  "job_id": "e4ca8c34-66e7-4624-9edd-d90d60c3ab9e"
+ },
+ "liva_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-390a-7271-847c-ac3c13e92fbc"
+  },
+  "job_id": "3fd5e338-9206-4adb-a03f-1ec39fa82d70"
+ },
+ "liva_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-3a8c-7d90-bc62-29c3da34a525"
+  },
+  "job_id": "0eb333ef-15de-44e4-ab20-3c15b0b5357a"
+ },
+ "liva_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-3d95-75e1-a013-f9993b5c7471"
+  },
+  "job_id": "31bd4ff9-6053-4eb4-af25-c8b6690e4b4e"
+ },
+ "liva_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-4757-75b1-8b98-cae466e6c34e"
+  },
+  "job_id": "b35719eb-a2f0-45ad-8780-2b4985d960ce"
+ },
+ "liva_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-52b6-7563-9a21-8724e0a2360b"
+  },
+  "job_id": "58f4a64d-23d4-4136-b1f7-b58d255788bd"
+ },
+ "maadaniyah_Q1-2025_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-52d0-7051-a615-d10f28e3e09a"
+  },
+  "job_id": "0c12b4ac-8c81-4d12-aab0-059765af6eac"
+ },
+ "maadaniyah_Q1-2025_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-58e3-7b90-9772-0f1f643018e4"
+  },
+  "job_id": "aed1562d-4257-4b20-8122-6bac2353cf1f"
+ },
+ "maadaniyah_Q1-2025_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-611d-7ad1-91d3-435de4456d29"
+  },
+  "job_id": "88415025-fe4a-47e6-80ec-9fa73a83bd7b"
+ },
+ "maadaniyah_Q1-2025_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-729c-7d63-8591-b0b84b17245c"
+  },
+  "job_id": "76fb64d4-127d-40f6-9495-9632e3f91df7"
+ },
+ "maaden_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-7472-7b73-9a2c-bf333d328a1b"
+  },
+  "job_id": "366e37a3-f586-4de9-b1fe-730ad657a7f0"
+ },
+ "maaden_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-79d0-7a43-b9d2-da98e6906a82"
+  },
+  "job_id": "17313772-5cef-42bf-93a1-071deddcb5e8"
+ },
+ "maaden_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-8e38-7312-a12a-56c488dd9561"
+  },
+  "job_id": "18ae254a-16aa-44f2-98d2-9c929c908b12"
+ },
+ "maaden_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-9478-79c3-94d1-c9916a9a4750"
+  },
+  "job_id": "f71b2b3e-1e90-43e9-a096-31546ad4939f"
+ },
+ "maaden_FY2024_p15": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-9750-7200-b2cd-38d84608b500"
+  },
+  "job_id": "04290aef-721d-489e-a524-a0b3d0b1c04a"
+ },
+ "maaden_FY2024_p16": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-9d82-73a3-8ecd-c8a874fc32e4"
+  },
+  "job_id": "da73c804-1b45-44fe-b309-dac6298c1f5b"
+ },
+ "mesc_H1-2023_p04": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-a7da-7d41-aef1-d3c8abe9a7d6"
+  },
+  "job_id": "b4dc9873-7466-4bbd-98a8-b4e7b8e2103f"
+ },
+ "mesc_H1-2023_p05": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-c14f-70d1-8489-8fa88f98def1"
+  },
+  "job_id": "60b965d2-3c80-4086-abc2-55014a2439d5"
+ },
+ "mesc_H1-2023_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-c478-74d2-8a86-d0ada6eebade"
+  },
+  "job_id": "d5562c4c-0186-4911-9e51-3d4551d5254e"
+ },
+ "mesc_H1-2023_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-cfd3-7411-a7dd-45d72400ebac"
+  },
+  "job_id": "7d1e41aa-c537-4a74-bb0d-76b9a75e4a7b"
+ },
+ "musharaka_reit_FY2019_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-dceb-7fb0-bd70-d338c01cc222"
+  },
+  "job_id": "5fc6fd7d-3824-4f9d-9d49-f26706f0277a"
+ },
+ "musharaka_reit_FY2019_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-df30-7170-b5a2-e739154bae94"
+  },
+  "job_id": "14ee454d-21af-4d31-a263-00fbe749683a"
+ },
+ "musharaka_reit_FY2019_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-e933-7e63-9218-27cd137866eb"
+  },
+  "job_id": "63bba359-e2a2-4384-b5ff-c2d5c245eeb5"
+ },
+ "musharaka_reit_FY2019_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-ed7b-7e41-8a21-0871e0f00226"
+  },
+  "job_id": "cad3bab3-3f46-4383-8a11-7c03c089e038"
+ },
+ "musharaka_reit_FY2019_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-f9b6-7870-8c4a-d7d5bc899247"
+  },
+  "job_id": "303e4ab4-6832-409a-a3d7-0a352ab167a6"
+ },
+ "nama_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cb-fed6-7712-83de-ecb48fcded46"
+  },
+  "job_id": "6f8429ea-02b3-46aa-ba31-c897b91f66bb"
+ },
+ "nama_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-00ce-7313-98aa-d920357c83c4"
+  },
+  "job_id": "ac044cbc-290d-41fb-a784-03d885452ffb"
+ },
+ "nama_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-06f3-7451-a2b9-98d0874ba835"
+  },
+  "job_id": "ecbbc62a-70a3-4cbb-96b5-070879a52665"
+ },
+ "nama_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-1483-7e93-ace6-6bc021139388"
+  },
+  "job_id": "81f93803-8d2d-45bd-9c62-3d3a06422204"
+ },
+ "othaim_FY2024_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-1991-7072-927c-d4ae76f0a5fd"
+  },
+  "job_id": "3daff907-3069-4a8f-ab5a-0d8fa016964f"
+ },
+ "othaim_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-1a5f-71c0-a30a-3fdcc3ff18c7"
+  },
+  "job_id": "a4386925-c201-42a3-84f3-3cab68dc1b2f"
+ },
+ "othaim_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-1e84-7fe2-81a2-c5a1e8aab699"
+  },
+  "job_id": "2519ccbd-cee5-4809-b091-64c72d7bd945"
+ },
+ "othaim_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-320e-76a1-bda6-46401536f1c8"
+  },
+  "job_id": "71b58c87-9f06-4589-936f-353018057f3e"
+ },
+ "othaim_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-364b-72c2-98d0-767c736169a3"
+  },
+  "job_id": "bd1acd42-af29-4bce-9aa2-f3804b5e7f3a"
+ },
+ "othaim_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-3634-73a0-a7ec-4e792d56146f"
+  },
+  "job_id": "d5cb40fb-e525-45f8-940e-b3376f428c6a"
+ },
+ "riyad_aliemar_fund_FY2023_p06": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-54f3-7753-b3bf-820da896e8c3"
+  },
+  "job_id": "d08ec43b-d8ed-45ca-ab02-54fc20d1bd2e"
+ },
+ "riyad_aliemar_fund_FY2023_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-55cc-7d51-b7a4-54595888eadd"
+  },
+  "job_id": "f4d0741c-b11a-4b3f-8109-4970be45b52f"
+ },
+ "riyad_aliemar_fund_FY2023_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-58ec-7c70-b8e3-991d5b0fbe80"
+  },
+  "job_id": "a3dafb3d-d993-475b-bb86-757662612a00"
+ },
+ "riyad_aliemar_fund_FY2023_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-6b4c-7352-98fd-a7472ffb8118"
+  },
+  "job_id": "e19c51b3-5553-4ff3-83b7-c44355e5bead"
+ },
+ "saudi_re_FY2024_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-6c38-7053-bcb3-726e15cdce58"
+  },
+  "job_id": "c6096787-a74c-4d01-be79-fa34eb864078"
+ },
+ "saudi_re_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-6e45-75a0-b237-5e21a4b70b9c"
+  },
+  "job_id": "c2954bbd-a98d-4cf2-8d29-9abadd3b364f"
+ },
+ "saudi_re_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-787c-7fa1-8833-c2edd5a26684"
+  },
+  "job_id": "a3d61599-82f2-4f53-bc97-fa8253ea2155"
+ },
+ "saudi_re_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-81dc-7f53-9a79-2a65810e87bc"
+  },
+  "job_id": "ccd517cc-04a6-4626-9682-b3e2940ee864"
+ },
+ "saudi_re_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-8d16-7480-9c8e-c17510b37939"
+  },
+  "job_id": "4fbbec96-311b-4c8a-a942-5ea9b3fa9ef7"
+ },
+ "sedco_capital_reit_FY2022_p07": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-8e1e-71b2-93fc-2be3d90c15f4"
+  },
+  "job_id": "82db9f11-69dd-4ebf-9661-285fb73f068a"
+ },
+ "sedco_capital_reit_FY2022_p08": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-9066-74d3-8d27-c9b3527d4f98"
+  },
+  "job_id": "f604172c-07e3-49e8-9d15-91f9ac7ef748"
+ },
+ "sedco_capital_reit_FY2022_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-a792-71b0-b354-8f91c996babb"
+  },
+  "job_id": "02f640e1-d2f9-4902-9cb6-9f3ee2902d34"
+ },
+ "sedco_capital_reit_FY2022_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-aaf1-7443-a939-9011bd3a42bd"
+  },
+  "job_id": "e0b5a09e-852d-4d19-bd9e-85ca6384fe40"
+ },
+ "snb_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-ac17-72b3-ba60-aea6eec428ef"
+  },
+  "job_id": "dc1da9b8-96b1-47b5-98cf-151932917e21"
+ },
+ "snb_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-bc56-7641-8535-388f15d02685"
+  },
+  "job_id": "2b8f1458-d565-4b04-81ad-0a1fa3a0d980"
+ },
+ "snb_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-c983-7073-917e-fca3848e63b7"
+  },
+  "job_id": "2fc2e7d5-6177-4450-8748-eb9b7f3b1c74"
+ },
+ "snb_FY2024_p15": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-cfb9-75e0-91c2-05e112af7e84"
+  },
+  "job_id": "75f848fc-9868-4a20-876d-6b72c15c599f"
+ },
+ "snb_FY2024_p16": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-d6c5-7d52-b41e-9f9724977109"
+  },
+  "job_id": "72f3c1b6-ecc6-42ab-a688-ea6aff5071e9"
+ },
+ "taiba_FY2024_p10": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-ed5a-7f63-8917-a4f288e2334b"
+  },
+  "job_id": "efa2bdaf-d40d-4a64-b2d0-b6c6721620e4"
+ },
+ "taiba_FY2024_p11": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cc-ef69-73b2-af1d-8ba6faf80b1d"
+  },
+  "job_id": "b59cd857-e1fd-4140-b135-3ded7bc960b4"
+ },
+ "taiba_FY2024_p09": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cd-05fb-7be3-ba4e-17b4c6474915"
+  },
+  "job_id": "4c4e284e-f49b-460d-94b0-55905e765686"
+ },
+ "taiba_FY2024_p12": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cd-189a-7a23-8d63-95a8d4696178"
+  },
+  "job_id": "ae34504a-e2a5-4bae-8106-c6dd782c3741"
+ },
+ "taiba_FY2024_p13": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cd-2e1e-70a1-a5f1-9d53f64b44d7"
+  },
+  "job_id": "b6829581-5647-4447-977b-5fd76371fbd7"
+ },
+ "taiba_FY2024_p14": {
+  "source": {
+   "type": "workspace_file",
+   "workspace_id": "ff24b7dd-b9da-432d-a5c3-d429298bd0bf",
+   "file_id": "01a120cd-3700-7803-b4e3-aba88f16f208"
+  },
+  "job_id": "d6748cdd-4bcf-4f62-ab4f-392cc8f69ca6"
+ }
+}

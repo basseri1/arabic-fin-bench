@@ -34,7 +34,8 @@ SYSTEMS = {
     "Qwen3-VL-32B (FP8)": "33.4B", "Nemotron Nano 12B VL": "13.2B", "Surya OCR 2": "0.7B", "Persian–Arabic line OCR": "2.1B",
     "PaddleOCR PP-OCRv5 Arabic": "–", "Mistral OCR": "–", "Qari-OCR v0.3": "2.2B", "PaddleOCR-VL-1.6": "0.96B", "Qwen3.6-27B": "27B",
     "Qwen3.8-27B": "27.8B", "ERNIE 4.5 VL": "424B (47B active)", "Command A Vision": "111.9B", "Cohere Parse": "2.3B",
-    "LandingAI ADE": "–",
+    "LandingAI ADE": "–", "LightOnOCR-3 0.8B": "0.85B", "LightOnOCR-3 1B": "1.01B", "LightOnOCR-3 4B": "4.54B",
+    "nace.ai Parse": "–",
 }
 # configuration (run name without the seed) -> (system, how it was run, setting, table)
 CONFIGS = {
@@ -66,6 +67,12 @@ CONFIGS = {
     "qwen38_27b_plain": ("Qwen3.8-27B", API, "200 dpi page, generic prompt, reasoning off", "main"),
     "ernie45_vl_plain": ("ERNIE 4.5 VL", API, "200 dpi page, generic prompt", "main"),
     "cmda_vision_plain": ("Command A Vision", API, "200 dpi page, generic prompt", "main"),
+    # added 9 Oct 2026
+    "lightonocr3_08b_plain": ("LightOnOCR-3 0.8B", GPU, "200 dpi page, vendor transcription mode (no text prompt), thinking off", "main"),
+    "lightonocr3_1b_plain": ("LightOnOCR-3 1B", GPU, "200 dpi page, vendor transcription mode (no text prompt)", "main"),
+    "lightonocr3_4b_plain": ("LightOnOCR-3 4B", GPU, "200 dpi page, vendor transcription mode (no text prompt), thinking off", "main"),
+    "nace_low": ("nace.ai Parse", API, "200 dpi page, parse mode low (default), markdown with HTML tables", "main"),
+    "nace_medium": ("nace.ai Parse", API, "200 dpi page, parse mode medium, markdown with HTML tables", "main"),
 }
 SAME_WEIGHTS = [("qwen38_27b_plain", "qwen38_27b_local_plain")]      # (API run, self-hosted run) of the same model
 ABLATION_ORDER = ["dots_mocr_plain", "dots_mocr_plain_bm", "dots_mocr_clahe_raw", "dots_mocr_clahe", "dots_mocr_clahe_bm",
@@ -81,6 +88,9 @@ SPEED = [  # (results dir, configuration, requests in flight, key in _solo/_wall
     ("nemotron12b_vl_plain", "nemotron12b_vl_plain", "16", None),
     ("qwen38_27b_local_plain", "qwen38_27b_local_plain", "16", "qwen38_27b_local_plain"),
     ("qari03_plain", "qari03_plain", "16", "qari03_plain"),
+    ("lightonocr3_08b_plain", "lightonocr3_08b_plain", "16", "lightonocr3_08b_plain"),
+    ("lightonocr3_1b_plain", "lightonocr3_1b_plain", "16", "lightonocr3_1b_plain"),
+    ("lightonocr3_4b_plain", "lightonocr3_4b_plain", "16", "lightonocr3_4b_plain"),
     ("paddleocr_vl16_plain", "paddleocr_vl16_plain", "pipeline, 16 VLM requests in flight", "paddleocr_vl16_plain"),
     ("surya2_plain", "surya2_plain", "1 page at a time", None),
     ("persar2b_plain", "persar2b_plain", "32 lines at a time (line boxes from the PaddleOCR run, not timed here)", None), ("paddle_ar_plain", "paddle_ar_plain", "4 processes", None)]

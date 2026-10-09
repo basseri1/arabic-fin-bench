@@ -13,9 +13,11 @@ from pathlib import Path
 PAPER = Path(__file__).resolve().parents[1]
 FIG = PAPER / "bench" / "figures"
 SPECIALISED = {"dots.mocr", "Chandra OCR 2", "Chandra OCR 1", "Surya OCR 2", "Nanonets-OCR2", "Persian–Arabic line OCR",
-               "Cohere Parse", "Mistral OCR", "LandingAI ADE", "Qari-OCR v0.3", "PaddleOCR-VL-1.6"}
+               "Cohere Parse", "Mistral OCR", "LandingAI ADE", "Qari-OCR v0.3", "PaddleOCR-VL-1.6",
+               "LightOnOCR-3 0.8B", "LightOnOCR-3 1B", "LightOnOCR-3 4B", "nace.ai Parse"}
 SHORT = {"Persian–Arabic line OCR": "Persian–Arabic line", "Nemotron Nano 12B VL": "Nemotron 12B",
-         "Qwen3-VL-32B (FP8)": "Qwen3-VL-32B"}
+         "Qwen3-VL-32B (FP8)": "Qwen3-VL-32B", "LightOnOCR-3 0.8B": "LightOnOCR-3 0.8B", "LightOnOCR-3 1B": "LightOnOCR-3 1B",
+         "LightOnOCR-3 4B": "LightOnOCR-3 4B"}
 # label offsets in points (dx, dy) and alignment, placed by hand to avoid collisions
 LABEL = {
     ("Cohere Parse", "API"): (-6, 5, "right"), ("dots.mocr", "self"): (6, 3, "left"), ("Chandra OCR 2", "self"): (6, -9, "left"),
@@ -26,6 +28,8 @@ LABEL = {
     ("ERNIE 4.5 VL", "API"): (-6, 4, "right"), ("Nemotron Nano 12B VL", "self"): (6, 2, "left"),
     ("Qari-OCR v0.3", "self"): (6, -4, "left"), ("PaddleOCR-VL-1.6", "self"): (6, 2, "left"),
     ("Command A Vision", "API"): (0, -8, "center"),
+    ("LightOnOCR-3 0.8B", "self"): (6, 0, "left"), ("LightOnOCR-3 1B", "self"): (-6, -4, "right"),
+    ("LightOnOCR-3 4B", "self"): (-6, -6, "right"),
 }
 
 

@@ -1,0 +1,7 @@
+{
+ "model": "nace_parse",
+ "backend": "nace.ai Perception /v1/documents/parse",
+ "parse_mode": "medium",
+ "output": "markdown, tables as html (service default)",
+ "date": "2026-10-09"
+}

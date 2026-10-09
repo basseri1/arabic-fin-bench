@@ -1,0 +1,11 @@
+# شركة تعدين العربية السعودية (معادن)
+(شركة مساهمة السعودية)
+قائمة المركز المالي الموحدة كما في ٢٠١ ديسمبر ٢.٢٤
+(جERIC المباغ بالريالات السعودية مالم يذكر خلال ذلك)
+
+# MA'ADEN Saudi Arabian Mining Company
+مُعَلَّن شَرْكَة التُعَدِينَّالعربية_Sالعَهِدِية
+
+[SIGNATURE] <table><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستعمال</td><td>الإستعمال</td><td>(الإستعمال)</td><td>(الإستعمال)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td>(الإستclerosis)</td><td>(الإستclerosis)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td>(الإستclerosis)</td><td>(الإستclerosis)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td>(الإستclerosis)</td><td>(الإستclerosis)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td>(الإستclerosis)</td><td>(الإستclerosis)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td>(الإستclerosis)</td><td>(الإستclerosis)</td></tr><tr><td>الإستclerosis</td><td>الإستclerosis</td><td></td><td></td></tr></table>
+
+17

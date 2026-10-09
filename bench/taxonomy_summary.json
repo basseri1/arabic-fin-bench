@@ -225,6 +225,84 @@
    "recall_western": 0.9277777777777778
   },
   {
+   "system": "LightOnOCR-3 1B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+   "how": "self-hosted, 1×H100",
+   "run": "lightonocr3_1b_plain",
+   "pages": {
+    "loop": 4
+   },
+   "statements": {
+    "omission": 15,
+    "labels dropped": 2,
+    "misplaced": 3
+   },
+   "figures": {
+    "misread digit": 60,
+    "separator": 26
+   },
+   "emitted": 7380,
+   "pairs": [
+    [
+     "5→0",
+     16
+    ],
+    [
+     "3→2",
+     5
+    ],
+    [
+     "2→3",
+     4
+    ],
+    [
+     "6→9",
+     4
+    ]
+   ],
+   "recall_arabic_indic": 0.9337175792507204,
+   "recall_western": 0.9314814814814815
+  },
+  {
+   "system": "LightOnOCR-3 4B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "how": "self-hosted, 1×H100",
+   "run": "lightonocr3_4b_plain",
+   "pages": {
+    "loop": 2
+   },
+   "statements": {
+    "omission": 19,
+    "labels dropped": 2,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 358,
+    "separator": 18
+   },
+   "emitted": 7435,
+   "pairs": [
+    [
+     "5→0",
+     194
+    ],
+    [
+     "6→7",
+     59
+    ],
+    [
+     "6→2",
+     34
+    ],
+    [
+     "3→2",
+     10
+    ]
+   ],
+   "recall_arabic_indic": 0.8862519071028988,
+   "recall_western": 0.9388888888888889
+  },
+  {
    "system": "Qwen3.6-27B",
    "setting": "200 dpi page, generic prompt, reasoning off",
    "how": "API",
@@ -268,6 +346,47 @@
    ],
    "recall_arabic_indic": 0.8599762671639261,
    "recall_western": 0.6055555555555555
+  },
+  {
+   "system": "nace.ai Parse",
+   "setting": "200 dpi page, parse mode medium, markdown with HTML tables",
+   "how": "API",
+   "run": "nace_medium",
+   "pages": {
+    "no figures": 8,
+    "unrelated": 5,
+    "loop": 5
+   },
+   "statements": {
+    "labels dropped": 16,
+    "omission": 28,
+    "misplaced": 1
+   },
+   "figures": {
+    "misread digit": 100,
+    "separator": 43
+   },
+   "emitted": 7100,
+   "pairs": [
+    [
+     "3→2",
+     19
+    ],
+    [
+     "2→3",
+     13
+    ],
+    [
+     "6→3",
+     12
+    ],
+    [
+     "6→7",
+     10
+    ]
+   ],
+   "recall_arabic_indic": 0.8511612137650449,
+   "recall_western": 0.9171296296296296
   },
   {
    "system": "Persian–Arabic line OCR",
@@ -544,6 +663,87 @@
    ],
    "recall_arabic_indic": 0.5761993558230208,
    "recall_western": 0.9541666666666667
+  },
+  {
+   "system": "LightOnOCR-3 0.8B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "how": "self-hosted, 1×H100",
+   "run": "lightonocr3_08b_plain",
+   "pages": {
+    "no figures": 7,
+    "skeleton": 2,
+    "loop": 7,
+    "unrelated": 11
+   },
+   "statements": {
+    "omission": 87
+   },
+   "figures": {
+    "misread digit": 920,
+    "separator": 43
+   },
+   "emitted": 6535,
+   "pairs": [
+    [
+     "5→0",
+     396
+    ],
+    [
+     "6→7",
+     192
+    ],
+    [
+     "3→2",
+     58
+    ],
+    [
+     "6→2",
+     36
+    ]
+   ],
+   "recall_arabic_indic": 0.49957619935582304,
+   "recall_western": 0.9032407407407408
+  },
+  {
+   "system": "nace.ai Parse",
+   "setting": "200 dpi page, parse mode low (default), markdown with HTML tables",
+   "how": "API",
+   "run": "nace_low",
+   "pages": {
+    "no figures": 27,
+    "unrelated": 19,
+    "loop": 13
+   },
+   "statements": {
+    "omission": 106,
+    "labels dropped": 36
+   },
+   "figures": {
+    "misread digit": 475,
+    "separator": 125,
+    "reversed digits": 1
+   },
+   "emitted": 5512,
+   "pairs": [
+    [
+     "3→2",
+     109
+    ],
+    [
+     "6→2",
+     53
+    ],
+    [
+     "6→3",
+     36
+    ],
+    [
+     "2→3",
+     36
+    ]
+   ],
+   "recall_arabic_indic": 0.410069503305645,
+   "recall_western": 0.6814814814814815
   },
   {
    "system": "Nanonets-OCR2",
@@ -830,7 +1030,15 @@
    "ERNIE 4.5 VL: herfy_FY2024_p07",
    "ERNIE 4.5 VL: maaden_FY2024_p16",
    "Command A Vision: aramco_FY2024_p15",
-   "Command A Vision: bahri_FY2024_p07"
+   "Command A Vision: bahri_FY2024_p07",
+   "LightOnOCR-3 0.8B: arabian_drilling_FY2024_p08",
+   "LightOnOCR-3 0.8B: bank_aljazira_FY2024_p09",
+   "LightOnOCR-3 1B: al_khodari_FY2018_p10",
+   "LightOnOCR-3 1B: almarai_FY2024_p11",
+   "LightOnOCR-3 4B: mesc_H1-2023_p05",
+   "LightOnOCR-3 4B: snb_FY2024_p15",
+   "nace.ai Parse: al_mubarak_usd_trade_fund_H1-2022_p05",
+   "nace.ai Parse: aramco_FY2024_p15"
   ],
   "unrelated": [
    "dots.mocr (out of the box): bishah_FY2016_p04",
@@ -858,7 +1066,11 @@
    "ERNIE 4.5 VL: al_khodari_FY2018_p08",
    "ERNIE 4.5 VL: al_khodari_FY2018_p09",
    "Command A Vision: al_khodari_FY2018_p09",
-   "Command A Vision: al_mubarak_usd_trade_fund_H1-2022_p05"
+   "Command A Vision: al_mubarak_usd_trade_fund_H1-2022_p05",
+   "LightOnOCR-3 0.8B: cenomi_retail_FY2024_p12",
+   "LightOnOCR-3 0.8B: cenomi_retail_FY2024_p13",
+   "nace.ai Parse: al_khodari_FY2018_p10",
+   "nace.ai Parse: arabian_drilling_FY2024_p11"
   ],
   "no figures": [
    "dots.mocr (out of the box): mesc_H1-2023_p04",
@@ -886,7 +1098,11 @@
    "ERNIE 4.5 VL: alahli_global_trade_fund_H1-2023_p05",
    "ERNIE 4.5 VL: alif_meem_yaa_FY2023_p09",
    "Command A Vision: al_khodari_FY2018_p08",
-   "Command A Vision: al_khodari_FY2018_p10"
+   "Command A Vision: al_khodari_FY2018_p10",
+   "LightOnOCR-3 0.8B: al_khodari_FY2018_p08",
+   "LightOnOCR-3 0.8B: almarai_FY2024_p10",
+   "nace.ai Parse: al_khodari_FY2018_p08",
+   "nace.ai Parse: al_mubarak_usd_trade_fund_H1-2022_p03"
   ],
   "labels dropped": [
    "dots.mocr (out of the box): al_khodari_FY2018 s1",
@@ -912,7 +1128,13 @@
    "ERNIE 4.5 VL: aramco_FY2023 s4",
    "ERNIE 4.5 VL: aramco_FY2024 s1",
    "Command A Vision: al_rajhi_FY2024 s1",
-   "Command A Vision: al_rajhi_FY2024 s2"
+   "Command A Vision: al_rajhi_FY2024 s2",
+   "LightOnOCR-3 1B: al_rajhi_FY2024 s6",
+   "LightOnOCR-3 1B: almarai_FY2024 s4",
+   "LightOnOCR-3 4B: aramco_FY2024 s3",
+   "LightOnOCR-3 4B: othaim_FY2024 s1",
+   "nace.ai Parse: al_mubarak_usd_trade_fund_H1-2022 s2",
+   "nace.ai Parse: alahli_global_trade_fund_H1-2023 s1"
   ],
   "omission": [
    "dots.mocr (out of the box): al_rajhi_FY2024 s4 (changes_in_equity)",
@@ -954,7 +1176,15 @@
    "ERNIE 4.5 VL: al_khodari_FY2018 s1 (financial_position)",
    "ERNIE 4.5 VL: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
    "Command A Vision: al_khodari_FY2018 s1 (financial_position)",
-   "Command A Vision: al_khodari_FY2018 s2 (income_and_comprehensive_income)"
+   "Command A Vision: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "LightOnOCR-3 0.8B: al_khodari_FY2018 s1 (financial_position)",
+   "LightOnOCR-3 0.8B: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "LightOnOCR-3 1B: al_khodari_FY2018 s3 (changes_in_equity)",
+   "LightOnOCR-3 1B: alahli_global_trade_fund_H1-2023 s1 (financial_position)",
+   "LightOnOCR-3 4B: al_khodari_FY2018 s2 (income_and_comprehensive_income)",
+   "LightOnOCR-3 4B: al_khodari_FY2018 s3 (changes_in_equity)",
+   "nace.ai Parse: al_khodari_FY2018 s1 (financial_position)",
+   "nace.ai Parse: al_khodari_FY2018 s2 (income_and_comprehensive_income)"
   ],
   "misplaced": [
    "dots.mocr (out of the box): othaim_FY2024 s6 (other)",
@@ -968,7 +1198,11 @@
    "Cohere Parse: snb_FY2024 s4 (changes_in_equity)",
    "Qwen3.6-27B: liva_FY2024 s2 (income)",
    "Qwen3.6-27B: musharaka_reit_FY2019 s4 (cash_flows)",
-   "Command A Vision: ashmore_saudi_equity_fund_H1-2020 s3 (changes_in_net_assets)"
+   "Command A Vision: ashmore_saudi_equity_fund_H1-2020 s3 (changes_in_net_assets)",
+   "LightOnOCR-3 1B: bahri_FY2024 s5 (other)",
+   "LightOnOCR-3 1B: bahri_FY2024 s6 (changes_in_equity)",
+   "LightOnOCR-3 4B: taiba_FY2024 s3 (comprehensive_income)",
+   "nace.ai Parse: ashmore_saudi_equity_fund_H1-2020 s3 (changes_in_net_assets)"
   ],
   "budget": [
    "Chandra OCR 1: alahli_global_trade_fund_H1-2023_p06",
@@ -1000,7 +1234,9 @@
    "ERNIE 4.5 VL: alahli_global_trade_fund_H1-2023_p05",
    "ERNIE 4.5 VL: alif_meem_yaa_FY2023_p09",
    "Command A Vision: al_khodari_FY2018_p08",
-   "Command A Vision: al_khodari_FY2018_p10"
+   "Command A Vision: al_khodari_FY2018_p10",
+   "LightOnOCR-3 0.8B: al_khodari_FY2018_p08",
+   "LightOnOCR-3 0.8B: buruj_FY2024_p08"
   ],
   "labels invented": [
    "Qari-OCR v0.3: bishah_FY2016 s4",
@@ -1017,78 +1253,90 @@
  "digit_pairs": [
   [
    "5→0",
-   1232
+   1851
   ],
   [
    "6→7",
-   644
+   931
   ],
   [
    "3→2",
-   596
+   797
   ],
   [
    "6→2",
-   271
-  ],
-  [
-   "2→7",
-   170
+   403
   ],
   [
    "2→3",
-   160
+   219
+  ],
+  [
+   "2→7",
+   198
   ],
   [
    "6→3",
-   117
+   167
   ],
   [
    "0→5",
-   115
+   118
   ],
   [
    "6→1",
-   96
+   109
   ],
   [
    "4→6",
-   90
+   106
   ],
   [
    "7→2",
-   63
-  ],
-  [
-   "6→9",
-   55
+   77
   ],
   [
    "3→4",
-   54
+   72
+  ],
+  [
+   "6→9",
+   67
   ],
   [
    "4→5",
-   46
-  ],
-  [
-   "0→1",
-   42
+   56
   ],
   [
    "0→9",
-   36
+   43
   ],
   [
-   "2→4",
-   36
+   "0→1",
+   43
   ],
   [
    "2→6",
-   34
+   39
+  ],
+  [
+   "2→4",
+   38
   ],
   [
    "1→0",
+   31
+  ],
+  [
+   "7→8",
+   29
+  ],
+  [
+   "2→0",
+   29
+  ],
+  [
+   "0→2",
    29
   ],
   [
@@ -1096,15 +1344,11 @@
    28
   ],
   [
-   "0→2",
+   "1→2",
    28
   ],
   [
-   "2→0",
-   27
-  ],
-  [
-   "1→2",
+   "3→8",
    27
   ],
   [
@@ -1112,24 +1356,20 @@
    26
   ],
   [
-   "7→8",
-   24
-  ],
-  [
    "2→1",
-   24
+   25
   ],
   [
-   "3→8",
-   23
+   "3→6",
+   25
   ],
   [
    "6→5",
    23
   ],
   [
-   "3→6",
-   22
+   "3→7",
+   23
   ],
   [
    "8→4",
@@ -1137,6 +1377,14 @@
   ],
   [
    "7→6",
+   21
+  ],
+  [
+   "6→8",
+   21
+  ],
+  [
+   "4→2",
    20
   ],
   [
@@ -1148,8 +1396,12 @@
    19
   ],
   [
-   "3→7",
+   "9→4",
    18
+  ],
+  [
+   "1→6",
+   17
   ],
   [
    "7→1",
@@ -1160,59 +1412,59 @@
    17
   ],
   [
-   "9→4",
+   "4→0",
    17
+  ],
+  [
+   "8→1",
+   16
   ],
   [
    "0→3",
    16
   ],
   [
-   "1→6",
+   "6→0",
    16
   ],
   [
-   "4→0",
-   15
-  ],
-  [
-   "4→2",
-   15
-  ],
-  [
-   "6→8",
-   15
+   "8→0",
+   16
   ],
   [
    "7→9",
-   14
+   15
   ],
   [
    "0→4",
+   15
+  ],
+  [
+   "0→8",
+   15
+  ],
+  [
+   "5→6",
    14
   ],
   [
    "7→3",
-   13
+   14
   ],
   [
-   "0→8",
+   "5→9",
    13
-  ],
-  [
-   "8→1",
-   12
   ],
   [
    "5→1",
-   12
-  ],
-  [
-   "5→6",
-   12
+   13
   ],
   [
    "2→5",
+   13
+  ],
+  [
+   "0→7",
    12
   ],
   [
@@ -1220,11 +1472,11 @@
    12
   ],
   [
-   "8→0",
+   "9→7",
    12
   ],
   [
-   "9→7",
+   "1→5",
    12
   ],
   [
@@ -1236,7 +1488,7 @@
    11
   ],
   [
-   "5→9",
+   "9→2",
    11
   ],
   [
@@ -1244,15 +1496,15 @@
    10
   ],
   [
-   "6→0",
+   "0→6",
    10
   ],
   [
-   "1→5",
+   "3→0",
    10
   ],
   [
-   "0→7",
+   "1→7",
    9
   ],
   [
@@ -1260,31 +1512,19 @@
    9
   ],
   [
-   "0→6",
-   8
+   "7→5",
+   9
+  ],
+  [
+   "1→8",
+   9
   ],
   [
    "4→9",
    8
   ],
   [
-   "9→2",
-   8
-  ],
-  [
-   "1→8",
-   8
-  ],
-  [
-   "3→0",
-   8
-  ],
-  [
    "3→1",
-   7
-  ],
-  [
-   "7→5",
    7
   ],
   [
@@ -1300,11 +1540,19 @@
    7
   ],
   [
+   "3→5",
+   7
+  ],
+  [
+   "5→4",
+   7
+  ],
+  [
    "5→7",
    6
   ],
   [
-   "1→7",
+   "2→8",
    6
   ],
   [
@@ -1312,15 +1560,11 @@
    6
   ],
   [
-   "3→5",
+   "5→2",
    6
   ],
   [
-   "5→4",
-   6
-  ],
-  [
-   "2→8",
+   "3→9",
    5
   ],
   [
@@ -1340,15 +1584,11 @@
    5
   ],
   [
-   "5→2",
-   5
-  ],
-  [
    "5→3",
    5
   ],
   [
-   "3→9",
+   "8→2",
    4
   ],
   [
@@ -1364,16 +1604,12 @@
    3
   ],
   [
-   "5→8",
+   "1→4",
    3
   ],
   [
-   "8→2",
-   2
-  ],
-  [
-   "1→4",
-   2
+   "5→8",
+   3
   ]
  ]
 }

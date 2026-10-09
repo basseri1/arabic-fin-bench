@@ -1,0 +1,11 @@
+شركة نماء للكيماويات
+شركة مساهمة سعودية
+قائمة التدفقات النقدية الموحدة
+لسنة المنتهية في ٢١ ديسمبر ٢٤ م
+(جميع المباغ بالاف Riyyالات السعودية ما لم يذكر غير ذلك)
+
+[SIGNATURE] <table><tr><td>م٢.٢٣(معدلة إيضاح)</td><td>م٢.٢٤</td><td>إيضاح</td></tr><tr><td>(١٤٣,١٤٣)</td><td>٨,١٨٥</td><td></td></tr><tr><td>٥٥,٣٤١</td><td>٥٩,٨٤٧</td><td>١-٧</td></tr><tr><td>-</td><td>(١٨١,...)</td><td>١-٧</td></tr><tr><td>٤,٦٨٦</td><td>٢,٦٣١</td><td>٢-٧</td></tr><tr><td>٢,٢١٢</td><td>٢,٢١١</td><td>٨</td></tr><tr><td>١,٩٤٣</td><td>٢,...٥</td><td>٩</td></tr><tr><td>١٢,٨٢٢</td><td>٣١,٦٩٨</td><td>٢-١٢</td></tr><tr><td>٦,٤٨٤</td><td>(٥,٣٩١)</td><td>٢-١١</td></tr><tr><td>٨٨٤</td><td>-</td><td>٢٢</td></tr><tr><td>٤,٢٧٢</td><td>٤,٤٧٤</td><td>١٧</td></tr><tr><td>(٥٣,٤·٨)</td><td>(٧٤,٣٤·.)</td><td></td></tr><tr><td>١٤,٤٩١</td><td>١..٨.٢</td><td></td></tr><tr><td>٢٨,٨٤١</td><td>٢,٢٨٣</td><td></td></tr><tr><td>١٤,٧٥٨</td><td>٢٢,.٥٦</td><td>٩</td></tr><tr><td>٨٨٩</td><td>(١,٢٣٩)</td><td>٩</td></tr><tr><td>٦,٨٧٩</td><td>(٧,٤٨٣)</td><td></td></tr><tr><td>(١٢,.٤٨)</td><td>٥٤,٧٩٦</td><td></td></tr><tr><td>(١,٤٨··)</td><td>(٣..٢٣··)</td><td></td></tr><tr><td>(١,٠٧٨)</td><td>(٢٢,٤٥٥)</td><td></td></tr><tr><td>(١٧,٣١٥)</td><td>(٨,٤٨٤)</td><td></td></tr><tr><td>(٢,٩٩··)</td><td>(٢,٢.٩)</td><td>١٧</td></tr><tr><td>(٢,١٦٥)</td><td>(٦٩٦)</td><td>٢٢</td></tr><tr><td>(٢٤,٥٤٨)</td><td>(٢٢,٨٤٤)</td><td></td></tr><tr><td>(١.٠.-٦٨)</td><td>(١٢,٦٥··)</td><td>١-٧</td></tr><tr><td>٤,١١٨</td><td>٦,.٩٦</td><td></td></tr><tr><td>(٥,٩٥··)</td><td>(٦,٥٥٤)</td><td></td></tr><tr><td>٣-.٥٢٢</td><td>٢٢,٦٢٥</td><td></td></tr><tr><td>-</td><td>(٤,١٩٢)</td><td></td></tr><tr><td>(٥,١١٨)</td><td>(٤,١٢٦)</td><td>١٨</td></tr><tr><td>٤٧,٧٢٧</td><td>١٣,٦.٣</td><td></td></tr><tr><td>(٢٧,٣٨٨)</td><td>-</td><td></td></tr><tr><td>٢٥,٧٥٣</td><td>٢٨,٩١.</td><td></td></tr><tr><td>0,٢٥٥</td><td>(١١,٤٨٨)</td><td></td></tr><tr><td>(١٢٧)</td><td>٨٩</td><td>١-١٥</td></tr><tr><td>9,٣١٨</td><td>١٤,٤٤٦</td><td></td></tr><tr><td>١٤,٤٤٦</td><td>٢,.٤٧</td><td></td></tr><tr><td>٥١٢</td><td>٢,٨٣٩</td><td>١٧</td></tr><tr><td>٦٣٤</td><td>0,٢٨٦</td><td>١٨,٢-٧</td></tr></table>
+
+A
+
+Doc ID: 4911adeed393b29ae809b1d8b6d3ea8bcbf62764

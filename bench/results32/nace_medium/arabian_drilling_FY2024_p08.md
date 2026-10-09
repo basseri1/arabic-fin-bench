@@ -1,0 +1,8 @@
+شركة الحفر العربية
+(شركة مساهمة السعودية)
+قائمة المركز المالي الموحدة
+(جميع المباغ بالريالات السعودية ما لم يذكر غير ذلك)
+
+<table><tr><td>الإستعمال</td><td colspan="2">الإستعمال في ٣١ دیسمبر</td></tr><tr><td>٢.٢٣</td><td>٢.٢٤</td><td>إيضاح</td></tr><tr><td colspan="3">موجودات غير متدAWOLLE</td></tr><tr><td colspan="3">مستكات ومصنع ومعدات</td></tr><tr><td colspan="3">أصل غير ملموس</td></tr><tr><td colspan="3">ودانع طويلاة الأجل</td></tr><tr><td colspan="3">موجودات حق Accessibility</td></tr><tr><td colspan="3">ادوات مالية مشتقية</td></tr><tr><td colspan="3">مجموع الموجودات غير متدAWOLLE</td></tr><tr><td colspan="3">موجودات متدAWOLLE</td></tr><tr><td colspan="3">مخزون</td></tr><tr><td colspan="3">ذم مديئة تجارية وذم مديئة أخرى</td></tr><tr><td colspan="3">ضرية داخل قابلة للاسترداد</td></tr><tr><td colspan="3">نقد وما يمالله</td></tr><tr><td colspan="3">موجودات محتفظ بها للبيع</td></tr><tr><td colspan="3">مجموع الموجودات المتدAWOLLE</td></tr><tr><td colspan="3">مجموع الموجودات</td></tr><tr><td colspan="3">حقوق الملكية والمطوبيات</td></tr><tr><td colspan="3">حقوق الملكية</td></tr><tr><td colspan="3">راس المال</td></tr><tr><td colspan="3">علاOne إصدار</td></tr><tr><td colspan="3">احترابي نظامي</td></tr><tr><td colspan="3">احترابي تحوط التدفقات النقدية</td></tr><tr><td colspan="3">ارباح مب Iowa</td></tr><tr><td colspan="3">مجموع حقوق الملكية</td></tr><tr><td colspan="3">المطلوبات غير متدAWOLLE</td></tr><tr><td colspan="3">اقتراضات طويلاة الأجل</td></tr><tr><td colspan="3">مطلوبات إيجارية</td></tr><tr><td colspan="3">الترامات منافع الموزفين</td></tr><tr><td colspan="3">يرادات تجهيز</td></tr><tr><td colspan="3">مطلوبات ضربية مؤجلة</td></tr><tr><td colspan="3">مجموع المطلوبات غير المتدAWOLLE</td></tr></table>
+
+7

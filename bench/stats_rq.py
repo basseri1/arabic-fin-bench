@@ -26,6 +26,8 @@ DELTA = 0.02                                   # non-inferiority margin: 2 point
 ONPREM = {"dots.mocr adopted pipeline (3 seeds)": [f"dots_mocr_clahe_s{s}_bm_ver" for s in (0, 1, 2)],
           "Chandra OCR 2 (own input size)": ["chandra2_chandra_cap"]}
 HOSTED = {"Mistral OCR": ["mistral_ocr_plain"], "Cohere Parse": ["cohere_parse_plain"], "LandingAI ADE": ["landingai_ade_plain"]}
+# nace.ai Parse (added 9 Oct 2026) is a commercial service but not a leading one (85.9% row recall in its best mode), so it is
+# left out of the leading-five statistics (non-inferiority, severe failures, row-check flags).
 
 
 def per_statement(runs, gts):

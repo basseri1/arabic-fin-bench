@@ -1,0 +1,17 @@
+{
+ "model": "lightonocr3_4b",
+ "backend": "vllm",
+ "url": "http://localhost:8012/v1",
+ "prompt": "",
+ "gen": {
+  "temperature": 0.0
+ },
+ "max_tokens": 8192,
+ "env": {
+  "BENCH_CONC": "16"
+ },
+ "checkpoint": "lightonai/LightOnOCR-3-4B",
+ "revision": [
+  "b71010f095dc3735de7ee6b9969bff8f8f50b39a"
+ ]
+}

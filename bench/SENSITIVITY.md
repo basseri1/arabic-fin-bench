@@ -4,8 +4,8 @@ Each quantity is computed once; the thresholds are then varied around the defaul
 
 ## Verdicts
 
-- **Label match:** the ranking of systems barely moves between thresholds 75 and 95 (Kendall τ 0.86–0.97 against 85). Conclusion unchanged.
-- **Taxonomy:** omissions (τ 0.90–1.00), unrelated figures (τ 0.69–1.00), dropped labels (τ 0.95–1.00) and invented labels (τ 0.90–1.00) keep their ranking; the leading systems stay at the low end at every cut-off. Misplaced rows are rare for every system (0–7 statements) and their ranking is not stable (τ down to 0.43): report them as rare, without ranking.
+- **Label match:** the ranking of systems barely moves between thresholds 75 and 95 (Kendall τ 0.85–0.97 against 85). Conclusion unchanged.
+- **Taxonomy:** omissions (τ 0.88–1.00), unrelated figures (τ 0.75–1.00), dropped labels (τ 0.94–1.00) and invented labels (τ 0.90–1.00) keep their ranking; the leading systems stay at the low end at every cut-off. Misplaced rows are rare for every system (0–7 statements) and their ranking is not stable (τ down to 0.52): report them as rare, without ranking.
 - **Cross-engine row check:** a smooth trade-off, not a knife-edge: 15 of 15 severe failures flagged with 15 false alarms at 3%, 14 with 8 at 5% (the default, set on dev), 13 with 4 at 8%.
 - **Severe-failure line:** every leading system has failing filings at 90%, 95% and 98%, so 'no system is uniformly safe' does not depend on the line. The row check catches the large failures (all below 90%) but only a minority of small shortfalls (95–98%): state the detection claim for failures below 95%.
 - **Figure filter (RQ2):** no wrong figure reaches the HIGH tier whether figures from 100, 1,000 or 10,000 up are included, and the review share stays at 9–10%. Conclusion unchanged.
@@ -36,7 +36,12 @@ Label recall (all 32 filings) by fuzzy-match threshold; Kendall τ of the system
 | Qwen3.8-27B (API) | 93.1 | 92.5 | 91.3 | 89.3 | 85.1 |
 | ERNIE 4.5 VL | 36.1 | 29.4 | 23.0 | 18.7 | 15.0 |
 | Command A Vision | 1.5 | 0.6 | 0.3 | 0.2 | 0.2 |
-| Kendall τ against 85 | 0.94 | 0.96 | 1.00 | 0.97 | 0.86 |
+| LightOnOCR-3 0.8B | 96.9 | 96.6 | 95.5 | 93.5 | 86.4 |
+| LightOnOCR-3 1B | 95.4 | 95.1 | 94.6 | 94.0 | 91.2 |
+| LightOnOCR-3 4B | 94.1 | 93.5 | 92.8 | 91.6 | 87.8 |
+| nace.ai Parse | 84.4 | 83.1 | 81.7 | 80.5 | 78.8 |
+| nace.ai Parse | 84.4 | 83.1 | 81.7 | 80.5 | 78.8 |
+| Kendall τ against 85 | 0.93 | 0.97 | 1.00 | 0.96 | 0.85 |
 
 ## 2. Taxonomy cut-offs
 
@@ -66,7 +71,12 @@ Counts per system as each cut-off moves (others at their defaults); the default 
 | Qwen3.8-27B (API) | 94 | 73 | 51 | 37 |
 | ERNIE 4.5 VL | 128 | 128 | 128 | 128 |
 | Command A Vision | 142 | 141 | 137 | 131 |
-| Kendall τ against the default | 0.95 | 1.00 | 0.96 | 0.90 |
+| LightOnOCR-3 0.8B | 106 | 87 | 78 | 60 |
+| LightOnOCR-3 1B | 24 | 15 | 9 | 2 |
+| LightOnOCR-3 4B | 26 | 19 | 12 | 5 |
+| nace.ai Parse | 37 | 28 | 23 | 18 |
+| nace.ai Parse | 37 | 28 | 23 | 18 |
+| Kendall τ against the default | 0.96 | 1.00 | 0.96 | 0.88 |
 
 **unrelated** (pages; cut-off un = 0.3, **0.5**, 0.7)
 
@@ -92,7 +102,12 @@ Counts per system as each cut-off moves (others at their defaults); the default 
 | Qwen3.8-27B (API) | 20 | 5 | 0 |
 | ERNIE 4.5 VL | 92 | 91 | 87 |
 | Command A Vision | 54 | 45 | 39 |
-| Kendall τ against the default | 0.69 | 1.00 | 0.85 |
+| LightOnOCR-3 0.8B | 28 | 11 | 1 |
+| LightOnOCR-3 1B | 1 | 0 | 0 |
+| LightOnOCR-3 4B | 0 | 0 | 0 |
+| nace.ai Parse | 7 | 5 | 1 |
+| nace.ai Parse | 7 | 5 | 1 |
+| Kendall τ against the default | 0.75 | 1.00 | 0.80 |
 
 **misplaced** (statements; cut-off mp = 0.7, **0.8**, 0.9)
 
@@ -118,7 +133,12 @@ Counts per system as each cut-off moves (others at their defaults); the default 
 | Qwen3.8-27B (API) | 0 | 0 | 4 |
 | ERNIE 4.5 VL | 0 | 0 | 0 |
 | Command A Vision | 1 | 1 | 2 |
-| Kendall τ against the default | 0.75 | 1.00 | 0.43 |
+| LightOnOCR-3 0.8B | 0 | 0 | 1 |
+| LightOnOCR-3 1B | 1 | 3 | 6 |
+| LightOnOCR-3 4B | 1 | 1 | 4 |
+| nace.ai Parse | 0 | 1 | 3 |
+| nace.ai Parse | 0 | 1 | 3 |
+| Kendall τ against the default | 0.68 | 1.00 | 0.52 |
 
 **labels dropped** (statements; cut-off lr = 0.1, **0.2**, 0.3)
 
@@ -144,7 +164,12 @@ Counts per system as each cut-off moves (others at their defaults); the default 
 | Qwen3.8-27B (API) | 0 | 0 | 0 |
 | ERNIE 4.5 VL | 2 | 2 | 2 |
 | Command A Vision | 11 | 11 | 11 |
-| Kendall τ against the default | 0.95 | 1.00 | 0.99 |
+| LightOnOCR-3 0.8B | 0 | 0 | 0 |
+| LightOnOCR-3 1B | 1 | 2 | 3 |
+| LightOnOCR-3 4B | 2 | 2 | 4 |
+| nace.ai Parse | 12 | 16 | 17 |
+| nace.ai Parse | 12 | 16 | 17 |
+| Kendall τ against the default | 0.94 | 1.00 | 0.98 |
 
 **labels invented** (statements; cut-off lr = 0.1, **0.2**, 0.3)
 
@@ -170,6 +195,11 @@ Counts per system as each cut-off moves (others at their defaults); the default 
 | Qwen3.8-27B (API) | 0 | 0 | 0 |
 | ERNIE 4.5 VL | 9 | 13 | 17 |
 | Command A Vision | 13 | 13 | 13 |
+| LightOnOCR-3 0.8B | 0 | 0 | 0 |
+| LightOnOCR-3 1B | 0 | 0 | 0 |
+| LightOnOCR-3 4B | 0 | 0 | 0 |
+| nace.ai Parse | 0 | 0 | 0 |
+| nace.ai Parse | 0 | 0 | 0 |
 | Kendall τ against the default | 0.90 | 1.00 | 0.99 |
 
 ## 3. Cross-engine row check threshold (test split, four leading systems pooled)

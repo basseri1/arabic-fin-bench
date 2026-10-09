@@ -459,27 +459,142 @@
     "labels_total": 3314,
     "row_recall": 0.126694166175604
    }
+  },
+  {
+   "config": "lightonocr3_08b_plain",
+   "system": "LightOnOCR-3 0.8B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "test": {
+    "teds": 0.47995163327147355,
+    "teds_s": 0.6240037676169045,
+    "label_cer": 0.016591714886497935,
+    "label_wer": 0.08006443054765966,
+    "labels_found": 2200,
+    "labels_total": 2257,
+    "row_recall": 0.418866291648637
+   },
+   "all": {
+    "teds": 0.47671718805938856,
+    "teds_s": 0.6350338967900301,
+    "label_cer": 0.01753754643692516,
+    "label_wer": 0.08220866856994549,
+    "labels_found": 3218,
+    "labels_total": 3314,
+    "row_recall": 0.4935179728933412
+   }
+  },
+  {
+   "config": "lightonocr3_1b_plain",
+   "system": "LightOnOCR-3 1B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+   "test": {
+    "teds": 0.5508719906466973,
+    "teds_s": 0.6625735648433358,
+    "label_cer": 0.009019928848030727,
+    "label_wer": 0.040552367985996304,
+    "labels_found": 2156,
+    "labels_total": 2257,
+    "row_recall": 0.9221116399826915
+   },
+   "all": {
+    "teds": 0.5591915383559124,
+    "teds_s": 0.6707819906957008,
+    "label_cer": 0.008636280941322518,
+    "label_wer": 0.044568427961929766,
+    "labels_found": 3196,
+    "labels_total": 3314,
+    "row_recall": 0.913671184443135
+   }
+  },
+  {
+   "config": "lightonocr3_4b_plain",
+   "system": "LightOnOCR-3 4B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "test": {
+    "teds": 0.5795453412102458,
+    "teds_s": 0.6901084756660697,
+    "label_cer": 0.011218616422079225,
+    "label_wer": 0.052616555661274975,
+    "labels_found": 2188,
+    "labels_total": 2257,
+    "row_recall": 0.8598009519688447
+   },
+   "all": {
+    "teds": 0.5865623703701103,
+    "teds_s": 0.6966547478782459,
+    "label_cer": 0.011905393504026824,
+    "label_wer": 0.05235091370228263,
+    "labels_found": 3201,
+    "labels_total": 3314,
+    "row_recall": 0.8674130819092516
+   }
+  },
+  {
+   "config": "nace_low",
+   "system": "nace.ai Parse",
+   "setting": "200 dpi page, parse mode low (default), markdown with HTML tables",
+   "test": {
+    "teds": 0.4240246136348829,
+    "teds_s": 0.5344070048861165,
+    "label_cer": 0.057147766323024055,
+    "label_wer": 0.2270017035775128,
+    "labels_found": 1030,
+    "labels_total": 2257,
+    "row_recall": 0.4214625703158806
+   },
+   "all": {
+    "teds": 0.41768063029220626,
+    "teds_s": 0.5247800823899805,
+    "label_cer": 0.056928734348089184,
+    "label_wer": 0.22603719599427755,
+    "labels_found": 1548,
+    "labels_total": 3314,
+    "row_recall": 0.4398939304655274
+   }
+  },
+  {
+   "config": "nace_medium",
+   "system": "nace.ai Parse",
+   "setting": "200 dpi page, parse mode medium, markdown with HTML tables",
+   "test": {
+    "teds": 0.6334987882479929,
+    "teds_s": 0.7163786671482666,
+    "label_cer": 0.0110798513424334,
+    "label_wer": 0.04071137775873152,
+    "labels_found": 1943,
+    "labels_total": 2257,
+    "row_recall": 0.8589355257464301
+   },
+   "all": {
+    "teds": 0.6351421482351199,
+    "teds_s": 0.7124750873180301,
+    "label_cer": 0.010410098390301357,
+    "label_wer": 0.037244897959183676,
+    "labels_found": 2879,
+    "labels_total": 3314,
+    "row_recall": 0.8741897466116676
+   }
   }
  ],
  "correlation": {
   "test": {
    "teds": {
-    "spearman": 0.9428571428571428,
-    "kendall": 0.8421052631578948
+    "spearman": 0.9276923076923077,
+    "kendall": 0.8133333333333331
    },
    "teds_s": {
-    "spearman": 0.9172932330827066,
-    "kendall": 0.7894736842105264
+    "spearman": 0.8861538461538463,
+    "kendall": 0.7466666666666665
    }
   },
   "all": {
    "teds": {
-    "spearman": 0.932330827067669,
-    "kendall": 0.8210526315789474
+    "spearman": 0.9323076923076923,
+    "kendall": 0.8333333333333331
    },
    "teds_s": {
-    "spearman": 0.9082706766917292,
-    "kendall": 0.7789473684210527
+    "spearman": 0.8823076923076922,
+    "kendall": 0.7533333333333332
    }
   }
  },
@@ -25642,6 +25757,6296 @@
     "labels_total": 155,
     "wer_edits": 4,
     "wer_words": 5
+   }
+  ],
+  "lightonocr3_08b_plain": [
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s1",
+    "teds": 0.3644415043364718,
+    "teds_s": 0.5207547169811321
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s2",
+    "teds": 0.2134156313582959,
+    "teds_s": 0.4304635761589404
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s3",
+    "teds": 0.46234542270453927,
+    "teds_s": 0.7942583732057417
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s4",
+    "teds": 0.5327010763556523,
+    "teds_s": 0.7838983050847458
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": null,
+    "cer_edits": 78,
+    "cer_chars": 2927,
+    "labels_found": 111,
+    "labels_total": 111,
+    "wer_edits": 50,
+    "wer_words": 497
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s1",
+    "teds": 0.8261817483174981,
+    "teds_s": 0.9242424242424242
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s2",
+    "teds": 0.5960784309050616,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s3",
+    "teds": 0.4254979867149483,
+    "teds_s": 0.6515151515151515
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s4",
+    "teds": 0.6396659722367486,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": null,
+    "cer_edits": 26,
+    "cer_chars": 1092,
+    "labels_found": 41,
+    "labels_total": 41,
+    "wer_edits": 14,
+    "wer_words": 174
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s1",
+    "teds": 0.8909638553902687,
+    "teds_s": 0.9096385542168675
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s2",
+    "teds": 0.6272159227953544,
+    "teds_s": 0.9365079365079365
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s3",
+    "teds": 0.8737317942223459,
+    "teds_s": 0.9056603773584906
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s4",
+    "teds": 0.7646928518912938,
+    "teds_s": 0.868995633187773
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s5",
+    "teds": 0.8116273783873451,
+    "teds_s": 0.8531073446327684
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s6",
+    "teds": 0.6743313162977045,
+    "teds_s": 0.7745454545454545
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s7",
+    "teds": 0.26490066225165565,
+    "teds_s": 0.304635761589404
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": null,
+    "cer_edits": 32,
+    "cer_chars": 5557,
+    "labels_found": 154,
+    "labels_total": 154,
+    "wer_edits": 22,
+    "wer_words": 890
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s1",
+    "teds": 0.5228758167986776,
+    "teds_s": 0.5294117647058824
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s2",
+    "teds": 0.7227513226278035,
+    "teds_s": 0.7283950617283951
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s3",
+    "teds": 0.455050505471952,
+    "teds_s": 0.5606060606060606
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s4",
+    "teds": 0.30490520274565547,
+    "teds_s": 0.3950617283950617
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": null,
+    "cer_edits": 10,
+    "cer_chars": 1134,
+    "labels_found": 43,
+    "labels_total": 44,
+    "wer_edits": 10,
+    "wer_words": 185
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s1",
+    "teds": 0.6222981063720698,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s2",
+    "teds": 0.5122556749309571,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s3",
+    "teds": 0.5407430333877677,
+    "teds_s": 0.6194029850746269
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s4",
+    "teds": 0.6900364573812112,
+    "teds_s": 0.7386363636363636
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": null,
+    "cer_edits": 44,
+    "cer_chars": 2288,
+    "labels_found": 89,
+    "labels_total": 89,
+    "wer_edits": 37,
+    "wer_words": 344
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s1",
+    "teds": 0.6535073109527132,
+    "teds_s": 0.7810945273631841
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s2",
+    "teds": 0.5753413308947553,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s3",
+    "teds": 0.464954111428762,
+    "teds_s": 0.5
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s4",
+    "teds": 0.46907911418189463,
+    "teds_s": 0.8169014084507042
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s5",
+    "teds": 0.3938664223690679,
+    "teds_s": 0.4398496240601504
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": null,
+    "cer_edits": 85,
+    "cer_chars": 4035,
+    "labels_found": 136,
+    "labels_total": 138,
+    "wer_edits": 115,
+    "wer_words": 638
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s1",
+    "teds": 0.6082790694120577,
+    "teds_s": 0.923728813559322
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s2",
+    "teds": 0.5982513186556973,
+    "teds_s": 0.6981132075471699
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s3",
+    "teds": 0.069120140452134,
+    "teds_s": 0.13157894736842102
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s4",
+    "teds": 0.638984725525919,
+    "teds_s": 0.7509433962264151
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s5",
+    "teds": 0.5481888977089051,
+    "teds_s": 0.7047970479704797
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": null,
+    "cer_edits": 30,
+    "cer_chars": 3414,
+    "labels_found": 136,
+    "labels_total": 136,
+    "wer_edits": 24,
+    "wer_words": 580
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s1",
+    "teds": 0.19427337874007478,
+    "teds_s": 0.5053763440860215
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s2",
+    "teds": 0.11108124176020262,
+    "teds_s": 0.33333333333333337
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s3",
+    "teds": 0.3642969981753995,
+    "teds_s": 0.39336492890995256
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s4",
+    "teds": 0.6478593266748507,
+    "teds_s": 0.7155963302752293
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s5",
+    "teds": 0.19361588741756153,
+    "teds_s": 0.30092592592592593
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s6",
+    "teds": 0.022491039768342103,
+    "teds_s": 0.12903225806451613
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": null,
+    "cer_edits": 51,
+    "cer_chars": 2407,
+    "labels_found": 99,
+    "labels_total": 105,
+    "wer_edits": 31,
+    "wer_words": 393
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s1",
+    "teds": 0.5169753086419753,
+    "teds_s": 0.8765432098765432
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s2",
+    "teds": 0.42163113703330357,
+    "teds_s": 0.8166666666666667
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s3",
+    "teds": 0.582660933505436,
+    "teds_s": 0.9259259259259259
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s4",
+    "teds": 0.7973421926910299,
+    "teds_s": 0.8039867109634551
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s5",
+    "teds": 0.515583282120006,
+    "teds_s": 0.8197674418604651
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": null,
+    "cer_edits": 43,
+    "cer_chars": 3586,
+    "labels_found": 134,
+    "labels_total": 135,
+    "wer_edits": 32,
+    "wer_words": 631
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s1",
+    "teds": 0.5169753086419753,
+    "teds_s": 0.8765432098765432
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s2",
+    "teds": 0.4280317346254985,
+    "teds_s": 0.775
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s3",
+    "teds": 0.5631036855147749,
+    "teds_s": 0.8486646884272997
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s4",
+    "teds": 0.8067725419137453,
+    "teds_s": 0.9097472924187726
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s5",
+    "teds": 0.6047196174279237,
+    "teds_s": 0.849002849002849
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": null,
+    "cer_edits": 76,
+    "cer_chars": 3413,
+    "labels_found": 132,
+    "labels_total": 144,
+    "wer_edits": 51,
+    "wer_words": 588
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s1",
+    "teds": 0.8567122169903346,
+    "teds_s": 0.9428571428571428
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s2",
+    "teds": 0.5337193070939092,
+    "teds_s": 0.803030303030303
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s3",
+    "teds": 0.42179487172800756,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s4",
+    "teds": 0.6512977452213435,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": null,
+    "cer_edits": 27,
+    "cer_chars": 1168,
+    "labels_found": 34,
+    "labels_total": 34,
+    "wer_edits": 23,
+    "wer_words": 196
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s1",
+    "teds": 0.4041522271200373,
+    "teds_s": 0.5406698564593302
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s2",
+    "teds": 0.48953791224520726,
+    "teds_s": 0.9905660377358491
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s3",
+    "teds": 0.6017349915845054,
+    "teds_s": 0.7321428571428572
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s4",
+    "teds": 0.6522939253589828,
+    "teds_s": 0.7453703703703703
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s5",
+    "teds": 0.03389830508474578,
+    "teds_s": 0.039548022598870025
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s6",
+    "teds": 0.6461725533489258,
+    "teds_s": 0.7032258064516129
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": null,
+    "cer_edits": 25,
+    "cer_chars": 2914,
+    "labels_found": 111,
+    "labels_total": 111,
+    "wer_edits": 21,
+    "wer_words": 468
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s1",
+    "teds": 0.710964764052249,
+    "teds_s": 0.7730496453900709
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s2",
+    "teds": 0.3959882934670279,
+    "teds_s": 0.8675496688741722
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s3",
+    "teds": 0.22258297241095337,
+    "teds_s": 0.5303030303030303
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s4",
+    "teds": 0.6998932426221562,
+    "teds_s": 0.8436018957345972
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s5",
+    "teds": 0.3206812520315381,
+    "teds_s": 0.6657894736842105
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": null,
+    "cer_edits": 77,
+    "cer_chars": 4251,
+    "labels_found": 121,
+    "labels_total": 127,
+    "wer_edits": 73,
+    "wer_words": 690
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s1",
+    "teds": 0.5571926474804059,
+    "teds_s": 0.8806818181818181
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s2",
+    "teds": 0.5574407694917737,
+    "teds_s": 0.9242424242424242
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s3",
+    "teds": 0.6317892372990921,
+    "teds_s": 0.7671232876712328
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s4",
+    "teds": 0.42698572983371685,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": null,
+    "cer_edits": 40,
+    "cer_chars": 1678,
+    "labels_found": 70,
+    "labels_total": 73,
+    "wer_edits": 29,
+    "wer_words": 264
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s1",
+    "teds": 0.5649061028806257,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s2",
+    "teds": 0.6999999998193799,
+    "teds_s": 0.7424242424242424
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s3",
+    "teds": 0.47387421469796787,
+    "teds_s": 0.6515151515151515
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s4",
+    "teds": 0.47817460323373473,
+    "teds_s": 0.5416666666666667
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": null,
+    "cer_edits": 18,
+    "cer_chars": 1420,
+    "labels_found": 45,
+    "labels_total": 46,
+    "wer_edits": 11,
+    "wer_words": 234
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s1",
+    "teds": 0.5207007222641737,
+    "teds_s": 0.6474358974358974
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s2",
+    "teds": 0.6865293862851891,
+    "teds_s": 0.7657657657657657
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s3",
+    "teds": 0.12015724758948054,
+    "teds_s": 0.22580645161290325
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s4",
+    "teds": 0.5969864384410131,
+    "teds_s": 0.7127071823204421
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s5",
+    "teds": 0.6600029629965622,
+    "teds_s": 0.7365591397849462
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": null,
+    "cer_edits": 37,
+    "cer_chars": 2878,
+    "labels_found": 96,
+    "labels_total": 97,
+    "wer_edits": 33,
+    "wer_words": 461
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s1",
+    "teds": 0.682600479534003,
+    "teds_s": 0.7696335078534031
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s2",
+    "teds": 0.5436543286377132,
+    "teds_s": 0.8609271523178808
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s3",
+    "teds": 0.4224353692900966,
+    "teds_s": 0.7183098591549295
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s4",
+    "teds": 0.5063073535144101,
+    "teds_s": 0.6717557251908397
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s5",
+    "teds": 0.46453331826128685,
+    "teds_s": 0.7180451127819549
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": null,
+    "cer_edits": 61,
+    "cer_chars": 3230,
+    "labels_found": 120,
+    "labels_total": 128,
+    "wer_edits": 35,
+    "wer_words": 528
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s1",
+    "teds": 0.5279481115800734,
+    "teds_s": 0.7099236641221374
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s2",
+    "teds": 0.6448145681648578,
+    "teds_s": 0.7475728155339806
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s3",
+    "teds": 0.542072409408146,
+    "teds_s": 0.6853932584269663
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s4",
+    "teds": 0.37320281342619055,
+    "teds_s": 0.6694915254237288
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s5",
+    "teds": 0.19610969386329613,
+    "teds_s": 0.1964285714285714
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": null,
+    "cer_edits": 53,
+    "cer_chars": 3464,
+    "labels_found": 114,
+    "labels_total": 114,
+    "wer_edits": 39,
+    "wer_words": 564
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s1",
+    "teds": 0.43838581684650035,
+    "teds_s": 0.8187134502923976
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s2",
+    "teds": 0.4076443837498719,
+    "teds_s": 0.6509433962264151
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s3",
+    "teds": 0.6404558402987627,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s4",
+    "teds": 0.45282266727265186,
+    "teds_s": 0.6651583710407241
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": null,
+    "cer_edits": 41,
+    "cer_chars": 2519,
+    "labels_found": 92,
+    "labels_total": 94,
+    "wer_edits": 26,
+    "wer_words": 417
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s1",
+    "teds": 0.11040489634467388,
+    "teds_s": 0.1228813559322034
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s2",
+    "teds": 0.42920771600871255,
+    "teds_s": 0.8017241379310345
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s3",
+    "teds": 0.2637340584769845,
+    "teds_s": 0.4078947368421053
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s4",
+    "teds": 0.716122087011946,
+    "teds_s": 0.7234042553191489
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s5",
+    "teds": 0.6492390538878681,
+    "teds_s": 0.73828125
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": null,
+    "cer_edits": 76,
+    "cer_chars": 3999,
+    "labels_found": 130,
+    "labels_total": 130,
+    "wer_edits": 55,
+    "wer_words": 653
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s1",
+    "teds": 0.872904154367466,
+    "teds_s": 0.9304812834224598
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s2",
+    "teds": 0.5032065448115814,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s3",
+    "teds": 0.47418413269850945,
+    "teds_s": 0.6388888888888888
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s4",
+    "teds": 0.6780402449172314,
+    "teds_s": 0.7244094488188977
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s5",
+    "teds": 0.567972374804826,
+    "teds_s": 0.7840909090909091
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": null,
+    "cer_edits": 47,
+    "cer_chars": 2694,
+    "labels_found": 90,
+    "labels_total": 91,
+    "wer_edits": 39,
+    "wer_words": 428
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s1",
+    "teds": 0.6652292978039104,
+    "teds_s": 0.7458563535911602
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s2",
+    "teds": 0.6460167713603884,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s3",
+    "teds": 0.4117353910277056,
+    "teds_s": 0.6046511627906976
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s4",
+    "teds": 0.5844449705041166,
+    "teds_s": 0.7512437810945274
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": null,
+    "cer_edits": 41,
+    "cer_chars": 2178,
+    "labels_found": 87,
+    "labels_total": 87,
+    "wer_edits": 32,
+    "wer_words": 356
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s1",
+    "teds": 0.6839597944229368,
+    "teds_s": 0.8968253968253969
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s2",
+    "teds": 0.5847591230024893,
+    "teds_s": 0.7037037037037037
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s3",
+    "teds": 0.4480732657100962,
+    "teds_s": 0.896551724137931
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s4",
+    "teds": 0.004149377593360981,
+    "teds_s": 0.004149377593360981
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s5",
+    "teds": 0.40294071785839536,
+    "teds_s": 0.6369047619047619
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s6",
+    "teds": 0.22584688322754898,
+    "teds_s": 0.2804878048780488
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": null,
+    "cer_edits": 165,
+    "cer_chars": 5535,
+    "labels_found": 166,
+    "labels_total": 173,
+    "wer_edits": 104,
+    "wer_words": 898
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s1",
+    "teds": 0.47459677426565083,
+    "teds_s": 0.489247311827957
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s2",
+    "teds": 0.3486554963463867,
+    "teds_s": 0.6418918918918919
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s3",
+    "teds": 0.6570350770597104,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s4",
+    "teds": 0.6605119922378768,
+    "teds_s": 0.743455497382199
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": null,
+    "cer_edits": 41,
+    "cer_chars": 2264,
+    "labels_found": 83,
+    "labels_total": 85,
+    "wer_edits": 33,
+    "wer_words": 368
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s1",
+    "teds": 0.8603962707047416,
+    "teds_s": 0.9603960396039604
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s2",
+    "teds": 0.2611111109810216,
+    "teds_s": 0.43333333333333335
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s3",
+    "teds": 0.01538461538461533,
+    "teds_s": 0.01538461538461533
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s4",
+    "teds": 0.5268026564710884,
+    "teds_s": 0.5376344086021505
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s5",
+    "teds": 0.0,
+    "teds_s": 0.20588235294117652
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": null,
+    "cer_edits": 19,
+    "cer_chars": 2150,
+    "labels_found": 83,
+    "labels_total": 84,
+    "wer_edits": 13,
+    "wer_words": 369
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s1",
+    "teds": 0.5494856942844177,
+    "teds_s": 0.6581632653061225
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s2",
+    "teds": 0.41418836544441984,
+    "teds_s": 0.5203252032520325
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s3",
+    "teds": 0.4710170472109759,
+    "teds_s": 0.6049382716049383
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s4",
+    "teds": 0.34491225729868247,
+    "teds_s": 0.4271844660194175
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s5",
+    "teds": 0.018465313270236483,
+    "teds_s": 0.05303030303030298
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": null,
+    "cer_edits": 43,
+    "cer_chars": 2510,
+    "labels_found": 96,
+    "labels_total": 96,
+    "wer_edits": 33,
+    "wer_words": 403
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s1",
+    "teds": 0.6492388608171442,
+    "teds_s": 0.7722007722007722
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s2",
+    "teds": 0.5196475190118202,
+    "teds_s": 0.7520661157024793
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s3",
+    "teds": 0.3423265588115638,
+    "teds_s": 0.619718309859155
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s4",
+    "teds": 0.07570587833895959,
+    "teds_s": 0.20524017467248912
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s5",
+    "teds": 0.41351565909910937,
+    "teds_s": 0.5517241379310345
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s6",
+    "teds": 0.09154831500429861,
+    "teds_s": 0.10526315789473684
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": null,
+    "cer_edits": 73,
+    "cer_chars": 3935,
+    "labels_found": 129,
+    "labels_total": 133,
+    "wer_edits": 45,
+    "wer_words": 647
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s1",
+    "teds": 0.5559096682633533,
+    "teds_s": 0.7049180327868853
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s2",
+    "teds": 0.13128415287518114,
+    "teds_s": 0.180327868852459
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s3",
+    "teds": 0.19354838712347877,
+    "teds_s": 0.25
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s4",
+    "teds": 0.5290726818717443,
+    "teds_s": 0.7142857142857143
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": null,
+    "cer_edits": 2,
+    "cer_chars": 1105,
+    "labels_found": 36,
+    "labels_total": 36,
+    "wer_edits": 2,
+    "wer_words": 189
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s1",
+    "teds": 0.8327465995110028,
+    "teds_s": 0.9403973509933775
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s2",
+    "teds": 0.6599665473192191,
+    "teds_s": 0.768595041322314
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s3",
+    "teds": 0.04937313027355983,
+    "teds_s": 0.28260869565217395
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s4",
+    "teds": 0.7163346905246784,
+    "teds_s": 0.8210116731517509
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s5",
+    "teds": 0.6346455894548584,
+    "teds_s": 0.7546296296296297
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": null,
+    "cer_edits": 64,
+    "cer_chars": 4078,
+    "labels_found": 109,
+    "labels_total": 109,
+    "wer_edits": 47,
+    "wer_words": 629
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s1",
+    "teds": 0.007633587786259555,
+    "teds_s": 0.007633587786259555
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s2",
+    "teds": 0.6375542763206694,
+    "teds_s": 0.8024691358024691
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s3",
+    "teds": 0.5029444236021776,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s4",
+    "teds": 0.0357195551578815,
+    "teds_s": 0.05769230769230771
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s5",
+    "teds": 0.3231225284663114,
+    "teds_s": 0.8181818181818181
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": null,
+    "cer_edits": 28,
+    "cer_chars": 1880,
+    "labels_found": 65,
+    "labels_total": 65,
+    "wer_edits": 36,
+    "wer_words": 311
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s1",
+    "teds": 0.529198959634449,
+    "teds_s": 0.8674033149171271
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s2",
+    "teds": 0.6298428450199152,
+    "teds_s": 0.695364238410596
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s3",
+    "teds": 0.228021978021978,
+    "teds_s": 0.37362637362637363
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s4",
+    "teds": 0.0016313213703099683,
+    "teds_s": 0.0016313213703099683
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s5",
+    "teds": 0.6077593413477771,
+    "teds_s": 0.7854406130268199
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": null,
+    "cer_edits": 131,
+    "cer_chars": 4323,
+    "labels_found": 125,
+    "labels_total": 149,
+    "wer_edits": 110,
+    "wer_words": 667
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s1",
+    "teds": 0.6290150339889333,
+    "teds_s": 0.6585365853658536
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s2",
+    "teds": 0.5607052256587808,
+    "teds_s": 0.6641221374045801
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s3",
+    "teds": 0.013157894736842146,
+    "teds_s": 0.013157894736842146
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s4",
+    "teds": 0.004878048780487809,
+    "teds_s": 0.004878048780487809
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s5",
+    "teds": 0.538432662895799,
+    "teds_s": 0.6858006042296072
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s6",
+    "teds": 0.09382036273931937,
+    "teds_s": 0.11678832116788318
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": null,
+    "cer_edits": 73,
+    "cer_chars": 4457,
+    "labels_found": 141,
+    "labels_total": 155,
+    "wer_edits": 42,
+    "wer_words": 752
+   }
+  ],
+  "lightonocr3_1b_plain": [
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s1",
+    "teds": 0.6204252767675328,
+    "teds_s": 0.649056603773585
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s2",
+    "teds": 0.5607293368570063,
+    "teds_s": 0.6688741721854304
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s3",
+    "teds": 0.004784688995215336,
+    "teds_s": 0.004784688995215336
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s4",
+    "teds": 0.542415826755055,
+    "teds_s": 0.5508474576271186
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": null,
+    "cer_edits": 42,
+    "cer_chars": 2561,
+    "labels_found": 99,
+    "labels_total": 111,
+    "wer_edits": 34,
+    "wer_words": 427
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s1",
+    "teds": 0.5817093238178076,
+    "teds_s": 0.696969696969697
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s2",
+    "teds": 0.6313725487858641,
+    "teds_s": 0.7254901960784313
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s3",
+    "teds": 0.40851698770667566,
+    "teds_s": 0.5151515151515151
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s4",
+    "teds": 0.6819025376340846,
+    "teds_s": 0.7142857142857143
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": null,
+    "cer_edits": 6,
+    "cer_chars": 1057,
+    "labels_found": 39,
+    "labels_total": 41,
+    "wer_edits": 5,
+    "wer_words": 167
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s1",
+    "teds": 0.9140539847830512,
+    "teds_s": 0.9337349397590361
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s2",
+    "teds": 0.9056105436165891,
+    "teds_s": 0.9603174603174603
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s3",
+    "teds": 0.8541666666666666,
+    "teds_s": 0.9166666666666666
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s4",
+    "teds": 0.7066711589975176,
+    "teds_s": 0.8641509433962264
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s5",
+    "teds": 0.6533292973108884,
+    "teds_s": 0.8531073446327684
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s6",
+    "teds": 0.47186974775745494,
+    "teds_s": 0.524904214559387
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s7",
+    "teds": 0.07017543859649122,
+    "teds_s": 0.22807017543859653
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": null,
+    "cer_edits": 40,
+    "cer_chars": 4437,
+    "labels_found": 124,
+    "labels_total": 154,
+    "wer_edits": 16,
+    "wer_words": 715
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s1",
+    "teds": 0.6209150324849522,
+    "teds_s": 0.7843137254901961
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s2",
+    "teds": 0.7025813692145877,
+    "teds_s": 0.7037037037037037
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s3",
+    "teds": 0.6414141411131078,
+    "teds_s": 0.696969696969697
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s4",
+    "teds": 0.47234980803396964,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": null,
+    "cer_edits": 2,
+    "cer_chars": 1145,
+    "labels_found": 44,
+    "labels_total": 44,
+    "wer_edits": 3,
+    "wer_words": 187
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s1",
+    "teds": 0.6271833737906164,
+    "teds_s": 0.7243589743589743
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s2",
+    "teds": 0.6695644175282346,
+    "teds_s": 0.7735849056603774
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s3",
+    "teds": 0.5107794359548767,
+    "teds_s": 0.5597014925373134
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s4",
+    "teds": 0.7233589957256548,
+    "teds_s": 0.7443181818181819
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": null,
+    "cer_edits": 8,
+    "cer_chars": 2288,
+    "labels_found": 89,
+    "labels_total": 89,
+    "wer_edits": 11,
+    "wer_words": 344
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s1",
+    "teds": 0.5419952635055603,
+    "teds_s": 0.9751243781094527
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s2",
+    "teds": 0.5434357570401862,
+    "teds_s": 0.8584070796460177
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s3",
+    "teds": 0.5783808935019705,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s4",
+    "teds": 0.704225352112676,
+    "teds_s": 0.8450704225352113
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s5",
+    "teds": 0.5981669467418713,
+    "teds_s": 0.6278195488721805
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": null,
+    "cer_edits": 39,
+    "cer_chars": 4047,
+    "labels_found": 138,
+    "labels_total": 138,
+    "wer_edits": 24,
+    "wer_words": 640
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s1",
+    "teds": 0.6722598868911549,
+    "teds_s": 0.6864406779661016
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s2",
+    "teds": 0.572960865455416,
+    "teds_s": 0.7358490566037736
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s3",
+    "teds": 0.4297684885953602,
+    "teds_s": 0.736842105263158
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s4",
+    "teds": 0.0037735849056603765,
+    "teds_s": 0.0037735849056603765
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s5",
+    "teds": 0.5313253064409613,
+    "teds_s": 0.7416974169741697
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": null,
+    "cer_edits": 5,
+    "cer_chars": 3018,
+    "labels_found": 124,
+    "labels_total": 136,
+    "wer_edits": 10,
+    "wer_words": 507
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s1",
+    "teds": 0.5,
+    "teds_s": 0.550561797752809
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s2",
+    "teds": 0.23813982492082575,
+    "teds_s": 0.348314606741573
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s3",
+    "teds": 0.5020734594331533,
+    "teds_s": 0.7535545023696683
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s4",
+    "teds": 0.6019113147887615,
+    "teds_s": 0.6146788990825688
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s5",
+    "teds": 0.446347736650043,
+    "teds_s": 0.587962962962963
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s6",
+    "teds": 0.07751937938290976,
+    "teds_s": 0.09302325581395354
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": null,
+    "cer_edits": 9,
+    "cer_chars": 2530,
+    "labels_found": 105,
+    "labels_total": 105,
+    "wer_edits": 7,
+    "wer_words": 412
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s1",
+    "teds": 0.7468008618413304,
+    "teds_s": 0.9570552147239264
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s2",
+    "teds": 0.41003086417913437,
+    "teds_s": 0.7916666666666666
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s3",
+    "teds": 0.6448793647296069,
+    "teds_s": 0.698005698005698
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s4",
+    "teds": 0.8836531290270858,
+    "teds_s": 0.8837209302325582
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s5",
+    "teds": 0.691321384075076,
+    "teds_s": 0.7616279069767442
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": null,
+    "cer_edits": 20,
+    "cer_chars": 3634,
+    "labels_found": 135,
+    "labels_total": 135,
+    "wer_edits": 52,
+    "wer_words": 638
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s1",
+    "teds": 0.4922839506172839,
+    "teds_s": 0.8765432098765432
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s2",
+    "teds": 0.4075679874409046,
+    "teds_s": 0.6716417910447761
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s3",
+    "teds": 0.6775881964658064,
+    "teds_s": 0.7270029673590505
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s4",
+    "teds": 0.61178761209343,
+    "teds_s": 0.6470588235294117
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s5",
+    "teds": 0.540490042959523,
+    "teds_s": 0.8603988603988604
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": null,
+    "cer_edits": 59,
+    "cer_chars": 3316,
+    "labels_found": 130,
+    "labels_total": 144,
+    "wer_edits": 72,
+    "wer_words": 572
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s1",
+    "teds": 0.859984504910452,
+    "teds_s": 0.9428571428571428
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s2",
+    "teds": 0.8712121212121212,
+    "teds_s": 0.9393939393939394
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s3",
+    "teds": 0.44358974351332736,
+    "teds_s": 0.5
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s4",
+    "teds": 0.6841704304526119,
+    "teds_s": 0.7236842105263157
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": null,
+    "cer_edits": 9,
+    "cer_chars": 1168,
+    "labels_found": 34,
+    "labels_total": 34,
+    "wer_edits": 11,
+    "wer_words": 196
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s1",
+    "teds": 0.8752420436572377,
+    "teds_s": 0.8905472636815921
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s2",
+    "teds": 0.7203007629668375,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s3",
+    "teds": 0.625,
+    "teds_s": 0.6964285714285714
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s4",
+    "teds": 0.6535687881556373,
+    "teds_s": 0.7361111111111112
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s5",
+    "teds": 0.03497267746534505,
+    "teds_s": 0.03825136612021862
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s6",
+    "teds": 0.6737327187292037,
+    "teds_s": 0.7032258064516129
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": null,
+    "cer_edits": 6,
+    "cer_chars": 2914,
+    "labels_found": 111,
+    "labels_total": 111,
+    "wer_edits": 3,
+    "wer_words": 468
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s1",
+    "teds": 0.5616570180612253,
+    "teds_s": 0.9078014184397163
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s2",
+    "teds": 0.8203884025866335,
+    "teds_s": 0.9151515151515152
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s3",
+    "teds": 0.5199338959417108,
+    "teds_s": 0.7272727272727273
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s4",
+    "teds": 0.5711586655754792,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s5",
+    "teds": 0.5062324083475789,
+    "teds_s": 0.573943661971831
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": null,
+    "cer_edits": 18,
+    "cer_chars": 4284,
+    "labels_found": 124,
+    "labels_total": 127,
+    "wer_edits": 15,
+    "wer_words": 692
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s1",
+    "teds": 0.8249493306820196,
+    "teds_s": 0.8806818181818181
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s2",
+    "teds": 0.8921293260386357,
+    "teds_s": 0.9384615384615385
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s3",
+    "teds": 0.7558822550058161,
+    "teds_s": 0.773972602739726
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s4",
+    "teds": 0.8016038015894182,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": null,
+    "cer_edits": 29,
+    "cer_chars": 1738,
+    "labels_found": 73,
+    "labels_total": 73,
+    "wer_edits": 26,
+    "wer_words": 274
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s1",
+    "teds": 0.6454553065795294,
+    "teds_s": 0.6901408450704225
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s2",
+    "teds": 0.4571428565836665,
+    "teds_s": 0.5970149253731343
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s3",
+    "teds": 0.40491478912758105,
+    "teds_s": 0.5151515151515151
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s4",
+    "teds": 0.1669539759556452,
+    "teds_s": 0.22916666666666663
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": null,
+    "cer_edits": 6,
+    "cer_chars": 1463,
+    "labels_found": 46,
+    "labels_total": 46,
+    "wer_edits": 7,
+    "wer_words": 240
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s1",
+    "teds": 0.680911680826774,
+    "teds_s": 0.6987179487179487
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s2",
+    "teds": 0.6766739031216046,
+    "teds_s": 0.7387387387387387
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s3",
+    "teds": 0.3937747593848936,
+    "teds_s": 0.5161290322580645
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s4",
+    "teds": 0.6361418047003984,
+    "teds_s": 0.7237569060773481
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s5",
+    "teds": 0.7162851137860167,
+    "teds_s": 0.7365591397849462
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": null,
+    "cer_edits": 17,
+    "cer_chars": 2956,
+    "labels_found": 97,
+    "labels_total": 97,
+    "wer_edits": 8,
+    "wer_words": 474
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s1",
+    "teds": 0.7045595213205247,
+    "teds_s": 0.7486910994764397
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s2",
+    "teds": 0.8660234307590263,
+    "teds_s": 0.934640522875817
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s3",
+    "teds": 0.6315140845909925,
+    "teds_s": 0.6901408450704225
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s4",
+    "teds": 0.6151996545977038,
+    "teds_s": 0.732824427480916
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s5",
+    "teds": 0.5466704745811963,
+    "teds_s": 0.9097744360902256
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": null,
+    "cer_edits": 53,
+    "cer_chars": 3420,
+    "labels_found": 128,
+    "labels_total": 128,
+    "wer_edits": 29,
+    "wer_words": 564
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s1",
+    "teds": 0.53575063593515,
+    "teds_s": 0.7099236641221374
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s2",
+    "teds": 0.7293037325143814,
+    "teds_s": 0.8398058252427184
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s3",
+    "teds": 0.6179775280898876,
+    "teds_s": 0.6179775280898876
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s4",
+    "teds": 0.5303774115874164,
+    "teds_s": 0.6991525423728814
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s5",
+    "teds": 0.1395837082485626,
+    "teds_s": 0.19819819819819817
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": null,
+    "cer_edits": 25,
+    "cer_chars": 3464,
+    "labels_found": 114,
+    "labels_total": 114,
+    "wer_edits": 20,
+    "wer_words": 564
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s1",
+    "teds": 0.4692926213188827,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s2",
+    "teds": 0.49747168504685724,
+    "teds_s": 0.8301886792452831
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s3",
+    "teds": 0.6538461538461539,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s4",
+    "teds": 0.643149582509002,
+    "teds_s": 0.7828054298642534
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": null,
+    "cer_edits": 47,
+    "cer_chars": 2538,
+    "labels_found": 92,
+    "labels_total": 94,
+    "wer_edits": 26,
+    "wer_words": 422
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s1",
+    "teds": 0.6789077212244777,
+    "teds_s": 0.6991525423728814
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s2",
+    "teds": 0.5255981686434918,
+    "teds_s": 0.935483870967742
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s3",
+    "teds": 0.40547662831254694,
+    "teds_s": 0.6973684210526316
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s4",
+    "teds": 0.5841708542713568,
+    "teds_s": 0.6030150753768844
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s5",
+    "teds": 0.5474325068134931,
+    "teds_s": 0.87109375
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": null,
+    "cer_edits": 7,
+    "cer_chars": 3929,
+    "labels_found": 129,
+    "labels_total": 130,
+    "wer_edits": 39,
+    "wer_words": 641
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s1",
+    "teds": 0.8607692007413682,
+    "teds_s": 0.9197860962566845
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s2",
+    "teds": 0.6904761899303604,
+    "teds_s": 0.7582417582417582
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s3",
+    "teds": 0.5833333333333333,
+    "teds_s": 0.6944444444444444
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s4",
+    "teds": 0.6150481189329793,
+    "teds_s": 0.7244094488188977
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s5",
+    "teds": 0.4315345947715369,
+    "teds_s": 0.7784090909090909
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": null,
+    "cer_edits": 1,
+    "cer_chars": 2713,
+    "labels_found": 90,
+    "labels_total": 91,
+    "wer_edits": 3,
+    "wer_words": 430
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s1",
+    "teds": 0.545693543405164,
+    "teds_s": 0.6795580110497237
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s2",
+    "teds": 0.4022162313450057,
+    "teds_s": 0.8113207547169812
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s3",
+    "teds": 0.6046511627906976,
+    "teds_s": 0.6046511627906976
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s4",
+    "teds": 0.5426919457331225,
+    "teds_s": 0.5572139303482587
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": null,
+    "cer_edits": 26,
+    "cer_chars": 2178,
+    "labels_found": 87,
+    "labels_total": 87,
+    "wer_edits": 20,
+    "wer_words": 356
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s1",
+    "teds": 0.5824281538407954,
+    "teds_s": 0.7380952380952381
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s2",
+    "teds": 0.6538208967281712,
+    "teds_s": 0.7037037037037037
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s3",
+    "teds": 0.512074770598576,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s4",
+    "teds": 0.7461335344927934,
+    "teds_s": 0.7925311203319502
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s5",
+    "teds": 0.5609784083873299,
+    "teds_s": 0.6101190476190477
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s6",
+    "teds": 0.25050555486764225,
+    "teds_s": 0.2628571428571429
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": null,
+    "cer_edits": 55,
+    "cer_chars": 5746,
+    "labels_found": 173,
+    "labels_total": 173,
+    "wer_edits": 50,
+    "wer_words": 935
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s1",
+    "teds": 0.5707670321828255,
+    "teds_s": 0.7150537634408602
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s2",
+    "teds": 0.20273665620668513,
+    "teds_s": 0.3648648648648649
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s3",
+    "teds": 0.6666666666666667,
+    "teds_s": 0.691358024691358
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s4",
+    "teds": 0.7328421882602401,
+    "teds_s": 0.7486910994764397
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": null,
+    "cer_edits": 18,
+    "cer_chars": 2384,
+    "labels_found": 85,
+    "labels_total": 85,
+    "wer_edits": 18,
+    "wer_words": 388
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s1",
+    "teds": 0.7025538267623079,
+    "teds_s": 0.7425742574257426
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s2",
+    "teds": 0.7673153946889895,
+    "teds_s": 0.9065420560747663
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s3",
+    "teds": 0.3533653846153846,
+    "teds_s": 0.41538461538461535
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s4",
+    "teds": 0.23655913978494625,
+    "teds_s": 0.4139784946236559
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s5",
+    "teds": 0.06275510190077771,
+    "teds_s": 0.0864197530864198
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": null,
+    "cer_edits": 0,
+    "cer_chars": 2161,
+    "labels_found": 84,
+    "labels_total": 84,
+    "wer_edits": 3,
+    "wer_words": 371
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s1",
+    "teds": 0.7015352493570167,
+    "teds_s": 0.7193877551020409
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s2",
+    "teds": 0.7115251204736952,
+    "teds_s": 0.9150943396226415
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s3",
+    "teds": 0.6790123456790124,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s4",
+    "teds": 0.5314418783465635,
+    "teds_s": 0.674757281553398
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s5",
+    "teds": 0.043165467625899234,
+    "teds_s": 0.05035971223021585
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": null,
+    "cer_edits": 17,
+    "cer_chars": 2510,
+    "labels_found": 96,
+    "labels_total": 96,
+    "wer_edits": 17,
+    "wer_words": 403
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s1",
+    "teds": 0.6608537106728001,
+    "teds_s": 0.7567567567567568
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s2",
+    "teds": 0.6041747036059041,
+    "teds_s": 0.7603305785123967
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s3",
+    "teds": 0.4555709630145993,
+    "teds_s": 0.5633802816901409
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s4",
+    "teds": 0.5164940543944323,
+    "teds_s": 0.7056962025316456
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s5",
+    "teds": 0.47456507741605647,
+    "teds_s": 0.5708812260536398
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s6",
+    "teds": 0.11111111111111116,
+    "teds_s": 0.11111111111111116
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": null,
+    "cer_edits": 59,
+    "cer_chars": 4011,
+    "labels_found": 130,
+    "labels_total": 133,
+    "wer_edits": 33,
+    "wer_words": 659
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s1",
+    "teds": 0.6819672127727603,
+    "teds_s": 0.7377049180327868
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s2",
+    "teds": 0.4666666652335495,
+    "teds_s": 0.7868852459016393
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s3",
+    "teds": 0.40625,
+    "teds_s": 0.5555555555555556
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s4",
+    "teds": 0.6238495098365533,
+    "teds_s": 0.6703296703296704
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": null,
+    "cer_edits": 20,
+    "cer_chars": 1105,
+    "labels_found": 36,
+    "labels_total": 36,
+    "wer_edits": 7,
+    "wer_words": 189
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s1",
+    "teds": 0.7306843265792392,
+    "teds_s": 0.7483443708609272
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s2",
+    "teds": 0.756782982005807,
+    "teds_s": 0.768595041322314
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s3",
+    "teds": 0.5498188410116278,
+    "teds_s": 0.6739130434782609
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s4",
+    "teds": 0.7519778102520375,
+    "teds_s": 0.8793774319066148
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s5",
+    "teds": 0.7147697115282494,
+    "teds_s": 0.7546296296296297
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 4078,
+    "labels_found": 109,
+    "labels_total": 109,
+    "wer_edits": 19,
+    "wer_words": 629
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s1",
+    "teds": 0.5282155359519347,
+    "teds_s": 0.5877862595419847
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s2",
+    "teds": 0.37683613025924056,
+    "teds_s": 0.7439024390243902
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s3",
+    "teds": 0.5,
+    "teds_s": 0.5
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s4",
+    "teds": 0.4759015494432205,
+    "teds_s": 0.6474358974358974
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s5",
+    "teds": 0.06930693069306926,
+    "teds_s": 0.06930693069306926
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": null,
+    "cer_edits": 45,
+    "cer_chars": 1472,
+    "labels_found": 50,
+    "labels_total": 65,
+    "wer_edits": 17,
+    "wer_words": 241
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s1",
+    "teds": 0.8398171210486586,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s2",
+    "teds": 0.6298428450199152,
+    "teds_s": 0.695364238410596
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s3",
+    "teds": 0.24839641825183412,
+    "teds_s": 0.2857142857142857
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s4",
+    "teds": 0.0016313213703099683,
+    "teds_s": 0.0016313213703099683
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s5",
+    "teds": 0.5755364221174598,
+    "teds_s": 0.5938697318007663
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": null,
+    "cer_edits": 75,
+    "cer_chars": 4403,
+    "labels_found": 127,
+    "labels_total": 149,
+    "wer_edits": 55,
+    "wer_words": 679
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s1",
+    "teds": 0.7014341066038705,
+    "teds_s": 0.7357723577235773
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s2",
+    "teds": 0.6412213740458015,
+    "teds_s": 0.7404580152671756
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s3",
+    "teds": 0.6442105263275535,
+    "teds_s": 0.6973684210526316
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s4",
+    "teds": 0.5626558261673624,
+    "teds_s": 0.7121951219512195
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s5",
+    "teds": 0.6526671651627002,
+    "teds_s": 0.7099697885196374
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s6",
+    "teds": 0.11523635731670112,
+    "teds_s": 0.11678832116788318
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 4775,
+    "labels_found": 154,
+    "labels_total": 155,
+    "wer_edits": 19,
+    "wer_words": 811
+   }
+  ],
+  "lightonocr3_4b_plain": [
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s1",
+    "teds": 0.6218584409862195,
+    "teds_s": 0.6566037735849057
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s2",
+    "teds": 0.5627287556201417,
+    "teds_s": 0.6688741721854304
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s3",
+    "teds": 0.7168693075125867,
+    "teds_s": 0.7607655502392344
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s4",
+    "teds": 0.6115850048076551,
+    "teds_s": 0.8008474576271186
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": null,
+    "cer_edits": 66,
+    "cer_chars": 2682,
+    "labels_found": 104,
+    "labels_total": 111,
+    "wer_edits": 39,
+    "wer_words": 455
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s1",
+    "teds": 0.6905456072453297,
+    "teds_s": 0.7424242424242424
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s2",
+    "teds": 0.5882352941176471,
+    "teds_s": 0.8431372549019608
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s3",
+    "teds": 0.6462596745202036,
+    "teds_s": 0.7424242424242424
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s4",
+    "teds": 0.3819198516698984,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": null,
+    "cer_edits": 4,
+    "cer_chars": 1092,
+    "labels_found": 41,
+    "labels_total": 41,
+    "wer_edits": 3,
+    "wer_words": 174
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s1",
+    "teds": 0.5900028686835823,
+    "teds_s": 0.8855421686746988
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s2",
+    "teds": 0.5187389760736435,
+    "teds_s": 0.8650793650793651
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s3",
+    "teds": 0.5168839354300871,
+    "teds_s": 0.7916666666666666
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s4",
+    "teds": 0.868995633187773,
+    "teds_s": 0.868995633187773
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s5",
+    "teds": 0.8411002892758803,
+    "teds_s": 0.8531073446327684
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s6",
+    "teds": 0.4864874614895075,
+    "teds_s": 0.685823754789272
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s7",
+    "teds": 0.13277187738709773,
+    "teds_s": 0.33587786259541985
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": null,
+    "cer_edits": 7,
+    "cer_chars": 5557,
+    "labels_found": 154,
+    "labels_total": 154,
+    "wer_edits": 7,
+    "wer_words": 890
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s1",
+    "teds": 0.8224400865534941,
+    "teds_s": 0.8823529411764706
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s2",
+    "teds": 0.7436825090352399,
+    "teds_s": 0.7530864197530864
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s3",
+    "teds": 0.6565656562646229,
+    "teds_s": 0.6818181818181819
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s4",
+    "teds": 0.6282186948774773,
+    "teds_s": 0.7654320987654322
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": null,
+    "cer_edits": 18,
+    "cer_chars": 1145,
+    "labels_found": 44,
+    "labels_total": 44,
+    "wer_edits": 14,
+    "wer_words": 187
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s1",
+    "teds": 0.9039275537316616,
+    "teds_s": 0.9230769230769231
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s2",
+    "teds": 0.6547971486623557,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s3",
+    "teds": 0.3607921929501775,
+    "teds_s": 0.4104477611940298
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s4",
+    "teds": 0.7270877095341512,
+    "teds_s": 0.7443181818181819
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": null,
+    "cer_edits": 38,
+    "cer_chars": 2278,
+    "labels_found": 88,
+    "labels_total": 89,
+    "wer_edits": 28,
+    "wer_words": 342
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s1",
+    "teds": 0.9329888095328612,
+    "teds_s": 0.9701492537313433
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s2",
+    "teds": 0.7818140918081933,
+    "teds_s": 0.8205128205128205
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s3",
+    "teds": 0.5100942270623313,
+    "teds_s": 0.6944444444444444
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s4",
+    "teds": 0.7037223339815375,
+    "teds_s": 0.7746478873239436
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s5",
+    "teds": 0.7809990117452422,
+    "teds_s": 0.981203007518797
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": null,
+    "cer_edits": 28,
+    "cer_chars": 4047,
+    "labels_found": 138,
+    "labels_total": 138,
+    "wer_edits": 26,
+    "wer_words": 640
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s1",
+    "teds": 0.4068651445807284,
+    "teds_s": 0.430379746835443
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s2",
+    "teds": 0.6447417383908101,
+    "teds_s": 0.7547169811320755
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s3",
+    "teds": 0.48052311571020834,
+    "teds_s": 0.513157894736842
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s4",
+    "teds": 0.6944743934667336,
+    "teds_s": 0.7924528301886793
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s5",
+    "teds": 0.6294797932749745,
+    "teds_s": 0.7453874538745388
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": null,
+    "cer_edits": 28,
+    "cer_chars": 3414,
+    "labels_found": 136,
+    "labels_total": 136,
+    "wer_edits": 32,
+    "wer_words": 580
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s1",
+    "teds": 0.515452680753523,
+    "teds_s": 0.550561797752809
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s2",
+    "teds": 0.21499242005723251,
+    "teds_s": 0.348314606741573
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s3",
+    "teds": 0.5090382494985775,
+    "teds_s": 0.6492890995260663
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s4",
+    "teds": 0.8328666745454346,
+    "teds_s": 0.8348623853211009
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s5",
+    "teds": 0.4635288062057009,
+    "teds_s": 0.6759259259259259
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s6",
+    "teds": 0.12019774008352879,
+    "teds_s": 0.1694915254237288
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 2511,
+    "labels_found": 104,
+    "labels_total": 105,
+    "wer_edits": 13,
+    "wer_words": 409
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s1",
+    "teds": 0.5231481481481481,
+    "teds_s": 0.8703703703703703
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s2",
+    "teds": 0.6145247327784698,
+    "teds_s": 0.85
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s3",
+    "teds": 0.7293552227339514,
+    "teds_s": 0.8774928774928775
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s4",
+    "teds": 0.8326225796299817,
+    "teds_s": 0.8338870431893688
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s5",
+    "teds": 0.7885229880055196,
+    "teds_s": 0.9912790697674418
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": null,
+    "cer_edits": 37,
+    "cer_chars": 3610,
+    "labels_found": 133,
+    "labels_total": 135,
+    "wer_edits": 29,
+    "wer_words": 634
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s1",
+    "teds": 0.7654811218838019,
+    "teds_s": 0.9447852760736196
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s2",
+    "teds": 0.6190722839130709,
+    "teds_s": 0.8416666666666667
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s3",
+    "teds": 0.7063447009738899,
+    "teds_s": 0.741839762611276
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s4",
+    "teds": 0.7959630347331078,
+    "teds_s": 0.855595667870036
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s5",
+    "teds": 0.6653452963910551,
+    "teds_s": 0.8062678062678063
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": null,
+    "cer_edits": 98,
+    "cer_chars": 2968,
+    "labels_found": 113,
+    "labels_total": 144,
+    "wer_edits": 48,
+    "wer_words": 509
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s1",
+    "teds": 0.9451615455362833,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s2",
+    "teds": 0.595875421002733,
+    "teds_s": 0.8636363636363636
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s3",
+    "teds": 0.42307692307692313,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s4",
+    "teds": 0.6169161926342273,
+    "teds_s": 0.6842105263157895
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 1156,
+    "labels_found": 33,
+    "labels_total": 34,
+    "wer_edits": 20,
+    "wer_words": 194
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s1",
+    "teds": 0.6756432954944782,
+    "teds_s": 0.7313432835820896
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s2",
+    "teds": 0.7147252116492897,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s3",
+    "teds": 0.5267434577856744,
+    "teds_s": 0.6607142857142857
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s4",
+    "teds": 0.6745714499114979,
+    "teds_s": 0.7453703703703703
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s5",
+    "teds": 0.039548022598870025,
+    "teds_s": 0.039548022598870025
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s6",
+    "teds": 0.6896313359660486,
+    "teds_s": 0.7032258064516129
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": null,
+    "cer_edits": 32,
+    "cer_chars": 2914,
+    "labels_found": 111,
+    "labels_total": 111,
+    "wer_edits": 35,
+    "wer_words": 468
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s1",
+    "teds": 0.7243537329243007,
+    "teds_s": 0.7446808510638299
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s2",
+    "teds": 0.8681469566654414,
+    "teds_s": 0.94375
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s3",
+    "teds": 0.6115328215881053,
+    "teds_s": 0.6818181818181819
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s4",
+    "teds": 0.6751700680636401,
+    "teds_s": 0.7723214285714286
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s5",
+    "teds": 0.6240309848797223,
+    "teds_s": 0.7527675276752768
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": null,
+    "cer_edits": 69,
+    "cer_chars": 4463,
+    "labels_found": 127,
+    "labels_total": 127,
+    "wer_edits": 25,
+    "wer_words": 722
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s1",
+    "teds": 0.5754603777419437,
+    "teds_s": 0.8977272727272727
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s2",
+    "teds": 0.6520198285579681,
+    "teds_s": 0.819672131147541
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s3",
+    "teds": 0.5744888740017602,
+    "teds_s": 0.7465753424657534
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s4",
+    "teds": 0.8016038015894182,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": null,
+    "cer_edits": 16,
+    "cer_chars": 1726,
+    "labels_found": 72,
+    "labels_total": 73,
+    "wer_edits": 14,
+    "wer_words": 272
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s1",
+    "teds": 0.8293874353485209,
+    "teds_s": 0.8732394366197183
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s2",
+    "teds": 0.6999999998193799,
+    "teds_s": 0.7424242424242424
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s3",
+    "teds": 0.467983640730381,
+    "teds_s": 0.6818181818181819
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s4",
+    "teds": 0.3749999993791183,
+    "teds_s": 0.8958333333333334
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": null,
+    "cer_edits": 2,
+    "cer_chars": 1463,
+    "labels_found": 46,
+    "labels_total": 46,
+    "wer_edits": 3,
+    "wer_words": 240
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s1",
+    "teds": 0.9052706551857483,
+    "teds_s": 0.9230769230769231
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s2",
+    "teds": 0.7564791448515009,
+    "teds_s": 0.7657657657657657
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s3",
+    "teds": 0.19354838709677424,
+    "teds_s": 0.25806451612903225
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s4",
+    "teds": 0.564724195069371,
+    "teds_s": 0.7237569060773481
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s5",
+    "teds": 0.7358340487805426,
+    "teds_s": 0.7580645161290323
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": null,
+    "cer_edits": 16,
+    "cer_chars": 2956,
+    "labels_found": 97,
+    "labels_total": 97,
+    "wer_edits": 15,
+    "wer_words": 474
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s1",
+    "teds": 0.7381086143718651,
+    "teds_s": 0.7696335078534031
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s2",
+    "teds": 0.6766792088253608,
+    "teds_s": 0.7615894039735099
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s3",
+    "teds": 0.6611893583666271,
+    "teds_s": 0.7183098591549295
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s4",
+    "teds": 0.5510621480928122,
+    "teds_s": 0.7099236641221374
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s5",
+    "teds": 0.7337844532291244,
+    "teds_s": 0.7631578947368421
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": null,
+    "cer_edits": 36,
+    "cer_chars": 3086,
+    "labels_found": 115,
+    "labels_total": 128,
+    "wer_edits": 24,
+    "wer_words": 508
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s1",
+    "teds": 0.64474315693929,
+    "teds_s": 0.7404580152671756
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s2",
+    "teds": 0.6642093351743754,
+    "teds_s": 0.7038834951456311
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s3",
+    "teds": 0.6821225020992622,
+    "teds_s": 0.6853932584269663
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s4",
+    "teds": 0.4438484088052064,
+    "teds_s": 0.8
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s5",
+    "teds": 0.264030634165358,
+    "teds_s": 0.2647058823529411
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": null,
+    "cer_edits": 77,
+    "cer_chars": 3388,
+    "labels_found": 110,
+    "labels_total": 114,
+    "wer_edits": 46,
+    "wer_words": 553
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s1",
+    "teds": 0.30500113009883645,
+    "teds_s": 0.3450292397660819
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s2",
+    "teds": 0.505384614515417,
+    "teds_s": 0.7452830188679245
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s3",
+    "teds": 0.47435897435897434,
+    "teds_s": 0.47435897435897434
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s4",
+    "teds": 0.6575817676657196,
+    "teds_s": 0.7285067873303168
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": null,
+    "cer_edits": 36,
+    "cer_chars": 2536,
+    "labels_found": 92,
+    "labels_total": 94,
+    "wer_edits": 25,
+    "wer_words": 421
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s1",
+    "teds": 0.32733484808958413,
+    "teds_s": 0.48962655601659755
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s2",
+    "teds": 0.5723119093073082,
+    "teds_s": 0.7844827586206897
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s3",
+    "teds": 0.3634181634866094,
+    "teds_s": 0.6973684210526316
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s4",
+    "teds": 0.6589095744680851,
+    "teds_s": 0.6595744680851063
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s5",
+    "teds": 0.7442733579446212,
+    "teds_s": 0.76171875
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": null,
+    "cer_edits": 18,
+    "cer_chars": 3999,
+    "labels_found": 130,
+    "labels_total": 130,
+    "wer_edits": 15,
+    "wer_words": 653
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s1",
+    "teds": 0.8898135765908873,
+    "teds_s": 0.9197860962566845
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s2",
+    "teds": 0.8122895619383564,
+    "teds_s": 0.8425925925925926
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s3",
+    "teds": 0.3457745835185051,
+    "teds_s": 0.6388888888888888
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s4",
+    "teds": 0.68363954490564,
+    "teds_s": 0.7795275590551181
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s5",
+    "teds": 0.602599474516782,
+    "teds_s": 0.8011363636363636
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 2666,
+    "labels_found": 89,
+    "labels_total": 91,
+    "wer_edits": 20,
+    "wer_words": 423
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s1",
+    "teds": 0.590062393750275,
+    "teds_s": 0.7237569060773481
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s2",
+    "teds": 0.7234572364052512,
+    "teds_s": 0.7641509433962264
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s3",
+    "teds": 0.42397889286972756,
+    "teds_s": 0.6046511627906976
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s4",
+    "teds": 0.6198051570363305,
+    "teds_s": 0.8009950248756219
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": null,
+    "cer_edits": 25,
+    "cer_chars": 2178,
+    "labels_found": 87,
+    "labels_total": 87,
+    "wer_edits": 17,
+    "wer_words": 356
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s1",
+    "teds": 0.828599536761878,
+    "teds_s": 0.9365079365079365
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s2",
+    "teds": 0.7045257403227834,
+    "teds_s": 0.7654320987654322
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s3",
+    "teds": 0.4209714808797471,
+    "teds_s": 0.5555555555555556
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s4",
+    "teds": 0.674110697203652,
+    "teds_s": 0.7925311203319502
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s5",
+    "teds": 0.6723585993095877,
+    "teds_s": 0.8
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s6",
+    "teds": 0.3354386572250062,
+    "teds_s": 0.33777777777777773
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": null,
+    "cer_edits": 75,
+    "cer_chars": 5677,
+    "labels_found": 169,
+    "labels_total": 173,
+    "wer_edits": 51,
+    "wer_words": 922
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s1",
+    "teds": 0.690185710467318,
+    "teds_s": 0.7150537634408602
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s2",
+    "teds": 0.0,
+    "teds_s": 0.0
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s3",
+    "teds": 0.6790123456790124,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s4",
+    "teds": 0.6147198854940724,
+    "teds_s": 0.8010471204188482
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": null,
+    "cer_edits": 34,
+    "cer_chars": 2212,
+    "labels_found": 81,
+    "labels_total": 85,
+    "wer_edits": 32,
+    "wer_words": 360
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s1",
+    "teds": 0.6924751277385962,
+    "teds_s": 0.7425742574257426
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s2",
+    "teds": 0.5645332387325788,
+    "teds_s": 0.693069306930693
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s3",
+    "teds": 0.4933432029990049,
+    "teds_s": 0.7076923076923076
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s4",
+    "teds": 0.48050413048395546,
+    "teds_s": 0.575268817204301
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s5",
+    "teds": 0.10144927536231885,
+    "teds_s": 0.10144927536231885
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": null,
+    "cer_edits": 6,
+    "cer_chars": 2161,
+    "labels_found": 84,
+    "labels_total": 84,
+    "wer_edits": 5,
+    "wer_words": 371
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s1",
+    "teds": 0.5726160632864553,
+    "teds_s": 0.6071428571428572
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s2",
+    "teds": 0.17801660847551415,
+    "teds_s": 0.33018867924528306
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s3",
+    "teds": 0.672721928100527,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s4",
+    "teds": 0.5573160214331543,
+    "teds_s": 0.7864077669902912
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s5",
+    "teds": 0.03190647313992179,
+    "teds_s": 0.04166666666666663
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": null,
+    "cer_edits": 27,
+    "cer_chars": 2483,
+    "labels_found": 94,
+    "labels_total": 96,
+    "wer_edits": 23,
+    "wer_words": 399
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s1",
+    "teds": 0.638020162848202,
+    "teds_s": 0.6718146718146718
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s2",
+    "teds": 0.6521074486172889,
+    "teds_s": 0.7851239669421488
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s3",
+    "teds": 0.4847041662310211,
+    "teds_s": 0.6619718309859155
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s4",
+    "teds": 0.4325232988296638,
+    "teds_s": 0.5458515283842795
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s5",
+    "teds": 0.5483284203542603,
+    "teds_s": 0.7049808429118773
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s6",
+    "teds": 0.18181818181818177,
+    "teds_s": 0.2954545454545454
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": null,
+    "cer_edits": 56,
+    "cer_chars": 3746,
+    "labels_found": 121,
+    "labels_total": 133,
+    "wer_edits": 40,
+    "wer_words": 621
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s1",
+    "teds": 0.5237300784372892,
+    "teds_s": 0.7377049180327868
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s2",
+    "teds": 0.5195062443858287,
+    "teds_s": 0.7377049180327868
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s3",
+    "teds": 0.4618055555555556,
+    "teds_s": 0.6111111111111112
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s4",
+    "teds": 0.45975673788196436,
+    "teds_s": 0.6703296703296704
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 1105,
+    "labels_found": 36,
+    "labels_total": 36,
+    "wer_edits": 12,
+    "wer_words": 189
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s1",
+    "teds": 0.7014900658106962,
+    "teds_s": 0.7615894039735099
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s2",
+    "teds": 0.7566710304899895,
+    "teds_s": 0.768595041322314
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s3",
+    "teds": 0.419597186472105,
+    "teds_s": 0.5434782608695652
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s4",
+    "teds": 0.8340314472339643,
+    "teds_s": 0.872093023255814
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s5",
+    "teds": 0.7364285882234711,
+    "teds_s": 0.7546296296296297
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": null,
+    "cer_edits": 34,
+    "cer_chars": 3920,
+    "labels_found": 107,
+    "labels_total": 109,
+    "wer_edits": 29,
+    "wer_words": 603
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s1",
+    "teds": 0.6766236991202104,
+    "teds_s": 0.7099236641221374
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s2",
+    "teds": 0.8008094808017766,
+    "teds_s": 0.8888888888888888
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s3",
+    "teds": 0.5562817719247606,
+    "teds_s": 0.6666666666666667
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s4",
+    "teds": 0.596533629255226,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s5",
+    "teds": 0.04125279770757917,
+    "teds_s": 0.052631578947368474
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": null,
+    "cer_edits": 26,
+    "cer_chars": 1870,
+    "labels_found": 64,
+    "labels_total": 65,
+    "wer_edits": 17,
+    "wer_words": 309
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s1",
+    "teds": 0.8458923157201617,
+    "teds_s": 0.9723756906077348
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s2",
+    "teds": 0.9147924802679297,
+    "teds_s": 0.9933774834437086
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s3",
+    "teds": 0.583724164537021,
+    "teds_s": 0.7692307692307692
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s4",
+    "teds": 0.0016313213703099683,
+    "teds_s": 0.0016313213703099683
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s5",
+    "teds": 0.5755364221174598,
+    "teds_s": 0.5938697318007663
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": null,
+    "cer_edits": 80,
+    "cer_chars": 4403,
+    "labels_found": 127,
+    "labels_total": 149,
+    "wer_edits": 60,
+    "wer_words": 679
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s1",
+    "teds": 0.7280296818088225,
+    "teds_s": 0.7439024390243902
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s2",
+    "teds": 0.7108458392179877,
+    "teds_s": 0.7709923664122138
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s3",
+    "teds": 0.46786299830694733,
+    "teds_s": 0.7763157894736842
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s4",
+    "teds": 0.6826287260142768,
+    "teds_s": 0.7170731707317073
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s5",
+    "teds": 0.4582056375923834,
+    "teds_s": 0.7280966767371602
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s6",
+    "teds": 0.11640121671888559,
+    "teds_s": 0.11851851851851847
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": null,
+    "cer_edits": 45,
+    "cer_chars": 4831,
+    "labels_found": 154,
+    "labels_total": 155,
+    "wer_edits": 38,
+    "wer_words": 820
+   }
+  ],
+  "nace_low": [
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s1",
+    "teds": 0.26792475773056723,
+    "teds_s": 0.3207547169811321
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s2",
+    "teds": 0.04055086350598869,
+    "teds_s": 0.0927152317880795
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s3",
+    "teds": 0.5811049635187862,
+    "teds_s": 0.7416267942583732
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s4",
+    "teds": 0.5415728214370497,
+    "teds_s": 0.6228813559322034
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": null,
+    "cer_edits": 112,
+    "cer_chars": 1566,
+    "labels_found": 64,
+    "labels_total": 111,
+    "wer_edits": 78,
+    "wer_words": 267
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s1",
+    "teds": 0.30929176777488354,
+    "teds_s": 0.5909090909090908
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s2",
+    "teds": 0.5072829127311707,
+    "teds_s": 0.6862745098039216
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s3",
+    "teds": 0.015151515151515138,
+    "teds_s": 0.015151515151515138
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s4",
+    "teds": 0.529627744190313,
+    "teds_s": 0.6593406593406593
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": null,
+    "cer_edits": 7,
+    "cer_chars": 582,
+    "labels_found": 22,
+    "labels_total": 41,
+    "wer_edits": 5,
+    "wer_words": 90
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s1",
+    "teds": 0.8636540864897241,
+    "teds_s": 0.9216867469879518
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s2",
+    "teds": 0.8708056863988676,
+    "teds_s": 0.9206349206349207
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s3",
+    "teds": 0.09588697863121831,
+    "teds_s": 0.13541666666666663
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s4",
+    "teds": 0.7883968848064542,
+    "teds_s": 0.916
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s5",
+    "teds": 0.7912550802980916,
+    "teds_s": 0.9157303370786517
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s6",
+    "teds": 0.7544200196737211,
+    "teds_s": 0.8758389261744967
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s7",
+    "teds": 0.2813645306951511,
+    "teds_s": 0.2857142857142857
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": null,
+    "cer_edits": 177,
+    "cer_chars": 4694,
+    "labels_found": 131,
+    "labels_total": 154,
+    "wer_edits": 111,
+    "wer_words": 757
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s1",
+    "teds": 0.48627450916112636,
+    "teds_s": 0.6666666666666667
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s2",
+    "teds": 0.7215209006343359,
+    "teds_s": 0.7283950617283951
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s3",
+    "teds": 0.39545454581578576,
+    "teds_s": 0.5
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s4",
+    "teds": 0.49901714461085234,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": null,
+    "cer_edits": 9,
+    "cer_chars": 608,
+    "labels_found": 25,
+    "labels_total": 44,
+    "wer_edits": 5,
+    "wer_words": 94
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s1",
+    "teds": 0.8434215295964327,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s2",
+    "teds": 0.32952048137502854,
+    "teds_s": 0.7264150943396226
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s3",
+    "teds": 0.5420181702322034,
+    "teds_s": 0.6044776119402986
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s4",
+    "teds": 0.7893774215216663,
+    "teds_s": 0.9431818181818182
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": null,
+    "cer_edits": 80,
+    "cer_chars": 1366,
+    "labels_found": 53,
+    "labels_total": 89,
+    "wer_edits": 49,
+    "wer_words": 204
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s1",
+    "teds": 0.5499091833385069,
+    "teds_s": 0.7164179104477613
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s2",
+    "teds": 0.09711980265853681,
+    "teds_s": 0.34513274336283184
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s3",
+    "teds": 0.3190905148577359,
+    "teds_s": 0.5555555555555556
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s4",
+    "teds": 0.5687458078626175,
+    "teds_s": 0.7605633802816901
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s5",
+    "teds": 0.528918998357945,
+    "teds_s": 0.650375939849624
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": null,
+    "cer_edits": 60,
+    "cer_chars": 529,
+    "labels_found": 16,
+    "labels_total": 138,
+    "wer_edits": 39,
+    "wer_words": 79
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s1",
+    "teds": 0.7860620113215961,
+    "teds_s": 0.923728813559322
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s2",
+    "teds": 0.2451542143551808,
+    "teds_s": 0.4339622641509434
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s3",
+    "teds": 0.4558586029237822,
+    "teds_s": 0.6710526315789473
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s4",
+    "teds": 0.629856242717437,
+    "teds_s": 0.7924528301886793
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s5",
+    "teds": 0.490036301383563,
+    "teds_s": 0.6273062730627306
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": null,
+    "cer_edits": 131,
+    "cer_chars": 2474,
+    "labels_found": 109,
+    "labels_total": 136,
+    "wer_edits": 106,
+    "wer_words": 426
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s1",
+    "teds": 0.3352439736510501,
+    "teds_s": 0.49382716049382713
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s2",
+    "teds": 0.12667297907173636,
+    "teds_s": 0.38749999999999996
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s3",
+    "teds": 0.3885407931396464,
+    "teds_s": 0.48815165876777256
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s4",
+    "teds": 0.4754647006272176,
+    "teds_s": 0.7431192660550459
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s5",
+    "teds": 0.5319545652234443,
+    "teds_s": 0.6898148148148149
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s6",
+    "teds": 0.1561624649912119,
+    "teds_s": 0.16666666666666663
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": null,
+    "cer_edits": 54,
+    "cer_chars": 981,
+    "labels_found": 48,
+    "labels_total": 105,
+    "wer_edits": 51,
+    "wer_words": 165
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s1",
+    "teds": 0.8926088939820017,
+    "teds_s": 0.9142857142857143
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s2",
+    "teds": 0.509498903579596,
+    "teds_s": 0.5972222222222222
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s3",
+    "teds": 0.002849002849002802,
+    "teds_s": 0.002849002849002802
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s4",
+    "teds": 0.8006644518272426,
+    "teds_s": 0.8006644518272426
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s5",
+    "teds": 0.0029069767441860517,
+    "teds_s": 0.0029069767441860517
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": null,
+    "cer_edits": 79,
+    "cer_chars": 1156,
+    "labels_found": 47,
+    "labels_total": 135,
+    "wer_edits": 31,
+    "wer_words": 202
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s1",
+    "teds": 0.6404320987654322,
+    "teds_s": 0.7222222222222222
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s2",
+    "teds": 0.5527083640583128,
+    "teds_s": 0.618705035971223
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s3",
+    "teds": 0.4178185930657988,
+    "teds_s": 0.5014836795252225
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s4",
+    "teds": 0.0036101083032491488,
+    "teds_s": 0.0036101083032491488
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s5",
+    "teds": 0.6667623730466576,
+    "teds_s": 0.7293447293447293
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": null,
+    "cer_edits": 88,
+    "cer_chars": 1520,
+    "labels_found": 70,
+    "labels_total": 144,
+    "wer_edits": 53,
+    "wer_words": 258
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s1",
+    "teds": 0.8249229579373742,
+    "teds_s": 0.8939393939393939
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s2",
+    "teds": 0.6596701714125546,
+    "teds_s": 0.803030303030303
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s3",
+    "teds": 0.3286655831795472,
+    "teds_s": 0.42307692307692313
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s4",
+    "teds": 0.013157894736842146,
+    "teds_s": 0.013157894736842146
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": null,
+    "cer_edits": 47,
+    "cer_chars": 722,
+    "labels_found": 23,
+    "labels_total": 34,
+    "wer_edits": 27,
+    "wer_words": 119
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s1",
+    "teds": 0.3468999142448107,
+    "teds_s": 0.4029850746268657
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s2",
+    "teds": 0.5648023349777708,
+    "teds_s": 0.6886792452830188
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s3",
+    "teds": 0.4658446708428008,
+    "teds_s": 0.5535714285714286
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s4",
+    "teds": 0.39635831402200794,
+    "teds_s": 0.48611111111111116
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s5",
+    "teds": 0.03026634370539827,
+    "teds_s": 0.039548022598870025
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s6",
+    "teds": 0.5148540655451437,
+    "teds_s": 0.7483870967741936
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": null,
+    "cer_edits": 114,
+    "cer_chars": 1716,
+    "labels_found": 67,
+    "labels_total": 111,
+    "wer_edits": 91,
+    "wer_words": 278
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s1",
+    "teds": 0.007092198581560294,
+    "teds_s": 0.007092198581560294
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s2",
+    "teds": 0.6180069372551331,
+    "teds_s": 0.7086092715231789
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s3",
+    "teds": 0.015151515151515138,
+    "teds_s": 0.015151515151515138
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s4",
+    "teds": 0.49136753598677696,
+    "teds_s": 0.9094827586206896
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s5",
+    "teds": 0.21500343210802741,
+    "teds_s": 0.24354243542435428
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": null,
+    "cer_edits": 75,
+    "cer_chars": 709,
+    "labels_found": 19,
+    "labels_total": 127,
+    "wer_edits": 34,
+    "wer_words": 119
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s1",
+    "teds": 0.6841828172962943,
+    "teds_s": 0.7727272727272727
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s2",
+    "teds": 0.7064821886234596,
+    "teds_s": 0.7377049180327868
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s3",
+    "teds": 0.714611831095631,
+    "teds_s": 0.7328767123287672
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s4",
+    "teds": 0.43590069390260255,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": null,
+    "cer_edits": 78,
+    "cer_chars": 1534,
+    "labels_found": 64,
+    "labels_total": 73,
+    "wer_edits": 60,
+    "wer_words": 243
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s1",
+    "teds": 0.424014516699482,
+    "teds_s": 0.5774647887323944
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s2",
+    "teds": 0.5287563128001762,
+    "teds_s": 0.6666666666666667
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s3",
+    "teds": 0.40749150983086135,
+    "teds_s": 0.5606060606060606
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s4",
+    "teds": 0.6468710349484657,
+    "teds_s": 0.78125
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": null,
+    "cer_edits": 34,
+    "cer_chars": 996,
+    "labels_found": 32,
+    "labels_total": 46,
+    "wer_edits": 19,
+    "wer_words": 165
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s1",
+    "teds": 0.6320925081769626,
+    "teds_s": 0.6602564102564102
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s2",
+    "teds": 0.25887052808795963,
+    "teds_s": 0.45945945945945943
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s3",
+    "teds": 0.032258064516129004,
+    "teds_s": 0.032258064516129004
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s4",
+    "teds": 0.521964812764476,
+    "teds_s": 0.7127071823204421
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s5",
+    "teds": 0.2921637128738146,
+    "teds_s": 0.3924731182795699
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": null,
+    "cer_edits": 71,
+    "cer_chars": 1615,
+    "labels_found": 53,
+    "labels_total": 97,
+    "wer_edits": 43,
+    "wer_words": 257
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s1",
+    "teds": 0.8466134887793302,
+    "teds_s": 0.9424083769633508
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s2",
+    "teds": 0.5338302594146982,
+    "teds_s": 0.6821192052980132
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s3",
+    "teds": 0.6198990232717823,
+    "teds_s": 0.8028169014084507
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s4",
+    "teds": 0.536090861451421,
+    "teds_s": 0.7404580152671756
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s5",
+    "teds": 0.2266052869687739,
+    "teds_s": 0.26315789473684215
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": null,
+    "cer_edits": 60,
+    "cer_chars": 1480,
+    "labels_found": 59,
+    "labels_total": 128,
+    "wer_edits": 45,
+    "wer_words": 241
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s1",
+    "teds": 0.5520298399656783,
+    "teds_s": 0.6488549618320612
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s2",
+    "teds": 0.8598614474125568,
+    "teds_s": 0.9271844660194175
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s3",
+    "teds": 0.6019975029015809,
+    "teds_s": 0.6179775280898876
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s4",
+    "teds": 0.4941866395332045,
+    "teds_s": 0.6567796610169492
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s5",
+    "teds": 0.19505494505494503,
+    "teds_s": 0.2417582417582418
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": null,
+    "cer_edits": 36,
+    "cer_chars": 629,
+    "labels_found": 29,
+    "labels_total": 114,
+    "wer_edits": 24,
+    "wer_words": 98
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s1",
+    "teds": 0.5223589270697002,
+    "teds_s": 0.5789473684210527
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s2",
+    "teds": 0.3196560857852675,
+    "teds_s": 0.44339622641509435
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s3",
+    "teds": 0.5717338201327202,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s4",
+    "teds": 0.004524886877828038,
+    "teds_s": 0.004524886877828038
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": null,
+    "cer_edits": 62,
+    "cer_chars": 532,
+    "labels_found": 22,
+    "labels_total": 94,
+    "wer_edits": 44,
+    "wer_words": 89
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s1",
+    "teds": 0.004237288135593209,
+    "teds_s": 0.004237288135593209
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s2",
+    "teds": 0.6356937601391611,
+    "teds_s": 0.7241379310344828
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s3",
+    "teds": 0.5271797813475132,
+    "teds_s": 0.6710526315789473
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s4",
+    "teds": 0.7010195027799049,
+    "teds_s": 0.7234042553191489
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s5",
+    "teds": 0.5860751022119075,
+    "teds_s": 0.6640625
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": null,
+    "cer_edits": 73,
+    "cer_chars": 884,
+    "labels_found": 24,
+    "labels_total": 130,
+    "wer_edits": 53,
+    "wer_words": 140
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s1",
+    "teds": 0.5886277393064396,
+    "teds_s": 0.7219251336898396
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s2",
+    "teds": 0.6373626367076413,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s3",
+    "teds": 0.4718886158532567,
+    "teds_s": 0.6111111111111112
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s4",
+    "teds": 0.6721347331062076,
+    "teds_s": 0.7244094488188977
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s5",
+    "teds": 0.6237796234464357,
+    "teds_s": 0.7159090909090908
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": null,
+    "cer_edits": 54,
+    "cer_chars": 1342,
+    "labels_found": 48,
+    "labels_total": 91,
+    "wer_edits": 44,
+    "wer_words": 210
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s1",
+    "teds": 0.013073918898461323,
+    "teds_s": 0.03314917127071826
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s2",
+    "teds": 0.40304789614846126,
+    "teds_s": 0.5188679245283019
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s3",
+    "teds": 0.3442028968230538,
+    "teds_s": 0.4130434782608695
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s4",
+    "teds": 0.38086987999430044,
+    "teds_s": 0.39303482587064675
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": null,
+    "cer_edits": 42,
+    "cer_chars": 1383,
+    "labels_found": 57,
+    "labels_total": 87,
+    "wer_edits": 30,
+    "wer_words": 223
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s1",
+    "teds": 0.2428236914177736,
+    "teds_s": 0.4444444444444444
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s2",
+    "teds": 0.5454963306769913,
+    "teds_s": 0.6666666666666667
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s3",
+    "teds": 0.10813302737999697,
+    "teds_s": 0.4176245210727969
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s4",
+    "teds": 0.004149377593360981,
+    "teds_s": 0.004149377593360981
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s5",
+    "teds": 0.5367451986419924,
+    "teds_s": 0.6041666666666667
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s6",
+    "teds": 0.060731147464953006,
+    "teds_s": 0.17105263157894735
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": null,
+    "cer_edits": 175,
+    "cer_chars": 3219,
+    "labels_found": 103,
+    "labels_total": 173,
+    "wer_edits": 149,
+    "wer_words": 524
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s1",
+    "teds": 0.5800878834780505,
+    "teds_s": 0.6935483870967742
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s2",
+    "teds": 0.4638427248778375,
+    "teds_s": 0.7432432432432432
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s3",
+    "teds": 0.6776406035563092,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s4",
+    "teds": 0.5013551822039469,
+    "teds_s": 0.6020942408376964
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": null,
+    "cer_edits": 60,
+    "cer_chars": 887,
+    "labels_found": 35,
+    "labels_total": 85,
+    "wer_edits": 36,
+    "wer_words": 142
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s1",
+    "teds": 0.00990099009900991,
+    "teds_s": 0.00990099009900991
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s2",
+    "teds": 0.8740328441899602,
+    "teds_s": 0.9306930693069306
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s3",
+    "teds": 0.6139318458162821,
+    "teds_s": 0.7230769230769231
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s4",
+    "teds": 0.3914357902862693,
+    "teds_s": 0.5806451612903225
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s5",
+    "teds": 0.22177340235651988,
+    "teds_s": 0.23170731707317072
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": null,
+    "cer_edits": 56,
+    "cer_chars": 1523,
+    "labels_found": 56,
+    "labels_total": 84,
+    "wer_edits": 30,
+    "wer_words": 265
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s1",
+    "teds": 0.5390050878596244,
+    "teds_s": 0.6428571428571428
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s2",
+    "teds": 0.20774712188626232,
+    "teds_s": 0.34905660377358494
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s3",
+    "teds": 0.6417401519454555,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s4",
+    "teds": 0.4980588762216198,
+    "teds_s": 0.6650485436893203
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s5",
+    "teds": 0.041970802919708006,
+    "teds_s": 0.051094890510948954
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": null,
+    "cer_edits": 23,
+    "cer_chars": 276,
+    "labels_found": 12,
+    "labels_total": 96,
+    "wer_edits": 17,
+    "wer_words": 40
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s1",
+    "teds": 0.0038610038610038533,
+    "teds_s": 0.0038610038610038533
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s2",
+    "teds": 0.41506243423243194,
+    "teds_s": 0.6033057851239669
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s3",
+    "teds": 0.282682018590645,
+    "teds_s": 0.4084507042253521
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s4",
+    "teds": 0.004366812227074246,
+    "teds_s": 0.004366812227074246
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s5",
+    "teds": 0.41218651288770625,
+    "teds_s": 0.5938697318007663
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s6",
+    "teds": 0.08163456799405999,
+    "teds_s": 0.2727272727272727
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": null,
+    "cer_edits": 84,
+    "cer_chars": 1336,
+    "labels_found": 45,
+    "labels_total": 133,
+    "wer_edits": 59,
+    "wer_words": 216
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s1",
+    "teds": 0.5836065570350553,
+    "teds_s": 0.639344262295082
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s2",
+    "teds": 0.5407298976769213,
+    "teds_s": 0.6885245901639344
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s3",
+    "teds": 0.3993055555555556,
+    "teds_s": 0.5555555555555556
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s4",
+    "teds": 0.27440771978389433,
+    "teds_s": 0.29670329670329665
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": null,
+    "cer_edits": 45,
+    "cer_chars": 745,
+    "labels_found": 22,
+    "labels_total": 36,
+    "wer_edits": 14,
+    "wer_words": 129
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s1",
+    "teds": 0.8520225627557528,
+    "teds_s": 0.9470198675496688
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s2",
+    "teds": 0.04319422895258118,
+    "teds_s": 0.11570247933884292
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s3",
+    "teds": 0.497179810811455,
+    "teds_s": 0.5833333333333333
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s4",
+    "teds": 0.452933724404309,
+    "teds_s": 0.7782101167315175
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s5",
+    "teds": 0.07602523267269135,
+    "teds_s": 0.1157407407407407
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": null,
+    "cer_edits": 172,
+    "cer_chars": 2270,
+    "labels_found": 64,
+    "labels_total": 109,
+    "wer_edits": 79,
+    "wer_words": 345
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s1",
+    "teds": 0.4653803324824526,
+    "teds_s": 0.8244274809160306
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s2",
+    "teds": 0.712277985005467,
+    "teds_s": 0.9382716049382716
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s3",
+    "teds": 0.038461538461538436,
+    "teds_s": 0.038461538461538436
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s4",
+    "teds": 0.15023705630730355,
+    "teds_s": 0.25
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s5",
+    "teds": 0.06545209273313868,
+    "teds_s": 0.17948717948717952
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": null,
+    "cer_edits": 63,
+    "cer_chars": 826,
+    "labels_found": 30,
+    "labels_total": 65,
+    "wer_edits": 34,
+    "wer_words": 136
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s1",
+    "teds": 0.9593078803003493,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s2",
+    "teds": 0.5869991216833228,
+    "teds_s": 0.6357615894039735
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s3",
+    "teds": 0.4113774522320255,
+    "teds_s": 0.4725274725274725
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s4",
+    "teds": 0.0016313213703099683,
+    "teds_s": 0.0016313213703099683
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s5",
+    "teds": 0.05451008597553009,
+    "teds_s": 0.08045977011494254
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": null,
+    "cer_edits": 120,
+    "cer_chars": 1323,
+    "labels_found": 48,
+    "labels_total": 149,
+    "wer_edits": 63,
+    "wer_words": 207
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s1",
+    "teds": 0.004065040650406471,
+    "teds_s": 0.004065040650406471
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s2",
+    "teds": 0.007633587786259555,
+    "teds_s": 0.007633587786259555
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s3",
+    "teds": 0.013157894736842146,
+    "teds_s": 0.013157894736842146
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s4",
+    "teds": 0.12291869928197163,
+    "teds_s": 0.5804878048780489
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s5",
+    "teds": 0.5308918440179882,
+    "teds_s": 0.676737160120846
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s6",
+    "teds": 0.08316864274118263,
+    "teds_s": 0.13913043478260867
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": null,
+    "cer_edits": 105,
+    "cer_chars": 1543,
+    "labels_found": 51,
+    "labels_total": 155,
+    "wer_edits": 57,
+    "wer_words": 262
+   }
+  ],
+  "nace_medium": [
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s1",
+    "teds": 0.914465408730057,
+    "teds_s": 0.9358490566037736
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s2",
+    "teds": 0.5177954706727275,
+    "teds_s": 0.9867549668874173
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s3",
+    "teds": 0.7416267942583732,
+    "teds_s": 0.7416267942583732
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": "s4",
+    "teds": 0.49551188816332215,
+    "teds_s": 0.771186440677966
+   },
+   {
+    "filing": "al_khodari_FY2018",
+    "statement": null,
+    "cer_edits": 24,
+    "cer_chars": 2927,
+    "labels_found": 111,
+    "labels_total": 111,
+    "wer_edits": 17,
+    "wer_words": 497
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s1",
+    "teds": 0.9371428570577076,
+    "teds_s": 0.9428571428571428
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s2",
+    "teds": 0.5072829127311707,
+    "teds_s": 0.6862745098039216
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s3",
+    "teds": 0.6244260786157666,
+    "teds_s": 0.6515151515151515
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": "s4",
+    "teds": 0.529627744190313,
+    "teds_s": 0.6593406593406593
+   },
+   {
+    "filing": "al_mubarak_usd_trade_fund_H1-2022",
+    "statement": null,
+    "cer_edits": 0,
+    "cer_chars": 913,
+    "labels_found": 35,
+    "labels_total": 41,
+    "wer_edits": 0,
+    "wer_words": 145
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s1",
+    "teds": 0.9103078982198095,
+    "teds_s": 0.9337349397590361
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s2",
+    "teds": 0.9029982362001662,
+    "teds_s": 0.9365079365079365
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s3",
+    "teds": 0.9504950495049505,
+    "teds_s": 0.9504950495049505
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s4",
+    "teds": 0.7883968848064542,
+    "teds_s": 0.916
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s5",
+    "teds": 0.9361702127659575,
+    "teds_s": 0.9414893617021276
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s6",
+    "teds": 0.8259493670886076,
+    "teds_s": 0.8259493670886076
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": "s7",
+    "teds": 0.2857142857142857,
+    "teds_s": 0.2857142857142857
+   },
+   {
+    "filing": "al_rajhi_FY2024",
+    "statement": null,
+    "cer_edits": 19,
+    "cer_chars": 5473,
+    "labels_found": 151,
+    "labels_total": 154,
+    "wer_edits": 15,
+    "wer_words": 876
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s1",
+    "teds": 0.6303030301224102,
+    "teds_s": 0.9272727272727272
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s2",
+    "teds": 0.713403880044266,
+    "teds_s": 0.7160493827160495
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s3",
+    "teds": 0.5959595956585624,
+    "teds_s": 0.6212121212121212
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": "s4",
+    "teds": 0.6683350014097897,
+    "teds_s": 0.7037037037037037
+   },
+   {
+    "filing": "alahli_global_trade_fund_H1-2023",
+    "statement": null,
+    "cer_edits": 0,
+    "cer_chars": 1145,
+    "labels_found": 44,
+    "labels_total": 44,
+    "wer_edits": 1,
+    "wer_words": 187
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s1",
+    "teds": 0.8412697238322252,
+    "teds_s": 1.0
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s2",
+    "teds": 0.32952048137502854,
+    "teds_s": 0.7264150943396226
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s3",
+    "teds": 0.7205638476272127,
+    "teds_s": 0.7313432835820896
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": "s4",
+    "teds": 0.5514245011867621,
+    "teds_s": 0.8923076923076922
+   },
+   {
+    "filing": "alif_meem_yaa_FY2023",
+    "statement": null,
+    "cer_edits": 12,
+    "cer_chars": 1692,
+    "labels_found": 68,
+    "labels_total": 89,
+    "wer_edits": 7,
+    "wer_words": 258
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s1",
+    "teds": 0.694306245935497,
+    "teds_s": 0.7263681592039801
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s2",
+    "teds": 0.09711980265853681,
+    "teds_s": 0.34513274336283184
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s3",
+    "teds": 0.588654247423013,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s4",
+    "teds": 0.5687458078626175,
+    "teds_s": 0.7605633802816901
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": "s5",
+    "teds": 0.837972354004334,
+    "teds_s": 0.9887640449438202
+   },
+   {
+    "filing": "alinma_tokio_marine_FY2022",
+    "statement": null,
+    "cer_edits": 114,
+    "cer_chars": 3108,
+    "labels_found": 103,
+    "labels_total": 138,
+    "wer_edits": 52,
+    "wer_words": 495
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s1",
+    "teds": 0.9364406779661016,
+    "teds_s": 0.9449152542372882
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s2",
+    "teds": 0.2451542143551808,
+    "teds_s": 0.4339622641509434
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s3",
+    "teds": 0.33505039858190633,
+    "teds_s": 0.5921052631578947
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s4",
+    "teds": 0.709433962264151,
+    "teds_s": 0.7924528301886793
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": "s5",
+    "teds": 0.8264760374524521,
+    "teds_s": 0.9063545150501673
+   },
+   {
+    "filing": "almarai_FY2024",
+    "statement": null,
+    "cer_edits": 7,
+    "cer_chars": 3284,
+    "labels_found": 129,
+    "labels_total": 136,
+    "wer_edits": 15,
+    "wer_words": 559
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s1",
+    "teds": 0.4582602366646553,
+    "teds_s": 0.5212765957446808
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s2",
+    "teds": 0.20081302483982233,
+    "teds_s": 0.32978723404255317
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s3",
+    "teds": 0.3885407931396464,
+    "teds_s": 0.48815165876777256
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s4",
+    "teds": 0.7141284403997823,
+    "teds_s": 0.7155963302752293
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s5",
+    "teds": 0.5357301742942244,
+    "teds_s": 0.6805555555555556
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": "s6",
+    "teds": 0.17948717910509848,
+    "teds_s": 0.1923076923076923
+   },
+   {
+    "filing": "arabian_drilling_FY2024",
+    "statement": null,
+    "cer_edits": 22,
+    "cer_chars": 2352,
+    "labels_found": 99,
+    "labels_total": 105,
+    "wer_edits": 16,
+    "wer_words": 387
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s1",
+    "teds": 0.8957142857142857,
+    "teds_s": 0.9142857142857143
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s2",
+    "teds": 0.6226507809536517,
+    "teds_s": 0.6942148760330579
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s3",
+    "teds": 0.9052706552069751,
+    "teds_s": 0.9173789173789174
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s4",
+    "teds": 0.7807308970099668,
+    "teds_s": 0.7807308970099668
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": "s5",
+    "teds": 0.837067759411539,
+    "teds_s": 0.9197860962566845
+   },
+   {
+    "filing": "aramco_FY2023",
+    "statement": null,
+    "cer_edits": 38,
+    "cer_chars": 3076,
+    "labels_found": 116,
+    "labels_total": 135,
+    "wer_edits": 17,
+    "wer_words": 531
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s1",
+    "teds": 0.8954545454468046,
+    "teds_s": 0.9142857142857143
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s2",
+    "teds": 0.777279039061377,
+    "teds_s": 0.9047619047619048
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s3",
+    "teds": 0.8627169655902045,
+    "teds_s": 0.9
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s4",
+    "teds": 0.7967541870334949,
+    "teds_s": 0.8375451263537906
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": "s5",
+    "teds": 0.874428008568831,
+    "teds_s": 0.9400544959128065
+   },
+   {
+    "filing": "aramco_FY2024",
+    "statement": null,
+    "cer_edits": 38,
+    "cer_chars": 3350,
+    "labels_found": 128,
+    "labels_total": 144,
+    "wer_edits": 16,
+    "wer_words": 577
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s1",
+    "teds": 0.9323713318868116,
+    "teds_s": 0.9848484848484849
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s2",
+    "teds": 0.7811447810946088,
+    "teds_s": 0.8636363636363636
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s3",
+    "teds": 0.34615384615384615,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": "s4",
+    "teds": 0.8387686650004283,
+    "teds_s": 0.9135802469135803
+   },
+   {
+    "filing": "ashmore_saudi_equity_fund_H1-2020",
+    "statement": null,
+    "cer_edits": 3,
+    "cer_chars": 1168,
+    "labels_found": 34,
+    "labels_total": 34,
+    "wer_edits": 3,
+    "wer_words": 196
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s1",
+    "teds": 0.9804878048780488,
+    "teds_s": 0.9804878048780488
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s2",
+    "teds": 0.8348088562488556,
+    "teds_s": 0.9905660377358491
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s3",
+    "teds": 0.9333333333333333,
+    "teds_s": 0.9333333333333333
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s4",
+    "teds": 0.9094475624411339,
+    "teds_s": 0.927038626609442
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s5",
+    "teds": 0.04463519303072161,
+    "teds_s": 0.047210300429184504
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": "s6",
+    "teds": 0.5148540655451437,
+    "teds_s": 0.7483870967741936
+   },
+   {
+    "filing": "bahri_FY2024",
+    "statement": null,
+    "cer_edits": 4,
+    "cer_chars": 2732,
+    "labels_found": 103,
+    "labels_total": 111,
+    "wer_edits": 4,
+    "wer_words": 433
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s1",
+    "teds": 0.774625689425367,
+    "teds_s": 0.7943262411347518
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s2",
+    "teds": 0.8651785708963871,
+    "teds_s": 0.94375
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s3",
+    "teds": 0.9428571428571428,
+    "teds_s": 0.9428571428571428
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s4",
+    "teds": 0.6333297601183958,
+    "teds_s": 0.747787610619469
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": "s5",
+    "teds": 0.5551497439176833,
+    "teds_s": 0.8450184501845018
+   },
+   {
+    "filing": "bank_aljazira_FY2024",
+    "statement": null,
+    "cer_edits": 35,
+    "cer_chars": 3813,
+    "labels_found": 114,
+    "labels_total": 127,
+    "wer_edits": 19,
+    "wer_words": 622
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s1",
+    "teds": 0.9746296295689212,
+    "teds_s": 0.9777777777777777
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s2",
+    "teds": 0.9327416171821264,
+    "teds_s": 0.9384615384615385
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s3",
+    "teds": 0.7871437989915274,
+    "teds_s": 0.8013698630136986
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": "s4",
+    "teds": 0.42071421489447025,
+    "teds_s": 0.8021978021978022
+   },
+   {
+    "filing": "bishah_FY2016",
+    "statement": null,
+    "cer_edits": 17,
+    "cer_chars": 1688,
+    "labels_found": 71,
+    "labels_total": 73,
+    "wer_edits": 9,
+    "wer_words": 266
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s1",
+    "teds": 0.9065934064296576,
+    "teds_s": 0.9102564102564102
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s2",
+    "teds": 0.5287563128001762,
+    "teds_s": 0.6666666666666667
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s3",
+    "teds": 0.5178644011418025,
+    "teds_s": 0.6515151515151515
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": "s4",
+    "teds": 0.568895526851217,
+    "teds_s": 0.75
+   },
+   {
+    "filing": "blom_saudi_fund_FY2022",
+    "statement": null,
+    "cer_edits": 5,
+    "cer_chars": 1297,
+    "labels_found": 40,
+    "labels_total": 46,
+    "wer_edits": 2,
+    "wer_words": 211
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s1",
+    "teds": 0.0064102564102563875,
+    "teds_s": 0.0064102564102563875
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s2",
+    "teds": 0.25887052808795963,
+    "teds_s": 0.45945945945945943
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s3",
+    "teds": 0.032258064516129004,
+    "teds_s": 0.032258064516129004
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s4",
+    "teds": 0.6368324124352049,
+    "teds_s": 0.7127071823204421
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": "s5",
+    "teds": 0.6713283502406651,
+    "teds_s": 0.7473118279569892
+   },
+   {
+    "filing": "buruj_FY2024",
+    "statement": null,
+    "cer_edits": 38,
+    "cer_chars": 1455,
+    "labels_found": 47,
+    "labels_total": 97,
+    "wer_edits": 21,
+    "wer_words": 236
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s1",
+    "teds": 0.7193142487740641,
+    "teds_s": 0.7591623036649214
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s2",
+    "teds": 0.5316209599671775,
+    "teds_s": 0.9933774834437086
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s3",
+    "teds": 0.632863849401474,
+    "teds_s": 0.7183098591549295
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s4",
+    "teds": 0.536090861451421,
+    "teds_s": 0.7404580152671756
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": "s5",
+    "teds": 0.9376566412305474,
+    "teds_s": 0.981203007518797
+   },
+   {
+    "filing": "cenomi_retail_FY2024",
+    "statement": null,
+    "cer_edits": 2,
+    "cer_chars": 3294,
+    "labels_found": 122,
+    "labels_total": 128,
+    "wer_edits": 3,
+    "wer_words": 538
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s1",
+    "teds": 0.5520298399656783,
+    "teds_s": 0.6488549618320612
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s2",
+    "teds": 0.9563862926492067,
+    "teds_s": 0.9626168224299065
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s3",
+    "teds": 0.673008893982748,
+    "teds_s": 0.6853932584269663
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s4",
+    "teds": 0.8226041098369669,
+    "teds_s": 0.8368794326241135
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": "s5",
+    "teds": 0.24827586206896557,
+    "teds_s": 0.24827586206896557
+   },
+   {
+    "filing": "halwani_FY2024",
+    "statement": null,
+    "cer_edits": 51,
+    "cer_chars": 2961,
+    "labels_found": 100,
+    "labels_total": 114,
+    "wer_edits": 24,
+    "wer_words": 479
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s1",
+    "teds": 0.5223589270697002,
+    "teds_s": 0.5789473684210527
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s2",
+    "teds": 0.3196560857852675,
+    "teds_s": 0.44339622641509435
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s3",
+    "teds": 0.6538461538461539,
+    "teds_s": 0.6538461538461539
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": "s4",
+    "teds": 0.004524886877828038,
+    "teds_s": 0.004524886877828038
+   },
+   {
+    "filing": "herfy_FY2024",
+    "statement": null,
+    "cer_edits": 59,
+    "cer_chars": 553,
+    "labels_found": 23,
+    "labels_total": 94,
+    "wer_edits": 42,
+    "wer_words": 94
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s1",
+    "teds": 0.9711934156378601,
+    "teds_s": 0.9711934156378601
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s2",
+    "teds": 0.8530318176951901,
+    "teds_s": 0.9482758620689655
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s3",
+    "teds": 0.8888888888888888,
+    "teds_s": 0.9135802469135803
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s4",
+    "teds": 0.7234042553191489,
+    "teds_s": 0.7234042553191489
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": "s5",
+    "teds": 0.9164928758212368,
+    "teds_s": 0.9581749049429658
+   },
+   {
+    "filing": "kingdom_holding_FY2024",
+    "statement": null,
+    "cer_edits": 4,
+    "cer_chars": 3999,
+    "labels_found": 130,
+    "labels_total": 130,
+    "wer_edits": 2,
+    "wer_words": 653
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s1",
+    "teds": 0.9652777775190771,
+    "teds_s": 0.9739583333333334
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s2",
+    "teds": 0.8304853036290123,
+    "teds_s": 0.8666666666666667
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s3",
+    "teds": 0.8916666664183139,
+    "teds_s": 0.9
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s4",
+    "teds": 0.6721347331062076,
+    "teds_s": 0.7244094488188977
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": "s5",
+    "teds": 0.6233061387108385,
+    "teds_s": 0.7159090909090908
+   },
+   {
+    "filing": "liva_FY2024",
+    "statement": null,
+    "cer_edits": 38,
+    "cer_chars": 2295,
+    "labels_found": 78,
+    "labels_total": 91,
+    "wer_edits": 27,
+    "wer_words": 359
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s1",
+    "teds": 0.9738738739812697,
+    "teds_s": 0.9783783783783784
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s2",
+    "teds": 0.40304789614846126,
+    "teds_s": 0.5188679245283019
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s3",
+    "teds": 0.6046511627906976,
+    "teds_s": 0.6046511627906976
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": "s4",
+    "teds": 0.7759639303482587,
+    "teds_s": 0.7860696517412935
+   },
+   {
+    "filing": "maadaniyah_Q1-2025",
+    "statement": null,
+    "cer_edits": 10,
+    "cer_chars": 1952,
+    "labels_found": 76,
+    "labels_total": 87,
+    "wer_edits": 10,
+    "wer_words": 312
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s1",
+    "teds": 0.7019632414338135,
+    "teds_s": 0.7698412698412699
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s2",
+    "teds": 0.6044381806787885,
+    "teds_s": 0.654320987654321
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s3",
+    "teds": 0.912975708486741,
+    "teds_s": 0.9157894736842105
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s4",
+    "teds": 0.616953171882392,
+    "teds_s": 0.7800829875518672
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s5",
+    "teds": 0.4038167952130526,
+    "teds_s": 0.44988864142538976
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": "s6",
+    "teds": 0.125,
+    "teds_s": 0.1559322033898305
+   },
+   {
+    "filing": "maaden_FY2024",
+    "statement": null,
+    "cer_edits": 17,
+    "cer_chars": 5278,
+    "labels_found": 167,
+    "labels_total": 173,
+    "wer_edits": 19,
+    "wer_words": 860
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s1",
+    "teds": 0.968421052631579,
+    "teds_s": 0.9789473684210527
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s2",
+    "teds": 0.7675675675272942,
+    "teds_s": 0.7837837837837838
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s3",
+    "teds": 0.6790123456790124,
+    "teds_s": 0.6790123456790124
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": "s4",
+    "teds": 0.7605894428741246,
+    "teds_s": 0.774869109947644
+   },
+   {
+    "filing": "mesc_H1-2023",
+    "statement": null,
+    "cer_edits": 4,
+    "cer_chars": 2180,
+    "labels_found": 78,
+    "labels_total": 85,
+    "wer_edits": 2,
+    "wer_words": 348
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s1",
+    "teds": 0.9303738317478483,
+    "teds_s": 0.9439252336448598
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s2",
+    "teds": 0.9095238095238095,
+    "teds_s": 0.9428571428571428
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s3",
+    "teds": 0.01538461538461533,
+    "teds_s": 0.01538461538461533
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s4",
+    "teds": 0.564476240605594,
+    "teds_s": 0.5989304812834224
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": "s5",
+    "teds": 0.22177340235651988,
+    "teds_s": 0.23170731707317072
+   },
+   {
+    "filing": "musharaka_reit_FY2019",
+    "statement": null,
+    "cer_edits": 25,
+    "cer_chars": 2111,
+    "labels_found": 82,
+    "labels_total": 84,
+    "wer_edits": 9,
+    "wer_words": 363
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s1",
+    "teds": 0.8497732421573327,
+    "teds_s": 0.8775510204081632
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s2",
+    "teds": 0.7848658935590224,
+    "teds_s": 0.9636363636363636
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s3",
+    "teds": 0.8020118884282348,
+    "teds_s": 0.8024691358024691
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s4",
+    "teds": 0.4980588762216198,
+    "teds_s": 0.6650485436893203
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": "s5",
+    "teds": 0.041970802919708006,
+    "teds_s": 0.051094890510948954
+   },
+   {
+    "filing": "nama_FY2024",
+    "statement": null,
+    "cer_edits": 14,
+    "cer_chars": 1705,
+    "labels_found": 70,
+    "labels_total": 96,
+    "wer_edits": 8,
+    "wer_words": 274
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s1",
+    "teds": 0.9734848484848485,
+    "teds_s": 0.9810606060606061
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s2",
+    "teds": 0.9168307086614174,
+    "teds_s": 0.937007874015748
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s3",
+    "teds": 0.9178082191780822,
+    "teds_s": 0.9452054794520548
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s4",
+    "teds": 0.004366812227074246,
+    "teds_s": 0.004366812227074246
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s5",
+    "teds": 0.4565632552251049,
+    "teds_s": 0.5977011494252873
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": "s6",
+    "teds": 0.07967637657229576,
+    "teds_s": 0.26865671641791045
+   },
+   {
+    "filing": "othaim_FY2024",
+    "statement": null,
+    "cer_edits": 19,
+    "cer_chars": 3421,
+    "labels_found": 114,
+    "labels_total": 133,
+    "wer_edits": 27,
+    "wer_words": 544
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s1",
+    "teds": 0.9288888887717174,
+    "teds_s": 0.9384615384615385
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s2",
+    "teds": 0.5407298976769213,
+    "teds_s": 0.6885245901639344
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s3",
+    "teds": 0.40625,
+    "teds_s": 0.5555555555555556
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": "s4",
+    "teds": 0.27440771978389433,
+    "teds_s": 0.29670329670329665
+   },
+   {
+    "filing": "riyad_aliemar_fund_FY2023",
+    "statement": null,
+    "cer_edits": 39,
+    "cer_chars": 1062,
+    "labels_found": 33,
+    "labels_total": 36,
+    "wer_edits": 11,
+    "wer_words": 182
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s1",
+    "teds": 0.7174392934666565,
+    "teds_s": 0.7350993377483444
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s2",
+    "teds": 0.6353234386394832,
+    "teds_s": 0.8925619834710744
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s3",
+    "teds": 0.6805466750393743,
+    "teds_s": 0.782608695652174
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s4",
+    "teds": 0.7650623803066836,
+    "teds_s": 0.7665369649805447
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": "s5",
+    "teds": 0.10337094990191631,
+    "teds_s": 0.1620370370370371
+   },
+   {
+    "filing": "saudi_re_FY2024",
+    "statement": null,
+    "cer_edits": 44,
+    "cer_chars": 2120,
+    "labels_found": 61,
+    "labels_total": 109,
+    "wer_edits": 23,
+    "wer_words": 338
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s1",
+    "teds": 0.9679012344943152,
+    "teds_s": 0.9703703703703703
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s2",
+    "teds": 0.712277985005467,
+    "teds_s": 0.9382716049382716
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s3",
+    "teds": 0.6923076923076923,
+    "teds_s": 0.6923076923076923
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s4",
+    "teds": 0.8728323699421965,
+    "teds_s": 0.9017341040462428
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": "s5",
+    "teds": 0.06358381502890176,
+    "teds_s": 0.06358381502890176
+   },
+   {
+    "filing": "sedco_capital_reit_FY2022",
+    "statement": null,
+    "cer_edits": 8,
+    "cer_chars": 1842,
+    "labels_found": 64,
+    "labels_total": 65,
+    "wer_edits": 4,
+    "wer_words": 305
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s1",
+    "teds": 0.9782145782096966,
+    "teds_s": 0.9783783783783784
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s2",
+    "teds": 0.8833870964665567,
+    "teds_s": 0.9741935483870968
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s3",
+    "teds": 0.4113774522320255,
+    "teds_s": 0.4725274725274725
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s4",
+    "teds": 0.0,
+    "teds_s": 0.019575856443719397
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": "s5",
+    "teds": 0.9722183622179036,
+    "teds_s": 0.9847908745247148
+   },
+   {
+    "filing": "snb_FY2024",
+    "statement": null,
+    "cer_edits": 104,
+    "cer_chars": 5309,
+    "labels_found": 145,
+    "labels_total": 149,
+    "wer_edits": 58,
+    "wer_words": 828
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s1",
+    "teds": 0.7326106593860844,
+    "teds_s": 0.7439024390243902
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s2",
+    "teds": 0.007633587786259555,
+    "teds_s": 0.007633587786259555
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s3",
+    "teds": 0.013157894736842146,
+    "teds_s": 0.013157894736842146
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s4",
+    "teds": 0.7515223414281716,
+    "teds_s": 0.8164251207729468
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s5",
+    "teds": 0.5597852594219148,
+    "teds_s": 0.8619791666666666
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": "s6",
+    "teds": 0.08675213654836023,
+    "teds_s": 0.1333333333333333
+   },
+   {
+    "filing": "taiba_FY2024",
+    "statement": null,
+    "cer_edits": 61,
+    "cer_chars": 4498,
+    "labels_found": 143,
+    "labels_total": 155,
+    "wer_edits": 28,
+    "wer_words": 767
    }
   ]
  }

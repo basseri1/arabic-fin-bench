@@ -1,0 +1,17 @@
+# بئك الجزيرة
+(شركة مساهمة سعودية)
+قائمة الدخل الشامل الموحدة
+لستئين المئهيتين في ٣١ ديسمبر ٢٤ و٢٣م
+
+<table><tr><td>السعودية:٢٠٢٣م</td><td>بآلاف الريالات:٢٠٢٤م</td><td>ابضاح</td><td></td><td></td></tr><tr><td>١,٠١٩,٩٧٢</td><td>١,٢٣٠,٩٥٤</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>٢١,٨٢٨)</td><td>١٧,١٧٨</td><td>١٨</td><td></td></tr><tr><td>(١١٧)</td><td>(١٠,١٤٩)</td><td>١٨</td><td>صافي المبلغ المعاد تصنيفه إلى قائمة dxال Moody.</td><td></td></tr><tr><td>(٧٠,٣٧٩)</td><td>(٣٢٨,٣٣٧)</td><td>١٨</td><td>صافي التغيرات في القيمة العادلة لاستثمارات مصنفة بالقيمة العادلة من خلالال dxال dxالieder - دين</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>٢٢,٤٧٤</td><td>٨٩,١١٥</td><td>١٨</td></tr><tr><td>٧,.٧٦</td><td>(١٧,٢٨٥)</td><td>١٨</td><td>صافي التغيرات في القيمة العادلة لاستثمارات مصنفة بالقيمة العادلة من خلالال dxال dxالieder - حفوق ملكية</td><td></td></tr><tr><td>٩,٨٣٣</td><td>٩٨٤</td><td></td><td>(خسانيز) / مكاسب إجادة قياس التزام منافع موزفينحصة في dxال dxالieder &lt;- شركة زميلة</td><td></td></tr><tr><td>(٧٢,٩٤١)</td><td>(٢٤٨,٩٢٤)</td><td></td><td>إجمالي الخسارة dxالieder &lt;- لسند</td><td></td></tr><tr><td>٩٤٧,.٣١</td><td>٩٨٢,.٣٠</td><td></td><td>إجمالي dxالieder &lt;- لسند</td><td></td></tr></table>
+
+المسؤول المالي الأول
+
+[SIGNATURE] Nord
+نابف العبد الكريم
+
+الرئيس التنفيذي والعضو المنتدب
+
+9
+
+تع Timber الإيضاحات المرفقة من 1 إلى ٤٥ جزءً لا يتجزً من هذه القوائم المالية الموحدة.

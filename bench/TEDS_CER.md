@@ -10,6 +10,9 @@ Method in the header of `bench/teds_cer.py`. dots.mocr is shown for seed 0.
 | dots.mocr (pipeline) | 96.4% | 68.7 | 74.9 | 1.1% | 4.6% | 1987 of 2257 | 66.3 | 73.9 | 1.1% | 4.3% |
 | Chandra OCR 2 | 95.5% | 67.3 | 76.2 | 0.8% | 4.1% | 2236 of 2257 | 67.4 | 76.6 | 0.9% | 4.0% |
 | dots.mocr (out of the box) | 93.7% | 67.5 | 74.0 | 1.3% | 4.8% | 1863 of 2257 | 65.0 | 72.9 | 1.2% | 4.3% |
+| LightOnOCR-3 1B | 92.2% | 55.1 | 66.3 | 0.9% | 4.1% | 2156 of 2257 | 55.9 | 67.1 | 0.9% | 4.5% |
+| LightOnOCR-3 4B | 86.0% | 58.0 | 69.0 | 1.1% | 5.3% | 2188 of 2257 | 58.7 | 69.7 | 1.2% | 5.2% |
+| nace.ai Parse | 85.9% | 63.3 | 71.6 | 1.1% | 4.1% | 1943 of 2257 | 63.5 | 71.2 | 1.0% | 3.7% |
 | Qwen3.6-27B | 84.4% | 56.0 | 64.1 | 2.7% | 8.4% | 1857 of 2257 | 54.2 | 62.4 | 2.4% | 7.7% |
 | Chandra OCR 1 | 70.6% | 38.4 | 47.7 | 1.7% | 6.6% | 2037 of 2257 | 41.0 | 51.1 | 1.7% | 6.3% |
 | Persian–Arabic line OCR | 70.2% | 57.2 | 72.1 | 1.5% | 7.2% | 2219 of 2257 | 56.7 | 71.7 | 1.5% | 7.0% |
@@ -18,6 +21,8 @@ Method in the header of `bench/teds_cer.py`. dots.mocr is shown for seed 0.
 | Surya OCR 2 | 62.8% | 46.5 | 57.8 | 0.4% | 1.8% | 2194 of 2257 | 47.8 | 58.9 | 0.7% | 2.3% |
 | Qwen3-VL-32B (FP8) | 57.8% | 54.0 | 68.0 | 2.0% | 5.9% | 2147 of 2257 | 53.4 | 68.6 | 2.2% | 5.9% |
 | PaddleOCR PP-OCRv5 Arabic | 45.0% | 52.9 | 70.3 | 1.8% | 8.9% | 2214 of 2257 | 52.6 | 69.4 | 1.8% | 8.6% |
+| nace.ai Parse | 42.1% | 42.4 | 53.4 | 5.7% | 22.7% | 1030 of 2257 | 41.8 | 52.5 | 5.7% | 22.6% |
+| LightOnOCR-3 0.8B | 41.9% | 48.0 | 62.4 | 1.7% | 8.0% | 2200 of 2257 | 47.7 | 63.5 | 1.8% | 8.2% |
 | Nanonets-OCR2 | 34.0% | 29.7 | 44.4 | 1.7% | 6.5% | 1932 of 2257 | 30.8 | 44.5 | 1.9% | 6.9% |
 | PaddleOCR-VL-1.6 | 15.3% | 28.1 | 42.1 | 4.6% | 18.5% | 1489 of 2257 | 31.3 | 45.8 | 4.8% | 19.1% |
 | ERNIE 4.5 VL | 10.9% | 22.7 | 46.2 | 7.3% | 23.0% | 762 of 2257 | 25.5 | 50.9 | 7.6% | 23.5% |
@@ -25,5 +30,5 @@ Method in the header of `bench/teds_cer.py`. dots.mocr is shown for seed 0.
 | Command A Vision | 8.2% | 11.1 | 34.1 | 7.8% | 52.6% | 13 of 2257 | 13.3 | 37.8 | 13.5% | 61.3% |
 | Qari-OCR v0.3 | 1.9% | 1.3 | 1.4 | 2.4% | 8.1% | 1313 of 2257 | 1.4 | 1.6 | 2.4% | 8.2% |
 
-Rank agreement with row recall across the 20 configurations — test: TEDS ρ = 0.94, τ = 0.84; TEDS-S ρ = 0.92, τ = 0.79; all: TEDS ρ = 0.93, τ = 0.82; TEDS-S ρ = 0.91, τ = 0.78.
+Rank agreement with row recall across the 25 configurations — test: TEDS ρ = 0.93, τ = 0.81; TEDS-S ρ = 0.89, τ = 0.75; all: TEDS ρ = 0.93, τ = 0.83; TEDS-S ρ = 0.88, τ = 0.75.
 

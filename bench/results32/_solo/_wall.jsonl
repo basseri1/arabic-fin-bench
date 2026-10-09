@@ -7,5 +7,6 @@
 {"run": "north_micro_plain", "secs": 562, "conc": 16, "pages": 158}
 {"run": "qwen38_27b_local_plain", "secs": 348, "conc": 16, "pages": 158}
 {"run": "north_micro_vendor_s0", "secs": 1234, "conc": 16, "pages": 158}
-{"run": "qari03_plain", "secs": 72, "conc": 16, "pages": 158, "note": "2 Oct 2026, model alone on the GPU; logs32/run_qari03_plain.log"}
-{"run": "paddleocr_vl16_plain", "secs": 72, "conc": 16, "pages": 158, "note": "2 Oct 2026, pipeline and vLLM server alone on the GPU, server start-up excluded; logs32/run_paddleocr_vl16_plain.log"}
+{"run": "lightonocr3_08b_plain", "secs": 60, "conc": 16, "pages": 158, "server": "vllm-0.30.0", "checkpoint": "lightonai/LightOnOCR-3-0.8B"}
+{"run": "lightonocr3_1b_plain", "secs": 90, "conc": 16, "pages": 158, "server": "vllm-0.30.0", "checkpoint": "lightonai/LightOnOCR-3-1B"}
+{"run": "lightonocr3_4b_plain", "secs": 154, "conc": 16, "pages": 158, "server": "vllm-0.30.0", "checkpoint": "lightonai/LightOnOCR-3-4B"}

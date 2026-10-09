@@ -17136,6 +17136,1842 @@
     }
    }
   },
+  "lightonocr3_08b_plain": {
+   "median_secs_page": 5.2,
+   "test": {
+    "row_recall": 0.418866291648637,
+    "fig_recall": 0.5232292460015232,
+    "fig_sgn": 0.5198019801980198,
+    "label_recall": 0.974745237040319,
+    "num_prec": 0.647049207127677,
+    "rows": 2311,
+    "figures": 5252,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.0847457627118644,
+      "fig_recall": 0.2037037037037037,
+      "fig_sgn": 0.2037037037037037,
+      "label_recall": 1.0,
+      "num_prec": 0.42168674698795183,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.8837209302325582,
+      "fig_recall": 0.9186046511627907,
+      "fig_sgn": 0.9186046511627907,
+      "label_recall": 1.0,
+      "num_prec": 0.8016528925619835,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.9285714285714286,
+      "fig_recall": 0.9433962264150944,
+      "fig_sgn": 0.9433962264150944,
+      "label_recall": 1.0,
+      "num_prec": 0.9113924050632911,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.8260869565217391,
+      "fig_recall": 0.9222222222222223,
+      "fig_sgn": 0.9222222222222223,
+      "label_recall": 0.9772727272727273,
+      "num_prec": 0.8387096774193549,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.4888888888888889,
+      "fig_recall": 0.7580645161290323,
+      "fig_sgn": 0.7473118279569892,
+      "label_recall": 1.0,
+      "num_prec": 0.8807339449541285,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.30935251798561153,
+      "fig_recall": 0.5487364620938628,
+      "fig_sgn": 0.5018050541516246,
+      "label_recall": 0.9855072463768116,
+      "num_prec": 0.6145251396648045,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.5104895104895105,
+      "fig_recall": 0.6994047619047619,
+      "fig_sgn": 0.6994047619047619,
+      "label_recall": 1.0,
+      "num_prec": 0.8602150537634409,
+      "rows": 143,
+      "figures": 336
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.22123893805309736,
+      "fig_recall": 0.5593869731800766,
+      "fig_sgn": 0.5593869731800766,
+      "label_recall": 1.0,
+      "num_prec": 0.6441717791411042,
+      "rows": 113,
+      "figures": 261
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.851063829787234,
+      "fig_recall": 0.9139784946236559,
+      "fig_sgn": 0.9139784946236559,
+      "label_recall": 0.9782608695652174,
+      "num_prec": 0.7886178861788617,
+      "rows": 47,
+      "figures": 93
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.20300751879699247,
+      "fig_recall": 0.23426573426573427,
+      "fig_sgn": 0.22727272727272727,
+      "label_recall": 0.9375,
+      "num_prec": 0.3,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.5043478260869565,
+      "fig_recall": 0.6681614349775785,
+      "fig_sgn": 0.6681614349775785,
+      "label_recall": 1.0,
+      "num_prec": 0.6765578635014837,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.5425531914893617,
+      "fig_recall": 0.6994535519125683,
+      "fig_sgn": 0.6994535519125683,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.6588235294117647,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.3382352941176471,
+      "fig_recall": 0.5016611295681063,
+      "fig_sgn": 0.5016611295681063,
+      "label_recall": 1.0,
+      "num_prec": 0.8254545454545454,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.7956989247311828,
+      "fig_recall": 0.8860759493670886,
+      "fig_sgn": 0.8860759493670886,
+      "label_recall": 0.989010989010989,
+      "num_prec": 0.8543046357615894,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.2840909090909091,
+      "fig_recall": 0.5112359550561798,
+      "fig_sgn": 0.5112359550561798,
+      "label_recall": 1.0,
+      "num_prec": 0.5865384615384616,
+      "rows": 88,
+      "figures": 178
+     },
+     "nama_FY2024": {
+      "row_recall": 0.05154639175257732,
+      "fig_recall": 0.28217821782178215,
+      "fig_sgn": 0.28217821782178215,
+      "label_recall": 1.0,
+      "num_prec": 0.6042553191489362,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.06569343065693431,
+      "fig_recall": 0.13505747126436782,
+      "fig_sgn": 0.13505747126436782,
+      "label_recall": 0.9699248120300752,
+      "num_prec": 0.32386363636363635,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.7435897435897436,
+      "fig_recall": 0.8157894736842105,
+      "fig_sgn": 0.8157894736842105,
+      "label_recall": 1.0,
+      "num_prec": 0.85,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.04504504504504504,
+      "fig_recall": 0.14052287581699346,
+      "fig_sgn": 0.13725490196078433,
+      "label_recall": 1.0,
+      "num_prec": 0.26119402985074625,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.21212121212121213,
+      "fig_recall": 0.2890625,
+      "fig_sgn": 0.2890625,
+      "label_recall": 1.0,
+      "num_prec": 0.5779816513761468,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.78,
+      "fig_recall": 0.5686746987951807,
+      "fig_sgn": 0.5686746987951807,
+      "label_recall": 0.8389261744966443,
+      "num_prec": 0.9226006191950464,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.33962264150943394,
+      "fig_recall": 0.3855072463768116,
+      "fig_sgn": 0.3855072463768116,
+      "label_recall": 0.9096774193548387,
+      "num_prec": 0.5982905982905983,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   },
+   "dev": {
+    "row_recall": 0.6528162511542013,
+    "fig_recall": 0.774848592803705,
+    "fig_sgn": 0.7716423227645173,
+    "label_recall": 0.9631031220435194,
+    "num_prec": 0.7676600441501104,
+    "rows": 1083,
+    "figures": 2807,
+    "per_filing": {
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.41284403669724773,
+      "fig_recall": 0.4772727272727273,
+      "fig_sgn": 0.4772727272727273,
+      "label_recall": 0.9428571428571428,
+      "num_prec": 0.6273062730627307,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9925925925925926,
+      "num_prec": 0.9488304093567251,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.9930555555555556,
+      "fig_recall": 0.9947916666666666,
+      "fig_sgn": 0.9947916666666666,
+      "label_recall": 0.9166666666666666,
+      "num_prec": 0.9531013615733737,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8454545454545455,
+      "rows": 37,
+      "figures": 70
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.640625,
+      "fig_recall": 0.8085106382978723,
+      "fig_sgn": 0.8049645390070922,
+      "label_recall": 0.952755905511811,
+      "num_prec": 0.7253012048192771,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.958904109589041,
+      "num_prec": 0.8646288209606987,
+      "rows": 73,
+      "figures": 148
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.3838383838383838,
+      "fig_recall": 0.4908256880733945,
+      "fig_sgn": 0.4908256880733945,
+      "label_recall": 0.9896907216494846,
+      "num_prec": 0.6793893129770993,
+      "rows": 99,
+      "figures": 218
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.09142857142857143,
+      "fig_recall": 0.22043010752688172,
+      "fig_sgn": 0.20967741935483872,
+      "label_recall": 0.9595375722543352,
+      "num_prec": 0.41743119266055045,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.6511627906976745,
+      "fig_recall": 0.8238095238095238,
+      "fig_sgn": 0.8047619047619048,
+      "label_recall": 0.9764705882352941,
+      "num_prec": 0.5955678670360111,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.8235294117647058,
+      "fig_recall": 0.8320610687022901,
+      "fig_sgn": 0.8320610687022901,
+      "label_recall": 0.9880952380952381,
+      "num_prec": 0.8512820512820513,
+      "rows": 85,
+      "figures": 131
+     }
+    }
+   },
+   "all": {
+    "row_recall": 0.4935179728933412,
+    "fig_recall": 0.6108698349671176,
+    "fig_sgn": 0.6075195433676635,
+    "label_recall": 0.9710319855159928,
+    "num_prec": 0.6919207473565342,
+    "rows": 3394,
+    "figures": 8059,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.0847457627118644,
+      "fig_recall": 0.2037037037037037,
+      "fig_sgn": 0.2037037037037037,
+      "label_recall": 1.0,
+      "num_prec": 0.42168674698795183,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.8837209302325582,
+      "fig_recall": 0.9186046511627907,
+      "fig_sgn": 0.9186046511627907,
+      "label_recall": 1.0,
+      "num_prec": 0.8016528925619835,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.9285714285714286,
+      "fig_recall": 0.9433962264150944,
+      "fig_sgn": 0.9433962264150944,
+      "label_recall": 1.0,
+      "num_prec": 0.9113924050632911,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.8260869565217391,
+      "fig_recall": 0.9222222222222223,
+      "fig_sgn": 0.9222222222222223,
+      "label_recall": 0.9772727272727273,
+      "num_prec": 0.8387096774193549,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.4888888888888889,
+      "fig_recall": 0.7580645161290323,
+      "fig_sgn": 0.7473118279569892,
+      "label_recall": 1.0,
+      "num_prec": 0.8807339449541285,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.30935251798561153,
+      "fig_recall": 0.5487364620938628,
+      "fig_sgn": 0.5018050541516246,
+      "label_recall": 0.9855072463768116,
+      "num_prec": 0.6145251396648045,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.5104895104895105,
+      "fig_recall": 0.6994047619047619,
+      "fig_sgn": 0.6994047619047619,
+      "label_recall": 1.0,
+      "num_prec": 0.8602150537634409,
+      "rows": 143,
+      "figures": 336
+     },
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.41284403669724773,
+      "fig_recall": 0.4772727272727273,
+      "fig_sgn": 0.4772727272727273,
+      "label_recall": 0.9428571428571428,
+      "num_prec": 0.6273062730627307,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9925925925925926,
+      "num_prec": 0.9488304093567251,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.9930555555555556,
+      "fig_recall": 0.9947916666666666,
+      "fig_sgn": 0.9947916666666666,
+      "label_recall": 0.9166666666666666,
+      "num_prec": 0.9531013615733737,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8454545454545455,
+      "rows": 37,
+      "figures": 70
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.22123893805309736,
+      "fig_recall": 0.5593869731800766,
+      "fig_sgn": 0.5593869731800766,
+      "label_recall": 1.0,
+      "num_prec": 0.6441717791411042,
+      "rows": 113,
+      "figures": 261
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.640625,
+      "fig_recall": 0.8085106382978723,
+      "fig_sgn": 0.8049645390070922,
+      "label_recall": 0.952755905511811,
+      "num_prec": 0.7253012048192771,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.958904109589041,
+      "num_prec": 0.8646288209606987,
+      "rows": 73,
+      "figures": 148
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.851063829787234,
+      "fig_recall": 0.9139784946236559,
+      "fig_sgn": 0.9139784946236559,
+      "label_recall": 0.9782608695652174,
+      "num_prec": 0.7886178861788617,
+      "rows": 47,
+      "figures": 93
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.3838383838383838,
+      "fig_recall": 0.4908256880733945,
+      "fig_sgn": 0.4908256880733945,
+      "label_recall": 0.9896907216494846,
+      "num_prec": 0.6793893129770993,
+      "rows": 99,
+      "figures": 218
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.20300751879699247,
+      "fig_recall": 0.23426573426573427,
+      "fig_sgn": 0.22727272727272727,
+      "label_recall": 0.9375,
+      "num_prec": 0.3,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.5043478260869565,
+      "fig_recall": 0.6681614349775785,
+      "fig_sgn": 0.6681614349775785,
+      "label_recall": 1.0,
+      "num_prec": 0.6765578635014837,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.5425531914893617,
+      "fig_recall": 0.6994535519125683,
+      "fig_sgn": 0.6994535519125683,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.6588235294117647,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.3382352941176471,
+      "fig_recall": 0.5016611295681063,
+      "fig_sgn": 0.5016611295681063,
+      "label_recall": 1.0,
+      "num_prec": 0.8254545454545454,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.7956989247311828,
+      "fig_recall": 0.8860759493670886,
+      "fig_sgn": 0.8860759493670886,
+      "label_recall": 0.989010989010989,
+      "num_prec": 0.8543046357615894,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.2840909090909091,
+      "fig_recall": 0.5112359550561798,
+      "fig_sgn": 0.5112359550561798,
+      "label_recall": 1.0,
+      "num_prec": 0.5865384615384616,
+      "rows": 88,
+      "figures": 178
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.09142857142857143,
+      "fig_recall": 0.22043010752688172,
+      "fig_sgn": 0.20967741935483872,
+      "label_recall": 0.9595375722543352,
+      "num_prec": 0.41743119266055045,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.6511627906976745,
+      "fig_recall": 0.8238095238095238,
+      "fig_sgn": 0.8047619047619048,
+      "label_recall": 0.9764705882352941,
+      "num_prec": 0.5955678670360111,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.8235294117647058,
+      "fig_recall": 0.8320610687022901,
+      "fig_sgn": 0.8320610687022901,
+      "label_recall": 0.9880952380952381,
+      "num_prec": 0.8512820512820513,
+      "rows": 85,
+      "figures": 131
+     },
+     "nama_FY2024": {
+      "row_recall": 0.05154639175257732,
+      "fig_recall": 0.28217821782178215,
+      "fig_sgn": 0.28217821782178215,
+      "label_recall": 1.0,
+      "num_prec": 0.6042553191489362,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.06569343065693431,
+      "fig_recall": 0.13505747126436782,
+      "fig_sgn": 0.13505747126436782,
+      "label_recall": 0.9699248120300752,
+      "num_prec": 0.32386363636363635,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.7435897435897436,
+      "fig_recall": 0.8157894736842105,
+      "fig_sgn": 0.8157894736842105,
+      "label_recall": 1.0,
+      "num_prec": 0.85,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.04504504504504504,
+      "fig_recall": 0.14052287581699346,
+      "fig_sgn": 0.13725490196078433,
+      "label_recall": 1.0,
+      "num_prec": 0.26119402985074625,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.21212121212121213,
+      "fig_recall": 0.2890625,
+      "fig_sgn": 0.2890625,
+      "label_recall": 1.0,
+      "num_prec": 0.5779816513761468,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.78,
+      "fig_recall": 0.5686746987951807,
+      "fig_sgn": 0.5686746987951807,
+      "label_recall": 0.8389261744966443,
+      "num_prec": 0.9226006191950464,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.33962264150943394,
+      "fig_recall": 0.3855072463768116,
+      "fig_sgn": 0.3855072463768116,
+      "label_recall": 0.9096774193548387,
+      "num_prec": 0.5982905982905983,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   }
+  },
+  "lightonocr3_1b_plain": {
+   "median_secs_page": 8.0,
+   "test": {
+    "row_recall": 0.9221116399826915,
+    "fig_recall": 0.9215536938309216,
+    "fig_sgn": 0.9204112718964204,
+    "label_recall": 0.9552503322995126,
+    "num_prec": 0.8824817518248175,
+    "rows": 2311,
+    "figures": 5252,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.8305084745762712,
+      "fig_recall": 0.7870370370370371,
+      "fig_sgn": 0.7808641975308642,
+      "label_recall": 0.8918918918918919,
+      "num_prec": 0.9294117647058824,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9512195121951219,
+      "num_prec": 0.8548387096774194,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.9935064935064936,
+      "fig_recall": 0.9784366576819407,
+      "fig_sgn": 0.9730458221024259,
+      "label_recall": 0.8051948051948052,
+      "num_prec": 0.9195171026156942,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9782608695652174,
+      "fig_recall": 0.9777777777777777,
+      "fig_sgn": 0.9777777777777777,
+      "label_recall": 1.0,
+      "num_prec": 0.8294573643410853,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.9222222222222223,
+      "fig_recall": 0.9139784946236559,
+      "fig_sgn": 0.9139784946236559,
+      "label_recall": 1.0,
+      "num_prec": 0.9150943396226415,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.9856115107913669,
+      "fig_recall": 0.9927797833935018,
+      "fig_sgn": 0.9927797833935018,
+      "label_recall": 1.0,
+      "num_prec": 0.8463414634146341,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.9370629370629371,
+      "fig_recall": 0.9136904761904762,
+      "fig_sgn": 0.9136904761904762,
+      "label_recall": 0.9117647058823529,
+      "num_prec": 0.96,
+      "rows": 143,
+      "figures": 336
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.8141592920353983,
+      "fig_recall": 0.9118773946360154,
+      "fig_sgn": 0.9118773946360154,
+      "label_recall": 1.0,
+      "num_prec": 0.9009009009009009,
+      "rows": 113,
+      "figures": 261
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9148936170212766,
+      "fig_recall": 0.9354838709677419,
+      "fig_sgn": 0.9354838709677419,
+      "label_recall": 1.0,
+      "num_prec": 0.7983870967741935,
+      "rows": 47,
+      "figures": 93
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.8721804511278195,
+      "fig_recall": 0.9195804195804196,
+      "fig_sgn": 0.9195804195804196,
+      "label_recall": 1.0,
+      "num_prec": 0.8604651162790697,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8640483383685801,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.9893617021276596,
+      "fig_recall": 0.9836065573770492,
+      "fig_sgn": 0.9836065573770492,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.8556701030927835,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.9705882352941176,
+      "fig_recall": 0.9933554817275747,
+      "fig_sgn": 0.9933554817275747,
+      "label_recall": 0.9923076923076923,
+      "num_prec": 0.8933333333333333,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.989010989010989,
+      "num_prec": 0.8881987577639752,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9886363636363636,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9090909090909091,
+      "rows": 88,
+      "figures": 178
+     },
+     "nama_FY2024": {
+      "row_recall": 0.7525773195876289,
+      "fig_recall": 0.8465346534653465,
+      "fig_sgn": 0.8465346534653465,
+      "label_recall": 1.0,
+      "num_prec": 0.7570093457943925,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.8394160583941606,
+      "fig_recall": 0.8994252873563219,
+      "fig_sgn": 0.8936781609195402,
+      "label_recall": 0.9774436090225563,
+      "num_prec": 0.8235294117647058,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.9743589743589743,
+      "fig_recall": 0.9736842105263158,
+      "fig_sgn": 0.9736842105263158,
+      "label_recall": 1.0,
+      "num_prec": 0.875,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.9279279279279279,
+      "fig_recall": 0.9640522875816994,
+      "fig_sgn": 0.9640522875816994,
+      "label_recall": 1.0,
+      "num_prec": 0.8932291666666666,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9848484848484849,
+      "fig_recall": 0.96875,
+      "fig_sgn": 0.96875,
+      "label_recall": 0.7692307692307693,
+      "num_prec": 0.8756756756756757,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.8466666666666667,
+      "fig_recall": 0.6867469879518072,
+      "fig_sgn": 0.6867469879518072,
+      "label_recall": 0.8523489932885906,
+      "num_prec": 0.9442970822281167,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.9182389937106918,
+      "fig_recall": 0.9536231884057971,
+      "fig_sgn": 0.9536231884057971,
+      "label_recall": 0.9935483870967742,
+      "num_prec": 0.9057971014492754,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   },
+   "dev": {
+    "row_recall": 0.8956602031394275,
+    "fig_recall": 0.9543997149982187,
+    "fig_sgn": 0.9540434627716423,
+    "label_recall": 0.9839167455061495,
+    "num_prec": 0.8701399688958009,
+    "rows": 1083,
+    "figures": 2807,
+    "per_filing": {
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.944954128440367,
+      "fig_recall": 0.9545454545454546,
+      "fig_sgn": 0.9545454545454546,
+      "label_recall": 1.0,
+      "num_prec": 0.9207317073170732,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8963660834454913,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9027777777777778,
+      "num_prec": 0.9028727770177839,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8440366972477065,
+      "rows": 37,
+      "figures": 70
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.8671875,
+      "fig_recall": 0.9219858156028369,
+      "fig_sgn": 0.9219858156028369,
+      "label_recall": 0.9763779527559056,
+      "num_prec": 0.8538461538461538,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 0.8904109589041096,
+      "fig_recall": 0.9324324324324325,
+      "fig_sgn": 0.9324324324324325,
+      "label_recall": 1.0,
+      "num_prec": 0.8325991189427313,
+      "rows": 73,
+      "figures": 148
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.8484848484848485,
+      "fig_recall": 0.9128440366972477,
+      "fig_sgn": 0.9128440366972477,
+      "label_recall": 1.0,
+      "num_prec": 0.8813559322033898,
+      "rows": 99,
+      "figures": 218
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.7657142857142857,
+      "fig_recall": 0.8897849462365591,
+      "fig_sgn": 0.8897849462365591,
+      "label_recall": 1.0,
+      "num_prec": 0.9161425576519916,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.9418604651162791,
+      "fig_recall": 0.9571428571428572,
+      "fig_sgn": 0.9523809523809523,
+      "label_recall": 1.0,
+      "num_prec": 0.6824512534818942,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.7529411764705882,
+      "fig_recall": 0.8702290076335878,
+      "fig_sgn": 0.8702290076335878,
+      "label_recall": 1.0,
+      "num_prec": 0.8693467336683417,
+      "rows": 85,
+      "figures": 131
+     }
+    }
+   },
+   "all": {
+    "row_recall": 0.913671184443135,
+    "fig_recall": 0.9329941680109195,
+    "fig_sgn": 0.9321255738925425,
+    "label_recall": 0.9643934821967411,
+    "num_prec": 0.8780351139335076,
+    "rows": 3394,
+    "figures": 8059,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.8305084745762712,
+      "fig_recall": 0.7870370370370371,
+      "fig_sgn": 0.7808641975308642,
+      "label_recall": 0.8918918918918919,
+      "num_prec": 0.9294117647058824,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9512195121951219,
+      "num_prec": 0.8548387096774194,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.9935064935064936,
+      "fig_recall": 0.9784366576819407,
+      "fig_sgn": 0.9730458221024259,
+      "label_recall": 0.8051948051948052,
+      "num_prec": 0.9195171026156942,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9782608695652174,
+      "fig_recall": 0.9777777777777777,
+      "fig_sgn": 0.9777777777777777,
+      "label_recall": 1.0,
+      "num_prec": 0.8294573643410853,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.9222222222222223,
+      "fig_recall": 0.9139784946236559,
+      "fig_sgn": 0.9139784946236559,
+      "label_recall": 1.0,
+      "num_prec": 0.9150943396226415,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.9856115107913669,
+      "fig_recall": 0.9927797833935018,
+      "fig_sgn": 0.9927797833935018,
+      "label_recall": 1.0,
+      "num_prec": 0.8463414634146341,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.9370629370629371,
+      "fig_recall": 0.9136904761904762,
+      "fig_sgn": 0.9136904761904762,
+      "label_recall": 0.9117647058823529,
+      "num_prec": 0.96,
+      "rows": 143,
+      "figures": 336
+     },
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.944954128440367,
+      "fig_recall": 0.9545454545454546,
+      "fig_sgn": 0.9545454545454546,
+      "label_recall": 1.0,
+      "num_prec": 0.9207317073170732,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8963660834454913,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9027777777777778,
+      "num_prec": 0.9028727770177839,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8440366972477065,
+      "rows": 37,
+      "figures": 70
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.8141592920353983,
+      "fig_recall": 0.9118773946360154,
+      "fig_sgn": 0.9118773946360154,
+      "label_recall": 1.0,
+      "num_prec": 0.9009009009009009,
+      "rows": 113,
+      "figures": 261
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.8671875,
+      "fig_recall": 0.9219858156028369,
+      "fig_sgn": 0.9219858156028369,
+      "label_recall": 0.9763779527559056,
+      "num_prec": 0.8538461538461538,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 0.8904109589041096,
+      "fig_recall": 0.9324324324324325,
+      "fig_sgn": 0.9324324324324325,
+      "label_recall": 1.0,
+      "num_prec": 0.8325991189427313,
+      "rows": 73,
+      "figures": 148
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9148936170212766,
+      "fig_recall": 0.9354838709677419,
+      "fig_sgn": 0.9354838709677419,
+      "label_recall": 1.0,
+      "num_prec": 0.7983870967741935,
+      "rows": 47,
+      "figures": 93
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.8484848484848485,
+      "fig_recall": 0.9128440366972477,
+      "fig_sgn": 0.9128440366972477,
+      "label_recall": 1.0,
+      "num_prec": 0.8813559322033898,
+      "rows": 99,
+      "figures": 218
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.8721804511278195,
+      "fig_recall": 0.9195804195804196,
+      "fig_sgn": 0.9195804195804196,
+      "label_recall": 1.0,
+      "num_prec": 0.8604651162790697,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8640483383685801,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.9893617021276596,
+      "fig_recall": 0.9836065573770492,
+      "fig_sgn": 0.9836065573770492,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.8556701030927835,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.9705882352941176,
+      "fig_recall": 0.9933554817275747,
+      "fig_sgn": 0.9933554817275747,
+      "label_recall": 0.9923076923076923,
+      "num_prec": 0.8933333333333333,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.989010989010989,
+      "num_prec": 0.8881987577639752,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9886363636363636,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9090909090909091,
+      "rows": 88,
+      "figures": 178
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.7657142857142857,
+      "fig_recall": 0.8897849462365591,
+      "fig_sgn": 0.8897849462365591,
+      "label_recall": 1.0,
+      "num_prec": 0.9161425576519916,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.9418604651162791,
+      "fig_recall": 0.9571428571428572,
+      "fig_sgn": 0.9523809523809523,
+      "label_recall": 1.0,
+      "num_prec": 0.6824512534818942,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.7529411764705882,
+      "fig_recall": 0.8702290076335878,
+      "fig_sgn": 0.8702290076335878,
+      "label_recall": 1.0,
+      "num_prec": 0.8693467336683417,
+      "rows": 85,
+      "figures": 131
+     },
+     "nama_FY2024": {
+      "row_recall": 0.7525773195876289,
+      "fig_recall": 0.8465346534653465,
+      "fig_sgn": 0.8465346534653465,
+      "label_recall": 1.0,
+      "num_prec": 0.7570093457943925,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.8394160583941606,
+      "fig_recall": 0.8994252873563219,
+      "fig_sgn": 0.8936781609195402,
+      "label_recall": 0.9774436090225563,
+      "num_prec": 0.8235294117647058,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.9743589743589743,
+      "fig_recall": 0.9736842105263158,
+      "fig_sgn": 0.9736842105263158,
+      "label_recall": 1.0,
+      "num_prec": 0.875,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.9279279279279279,
+      "fig_recall": 0.9640522875816994,
+      "fig_sgn": 0.9640522875816994,
+      "label_recall": 1.0,
+      "num_prec": 0.8932291666666666,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9848484848484849,
+      "fig_recall": 0.96875,
+      "fig_sgn": 0.96875,
+      "label_recall": 0.7692307692307693,
+      "num_prec": 0.8756756756756757,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.8466666666666667,
+      "fig_recall": 0.6867469879518072,
+      "fig_sgn": 0.6867469879518072,
+      "label_recall": 0.8523489932885906,
+      "num_prec": 0.9442970822281167,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.9182389937106918,
+      "fig_recall": 0.9536231884057971,
+      "fig_sgn": 0.9536231884057971,
+      "label_recall": 0.9935483870967742,
+      "num_prec": 0.9057971014492754,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   }
+  },
+  "lightonocr3_4b_plain": {
+   "median_secs_page": 14.05,
+   "test": {
+    "row_recall": 0.8598009519688447,
+    "fig_recall": 0.8857578065498858,
+    "fig_sgn": 0.8857578065498858,
+    "label_recall": 0.969428444838281,
+    "num_prec": 0.8537900874635569,
+    "rows": 2311,
+    "figures": 5252,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.6949152542372882,
+      "fig_recall": 0.8425925925925926,
+      "fig_sgn": 0.8425925925925926,
+      "label_recall": 0.9369369369369369,
+      "num_prec": 0.8255528255528255,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8617886178861789,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9226069246435845,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9782608695652174,
+      "fig_recall": 0.9777777777777777,
+      "fig_sgn": 0.9777777777777777,
+      "label_recall": 1.0,
+      "num_prec": 0.8320610687022901,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.8111111111111111,
+      "fig_recall": 0.8978494623655914,
+      "fig_sgn": 0.8978494623655914,
+      "label_recall": 0.9887640449438202,
+      "num_prec": 0.9227467811158798,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.9424460431654677,
+      "fig_recall": 0.9638989169675091,
+      "fig_sgn": 0.9638989169675091,
+      "label_recall": 1.0,
+      "num_prec": 0.8230958230958231,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.951048951048951,
+      "fig_recall": 0.9791666666666666,
+      "fig_sgn": 0.9791666666666666,
+      "label_recall": 1.0,
+      "num_prec": 0.9373601789709173,
+      "rows": 143,
+      "figures": 336
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.7610619469026548,
+      "fig_recall": 0.8352490421455939,
+      "fig_sgn": 0.8352490421455939,
+      "label_recall": 1.0,
+      "num_prec": 0.7945619335347432,
+      "rows": 113,
+      "figures": 261
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9787234042553191,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 1.0,
+      "num_prec": 0.808,
+      "rows": 47,
+      "figures": 93
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.7443609022556391,
+      "fig_recall": 0.8776223776223776,
+      "fig_sgn": 0.8776223776223776,
+      "label_recall": 0.8984375,
+      "num_prec": 0.8222811671087533,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9730941704035875,
+      "fig_sgn": 0.9730941704035875,
+      "label_recall": 0.9649122807017544,
+      "num_prec": 0.8554913294797688,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.6276595744680851,
+      "fig_recall": 0.726775956284153,
+      "fig_sgn": 0.726775956284153,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.6981818181818182,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.7279411764705882,
+      "fig_recall": 0.8504983388704319,
+      "fig_sgn": 0.8504983388704319,
+      "label_recall": 1.0,
+      "num_prec": 0.935933147632312,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.978494623655914,
+      "fig_recall": 0.9915611814345991,
+      "fig_sgn": 0.9915611814345991,
+      "label_recall": 0.978021978021978,
+      "num_prec": 0.8727272727272727,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9545454545454546,
+      "fig_recall": 0.9775280898876404,
+      "fig_sgn": 0.9775280898876404,
+      "label_recall": 1.0,
+      "num_prec": 0.8874458874458875,
+      "rows": 88,
+      "figures": 178
+     },
+     "nama_FY2024": {
+      "row_recall": 0.865979381443299,
+      "fig_recall": 0.9158415841584159,
+      "fig_sgn": 0.9158415841584159,
+      "label_recall": 0.9791666666666666,
+      "num_prec": 0.8106508875739645,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.8759124087591241,
+      "fig_recall": 0.8563218390804598,
+      "fig_sgn": 0.8563218390804598,
+      "label_recall": 0.9097744360902256,
+      "num_prec": 0.8672768878718535,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.9230769230769231,
+      "fig_recall": 0.9473684210526315,
+      "fig_sgn": 0.9473684210526315,
+      "label_recall": 1.0,
+      "num_prec": 0.8272727272727273,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.7927927927927928,
+      "fig_recall": 0.8006535947712419,
+      "fig_sgn": 0.8006535947712419,
+      "label_recall": 0.981651376146789,
+      "num_prec": 0.7690288713910761,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9696969696969697,
+      "fig_recall": 0.96875,
+      "fig_sgn": 0.96875,
+      "label_recall": 0.9846153846153847,
+      "num_prec": 0.8663101604278075,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.8466666666666667,
+      "fig_recall": 0.6867469879518072,
+      "fig_sgn": 0.6867469879518072,
+      "label_recall": 0.8523489932885906,
+      "num_prec": 0.9442970822281167,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.8176100628930818,
+      "fig_recall": 0.8318840579710145,
+      "fig_sgn": 0.8318840579710145,
+      "label_recall": 0.9935483870967742,
+      "num_prec": 0.8105515587529976,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   },
+   "dev": {
+    "row_recall": 0.8836565096952909,
+    "fig_recall": 0.9276807980049875,
+    "fig_sgn": 0.9276807980049875,
+    "label_recall": 0.9583727530747398,
+    "num_prec": 0.8684909670563231,
+    "rows": 1083,
+    "figures": 2807,
+    "per_filing": {
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.9357798165137615,
+      "fig_recall": 0.9545454545454546,
+      "fig_sgn": 0.9545454545454546,
+      "label_recall": 0.9904761904761905,
+      "num_prec": 0.9120521172638436,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9851851851851852,
+      "num_prec": 0.942008486562942,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.7847222222222222,
+      "num_prec": 0.9523121387283237,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 0.9714285714285714,
+      "fig_sgn": 0.9714285714285714,
+      "label_recall": 0.9705882352941176,
+      "num_prec": 0.8425925925925926,
+      "rows": 37,
+      "figures": 70
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.875,
+      "fig_recall": 0.9397163120567376,
+      "fig_sgn": 0.9397163120567376,
+      "label_recall": 1.0,
+      "num_prec": 0.8609625668449198,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9863013698630136,
+      "num_prec": 0.9004524886877828,
+      "rows": 73,
+      "figures": 148
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.9090909090909091,
+      "fig_recall": 0.9495412844036697,
+      "fig_sgn": 0.9495412844036697,
+      "label_recall": 1.0,
+      "num_prec": 0.9024390243902439,
+      "rows": 99,
+      "figures": 218
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.6628571428571428,
+      "fig_recall": 0.7311827956989247,
+      "fig_sgn": 0.7311827956989247,
+      "label_recall": 0.976878612716763,
+      "num_prec": 0.7368421052631579,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.8023255813953488,
+      "fig_recall": 0.8142857142857143,
+      "fig_sgn": 0.8142857142857143,
+      "label_recall": 0.9529411764705882,
+      "num_prec": 0.6927899686520376,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.788235294117647,
+      "fig_recall": 0.816793893129771,
+      "fig_sgn": 0.816793893129771,
+      "label_recall": 1.0,
+      "num_prec": 0.8383838383838383,
+      "rows": 85,
+      "figures": 131
+     }
+    }
+   },
+   "all": {
+    "row_recall": 0.8674130819092516,
+    "fig_recall": 0.9003598461347562,
+    "fig_sgn": 0.9003598461347562,
+    "label_recall": 0.9659022329511164,
+    "num_prec": 0.8589984939759037,
+    "rows": 3394,
+    "figures": 8059,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.6949152542372882,
+      "fig_recall": 0.8425925925925926,
+      "fig_sgn": 0.8425925925925926,
+      "label_recall": 0.9369369369369369,
+      "num_prec": 0.8255528255528255,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.8617886178861789,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9226069246435845,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9782608695652174,
+      "fig_recall": 0.9777777777777777,
+      "fig_sgn": 0.9777777777777777,
+      "label_recall": 1.0,
+      "num_prec": 0.8320610687022901,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.8111111111111111,
+      "fig_recall": 0.8978494623655914,
+      "fig_sgn": 0.8978494623655914,
+      "label_recall": 0.9887640449438202,
+      "num_prec": 0.9227467811158798,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.9424460431654677,
+      "fig_recall": 0.9638989169675091,
+      "fig_sgn": 0.9638989169675091,
+      "label_recall": 1.0,
+      "num_prec": 0.8230958230958231,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.951048951048951,
+      "fig_recall": 0.9791666666666666,
+      "fig_sgn": 0.9791666666666666,
+      "label_recall": 1.0,
+      "num_prec": 0.9373601789709173,
+      "rows": 143,
+      "figures": 336
+     },
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.9357798165137615,
+      "fig_recall": 0.9545454545454546,
+      "fig_sgn": 0.9545454545454546,
+      "label_recall": 0.9904761904761905,
+      "num_prec": 0.9120521172638436,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9851851851851852,
+      "num_prec": 0.942008486562942,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.7847222222222222,
+      "num_prec": 0.9523121387283237,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 1.0,
+      "fig_recall": 0.9714285714285714,
+      "fig_sgn": 0.9714285714285714,
+      "label_recall": 0.9705882352941176,
+      "num_prec": 0.8425925925925926,
+      "rows": 37,
+      "figures": 70
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.7610619469026548,
+      "fig_recall": 0.8352490421455939,
+      "fig_sgn": 0.8352490421455939,
+      "label_recall": 1.0,
+      "num_prec": 0.7945619335347432,
+      "rows": 113,
+      "figures": 261
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.875,
+      "fig_recall": 0.9397163120567376,
+      "fig_sgn": 0.9397163120567376,
+      "label_recall": 1.0,
+      "num_prec": 0.8609625668449198,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9863013698630136,
+      "num_prec": 0.9004524886877828,
+      "rows": 73,
+      "figures": 148
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9787234042553191,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 1.0,
+      "num_prec": 0.808,
+      "rows": 47,
+      "figures": 93
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.9090909090909091,
+      "fig_recall": 0.9495412844036697,
+      "fig_sgn": 0.9495412844036697,
+      "label_recall": 1.0,
+      "num_prec": 0.9024390243902439,
+      "rows": 99,
+      "figures": 218
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.7443609022556391,
+      "fig_recall": 0.8776223776223776,
+      "fig_sgn": 0.8776223776223776,
+      "label_recall": 0.8984375,
+      "num_prec": 0.8222811671087533,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9730941704035875,
+      "fig_sgn": 0.9730941704035875,
+      "label_recall": 0.9649122807017544,
+      "num_prec": 0.8554913294797688,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.6276595744680851,
+      "fig_recall": 0.726775956284153,
+      "fig_sgn": 0.726775956284153,
+      "label_recall": 0.9787234042553191,
+      "num_prec": 0.6981818181818182,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.7279411764705882,
+      "fig_recall": 0.8504983388704319,
+      "fig_sgn": 0.8504983388704319,
+      "label_recall": 1.0,
+      "num_prec": 0.935933147632312,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.978494623655914,
+      "fig_recall": 0.9915611814345991,
+      "fig_sgn": 0.9915611814345991,
+      "label_recall": 0.978021978021978,
+      "num_prec": 0.8727272727272727,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9545454545454546,
+      "fig_recall": 0.9775280898876404,
+      "fig_sgn": 0.9775280898876404,
+      "label_recall": 1.0,
+      "num_prec": 0.8874458874458875,
+      "rows": 88,
+      "figures": 178
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.6628571428571428,
+      "fig_recall": 0.7311827956989247,
+      "fig_sgn": 0.7311827956989247,
+      "label_recall": 0.976878612716763,
+      "num_prec": 0.7368421052631579,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.8023255813953488,
+      "fig_recall": 0.8142857142857143,
+      "fig_sgn": 0.8142857142857143,
+      "label_recall": 0.9529411764705882,
+      "num_prec": 0.6927899686520376,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.788235294117647,
+      "fig_recall": 0.816793893129771,
+      "fig_sgn": 0.816793893129771,
+      "label_recall": 1.0,
+      "num_prec": 0.8383838383838383,
+      "rows": 85,
+      "figures": 131
+     },
+     "nama_FY2024": {
+      "row_recall": 0.865979381443299,
+      "fig_recall": 0.9158415841584159,
+      "fig_sgn": 0.9158415841584159,
+      "label_recall": 0.9791666666666666,
+      "num_prec": 0.8106508875739645,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.8759124087591241,
+      "fig_recall": 0.8563218390804598,
+      "fig_sgn": 0.8563218390804598,
+      "label_recall": 0.9097744360902256,
+      "num_prec": 0.8672768878718535,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.9230769230769231,
+      "fig_recall": 0.9473684210526315,
+      "fig_sgn": 0.9473684210526315,
+      "label_recall": 1.0,
+      "num_prec": 0.8272727272727273,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.7927927927927928,
+      "fig_recall": 0.8006535947712419,
+      "fig_sgn": 0.8006535947712419,
+      "label_recall": 0.981651376146789,
+      "num_prec": 0.7690288713910761,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9696969696969697,
+      "fig_recall": 0.96875,
+      "fig_sgn": 0.96875,
+      "label_recall": 0.9846153846153847,
+      "num_prec": 0.8663101604278075,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.8466666666666667,
+      "fig_recall": 0.6867469879518072,
+      "fig_sgn": 0.6867469879518072,
+      "label_recall": 0.8523489932885906,
+      "num_prec": 0.9442970822281167,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.8176100628930818,
+      "fig_recall": 0.8318840579710145,
+      "fig_sgn": 0.8318840579710145,
+      "label_recall": 0.9935483870967742,
+      "num_prec": 0.8105515587529976,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   }
+  },
   "mistral_ocr_plain": {
    "median_secs_page": 1.8,
    "test": {
@@ -17742,6 +19578,1230 @@
       "fig_sgn": 0.9971014492753624,
       "label_recall": 1.0,
       "num_prec": 0.9426048565121413,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   }
+  },
+  "nace_low": {
+   "median_secs_page": 7.5,
+   "test": {
+    "row_recall": 0.4214625703158806,
+    "fig_recall": 0.4643945163747144,
+    "fig_sgn": 0.46268088347296266,
+    "label_recall": 0.45635799734160387,
+    "num_prec": 0.5434247250041044,
+    "rows": 2311,
+    "figures": 5252,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.3050847457627119,
+      "fig_recall": 0.23765432098765432,
+      "fig_sgn": 0.23765432098765432,
+      "label_recall": 0.5765765765765766,
+      "num_prec": 0.4166666666666667,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.3488372093023256,
+      "fig_recall": 0.3953488372093023,
+      "fig_sgn": 0.3953488372093023,
+      "label_recall": 0.5365853658536586,
+      "num_prec": 0.5443037974683544,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.935064935064935,
+      "fig_recall": 0.9326145552560647,
+      "fig_sgn": 0.9326145552560647,
+      "label_recall": 0.8506493506493507,
+      "num_prec": 0.9463519313304721,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9555555555555556,
+      "fig_sgn": 0.9555555555555556,
+      "label_recall": 0.5681818181818182,
+      "num_prec": 0.8,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.8222222222222222,
+      "fig_recall": 0.8602150537634409,
+      "fig_sgn": 0.8602150537634409,
+      "label_recall": 0.5955056179775281,
+      "num_prec": 0.8577405857740585,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.4028776978417266,
+      "fig_recall": 0.49097472924187724,
+      "fig_sgn": 0.48736462093862815,
+      "label_recall": 0.11594202898550725,
+      "num_prec": 0.6592592592592592,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.7202797202797203,
+      "fig_recall": 0.7142857142857143,
+      "fig_sgn": 0.7142857142857143,
+      "label_recall": 0.8014705882352942,
+      "num_prec": 0.6681222707423581,
+      "rows": 143,
+      "figures": 336
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.3008849557522124,
+      "fig_recall": 0.2988505747126437,
+      "fig_sgn": 0.2988505747126437,
+      "label_recall": 0.6036036036036037,
+      "num_prec": 0.4743083003952569,
+      "rows": 113,
+      "figures": 261
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.6808510638297872,
+      "fig_recall": 0.7311827956989247,
+      "fig_sgn": 0.7311827956989247,
+      "label_recall": 0.6956521739130435,
+      "num_prec": 0.5658914728682171,
+      "rows": 47,
+      "figures": 93
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.10526315789473684,
+      "fig_recall": 0.24475524475524477,
+      "fig_sgn": 0.23426573426573427,
+      "label_recall": 0.4609375,
+      "num_prec": 0.32526881720430106,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.6521739130434783,
+      "fig_recall": 0.7443946188340808,
+      "fig_sgn": 0.7443946188340808,
+      "label_recall": 0.2543859649122807,
+      "num_prec": 0.7237237237237237,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.2127659574468085,
+      "fig_recall": 0.3005464480874317,
+      "fig_sgn": 0.29508196721311475,
+      "label_recall": 0.23404255319148937,
+      "num_prec": 0.5026737967914439,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.33088235294117646,
+      "fig_recall": 0.46179401993355484,
+      "fig_sgn": 0.46179401993355484,
+      "label_recall": 0.18461538461538463,
+      "num_prec": 0.6209150326797386,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.8172043010752689,
+      "fig_recall": 0.8945147679324894,
+      "fig_sgn": 0.8945147679324894,
+      "label_recall": 0.5274725274725275,
+      "num_prec": 0.7961165048543689,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.125,
+      "fig_recall": 0.19101123595505617,
+      "fig_sgn": 0.19101123595505617,
+      "label_recall": 0.6551724137931034,
+      "num_prec": 0.5443037974683544,
+      "rows": 88,
+      "figures": 178
+     },
+     "nama_FY2024": {
+      "row_recall": 0.31958762886597936,
+      "fig_recall": 0.5247524752475248,
+      "fig_sgn": 0.504950495049505,
+      "label_recall": 0.125,
+      "num_prec": 0.5429447852760736,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.08029197080291971,
+      "fig_recall": 0.13505747126436782,
+      "fig_sgn": 0.13505747126436782,
+      "label_recall": 0.3383458646616541,
+      "num_prec": 0.24666666666666667,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.48717948717948717,
+      "fig_recall": 0.4868421052631579,
+      "fig_sgn": 0.4868421052631579,
+      "label_recall": 0.6111111111111112,
+      "num_prec": 0.6233766233766234,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.07207207207207207,
+      "fig_recall": 0.09803921568627451,
+      "fig_sgn": 0.09803921568627451,
+      "label_recall": 0.5871559633027523,
+      "num_prec": 0.1201923076923077,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.06060606060606061,
+      "fig_recall": 0.078125,
+      "fig_sgn": 0.078125,
+      "label_recall": 0.46153846153846156,
+      "num_prec": 0.1807909604519774,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.6,
+      "fig_recall": 0.5469879518072289,
+      "fig_sgn": 0.5469879518072289,
+      "label_recall": 0.3221476510067114,
+      "num_prec": 0.9551724137931035,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.20125786163522014,
+      "fig_recall": 0.23478260869565218,
+      "fig_sgn": 0.23478260869565218,
+      "label_recall": 0.32903225806451614,
+      "num_prec": 0.2878464818763326,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   },
+   "dev": {
+    "row_recall": 0.4792243767313019,
+    "fig_recall": 0.5190594941218383,
+    "fig_sgn": 0.5187032418952618,
+    "label_recall": 0.4900662251655629,
+    "num_prec": 0.6595155709342561,
+    "rows": 1083,
+    "figures": 2807,
+    "per_filing": {
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.42201834862385323,
+      "fig_recall": 0.4409090909090909,
+      "fig_sgn": 0.4409090909090909,
+      "label_recall": 0.45714285714285713,
+      "num_prec": 0.5891472868217055,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 0.5918367346938775,
+      "fig_recall": 0.5431034482758621,
+      "fig_sgn": 0.5431034482758621,
+      "label_recall": 0.34814814814814815,
+      "num_prec": 0.9156010230179028,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.6875,
+      "fig_recall": 0.6753472222222222,
+      "fig_sgn": 0.6736111111111112,
+      "label_recall": 0.4861111111111111,
+      "num_prec": 0.951271186440678,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 0.7297297297297297,
+      "fig_recall": 0.7,
+      "fig_sgn": 0.7,
+      "label_recall": 0.6764705882352942,
+      "num_prec": 0.8765432098765432,
+      "rows": 37,
+      "figures": 70
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.1796875,
+      "fig_recall": 0.2198581560283688,
+      "fig_sgn": 0.2198581560283688,
+      "label_recall": 0.14960629921259844,
+      "num_prec": 0.4148148148148148,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.8767123287671232,
+      "num_prec": 0.8820754716981132,
+      "rows": 73,
+      "figures": 148
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.30303030303030304,
+      "fig_recall": 0.37155963302752293,
+      "fig_sgn": 0.37155963302752293,
+      "label_recall": 0.5463917525773195,
+      "num_prec": 0.5121951219512195,
+      "rows": 99,
+      "figures": 218
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.17714285714285713,
+      "fig_recall": 0.22580645161290322,
+      "fig_sgn": 0.22580645161290322,
+      "label_recall": 0.5953757225433526,
+      "num_prec": 0.3522167487684729,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.47674418604651164,
+      "fig_recall": 0.6761904761904762,
+      "fig_sgn": 0.6761904761904762,
+      "label_recall": 0.4117647058823529,
+      "num_prec": 0.45103092783505155,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.7294117647058823,
+      "fig_recall": 0.6870229007633588,
+      "fig_sgn": 0.6870229007633588,
+      "label_recall": 0.6666666666666666,
+      "num_prec": 0.8012048192771084,
+      "rows": 85,
+      "figures": 131
+     }
+    }
+   },
+   "all": {
+    "row_recall": 0.4398939304655274,
+    "fig_recall": 0.4834346693138106,
+    "fig_sgn": 0.4821938205732721,
+    "label_recall": 0.46710923355461675,
+    "num_prec": 0.5807816501503174,
+    "rows": 3394,
+    "figures": 8059,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 0.3050847457627119,
+      "fig_recall": 0.23765432098765432,
+      "fig_sgn": 0.23765432098765432,
+      "label_recall": 0.5765765765765766,
+      "num_prec": 0.4166666666666667,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.3488372093023256,
+      "fig_recall": 0.3953488372093023,
+      "fig_sgn": 0.3953488372093023,
+      "label_recall": 0.5365853658536586,
+      "num_prec": 0.5443037974683544,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 0.935064935064935,
+      "fig_recall": 0.9326145552560647,
+      "fig_sgn": 0.9326145552560647,
+      "label_recall": 0.8506493506493507,
+      "num_prec": 0.9463519313304721,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9555555555555556,
+      "fig_sgn": 0.9555555555555556,
+      "label_recall": 0.5681818181818182,
+      "num_prec": 0.8,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.8222222222222222,
+      "fig_recall": 0.8602150537634409,
+      "fig_sgn": 0.8602150537634409,
+      "label_recall": 0.5955056179775281,
+      "num_prec": 0.8577405857740585,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.4028776978417266,
+      "fig_recall": 0.49097472924187724,
+      "fig_sgn": 0.48736462093862815,
+      "label_recall": 0.11594202898550725,
+      "num_prec": 0.6592592592592592,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.7202797202797203,
+      "fig_recall": 0.7142857142857143,
+      "fig_sgn": 0.7142857142857143,
+      "label_recall": 0.8014705882352942,
+      "num_prec": 0.6681222707423581,
+      "rows": 143,
+      "figures": 336
+     },
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.42201834862385323,
+      "fig_recall": 0.4409090909090909,
+      "fig_sgn": 0.4409090909090909,
+      "label_recall": 0.45714285714285713,
+      "num_prec": 0.5891472868217055,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 0.5918367346938775,
+      "fig_recall": 0.5431034482758621,
+      "fig_sgn": 0.5431034482758621,
+      "label_recall": 0.34814814814814815,
+      "num_prec": 0.9156010230179028,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.6875,
+      "fig_recall": 0.6753472222222222,
+      "fig_sgn": 0.6736111111111112,
+      "label_recall": 0.4861111111111111,
+      "num_prec": 0.951271186440678,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 0.7297297297297297,
+      "fig_recall": 0.7,
+      "fig_sgn": 0.7,
+      "label_recall": 0.6764705882352942,
+      "num_prec": 0.8765432098765432,
+      "rows": 37,
+      "figures": 70
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.3008849557522124,
+      "fig_recall": 0.2988505747126437,
+      "fig_sgn": 0.2988505747126437,
+      "label_recall": 0.6036036036036037,
+      "num_prec": 0.4743083003952569,
+      "rows": 113,
+      "figures": 261
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.1796875,
+      "fig_recall": 0.2198581560283688,
+      "fig_sgn": 0.2198581560283688,
+      "label_recall": 0.14960629921259844,
+      "num_prec": 0.4148148148148148,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.8767123287671232,
+      "num_prec": 0.8820754716981132,
+      "rows": 73,
+      "figures": 148
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.6808510638297872,
+      "fig_recall": 0.7311827956989247,
+      "fig_sgn": 0.7311827956989247,
+      "label_recall": 0.6956521739130435,
+      "num_prec": 0.5658914728682171,
+      "rows": 47,
+      "figures": 93
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.30303030303030304,
+      "fig_recall": 0.37155963302752293,
+      "fig_sgn": 0.37155963302752293,
+      "label_recall": 0.5463917525773195,
+      "num_prec": 0.5121951219512195,
+      "rows": 99,
+      "figures": 218
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.10526315789473684,
+      "fig_recall": 0.24475524475524477,
+      "fig_sgn": 0.23426573426573427,
+      "label_recall": 0.4609375,
+      "num_prec": 0.32526881720430106,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.6521739130434783,
+      "fig_recall": 0.7443946188340808,
+      "fig_sgn": 0.7443946188340808,
+      "label_recall": 0.2543859649122807,
+      "num_prec": 0.7237237237237237,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.2127659574468085,
+      "fig_recall": 0.3005464480874317,
+      "fig_sgn": 0.29508196721311475,
+      "label_recall": 0.23404255319148937,
+      "num_prec": 0.5026737967914439,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 0.33088235294117646,
+      "fig_recall": 0.46179401993355484,
+      "fig_sgn": 0.46179401993355484,
+      "label_recall": 0.18461538461538463,
+      "num_prec": 0.6209150326797386,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.8172043010752689,
+      "fig_recall": 0.8945147679324894,
+      "fig_sgn": 0.8945147679324894,
+      "label_recall": 0.5274725274725275,
+      "num_prec": 0.7961165048543689,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.125,
+      "fig_recall": 0.19101123595505617,
+      "fig_sgn": 0.19101123595505617,
+      "label_recall": 0.6551724137931034,
+      "num_prec": 0.5443037974683544,
+      "rows": 88,
+      "figures": 178
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.17714285714285713,
+      "fig_recall": 0.22580645161290322,
+      "fig_sgn": 0.22580645161290322,
+      "label_recall": 0.5953757225433526,
+      "num_prec": 0.3522167487684729,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 0.47674418604651164,
+      "fig_recall": 0.6761904761904762,
+      "fig_sgn": 0.6761904761904762,
+      "label_recall": 0.4117647058823529,
+      "num_prec": 0.45103092783505155,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.7294117647058823,
+      "fig_recall": 0.6870229007633588,
+      "fig_sgn": 0.6870229007633588,
+      "label_recall": 0.6666666666666666,
+      "num_prec": 0.8012048192771084,
+      "rows": 85,
+      "figures": 131
+     },
+     "nama_FY2024": {
+      "row_recall": 0.31958762886597936,
+      "fig_recall": 0.5247524752475248,
+      "fig_sgn": 0.504950495049505,
+      "label_recall": 0.125,
+      "num_prec": 0.5429447852760736,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.08029197080291971,
+      "fig_recall": 0.13505747126436782,
+      "fig_sgn": 0.13505747126436782,
+      "label_recall": 0.3383458646616541,
+      "num_prec": 0.24666666666666667,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.48717948717948717,
+      "fig_recall": 0.4868421052631579,
+      "fig_sgn": 0.4868421052631579,
+      "label_recall": 0.6111111111111112,
+      "num_prec": 0.6233766233766234,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.07207207207207207,
+      "fig_recall": 0.09803921568627451,
+      "fig_sgn": 0.09803921568627451,
+      "label_recall": 0.5871559633027523,
+      "num_prec": 0.1201923076923077,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.06060606060606061,
+      "fig_recall": 0.078125,
+      "fig_sgn": 0.078125,
+      "label_recall": 0.46153846153846156,
+      "num_prec": 0.1807909604519774,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.6,
+      "fig_recall": 0.5469879518072289,
+      "fig_sgn": 0.5469879518072289,
+      "label_recall": 0.3221476510067114,
+      "num_prec": 0.9551724137931035,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.20125786163522014,
+      "fig_recall": 0.23478260869565218,
+      "fig_sgn": 0.23478260869565218,
+      "label_recall": 0.32903225806451614,
+      "num_prec": 0.2878464818763326,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   }
+  },
+  "nace_medium": {
+   "median_secs_page": 8.2,
+   "test": {
+    "row_recall": 0.8589355257464301,
+    "fig_recall": 0.8318735719725818,
+    "fig_sgn": 0.8313023610053313,
+    "label_recall": 0.8608772707133363,
+    "num_prec": 0.856425855513308,
+    "rows": 2311,
+    "figures": 5252,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 1.0,
+      "fig_recall": 0.9969135802469136,
+      "fig_sgn": 0.9969135802469136,
+      "label_recall": 1.0,
+      "num_prec": 0.9460093896713615,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.9069767441860465,
+      "fig_recall": 0.8837209302325582,
+      "fig_sgn": 0.8837209302325582,
+      "label_recall": 0.8536585365853658,
+      "num_prec": 0.7380952380952381,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9805194805194806,
+      "num_prec": 0.9423459244532804,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9666666666666667,
+      "fig_sgn": 0.9666666666666667,
+      "label_recall": 1.0,
+      "num_prec": 0.8359375,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.9,
+      "fig_recall": 0.9247311827956989,
+      "fig_sgn": 0.9247311827956989,
+      "label_recall": 0.7640449438202247,
+      "num_prec": 0.8888888888888888,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.7697841726618705,
+      "fig_recall": 0.6859205776173285,
+      "fig_sgn": 0.6787003610108303,
+      "label_recall": 0.7463768115942029,
+      "num_prec": 0.8790035587188612,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.958041958041958,
+      "fig_recall": 0.9732142857142857,
+      "fig_sgn": 0.9732142857142857,
+      "label_recall": 0.9485294117647058,
+      "num_prec": 0.9209932279909706,
+      "rows": 143,
+      "figures": 336
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.8761061946902655,
+      "fig_recall": 0.7586206896551724,
+      "fig_sgn": 0.7586206896551724,
+      "label_recall": 0.9279279279279279,
+      "num_prec": 0.7635327635327636,
+      "rows": 113,
+      "figures": 261
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9787234042553191,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 0.8695652173913043,
+      "num_prec": 0.8442622950819673,
+      "rows": 47,
+      "figures": 93
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.9097744360902256,
+      "fig_recall": 0.8216783216783217,
+      "fig_sgn": 0.8216783216783217,
+      "label_recall": 0.953125,
+      "num_prec": 0.7636363636363637,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.9304347826086956,
+      "fig_recall": 0.9282511210762332,
+      "fig_sgn": 0.9282511210762332,
+      "label_recall": 0.8771929824561403,
+      "num_prec": 0.8304093567251462,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.3191489361702128,
+      "fig_recall": 0.41530054644808745,
+      "fig_sgn": 0.4098360655737705,
+      "label_recall": 0.24468085106382978,
+      "num_prec": 0.639344262295082,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9852216748768473,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.9247311827956989,
+      "fig_recall": 0.9578059071729957,
+      "fig_sgn": 0.9578059071729957,
+      "label_recall": 0.8571428571428571,
+      "num_prec": 0.8806451612903226,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9318181818181818,
+      "fig_recall": 0.9325842696629213,
+      "fig_sgn": 0.9325842696629213,
+      "label_recall": 0.8735632183908046,
+      "num_prec": 0.8755760368663594,
+      "rows": 88,
+      "figures": 178
+     },
+     "nama_FY2024": {
+      "row_recall": 0.7525773195876289,
+      "fig_recall": 0.8366336633663366,
+      "fig_sgn": 0.8366336633663366,
+      "label_recall": 0.7291666666666666,
+      "num_prec": 0.7420289855072464,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.7883211678832117,
+      "fig_recall": 0.6839080459770115,
+      "fig_sgn": 0.6839080459770115,
+      "label_recall": 0.8571428571428571,
+      "num_prec": 0.8297297297297297,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.6410256410256411,
+      "fig_recall": 0.5131578947368421,
+      "fig_sgn": 0.5131578947368421,
+      "label_recall": 0.9166666666666666,
+      "num_prec": 0.7,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.7027027027027027,
+      "fig_recall": 0.7450980392156863,
+      "fig_sgn": 0.7450980392156863,
+      "label_recall": 0.5596330275229358,
+      "num_prec": 0.9140127388535032,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9242424242424242,
+      "fig_recall": 0.859375,
+      "fig_sgn": 0.859375,
+      "label_recall": 0.9846153846153847,
+      "num_prec": 0.7883597883597884,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.78,
+      "fig_recall": 0.5855421686746988,
+      "fig_sgn": 0.5855421686746988,
+      "label_recall": 0.9731543624161074,
+      "num_prec": 0.8784530386740331,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.8553459119496856,
+      "fig_recall": 0.855072463768116,
+      "fig_sgn": 0.855072463768116,
+      "label_recall": 0.9225806451612903,
+      "num_prec": 0.8477272727272728,
+      "rows": 159,
+      "figures": 345
+     }
+    }
+   },
+   "dev": {
+    "row_recall": 0.9067405355493998,
+    "fig_recall": 0.93836836480228,
+    "fig_sgn": 0.93836836480228,
+    "label_recall": 0.8855250709555346,
+    "num_prec": 0.8973727422003284,
+    "rows": 1083,
+    "figures": 2807,
+    "per_filing": {
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.7614678899082569,
+      "fig_recall": 0.75,
+      "fig_sgn": 0.75,
+      "label_recall": 0.9428571428571428,
+      "num_prec": 0.9561752988047809,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.8592592592592593,
+      "num_prec": 0.9559471365638766,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.9930555555555556,
+      "fig_recall": 0.9982638888888888,
+      "fig_sgn": 0.9982638888888888,
+      "label_recall": 0.8888888888888888,
+      "num_prec": 0.9550724637681159,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 0.972972972972973,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.868421052631579,
+      "rows": 37,
+      "figures": 70
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.9140625,
+      "fig_recall": 0.9574468085106383,
+      "fig_sgn": 0.9574468085106383,
+      "label_recall": 0.8976377952755905,
+      "num_prec": 0.8779220779220779,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 0.9315068493150684,
+      "fig_recall": 0.9594594594594594,
+      "fig_sgn": 0.9594594594594594,
+      "label_recall": 0.9726027397260274,
+      "num_prec": 0.8283261802575107,
+      "rows": 73,
+      "figures": 148
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.5656565656565656,
+      "fig_recall": 0.6146788990825688,
+      "fig_sgn": 0.6146788990825688,
+      "label_recall": 0.4845360824742268,
+      "num_prec": 0.7982062780269058,
+      "rows": 99,
+      "figures": 218
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.9542857142857143,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 0.9653179190751445,
+      "num_prec": 0.963855421686747,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9176470588235294,
+      "num_prec": 0.7182320441988951,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.9294117647058824,
+      "fig_recall": 0.9465648854961832,
+      "fig_sgn": 0.9465648854961832,
+      "label_recall": 0.9761904761904762,
+      "num_prec": 0.8341013824884793,
+      "rows": 85,
+      "figures": 131
+     }
+    }
+   },
+   "all": {
+    "row_recall": 0.8741897466116676,
+    "fig_recall": 0.8689663729991314,
+    "fig_sgn": 0.8685941183769699,
+    "label_recall": 0.8687386843693422,
+    "num_prec": 0.8710528888454394,
+    "rows": 3394,
+    "figures": 8059,
+    "per_filing": {
+     "al_khodari_FY2018": {
+      "row_recall": 1.0,
+      "fig_recall": 0.9969135802469136,
+      "fig_sgn": 0.9969135802469136,
+      "label_recall": 1.0,
+      "num_prec": 0.9460093896713615,
+      "rows": 118,
+      "figures": 324
+     },
+     "al_mubarak_usd_trade_fund_H1-2022": {
+      "row_recall": 0.9069767441860465,
+      "fig_recall": 0.8837209302325582,
+      "fig_sgn": 0.8837209302325582,
+      "label_recall": 0.8536585365853658,
+      "num_prec": 0.7380952380952381,
+      "rows": 43,
+      "figures": 86
+     },
+     "al_rajhi_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9805194805194806,
+      "num_prec": 0.9423459244532804,
+      "rows": 154,
+      "figures": 371
+     },
+     "alahli_global_trade_fund_H1-2023": {
+      "row_recall": 0.9565217391304348,
+      "fig_recall": 0.9666666666666667,
+      "fig_sgn": 0.9666666666666667,
+      "label_recall": 1.0,
+      "num_prec": 0.8359375,
+      "rows": 46,
+      "figures": 90
+     },
+     "alif_meem_yaa_FY2023": {
+      "row_recall": 0.9,
+      "fig_recall": 0.9247311827956989,
+      "fig_sgn": 0.9247311827956989,
+      "label_recall": 0.7640449438202247,
+      "num_prec": 0.8888888888888888,
+      "rows": 90,
+      "figures": 186
+     },
+     "alinma_tokio_marine_FY2022": {
+      "row_recall": 0.7697841726618705,
+      "fig_recall": 0.6859205776173285,
+      "fig_sgn": 0.6787003610108303,
+      "label_recall": 0.7463768115942029,
+      "num_prec": 0.8790035587188612,
+      "rows": 139,
+      "figures": 277
+     },
+     "almarai_FY2024": {
+      "row_recall": 0.958041958041958,
+      "fig_recall": 0.9732142857142857,
+      "fig_sgn": 0.9732142857142857,
+      "label_recall": 0.9485294117647058,
+      "num_prec": 0.9209932279909706,
+      "rows": 143,
+      "figures": 336
+     },
+     "arabian_drilling_FY2024": {
+      "row_recall": 0.7614678899082569,
+      "fig_recall": 0.75,
+      "fig_sgn": 0.75,
+      "label_recall": 0.9428571428571428,
+      "num_prec": 0.9561752988047809,
+      "rows": 109,
+      "figures": 220
+     },
+     "aramco_FY2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.8592592592592593,
+      "num_prec": 0.9559471365638766,
+      "rows": 147,
+      "figures": 580
+     },
+     "aramco_FY2024": {
+      "row_recall": 0.9930555555555556,
+      "fig_recall": 0.9982638888888888,
+      "fig_sgn": 0.9982638888888888,
+      "label_recall": 0.8888888888888888,
+      "num_prec": 0.9550724637681159,
+      "rows": 144,
+      "figures": 576
+     },
+     "ashmore_saudi_equity_fund_H1-2020": {
+      "row_recall": 0.972972972972973,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.868421052631579,
+      "rows": 37,
+      "figures": 70
+     },
+     "bahri_FY2024": {
+      "row_recall": 0.8761061946902655,
+      "fig_recall": 0.7586206896551724,
+      "fig_sgn": 0.7586206896551724,
+      "label_recall": 0.9279279279279279,
+      "num_prec": 0.7635327635327636,
+      "rows": 113,
+      "figures": 261
+     },
+     "bank_aljazira_FY2024": {
+      "row_recall": 0.9140625,
+      "fig_recall": 0.9574468085106383,
+      "fig_sgn": 0.9574468085106383,
+      "label_recall": 0.8976377952755905,
+      "num_prec": 0.8779220779220779,
+      "rows": 128,
+      "figures": 282
+     },
+     "bishah_FY2016": {
+      "row_recall": 0.9315068493150684,
+      "fig_recall": 0.9594594594594594,
+      "fig_sgn": 0.9594594594594594,
+      "label_recall": 0.9726027397260274,
+      "num_prec": 0.8283261802575107,
+      "rows": 73,
+      "figures": 148
+     },
+     "blom_saudi_fund_FY2022": {
+      "row_recall": 0.9787234042553191,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 0.8695652173913043,
+      "num_prec": 0.8442622950819673,
+      "rows": 47,
+      "figures": 93
+     },
+     "buruj_FY2024": {
+      "row_recall": 0.5656565656565656,
+      "fig_recall": 0.6146788990825688,
+      "fig_sgn": 0.6146788990825688,
+      "label_recall": 0.4845360824742268,
+      "num_prec": 0.7982062780269058,
+      "rows": 99,
+      "figures": 218
+     },
+     "cenomi_retail_FY2024": {
+      "row_recall": 0.9097744360902256,
+      "fig_recall": 0.8216783216783217,
+      "fig_sgn": 0.8216783216783217,
+      "label_recall": 0.953125,
+      "num_prec": 0.7636363636363637,
+      "rows": 133,
+      "figures": 286
+     },
+     "halwani_FY2024": {
+      "row_recall": 0.9304347826086956,
+      "fig_recall": 0.9282511210762332,
+      "fig_sgn": 0.9282511210762332,
+      "label_recall": 0.8771929824561403,
+      "num_prec": 0.8304093567251462,
+      "rows": 115,
+      "figures": 223
+     },
+     "herfy_FY2024": {
+      "row_recall": 0.3191489361702128,
+      "fig_recall": 0.41530054644808745,
+      "fig_sgn": 0.4098360655737705,
+      "label_recall": 0.24468085106382978,
+      "num_prec": 0.639344262295082,
+      "rows": 94,
+      "figures": 183
+     },
+     "kingdom_holding_FY2024": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 1.0,
+      "num_prec": 0.9852216748768473,
+      "rows": 136,
+      "figures": 301
+     },
+     "liva_FY2024": {
+      "row_recall": 0.9247311827956989,
+      "fig_recall": 0.9578059071729957,
+      "fig_sgn": 0.9578059071729957,
+      "label_recall": 0.8571428571428571,
+      "num_prec": 0.8806451612903226,
+      "rows": 93,
+      "figures": 237
+     },
+     "maadaniyah_Q1-2025": {
+      "row_recall": 0.9318181818181818,
+      "fig_recall": 0.9325842696629213,
+      "fig_sgn": 0.9325842696629213,
+      "label_recall": 0.8735632183908046,
+      "num_prec": 0.8755760368663594,
+      "rows": 88,
+      "figures": 178
+     },
+     "maaden_FY2024": {
+      "row_recall": 0.9542857142857143,
+      "fig_recall": 0.978494623655914,
+      "fig_sgn": 0.978494623655914,
+      "label_recall": 0.9653179190751445,
+      "num_prec": 0.963855421686747,
+      "rows": 175,
+      "figures": 372
+     },
+     "mesc_H1-2023": {
+      "row_recall": 1.0,
+      "fig_recall": 1.0,
+      "fig_sgn": 1.0,
+      "label_recall": 0.9176470588235294,
+      "num_prec": 0.7182320441988951,
+      "rows": 86,
+      "figures": 210
+     },
+     "musharaka_reit_FY2019": {
+      "row_recall": 0.9294117647058824,
+      "fig_recall": 0.9465648854961832,
+      "fig_sgn": 0.9465648854961832,
+      "label_recall": 0.9761904761904762,
+      "num_prec": 0.8341013824884793,
+      "rows": 85,
+      "figures": 131
+     },
+     "nama_FY2024": {
+      "row_recall": 0.7525773195876289,
+      "fig_recall": 0.8366336633663366,
+      "fig_sgn": 0.8366336633663366,
+      "label_recall": 0.7291666666666666,
+      "num_prec": 0.7420289855072464,
+      "rows": 97,
+      "figures": 202
+     },
+     "othaim_FY2024": {
+      "row_recall": 0.7883211678832117,
+      "fig_recall": 0.6839080459770115,
+      "fig_sgn": 0.6839080459770115,
+      "label_recall": 0.8571428571428571,
+      "num_prec": 0.8297297297297297,
+      "rows": 137,
+      "figures": 348
+     },
+     "riyad_aliemar_fund_FY2023": {
+      "row_recall": 0.6410256410256411,
+      "fig_recall": 0.5131578947368421,
+      "fig_sgn": 0.5131578947368421,
+      "label_recall": 0.9166666666666666,
+      "num_prec": 0.7,
+      "rows": 39,
+      "figures": 76
+     },
+     "saudi_re_FY2024": {
+      "row_recall": 0.7027027027027027,
+      "fig_recall": 0.7450980392156863,
+      "fig_sgn": 0.7450980392156863,
+      "label_recall": 0.5596330275229358,
+      "num_prec": 0.9140127388535032,
+      "rows": 111,
+      "figures": 306
+     },
+     "sedco_capital_reit_FY2022": {
+      "row_recall": 0.9242424242424242,
+      "fig_recall": 0.859375,
+      "fig_sgn": 0.859375,
+      "label_recall": 0.9846153846153847,
+      "num_prec": 0.7883597883597884,
+      "rows": 66,
+      "figures": 128
+     },
+     "snb_FY2024": {
+      "row_recall": 0.78,
+      "fig_recall": 0.5855421686746988,
+      "fig_sgn": 0.5855421686746988,
+      "label_recall": 0.9731543624161074,
+      "num_prec": 0.8784530386740331,
+      "rows": 150,
+      "figures": 415
+     },
+     "taiba_FY2024": {
+      "row_recall": 0.8553459119496856,
+      "fig_recall": 0.855072463768116,
+      "fig_sgn": 0.855072463768116,
+      "label_recall": 0.9225806451612903,
+      "num_prec": 0.8477272727272728,
       "rows": 159,
       "figures": 345
      }
@@ -26640,6 +29700,66 @@
     "secs": null
    },
    {
+    "config": "lightonocr3_08b_plain",
+    "system": "LightOnOCR-3 0.8B",
+    "params": "0.85B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.418866291648637,
+    "sd": null,
+    "ci": [
+     0.30012610340479196,
+     0.5495317890586496
+    ],
+    "fig": 0.5232292460015232,
+    "sign": 0.5198019801980198,
+    "label": 0.974745237040319,
+    "prec": 0.647049207127677,
+    "secs": 5.2
+   },
+   {
+    "config": "lightonocr3_1b_plain",
+    "system": "LightOnOCR-3 1B",
+    "params": "1.01B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+    "table": "main",
+    "runs": 1,
+    "row": 0.9221116399826915,
+    "sd": null,
+    "ci": [
+     0.8895655704425497,
+     0.9530165509877202
+    ],
+    "fig": 0.9215536938309216,
+    "sign": 0.9204112718964204,
+    "label": 0.9552503322995126,
+    "prec": 0.8824817518248175,
+    "secs": 8.0
+   },
+   {
+    "config": "lightonocr3_4b_plain",
+    "system": "LightOnOCR-3 4B",
+    "params": "4.54B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8598009519688447,
+    "sd": null,
+    "ci": [
+     0.8134221799143265,
+     0.9058256679807272
+    ],
+    "fig": 0.8857578065498858,
+    "sign": 0.8857578065498858,
+    "label": 0.969428444838281,
+    "prec": 0.8537900874635569,
+    "secs": 14.05
+   },
+   {
     "config": "mistral_ocr_plain",
     "system": "Mistral OCR",
     "params": "–",
@@ -26658,6 +29778,46 @@
     "label": 0.9827204253433761,
     "prec": 0.9139707987403378,
     "secs": 1.8
+   },
+   {
+    "config": "nace_low",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode low (default), markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.4214625703158806,
+    "sd": null,
+    "ci": [
+     0.30305882352941177,
+     0.5501493811352967
+    ],
+    "fig": 0.4643945163747144,
+    "sign": 0.46268088347296266,
+    "label": 0.45635799734160387,
+    "prec": 0.5434247250041044,
+    "secs": 7.5
+   },
+   {
+    "config": "nace_medium",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode medium, markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8589355257464301,
+    "sd": null,
+    "ci": [
+     0.7917369308600337,
+     0.9136137494346449
+    ],
+    "fig": 0.8318735719725818,
+    "sign": 0.8313023610053313,
+    "label": 0.8608772707133363,
+    "prec": 0.856425855513308,
+    "secs": 8.2
    },
    {
     "config": "nanonets_plain",
@@ -27202,6 +30362,66 @@
     "secs": null
    },
    {
+    "config": "lightonocr3_08b_plain",
+    "system": "LightOnOCR-3 0.8B",
+    "params": "0.85B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.6528162511542013,
+    "sd": null,
+    "ci": [
+     0.4281742354031511,
+     0.8766519823788547
+    ],
+    "fig": 0.774848592803705,
+    "sign": 0.7716423227645173,
+    "label": 0.9631031220435194,
+    "prec": 0.7676600441501104,
+    "secs": 5.2
+   },
+   {
+    "config": "lightonocr3_1b_plain",
+    "system": "LightOnOCR-3 1B",
+    "params": "1.01B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8956602031394275,
+    "sd": null,
+    "ci": [
+     0.8328840970350404,
+     0.9556786703601108
+    ],
+    "fig": 0.9543997149982187,
+    "sign": 0.9540434627716423,
+    "label": 0.9839167455061495,
+    "prec": 0.8701399688958009,
+    "secs": 8.0
+   },
+   {
+    "config": "lightonocr3_4b_plain",
+    "system": "LightOnOCR-3 4B",
+    "params": "4.54B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8836565096952909,
+    "sd": null,
+    "ci": [
+     0.8003533568904594,
+     0.960880195599022
+    ],
+    "fig": 0.9276807980049875,
+    "sign": 0.9276807980049875,
+    "label": 0.9583727530747398,
+    "prec": 0.8684909670563231,
+    "secs": 14.05
+   },
+   {
     "config": "mistral_ocr_plain",
     "system": "Mistral OCR",
     "params": "–",
@@ -27220,6 +30440,46 @@
     "label": 0.9157994323557237,
     "prec": 0.9146405919661733,
     "secs": 1.8
+   },
+   {
+    "config": "nace_low",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode low (default), markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.4792243767313019,
+    "sd": null,
+    "ci": [
+     0.33558178752107926,
+     0.652129817444219
+    ],
+    "fig": 0.5190594941218383,
+    "sign": 0.5187032418952618,
+    "label": 0.4900662251655629,
+    "prec": 0.6595155709342561,
+    "secs": 7.5
+   },
+   {
+    "config": "nace_medium",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode medium, markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.9067405355493998,
+    "sd": null,
+    "ci": [
+     0.8114511352418559,
+     0.9716193656093489
+    ],
+    "fig": 0.93836836480228,
+    "sign": 0.93836836480228,
+    "label": 0.8855250709555346,
+    "prec": 0.8973727422003284,
+    "secs": 8.2
    },
    {
     "config": "nanonets_plain",
@@ -27764,6 +31024,66 @@
     "secs": null
    },
    {
+    "config": "lightonocr3_08b_plain",
+    "system": "LightOnOCR-3 0.8B",
+    "params": "0.85B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.4935179728933412,
+    "sd": null,
+    "ci": [
+     0.37669718976949795,
+     0.6213773761296354
+    ],
+    "fig": 0.6108698349671176,
+    "sign": 0.6075195433676635,
+    "label": 0.9710319855159928,
+    "prec": 0.6919207473565342,
+    "secs": 5.2
+   },
+   {
+    "config": "lightonocr3_1b_plain",
+    "system": "LightOnOCR-3 1B",
+    "params": "1.01B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+    "table": "main",
+    "runs": 1,
+    "row": 0.913671184443135,
+    "sd": null,
+    "ci": [
+     0.8838582677165354,
+     0.9427639383155397
+    ],
+    "fig": 0.9329941680109195,
+    "sign": 0.9321255738925425,
+    "label": 0.9643934821967411,
+    "prec": 0.8780351139335076,
+    "secs": 8.0
+   },
+   {
+    "config": "lightonocr3_4b_plain",
+    "system": "LightOnOCR-3 4B",
+    "params": "4.54B",
+    "how": "self-hosted, 1×H100",
+    "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8674130819092516,
+    "sd": null,
+    "ci": [
+     0.8224661071659135,
+     0.9078651685393259
+    ],
+    "fig": 0.9003598461347562,
+    "sign": 0.9003598461347562,
+    "label": 0.9659022329511164,
+    "prec": 0.8589984939759037,
+    "secs": 14.05
+   },
+   {
     "config": "mistral_ocr_plain",
     "system": "Mistral OCR",
     "params": "–",
@@ -27782,6 +31102,46 @@
     "label": 0.9613759806879904,
     "prec": 0.9142061281337047,
     "secs": 1.8
+   },
+   {
+    "config": "nace_low",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode low (default), markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.4398939304655274,
+    "sd": null,
+    "ci": [
+     0.3457355466514024,
+     0.5428485214242608
+    ],
+    "fig": 0.4834346693138106,
+    "sign": 0.4821938205732721,
+    "label": 0.46710923355461675,
+    "prec": 0.5807816501503174,
+    "secs": 7.5
+   },
+   {
+    "config": "nace_medium",
+    "system": "nace.ai Parse",
+    "params": "–",
+    "how": "API",
+    "setting": "200 dpi page, parse mode medium, markdown with HTML tables",
+    "table": "main",
+    "runs": 1,
+    "row": 0.8741897466116676,
+    "sd": null,
+    "ci": [
+     0.8218780251694094,
+     0.918972824731987
+    ],
+    "fig": 0.8689663729991314,
+    "sign": 0.8685941183769699,
+    "label": 0.8687386843693422,
+    "prec": 0.8710528888454394,
+    "secs": 8.2
    },
    {
     "config": "nanonets_plain",
@@ -28083,17 +31443,44 @@
    "system": "Qari-OCR v0.3",
    "setting": "200 dpi page, vendor prompt",
    "conc": "16",
-   "wall": 72,
-   "ppm": 131.66666666666669,
+   "wall": null,
+   "ppm": null,
    "median": 5.75
+  },
+  {
+   "run": "lightonocr3_08b_plain",
+   "system": "LightOnOCR-3 0.8B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "conc": "16",
+   "wall": 60,
+   "ppm": 158.0,
+   "median": 5.2
+  },
+  {
+   "run": "lightonocr3_1b_plain",
+   "system": "LightOnOCR-3 1B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt)",
+   "conc": "16",
+   "wall": 90,
+   "ppm": 105.33333333333333,
+   "median": 8.0
+  },
+  {
+   "run": "lightonocr3_4b_plain",
+   "system": "LightOnOCR-3 4B",
+   "setting": "200 dpi page, vendor transcription mode (no text prompt), thinking off",
+   "conc": "16",
+   "wall": 154,
+   "ppm": 61.55844155844156,
+   "median": 14.05
   },
   {
    "run": "paddleocr_vl16_plain",
    "system": "PaddleOCR-VL-1.6",
    "setting": "vendor pipeline: layout detection + VLM (vLLM)",
    "conc": "pipeline, 16 VLM requests in flight",
-   "wall": 72,
-   "ppm": 131.66666666666669,
+   "wall": null,
+   "ppm": null,
    "median": null
   },
   {
@@ -28229,6 +31616,22 @@
    "n": 1,
    "providers": {
     "Cohere": 158
+   }
+  },
+  {
+   "system": "nace.ai Parse",
+   "route": "vendor API",
+   "n": 1,
+   "providers": {
+    "?": 158
+   }
+  },
+  {
+   "system": "nace.ai Parse",
+   "route": "vendor API",
+   "n": 1,
+   "providers": {
+    "?": 158
    }
   }
  ],
@@ -28374,6 +31777,21 @@
    "images in a digital PDF": 0.9507936507936507,
    "text layer": 0.9185363247863247
   },
+  "lightonocr3_1b_plain": {
+   "fully scanned": 0.927038626609442,
+   "images in a digital PDF": 0.8922619047619048,
+   "text layer": 0.9375
+  },
+  "nace_medium": {
+   "fully scanned": 0.9206008583690987,
+   "images in a digital PDF": 0.8351190476190476,
+   "text layer": 0.9094551282051282
+  },
+  "lightonocr3_4b_plain": {
+   "fully scanned": 0.8261802575107297,
+   "images in a digital PDF": 0.843452380952381,
+   "text layer": 0.9150641025641025
+  },
   "qwen36_27b_plain": {
    "fully scanned": 0.9570815450643777,
    "images in a digital PDF": 0.9035714285714286,
@@ -28413,6 +31831,16 @@
    "fully scanned": 0.4270386266094421,
    "images in a digital PDF": 0.5404761904761904,
    "text layer": 0.49439102564102566
+  },
+  "lightonocr3_08b_plain": {
+   "fully scanned": 0.36909871244635195,
+   "images in a digital PDF": 0.4166666666666667,
+   "text layer": 0.6434294871794872
+  },
+  "nace_low": {
+   "fully scanned": 0.45064377682403434,
+   "images in a digital PDF": 0.3482142857142857,
+   "text layer": 0.5592948717948718
   },
   "nanonets_plain": {
    "fully scanned": 0.3798283261802575,

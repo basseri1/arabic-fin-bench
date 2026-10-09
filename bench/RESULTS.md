@@ -14,20 +14,25 @@ Every run was made from the same NVIDIA H100 virtual machine: open models served
 | 4 | dots.mocr | 3.0B | self-hosted, 1×H100 | adopted pipeline: CLAHE, structure retry, band-merge, verification | 3 | 96.4% ± 0.8 | 94.2%–98.3% | 95.9% | 95.9% | 86.0% | 91.1% |
 | 5 | Chandra OCR 2 | 5.3B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 95.5% | 90.9%–99.2% | 97.8% | 97.7% | 99.1% | 90.8% |
 | 6 | dots.mocr | 3.0B | self-hosted, 1×H100 | out of the box (200 dpi page) | 3 | 93.7% ± 0.8 | 89.8%–97.1% | 96.3% | 96.3% | 84.8% | 91.0% |
-| 7 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 84.4% | 77.5%–90.9% | 82.4% | 82.4% | 82.3% | 87.5% |
-| 8 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 70.6% | 63.2%–77.7% | 68.5% | 68.3% | 90.3% | 88.0% |
-| 9 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 70.2% | 61.3%–78.9% | 81.5% | 81.5% | 98.3% | 74.2% |
-| 10 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 69.7% | 61.5%–77.8% | 75.4% | 75.4% | 97.7% | 74.5% |
-| 11 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.1% | 54.7%–72.7% | 72.5% | 72.4% | 96.6% | 74.4% |
-| 12 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 62.8% | 54.0%–71.6% | 69.2% | 69.0% | 97.2% | 85.5% |
-| 13 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 57.8% | 49.7%–66.0% | 69.9% | 69.7% | 95.1% | 78.7% |
-| 14 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 45.0% | 33.4%–57.8% | 61.9% | 51.7% | 98.1% | 62.7% |
-| 15 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 34.0% | 23.7%–46.3% | 41.9% | 39.9% | 85.6% | 44.1% |
-| 16 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 15.3% | 2.1%–32.5% | 19.6% | 19.3% | 66.0% | 22.6% |
-| 17 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 10.9% | 0.5%–24.3% | 12.4% | 12.1% | 33.8% | 25.2% |
-| 18 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 8.5% | 0.1%–19.8% | 7.4% | 7.2% | 0.7% | 10.2% |
-| 19 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 8.2% | 0.1%–19.2% | 9.0% | 8.0% | 0.6% | 21.4% |
-| 20 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.9% | 0.0%–4.8% | 2.4% | 2.2% | 58.2% | 11.8% |
+| 7 | LightOnOCR-3 1B | 1.01B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt) | 1 | 92.2% | 89.0%–95.3% | 92.2% | 92.0% | 95.5% | 88.2% |
+| 8 | LightOnOCR-3 4B | 4.54B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 86.0% | 81.3%–90.6% | 88.6% | 88.6% | 96.9% | 85.4% |
+| 9 | nace.ai Parse | – | API | 200 dpi page, parse mode medium, markdown with HTML tables | 1 | 85.9% | 79.2%–91.4% | 83.2% | 83.1% | 86.1% | 85.6% |
+| 10 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 84.4% | 77.5%–90.9% | 82.4% | 82.4% | 82.3% | 87.5% |
+| 11 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 70.6% | 63.2%–77.7% | 68.5% | 68.3% | 90.3% | 88.0% |
+| 12 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 70.2% | 61.3%–78.9% | 81.5% | 81.5% | 98.3% | 74.2% |
+| 13 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 69.7% | 61.5%–77.8% | 75.4% | 75.4% | 97.7% | 74.5% |
+| 14 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.1% | 54.7%–72.7% | 72.5% | 72.4% | 96.6% | 74.4% |
+| 15 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 62.8% | 54.0%–71.6% | 69.2% | 69.0% | 97.2% | 85.5% |
+| 16 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 57.8% | 49.7%–66.0% | 69.9% | 69.7% | 95.1% | 78.7% |
+| 17 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 45.0% | 33.4%–57.8% | 61.9% | 51.7% | 98.1% | 62.7% |
+| 18 | nace.ai Parse | – | API | 200 dpi page, parse mode low (default), markdown with HTML tables | 1 | 42.1% | 30.3%–55.0% | 46.4% | 46.3% | 45.6% | 54.3% |
+| 19 | LightOnOCR-3 0.8B | 0.85B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 41.9% | 30.0%–55.0% | 52.3% | 52.0% | 97.5% | 64.7% |
+| 20 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 34.0% | 23.7%–46.3% | 41.9% | 39.9% | 85.6% | 44.1% |
+| 21 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 15.3% | 2.1%–32.5% | 19.6% | 19.3% | 66.0% | 22.6% |
+| 22 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 10.9% | 0.5%–24.3% | 12.4% | 12.1% | 33.8% | 25.2% |
+| 23 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 8.5% | 0.1%–19.8% | 7.4% | 7.2% | 0.7% | 10.2% |
+| 24 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 8.2% | 0.1%–19.2% | 9.0% | 8.0% | 0.6% | 21.4% |
+| 25 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.9% | 0.0%–4.8% | 2.4% | 2.2% | 58.2% | 11.8% |
 
 ## Development split (10 filings)
 
@@ -38,21 +43,26 @@ Every run was made from the same NVIDIA H100 virtual machine: open models served
 | 3 | LandingAI ADE | – | API | 200 dpi page, DPT-3 Pro (dpt-3-pro-20260710), Parse Jobs, standard tier | 1 | 98.3% | 96.2%–99.6% | 99.1% | 99.1% | 98.4% | 90.1% |
 | 4 | Cohere Parse | 2.3B | API | 200 dpi page, parse-v5.0, markdown output | 1 | 97.8% | 95.2%–99.4% | 98.7% | 98.7% | 98.7% | 89.8% |
 | 5 | dots.mocr | 3.0B | self-hosted, 1×H100 | adopted pipeline: CLAHE, structure retry, band-merge, verification | 3 | 92.9% ± 0.6 | 82.4%–99.3% | 94.7% | 94.7% | 71.9% | 87.8% |
-| 6 | dots.mocr | 3.0B | self-hosted, 1×H100 | out of the box (200 dpi page) | 3 | 87.9% ± 0.9 | 74.0%–96.7% | 92.4% | 92.4% | 71.0% | 87.3% |
-| 7 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 83.0% | 73.1%–91.8% | 85.7% | 85.5% | 83.3% | 90.1% |
-| 8 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 80.1% | 67.6%–92.0% | 85.1% | 85.0% | 88.1% | 84.2% |
-| 9 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 78.9% | 59.6%–93.5% | 73.2% | 73.2% | 74.5% | 92.5% |
-| 10 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 77.4% | 66.3%–89.4% | 88.1% | 88.1% | 97.8% | 77.3% |
-| 11 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 73.2% | 51.6%–92.6% | 84.1% | 84.1% | 95.6% | 76.8% |
-| 12 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.9% | 52.9%–78.9% | 69.1% | 69.1% | 90.8% | 79.0% |
-| 13 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 63.3% | 48.0%–78.5% | 71.4% | 71.3% | 94.6% | 81.1% |
-| 14 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 63.1% | 45.7%–80.0% | 79.1% | 71.7% | 97.3% | 75.0% |
-| 15 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 53.6% | 32.9%–76.0% | 69.2% | 66.4% | 67.3% | 61.1% |
-| 16 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 38.5% | 9.9%–70.4% | 51.8% | 51.8% | 78.7% | 53.5% |
-| 17 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 35.9% | 7.5%–67.2% | 48.0% | 47.9% | 22.4% | 50.1% |
-| 18 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 22.2% | 5.4%–41.4% | 38.4% | 37.4% | 2.1% | 40.6% |
-| 19 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 14.2% | 2.5%–28.5% | 17.8% | 17.4% | 1.2% | 27.8% |
-| 20 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.3% | 0.0%–4.2% | 5.7% | 5.0% | 45.7% | 41.4% |
+| 6 | nace.ai Parse | – | API | 200 dpi page, parse mode medium, markdown with HTML tables | 1 | 90.7% | 81.1%–97.2% | 93.8% | 93.8% | 88.6% | 89.7% |
+| 7 | LightOnOCR-3 1B | 1.01B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt) | 1 | 89.6% | 83.3%–95.6% | 95.4% | 95.4% | 98.4% | 87.0% |
+| 8 | LightOnOCR-3 4B | 4.54B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 88.4% | 80.0%–96.1% | 92.8% | 92.8% | 95.8% | 86.8% |
+| 9 | dots.mocr | 3.0B | self-hosted, 1×H100 | out of the box (200 dpi page) | 3 | 87.9% ± 0.9 | 74.0%–96.7% | 92.4% | 92.4% | 71.0% | 87.3% |
+| 10 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 83.0% | 73.1%–91.8% | 85.7% | 85.5% | 83.3% | 90.1% |
+| 11 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 80.1% | 67.6%–92.0% | 85.1% | 85.0% | 88.1% | 84.2% |
+| 12 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 78.9% | 59.6%–93.5% | 73.2% | 73.2% | 74.5% | 92.5% |
+| 13 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 77.4% | 66.3%–89.4% | 88.1% | 88.1% | 97.8% | 77.3% |
+| 14 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 73.2% | 51.6%–92.6% | 84.1% | 84.1% | 95.6% | 76.8% |
+| 15 | LightOnOCR-3 0.8B | 0.85B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 65.3% | 42.8%–87.7% | 77.5% | 77.2% | 96.3% | 76.8% |
+| 16 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.9% | 52.9%–78.9% | 69.1% | 69.1% | 90.8% | 79.0% |
+| 17 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 63.3% | 48.0%–78.5% | 71.4% | 71.3% | 94.6% | 81.1% |
+| 18 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 63.1% | 45.7%–80.0% | 79.1% | 71.7% | 97.3% | 75.0% |
+| 19 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 53.6% | 32.9%–76.0% | 69.2% | 66.4% | 67.3% | 61.1% |
+| 20 | nace.ai Parse | – | API | 200 dpi page, parse mode low (default), markdown with HTML tables | 1 | 47.9% | 33.6%–65.2% | 51.9% | 51.9% | 49.0% | 66.0% |
+| 21 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 38.5% | 9.9%–70.4% | 51.8% | 51.8% | 78.7% | 53.5% |
+| 22 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 35.9% | 7.5%–67.2% | 48.0% | 47.9% | 22.4% | 50.1% |
+| 23 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 22.2% | 5.4%–41.4% | 38.4% | 37.4% | 2.1% | 40.6% |
+| 24 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 14.2% | 2.5%–28.5% | 17.8% | 17.4% | 1.2% | 27.8% |
+| 25 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.3% | 0.0%–4.2% | 5.7% | 5.0% | 45.7% | 41.4% |
 
 ## All 32 filings
 
@@ -64,20 +74,25 @@ Every run was made from the same NVIDIA H100 virtual machine: open models served
 | 4 | Chandra OCR 2 | 5.3B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 96.6% | 93.2%–99.1% | 98.3% | 98.3% | 98.2% | 90.9% |
 | 5 | dots.mocr | 3.0B | self-hosted, 1×H100 | adopted pipeline: CLAHE, structure retry, band-merge, verification | 3 | 95.3% ± 0.7 | 91.9%–97.9% | 95.5% | 95.5% | 81.5% | 89.9% |
 | 6 | dots.mocr | 3.0B | self-hosted, 1×H100 | out of the box (200 dpi page) | 3 | 91.8% ± 0.4 | 87.4%–95.6% | 95.0% | 95.0% | 80.4% | 89.7% |
-| 7 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 82.7% | 75.1%–89.4% | 79.2% | 79.2% | 79.8% | 89.0% |
-| 8 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 73.7% | 67.3%–80.5% | 74.3% | 74.1% | 89.6% | 86.5% |
-| 9 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 72.5% | 65.7%–79.7% | 83.8% | 83.8% | 98.2% | 75.3% |
-| 10 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 70.8% | 61.5%–79.8% | 78.4% | 78.4% | 97.0% | 75.3% |
-| 11 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 69.3% | 61.3%–77.3% | 74.9% | 74.8% | 92.8% | 87.2% |
-| 12 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.3% | 57.0%–71.8% | 71.3% | 71.2% | 94.7% | 75.9% |
-| 13 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 59.6% | 51.9%–67.1% | 70.4% | 70.2% | 95.0% | 79.5% |
-| 14 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 50.8% | 40.5%–61.7% | 67.8% | 58.6% | 97.8% | 67.0% |
-| 15 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 40.3% | 29.9%–52.3% | 51.4% | 49.1% | 79.8% | 50.3% |
-| 16 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 22.7% | 8.6%–39.0% | 30.8% | 30.6% | 70.0% | 32.2% |
-| 17 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 18.9% | 6.5%–33.4% | 24.8% | 24.6% | 30.1% | 35.4% |
-| 18 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 12.7% | 4.2%–22.4% | 19.2% | 18.2% | 1.1% | 29.4% |
-| 19 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 10.3% | 2.8%–19.1% | 11.0% | 10.7% | 0.9% | 14.8% |
-| 20 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.7% | 0.2%–3.9% | 3.5% | 3.2% | 54.2% | 18.1% |
+| 7 | LightOnOCR-3 1B | 1.01B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt) | 1 | 91.4% | 88.4%–94.3% | 93.3% | 93.2% | 96.4% | 87.8% |
+| 8 | nace.ai Parse | – | API | 200 dpi page, parse mode medium, markdown with HTML tables | 1 | 87.4% | 82.2%–91.9% | 86.9% | 86.9% | 86.9% | 87.1% |
+| 9 | LightOnOCR-3 4B | 4.54B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 86.7% | 82.2%–90.8% | 90.0% | 90.0% | 96.6% | 85.9% |
+| 10 | Qwen3.6-27B | 27B | API | 200 dpi page, generic prompt, reasoning off | 1 | 82.7% | 75.1%–89.4% | 79.2% | 79.2% | 79.8% | 89.0% |
+| 11 | Chandra OCR 1 | 8.8B | self-hosted, 1×H100 | own input size (≤ 6.3 MP) | 1 | 73.7% | 67.3%–80.5% | 74.3% | 74.1% | 89.6% | 86.5% |
+| 12 | Persian–Arabic line OCR | 2.1B | self-hosted, 1×H100 | PaddleOCR line boxes, one crop per line | 1 | 72.5% | 65.7%–79.7% | 83.8% | 83.8% | 98.2% | 75.3% |
+| 13 | Qwen3.8-27B | 27.8B | self-hosted, 1×H100 | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 1 | 70.8% | 61.5%–79.8% | 78.4% | 78.4% | 97.0% | 75.3% |
+| 14 | Surya OCR 2 | 0.7B | self-hosted, 1×H100 | 200 dpi page, vendor pipeline | 1 | 69.3% | 61.3%–77.3% | 74.9% | 74.8% | 92.8% | 87.2% |
+| 15 | Qwen3.8-27B | 27.8B | API | 200 dpi page, generic prompt, reasoning off | 1 | 64.3% | 57.0%–71.8% | 71.3% | 71.2% | 94.7% | 75.9% |
+| 16 | Qwen3-VL-32B (FP8) | 33.4B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 59.6% | 51.9%–67.1% | 70.4% | 70.2% | 95.0% | 79.5% |
+| 17 | PaddleOCR PP-OCRv5 Arabic | – | self-hosted, CPU | classical detection + recognition | 1 | 50.8% | 40.5%–61.7% | 67.8% | 58.6% | 97.8% | 67.0% |
+| 18 | LightOnOCR-3 0.8B | 0.85B | self-hosted, 1×H100 | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 1 | 49.4% | 37.7%–62.1% | 61.1% | 60.8% | 97.1% | 69.2% |
+| 19 | nace.ai Parse | – | API | 200 dpi page, parse mode low (default), markdown with HTML tables | 1 | 44.0% | 34.6%–54.3% | 48.3% | 48.2% | 46.7% | 58.1% |
+| 20 | Nanonets-OCR2 | 3.8B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 40.3% | 29.9%–52.3% | 51.4% | 49.1% | 79.8% | 50.3% |
+| 21 | PaddleOCR-VL-1.6 | 0.96B | self-hosted, 1×H100 | vendor pipeline: layout detection + VLM (vLLM) | 1 | 22.7% | 8.6%–39.0% | 30.8% | 30.6% | 70.0% | 32.2% |
+| 22 | ERNIE 4.5 VL | 424B (47B active) | API | 200 dpi page, generic prompt | 1 | 18.9% | 6.5%–33.4% | 24.8% | 24.6% | 30.1% | 35.4% |
+| 23 | Command A Vision | 111.9B | API | 200 dpi page, generic prompt | 1 | 12.7% | 4.2%–22.4% | 19.2% | 18.2% | 1.1% | 29.4% |
+| 24 | Nemotron Nano 12B VL | 13.2B | self-hosted, 1×H100 | 200 dpi page, generic prompt | 1 | 10.3% | 2.8%–19.1% | 11.0% | 10.7% | 0.9% | 14.8% |
+| 25 | Qari-OCR v0.3 | 2.2B | self-hosted, 1×H100 | 200 dpi page, vendor prompt | 1 | 1.7% | 0.2%–3.9% | 3.5% | 3.2% | 54.2% | 18.1% |
 
 ## Ablations (all 32 filings; test split in the last column)
 
@@ -106,6 +121,9 @@ Every run was made from the same NVIDIA H100 virtual machine: open models served
 | Chandra OCR 2 | own input size (≤ 6.3 MP) | 98.9% | 96.0% | 96.5% |
 | dots.mocr | adopted pipeline: CLAHE, structure retry, band-merge, verification | 90.4% | 96.5% | 95.4% |
 | dots.mocr | out of the box (200 dpi page) | 80.1% | 95.1% | 91.9% |
+| LightOnOCR-3 1B | 200 dpi page, vendor transcription mode (no text prompt) | 92.7% | 89.2% | 93.8% |
+| nace.ai Parse | 200 dpi page, parse mode medium, markdown with HTML tables | 92.1% | 83.5% | 90.9% |
+| LightOnOCR-3 4B | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 82.6% | 84.3% | 91.5% |
 | Qwen3.6-27B | 200 dpi page, generic prompt, reasoning off | 95.7% | 90.4% | 67.5% |
 | Chandra OCR 1 | own input size (≤ 6.3 MP) | 70.6% | 70.7% | 78.8% |
 | Persian–Arabic line OCR | PaddleOCR line boxes, one crop per line | 63.7% | 67.4% | 82.7% |
@@ -114,6 +132,8 @@ Every run was made from the same NVIDIA H100 virtual machine: open models served
 | Qwen3.8-27B | 200 dpi page, generic prompt, reasoning off | 61.2% | 63.7% | 66.3% |
 | Qwen3-VL-32B (FP8) | 200 dpi page, generic prompt | 44.8% | 55.1% | 71.1% |
 | PaddleOCR PP-OCRv5 Arabic | classical detection + recognition | 42.7% | 54.0% | 49.4% |
+| LightOnOCR-3 0.8B | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 36.9% | 41.7% | 64.3% |
+| nace.ai Parse | 200 dpi page, parse mode low (default), markdown with HTML tables | 45.1% | 34.8% | 55.9% |
 | Nanonets-OCR2 | 200 dpi page, vendor prompt | 38.0% | 34.5% | 49.0% |
 | PaddleOCR-VL-1.6 | vendor pipeline: layout detection + VLM (vLLM) | 17.6% | 18.6% | 30.0% |
 | ERNIE 4.5 VL | 200 dpi page, generic prompt | 15.9% | 13.9% | 26.6% |
@@ -137,7 +157,10 @@ Self-hosted systems: wall-clock time for all 158 statement pages with the model 
 | Qwen3-VL-32B (FP8) | 200 dpi page, generic prompt | 16 | 5.8 min | 27.3 | 31.4 |
 | Nemotron Nano 12B VL | 200 dpi page, generic prompt | 16 | 2.7 min | 57.8 | 8.5 |
 | Qwen3.8-27B | 200 dpi page, generic prompt, reasoning off (official BF16 weights) | 16 | 5.8 min | 27.2 | 31.6 |
-| Qari-OCR v0.3 | 200 dpi page, vendor prompt | 16 | 1.2 min | 131.7 | 5.8 |
+| Qari-OCR v0.3 | 200 dpi page, vendor prompt | 16 | – | – | – |
+| LightOnOCR-3 0.8B | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 16 | 1.0 min | 158.0 | 5.2 |
+| LightOnOCR-3 1B | 200 dpi page, vendor transcription mode (no text prompt) | 16 | 1.5 min | 105.3 | 8.0 |
+| LightOnOCR-3 4B | 200 dpi page, vendor transcription mode (no text prompt), thinking off | 16 | 2.6 min | 61.6 | 14.1 |
 | PaddleOCR-VL-1.6 | vendor pipeline: layout detection + VLM (vLLM) | pipeline, 16 VLM requests in flight | – | – | – |
 | Surya OCR 2 | 200 dpi page, vendor pipeline | 1 page at a time | 49.9 min | 3.2 | 8.9 |
 | Persian–Arabic line OCR | PaddleOCR line boxes, one crop per line | 32 lines at a time (line boxes from the PaddleOCR run, not timed here) | 2.5 min | 63.0 | 0.9 |
@@ -148,6 +171,8 @@ Self-hosted systems: wall-clock time for all 158 statement pages with the model 
 | Qwen3.8-27B | 200 dpi page, generic prompt, reasoning off | API, one page per request | – | – | 20.2 |
 | ERNIE 4.5 VL | 200 dpi page, generic prompt | API, one page per request | – | – | 23.1 |
 | Command A Vision | 200 dpi page, generic prompt | API, one page per request | – | – | 21.2 |
+| nace.ai Parse | 200 dpi page, parse mode low (default), markdown with HTML tables | API, one page per request | – | – | 7.5 |
+| nace.ai Parse | 200 dpi page, parse mode medium, markdown with HTML tables | API, one page per request | – | – | 8.2 |
 
 ## Run-to-run repeatability
 
@@ -172,6 +197,8 @@ Which companies processed the 158 page images of each API run. Through OpenRoute
 | LandingAI ADE | vendor API | 1 | LandingAI 158 |
 | ERNIE 4.5 VL | OpenRouter | 1 | Novita 158 |
 | Command A Vision | vendor API | 1 | Cohere 158 |
+| nace.ai Parse | vendor API | 1 | ? 158 |
+| nace.ai Parse | vendor API | 1 | ? 158 |
 
 Row recall by provider (each statement scored on its own pages, when all of them went to one provider; each provider saw different statements, so this is indicative only):
 
